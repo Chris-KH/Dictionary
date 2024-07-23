@@ -1,14 +1,11 @@
 #pragma once
-#include<bits/stdc++.h>
-
-using namespace std;
-
-
+#include"Word.h"
 
 class TrieNode {
 public:
     TrieNode* childNode[26];
     bool wordEnd;
+    Word word;
     TrieNode();
 
     bool isLeaf() const;
