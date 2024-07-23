@@ -15,7 +15,7 @@ bool TrieNode::isLeaf() const {
     return true;
 }
 
-TrieNode* Trie::removeHelper(TrieNode* root, string key, int depth = 0) {
+TrieNode* Trie::removeHelper(TrieNode* root, string key, int depth) {
     if (root == nullptr) return nullptr;
 
     if (depth == key.size()) {
@@ -41,6 +41,20 @@ TrieNode* Trie::removeHelper(TrieNode* root, string key, int depth = 0) {
     }
 
     return root;
+}
+
+void Trie::insert(Word word) {
+    TrieNode* cur = this->root;
+    for (int i = 0; i < (int)word.key.size(); i++) {
+        char c = tolower(word.key[i]);
+        int idx = c - 'a';
+        if (cur->childNode[idx] == nullptr) {
+            cur->childNode[idx] = new TrieNode();
+        }
+        cur = cur->childNode[idx];
+    }
+    cur->wordEnd = true;
+    cur->word = word;
 }
 
 void Trie::remove(string key) {

@@ -1,5 +1,10 @@
 #include"Word.h"
 
+Word::Word() {
+	this->key = "";
+	this->type = "";
+}
+
 Word::Word(string key, string type, string def) {
 	this->key = key;
 	this->type = type;
