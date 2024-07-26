@@ -3,9 +3,9 @@
 
 class Word {
 public:
-	wstring key;
-	wstring type;
-	vector<wstring> definitions;
+	wstring key; //Ex: dog, cat...
+	wstring type; // 0, 1, 2, 3, 4 for Eng-eng, Eng-vie, Vie-eng,...
+	vector<wstring> definitions; //Just definitions
 	Word();
 	Word(wstring key, wstring type, wstring def);
 	void addDefinition(wstring def);
