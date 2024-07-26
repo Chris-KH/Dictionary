@@ -3,12 +3,12 @@
 
 class Word {
 public:
-	string key;
-	string type;
-	vector<string> definitions;
+	wstring key;
+	wstring type;
+	vector<wstring> definitions;
 	Word();
-	Word(string key, string type, string def);
-	void addDefinition(string def);
+	Word(wstring key, wstring type, wstring def);
+	void addDefinition(wstring def);
 	void removeDefinition(int idx);
 };
 

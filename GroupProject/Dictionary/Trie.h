@@ -3,7 +3,7 @@
 
 class TrieNode {
 public:
-    TrieNode* childNode[26];
+    TrieNode* childNode[93];
     bool wordEnd;
     Word word;
 
@@ -14,11 +14,11 @@ public:
 class Trie {
 private:
     TrieNode* root;
-    TrieNode* removeHelper(TrieNode* root, string key, int depth);
+    TrieNode* removeHelper(TrieNode* root, wstring key, int depth);
     void clearHelper(TrieNode* root);
 public:
     Trie();
     void insert(Word word);
-    void remove(string key);
+    void remove(wstring key);
     void clear();
 };

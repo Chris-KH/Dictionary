@@ -2,20 +2,20 @@
 
 TrieNode::TrieNode() {
     wordEnd = false;
-    for (int i = 0; i < 26; i++) {
+    for (int i = 0; i < 93; i++) {
         childNode[i] = nullptr;
     }
 }
 
 bool TrieNode::isLeaf() const {
     //Leaf has no children
-    for (int i = 0; i < 26; i++) {
+    for (int i = 0; i < 93; i++) {
         if (!childNode[i]) return false;
     }
     return true;
 }
 
-TrieNode* Trie::removeHelper(TrieNode* root, string key, int depth) {
+TrieNode* Trie::removeHelper(TrieNode* root, wstring key, int depth) {
     if (root == nullptr) return nullptr;
 
     if (depth == key.size()) {
@@ -30,7 +30,7 @@ TrieNode* Trie::removeHelper(TrieNode* root, string key, int depth) {
         return root;
     }
 
-    int idx = key[depth] - 'a';
+    int idx = mp[key[depth]];
     root->childNode[idx] = removeHelper(root->childNode[idx], key, depth + 1);
 
 
@@ -46,8 +46,8 @@ TrieNode* Trie::removeHelper(TrieNode* root, string key, int depth) {
 void Trie::insert(Word word) {
     TrieNode* cur = this->root;
     for (int i = 0; i < (int)word.key.size(); i++) {
-        char c = tolower(word.key[i]);
-        int idx = c - 'a';
+        char c = lowerCase(word.key[i]);
+        int idx = mp[c];
         if (idx < 0) continue;
         if (cur->childNode[idx] == nullptr) {
             cur->childNode[idx] = new TrieNode();
@@ -58,8 +58,10 @@ void Trie::insert(Word word) {
     cur->word = word;
 }
 
-void Trie::remove(string key) {
-    //! Convert all string to lower case
+void Trie::remove(wstring key) {
+    for (int i = 0; i < (int)key.length(); i++) {
+        key[i] = lowerCase(key[i]);
+    }
     this->root = removeHelper(this->root, key, 0);
 }
 
@@ -68,7 +70,7 @@ Trie::Trie() {
 }
 
 void Trie::clearHelper(TrieNode* root) {
-    for (int i = 0; i < 26; i++) {
+    for (int i = 0; i < 93; i++) {
         if (root->childNode[i]) clearHelper(root->childNode[i]);
     }
     delete root;
