@@ -24,12 +24,18 @@
     <ClCompile Include="Word.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VietNamese.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Trie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Word.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VietNamese.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

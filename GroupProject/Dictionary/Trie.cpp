@@ -48,6 +48,7 @@ void Trie::insert(Word word) {
     for (int i = 0; i < (int)word.key.size(); i++) {
         char c = tolower(word.key[i]);
         int idx = c - 'a';
+        if (idx < 0) continue;
         if (cur->childNode[idx] == nullptr) {
             cur->childNode[idx] = new TrieNode();
         }
