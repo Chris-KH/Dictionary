@@ -46,7 +46,7 @@ TrieNode* Trie::removeHelper(TrieNode* root, wstring key, int depth) {
 void Trie::insert(Word word) {
     TrieNode* cur = this->root;
     for (int i = 0; i < (int)word.key.size(); i++) {
-        char c = lowerCase(word.key[i]);
+        wchar_t c = lowerCase(word.key[i]);
         int idx = mp[c];
         if (idx < 0) continue;
         if (cur->childNode[idx] == nullptr) {
@@ -63,6 +63,24 @@ void Trie::remove(wstring key) {
         key[i] = lowerCase(key[i]);
     }
     this->root = removeHelper(this->root, key, 0);
+}
+
+bool Trie::search(Word& word, wstring key) {
+    TrieNode* cur = this->root;
+
+    for (int i = 0; i < (int)key.length(); i++) {
+        wchar_t c = lowerCase(key[i]);
+        int idx = mp[c];
+        if (cur->childNode[idx] == nullptr) return false;
+        cur = cur->childNode[idx];
+    }
+
+    if (cur->wordEnd) {
+        word = cur->word;
+        return true;
+    }
+
+    return false;
 }
 
 Trie::Trie() {

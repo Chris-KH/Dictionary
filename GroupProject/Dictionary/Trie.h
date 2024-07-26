@@ -20,5 +20,6 @@ public:
     Trie();
     void insert(Word word);
     void remove(wstring key);
+    bool search(Word& word, wstring key);
     void clear();
 };
