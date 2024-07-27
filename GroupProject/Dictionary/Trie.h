@@ -13,6 +13,7 @@ public:
 
 class Trie {
 private:
+    vector<Word*> listWord, listHistory;
     TrieNode* root;
     TrieNode* removeHelper(TrieNode* root, wstring key, int depth);
     void clearHelper(TrieNode* root);
@@ -22,4 +23,9 @@ public:
     void remove(wstring key);
     bool search(Word& word, wstring key);
     void clear();
+
+    void addHistory(Word* word);
+    vector<Word*> getFavoriteList();
+    vector<Word*> getHistoryList();
+    
 };

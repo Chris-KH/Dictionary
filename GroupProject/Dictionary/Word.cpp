@@ -24,3 +24,13 @@ void Word::removeDefinition(int idx) {
 		definitions.erase(definitions.begin() + idx);
 	}
 }
+
+void Word::addFavorite(Word* word)
+{
+	word->isFavorite = true;
+}
+
+void Word::removeFavorite(Word* word)
+{
+	word->isFavorite = false;
+}

@@ -100,3 +100,35 @@ void Trie::clear() {
     this->root = nullptr;
 }
 
+
+vector<Word*> Trie::getFavoriteList()
+{
+    vector<Word*> result;
+    result.clear();
+    for (auto curWord : listWord)
+    {
+        if (curWord->isFavorite)
+            result.push_back(curWord);
+    }
+    return result;
+}
+
+vector<Word*> Trie::getHistoryList()
+{
+    return listHistory;
+}
+
+void Trie::addHistory(Word* word)
+{
+    //if (listHistory.size() > LIMIT) ???
+    //    listHistory.pop_back();
+    for (int i = 0; i < (int) listHistory.size(); i++)
+        if (listHistory[i] == word)
+        {
+            listHistory.erase(listHistory.begin() + i);
+            break;
+        }
+    
+    listHistory.insert(listHistory.begin(), word);
+    
+}

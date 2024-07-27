@@ -134,6 +134,7 @@
     <ClCompile Include="Word.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dictionary.h" />
     <ClInclude Include="Trie.h" />
     <ClInclude Include="VietNamese.h" />
     <ClInclude Include="Word.h" />
