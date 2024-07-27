@@ -3,11 +3,13 @@
 Word::Word() {
 	this->key = L"";
 	this->type = L"";
+	this->isFavorite = false;
 }
 
 Word::Word(wstring key, wstring type, wstring def) {
 	this->key = key;
 	this->type = type;
+	this->isFavorite = false;
 	if (def.size() > 0) definitions.push_back(def);
 }
 
