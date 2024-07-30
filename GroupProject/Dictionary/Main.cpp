@@ -8,6 +8,6 @@ int main() {
         return 1;
     }
     setChar();
-    //wcout << lowerCase(L'Ạ');
+    wcout << lowerCase(L'Ạ');
 	return 0;
 }

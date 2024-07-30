@@ -2,14 +2,14 @@
 
 TrieNode::TrieNode() {
     wordEnd = false;
-    for (int i = 0; i < 93; i++) {
+    for (int i = 0; i < sizeChar; i++) {
         childNode[i] = nullptr;
     }
 }
 
 bool TrieNode::isLeaf() const {
     //Leaf has no children
-    for (int i = 0; i < 93; i++) {
+    for (int i = 0; i < sizeChar; i++) {
         if (!childNode[i]) return false;
     }
     return true;
@@ -88,7 +88,7 @@ Trie::Trie() {
 }
 
 void Trie::clearHelper(TrieNode* root) {
-    for (int i = 0; i < 93; i++) {
+    for (int i = 0; i < sizeChar; i++) {
         if (root->childNode[i]) clearHelper(root->childNode[i]);
     }
     delete root;

@@ -17,11 +17,13 @@ void setChar() {
 wchar_t lowerCase(wchar_t c) {
 	int index = mp_upper[c];
 	if (index == -1) return c;
-	return vietnamese_chars[index];
+	if (index >= 76 && index < sizeChar) return vietnamese_chars[index];
+	return c;
 }
 
 wchar_t upperCase(wchar_t c) {
 	int index = mp[c];
 	if (index == -1) return c;
-	return vietnamese_chars_upper[index];
+	if (index >= 76 && index < sizeChar) return vietnamese_chars_upper[index];
+	return c;
 }
