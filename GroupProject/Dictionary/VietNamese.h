@@ -1,8 +1,5 @@
 ﻿#pragma once
 #include<bits/stdc++.h>
-#include<io.h>
-#include<fcntl.h>
-#include<codecvt>
 #include<chrono>
 #include<filesystem>
 

@@ -3,11 +3,27 @@
 using namespace std;
 
 int main() {
-    if (_setmode(_fileno(stdin), _O_U16TEXT) == -1 || _setmode(_fileno(stdout), _O_U16TEXT) == -1) {
-        cerr << "Error setting mode for stdin" << "\n";
-        return 1;
-    }
     setChar();
-    wcout << lowerCase(L'Ạ');
+    
+    /*
+    wstring s;
+    getline(wcin, s);
+    wofstream fout("output.txt");
+    fout << s;
+    fout.close();
+    */
+
+    wifstream fin(L"../Dataset/Emoji_Processed.txt");
+    Trie engEng_Trie = buildTrie(fin);
+
+    Word word;
+    if (engEng_Trie.search(word, L";-)")) {
+        wcout << word.key << L"\n";
+        wcout << word.type << L"\n";
+        wcout << word.spelling << L"\n";
+        for (int i = 0; i < word.definitions.size(); i++) {
+            wcout << L"-" << word.definitions[i] << L"\n";
+        }
+    }
 	return 0;
 }

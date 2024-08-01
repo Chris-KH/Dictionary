@@ -132,3 +132,33 @@ void Trie::addHistory(Word* word)
     listHistory.insert(listHistory.begin(), word);
     
 }
+
+Trie buildTrie(wifstream& fin) {
+    Trie trie;
+
+    int count = 0;
+    while (!fin.eof()) {
+        Word word;
+        wstring line;
+        for (int i = 0; i <= 4; i++) {
+            getline(fin, line);
+            if (i == 0) {
+                while (!line.empty() && line.back() == L' ') line.pop_back();
+                word.key = line;
+            }
+            if (i == 1 && line != L"-") word.type = line;
+            if (i == 2 && line != L"-") word.spelling = line;
+            if (i == 3) {
+                wstringstream ss(line);
+                wstring def;
+                while (getline(ss, def, L'|')) {
+                    word.addDefinition(def);
+                }
+            }
+        }
+        trie.insert(word);
+    }
+
+    fin.close();
+    return trie;
+}

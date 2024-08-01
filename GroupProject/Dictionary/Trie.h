@@ -3,7 +3,7 @@
 
 class TrieNode {
 public:
-    TrieNode* childNode[93];
+    TrieNode* childNode[sizeChar];
     bool wordEnd;
     Word word;
 
@@ -13,8 +13,9 @@ public:
 
 class Trie {
 private:
-    vector<Word*> listWord, listHistory;
     TrieNode* root;
+    vector<Word*> listWord, listHistory;
+
     TrieNode* removeHelper(TrieNode* root, wstring key, int depth);
     void clearHelper(TrieNode* root);
 public:
@@ -29,3 +30,5 @@ public:
     vector<Word*> getHistoryList();
     
 };
+
+Trie buildTrie(wifstream& fin);
