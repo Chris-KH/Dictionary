@@ -15,5 +15,4 @@ public:
 	void removeDefinition(int idx);
 	void addFavorite(Word* word);
 	void removeFavorite(Word* word);
-	
 };

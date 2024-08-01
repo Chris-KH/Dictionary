@@ -7,6 +7,10 @@ TrieNode::TrieNode() {
     }
 }
 
+
+//
+//
+//
 bool TrieNode::isLeaf() const {
     //Leaf has no children
     for (int i = 0; i < sizeChar; i++) {
@@ -15,6 +19,9 @@ bool TrieNode::isLeaf() const {
     return true;
 }
 
+//
+//
+//
 TrieNode* Trie::removeHelper(TrieNode* root, wstring key, int depth) {
     if (root == nullptr) return nullptr;
 
@@ -43,6 +50,10 @@ TrieNode* Trie::removeHelper(TrieNode* root, wstring key, int depth) {
     return root;
 }
 
+//
+//
+//
+
 void Trie::insert(Word word) {
     TrieNode* cur = this->root;
     for (int i = 0; i < (int)word.key.size(); i++) {
@@ -58,12 +69,20 @@ void Trie::insert(Word word) {
     cur->word = word;
 }
 
+//
+//
+//
+
 void Trie::remove(wstring key) {
     for (int i = 0; i < (int)key.length(); i++) {
         key[i] = lowerCase(key[i]);
     }
     this->root = removeHelper(this->root, key, 0);
 }
+
+//
+//
+//
 
 bool Trie::search(Word& word, wstring key) {
     TrieNode* cur = this->root;
@@ -83,9 +102,17 @@ bool Trie::search(Word& word, wstring key) {
     return false;
 }
 
+//
+//
+//
+
 Trie::Trie() {
     root = new TrieNode();
 }
+
+//
+//
+//
 
 void Trie::clearHelper(TrieNode* root) {
     for (int i = 0; i < sizeChar; i++) {
@@ -94,12 +121,19 @@ void Trie::clearHelper(TrieNode* root) {
     delete root;
 }
 
+//
+//
+//
+
 void Trie::clear() {
     if (root == nullptr) return;
     clearHelper(this->root);
     this->root = nullptr;
 }
 
+//
+//
+//
 
 vector<Word*> Trie::getFavoriteList()
 {
@@ -112,6 +146,10 @@ vector<Word*> Trie::getFavoriteList()
     }
     return result;
 }
+
+//
+//
+//
 
 vector<Word*> Trie::getHistoryList()
 {
