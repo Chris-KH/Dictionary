@@ -31,16 +31,4 @@ public:
     
 };
 
-Trie buildTrie(wifstream& fin);
 
-
-vector<Trie> trieLists;
-vector<string> dataSetDir = {"../Dataset/Eng_Vie.txt", "../Dataset/Vie_Eng.txt",
-        "../Dataset/Eng_Eng.txt", "../Dataset/Slang.txt", "../Dataset/Emoji.txt"
-};
-vector<string> historyDir = {"../??/English-Vietnamese/history.txt", "../??/Vietnamese-English/history.txt", 
-"../??/English-English/history.txt", "../??/Slang/history.txt", "../??/Emoji/history.txt"
-};
-vector<string> favoriteDir = { "../??/English-Vietnamese/favorite.txt", "../??/Vietnamese-English/favorite.txt",
-"../??/English-English/favorite.txt", "../??/Slang/favorite.txt", "../??/Emoji/favorite.txt"
-};

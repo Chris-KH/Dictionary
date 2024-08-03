@@ -1,4 +1,5 @@
-﻿#include"Trie.h"
+﻿#include"Build.h"
+#include"Trie.h"
 
 using namespace std;
 
@@ -13,21 +14,17 @@ int main() {
     fout.close();
     */
 
+    buildAll();
+    //Word word;
+    //if (trieLists[3].search(word, L";-)")) {
+    //    wcout << word.key << L"\n";
+    //    wcout << word.type << L"\n";
+    //    wcout << word.spelling << L"\n";
+    //    for (int i = 0; i < word.definitions.size(); i++) {
+    //        wcout << L"-" << word.definitions[i] << L"\n";
+    //    }
+    //}
     /*
-    wifstream fin(L"../Dataset/Emoji.txt");
-    Trie engEng_Trie = buildTrie(fin);
-
-
-    Word word;
-    if (engEng_Trie.search(word, L";-)")) {
-        wcout << word.key << L"\n";
-        wcout << word.type << L"\n";
-        wcout << word.spelling << L"\n";
-        for (int i = 0; i < word.definitions.size(); i++) {
-            wcout << L"-" << word.definitions[i] << L"\n";
-        }
-    }
-
     engEng_Trie.remove(L";-)");
     if (engEng_Trie.search(word, L";-)")) {
         wcout << word.key << L"\n";

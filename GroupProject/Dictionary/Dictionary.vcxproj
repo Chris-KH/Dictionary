@@ -129,13 +129,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Build.cpp" />
+    <ClCompile Include="Global.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Trie.cpp" />
     <ClCompile Include="VietNamese.cpp" />
     <ClCompile Include="Word.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Build.h" />
     <ClInclude Include="Dictionary.h" />
+    <ClInclude Include="Global.h" />
     <ClInclude Include="Trie.h" />
     <ClInclude Include="VietNamese.h" />
     <ClInclude Include="Word.h" />
