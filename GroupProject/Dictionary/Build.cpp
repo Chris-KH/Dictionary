@@ -6,16 +6,15 @@ void buildTrie(wifstream& fin, Trie& trie) {
         wstring line;
         for (int i = 0; i <= 4; i++) {
             getline(fin, line);
-            if (i == 0) {
-                while (!line.empty() && line.back() == L' ') line.pop_back();
-                word.key = line;
-            }
+            while (!line.empty() && line.back() == L' ') line.pop_back();
+            if (i == 0) word.key = line;
             if (i == 1 && line != L"-") word.type = line;
             if (i == 2 && line != L"-") word.spelling = line;
             if (i == 3) {
                 wstringstream ss(line);
                 wstring def;
                 while (getline(ss, def, L'|')) {
+                    while (!def.empty() && def.back() == L' ') def.pop_back();
                     word.addDefinition(def);
                 }
             }

@@ -65,8 +65,23 @@ void Trie::insert(Word word) {
         }
         cur = cur->childNode[idx];
     }
-    cur->wordEnd = true;
-    cur->word = word;
+    if (cur->wordEnd == false) {
+        cur->wordEnd = true;
+        cur->word = word;
+    }
+    else {
+        if (cur->word.type.find(word.type) == -1 && !word.type.empty()) {
+            if (cur->word.type.empty()) cur->word.type += word.type;
+            else cur->word.type += L", " + word.type;
+        }
+        if (cur->word.spelling.find(word.spelling) == -1 && !word.spelling.empty()) {
+            if (cur->word.spelling.empty()) cur->word.spelling += word.spelling;
+            else cur->word.spelling += L", " + word.spelling;
+        }
+        for (int i = 0; i < (int)word.definitions.size(); i++) {
+            cur->word.addDefinition(word.definitions[i]);
+        }
+    }
 }
 
 //

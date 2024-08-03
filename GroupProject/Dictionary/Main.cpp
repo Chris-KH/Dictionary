@@ -13,17 +13,17 @@ int main() {
     fout << s;
     fout.close();
     */
-
+    wofstream fout("output.txt");
     buildAll();
-    //Word word;
-    //if (trieLists[3].search(word, L";-)")) {
-    //    wcout << word.key << L"\n";
-    //    wcout << word.type << L"\n";
-    //    wcout << word.spelling << L"\n";
-    //    for (int i = 0; i < word.definitions.size(); i++) {
-    //        wcout << L"-" << word.definitions[i] << L"\n";
-    //    }
-    //}
+    Word word;
+    if (trieLists[0].search(word, L"a b c")) {
+        fout << word.key << L"\n";
+        fout << word.type << L"\n";
+        fout << word.spelling << L"\n";
+        for (int i = 0; i < word.definitions.size(); i++) {
+            fout << L"-" << word.definitions[i] << L"\n";
+        }
+    }
     /*
     engEng_Trie.remove(L";-)");
     if (engEng_Trie.search(word, L";-)")) {
