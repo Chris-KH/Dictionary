@@ -130,6 +130,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Build.cpp" />
+    <ClCompile Include="FavoritesAndHistory.cpp" />
     <ClCompile Include="Global.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Trie.cpp" />
@@ -138,7 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Build.h" />
-    <ClInclude Include="Dictionary.h" />
+    <ClInclude Include="FavoritesAndHistory.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="Trie.h" />
     <ClInclude Include="VietNamese.h" />

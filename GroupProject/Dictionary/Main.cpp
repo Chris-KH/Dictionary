@@ -42,5 +42,8 @@ int main() {
     }
     else cout << "NO";
     */
+
+    //saveAll();
+    freeMemory();
 	return 0;
 }

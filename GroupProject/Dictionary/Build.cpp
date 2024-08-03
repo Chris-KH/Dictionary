@@ -19,6 +19,7 @@ void buildTrie(wifstream& fin, Trie& trie) {
                 }
             }
         }
+        if (word.key.empty()) continue;
         trie.insert(word);
     }
 
@@ -28,7 +29,8 @@ void buildTrie(wifstream& fin, Trie& trie) {
 void buildAll() {
     for (int i = 0; i <= 4; i++) {
         wifstream fin;
-        fin.open(originDataPath[i]);
+        if (filesystem::exists(dataPath[i])) fin.open(dataPath[i]);
+        else fin.open(originDataPath[i]);
         auto start = chrono::high_resolution_clock::now();
 
         buildTrie(fin, trieLists[i]);
@@ -47,6 +49,7 @@ void buildAll() {
             fout.close();
         }
     }
+    saveAll();
 }
 
 void saveTrie(wofstream& fout, Trie& trie) {

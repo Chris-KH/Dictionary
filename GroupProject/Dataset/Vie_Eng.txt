@@ -1973,7 +1973,7 @@ từ đệm
 -
 That|In that moment : khi ấy|that time is gone : cái thời ấy đã qua rồi|That voice of yours is the voice of the homeland, That tune of yours is the tune of the love for the country : Tiếng em tiếng ấy quê hương Giọng em ấy giọng tình thương đất nhà|Like|like father, like son : cha nào con nấy, hổ phụ sinh hổ tử|like master, like man : chủ nào tớ nấy|he is coming behind, yes, he is : anh ta đi đằng sau ấy
 
-
+ba
 -
 -
 Papa, daddy|Three; third|One hundred and three : Một trăm lẻ ba|The third shift : Ca ba|everal, a few, a handful of, a number of|To eat a few bites to appease one's hunger : ăn ba miếng lót dạ|One tree cant's make a mountain, But a number of trees clumped together make a high mountain : Một cây làm chẳng nên non, Ba cây chụm lại nên hòn núi cao (ca dao)|From all sides; on all sides : Ba bề bốn bên|As fast as one's legs could carry one; at top speed : Ba chân bốn cẳng|=Ba chìm bảy nổi : Ba chìm bảy nổi
@@ -4448,11 +4448,6 @@ verb
 -
 To wrap, to cover, to envelop|black clouds wrapped the sky : mây đen bao phủ bầu trời|snow covered the ground : tuyết bao phủ mặt đất|after two months of investigation, that murder continues being enveloped in mystery : sau hai tháng điều tra, vụ án mạng ấy vẫn nằm (vẫn bị bao phủ) trong vòng bí ẩn
 
-
--
--
-
-
 bao quanh
 verb
 -
@@ -4461,17 +4456,7 @@ To circle, to encompass|a town circled by hills : một thành phố có những
 bao quát
 verb
 -
-To embrace|this explanation does not embrace all the sides of the question : lời giải thích này chưa bao quát tất cả các khía cạnh của vấn đề
-
-
--
--
-to define the all-embracing duty and concrete jobs : đề ra nhiệm vụ bao quát và những công việc cụ thể|o see the whole of, to grasp the whole|to grasp the whole of one's job : bao quát công việc|from the top of the mountain, one can see the whole of an extensive area : đứng trên đỉnh núi có thể bao quát được cả một vùng rộng lớn
-
-
--
--
-to have an overall view of things, to have an overview of things : có cái nhìn bao quát
+To embrace|this explanation does not embrace all the sides of the question : lời giải thích này chưa bao quát tất cả các khía cạnh của vấn đề|to define the all-embracing duty and concrete jobs : đề ra nhiệm vụ bao quát và những công việc cụ thể|o see the whole of, to grasp the whole|to grasp the whole of one's job : bao quát công việc|from the top of the mountain, one can see the whole of an extensive area : đứng trên đỉnh núi có thể bao quát được cả một vùng rộng lớn|to have an overall view of things, to have an overview of things : có cái nhìn bao quát
 
 bao tải
 noun
@@ -10991,17 +10976,7 @@ To refund money, to return property (taken and kept illegally)
 bồi hồi
 verb & adj
 -
-ret, to be fretty|to fret with an obsessive longing : thương nhớ bồi hồi trong dạ|to fret with obsessive memories of the past : bồi hồi nhớ lại những kỷ niệm xưa|Hungry, one had to eat carambola which gave a prickly sensation, Now the obsessive memory of the sour and salt makes one's mind : Đói lòng ăn khế xót xa Khế chua, muối mặn, lòng ta bồi hồi
-
-
--
--
-to fret intensively : bổi hổi bồi hồi|One frets intensively with an obsessive longing for one's sweetheart, It is like sitting on thorns, being on pins and needles : Nhớ ai bổi hổi bồi hồi Như đứng đống lửa như ngồi đống than
-
-
--
--
-
+ret, to be fretty|to fret with an obsessive longing : thương nhớ bồi hồi trong dạ|to fret with obsessive memories of the past : bồi hồi nhớ lại những kỷ niệm xưa|Hungry, one had to eat carambola which gave a prickly sensation, Now the obsessive memory of the sour and salt makes one's mind : Đói lòng ăn khế xót xa Khế chua, muối mặn, lòng ta bồi hồi|to fret intensively : bổi hổi bồi hồi|One frets intensively with an obsessive longing for one's sweetheart, It is like sitting on thorns, being on pins and needles : Nhớ ai bổi hổi bồi hồi Như đứng đống lửa như ngồi đống than
 
 bồi tế
 -
@@ -11777,11 +11752,7 @@ bù đắp
 verb
 -
 To make up for, to compensate|to compensate for the damage : bù đắp thiệt hại|comradeship makes up for lack of family affection : tình đồng chí bù đắp những thiếu thốn về tình cảm gia đình
-
-
--
--
-o assist in settling down, to help settle down|to help one's children settle down : bù đắp cho con cái|o reciprocate|such a favour cannot be reciprocated : ơn ấy không lấy gì bù đắp được
+|o assist in settling down, to help settle down|to help one's children settle down : bù đắp cho con cái|o reciprocate|such a favour cannot be reciprocated : ơn ấy không lấy gì bù đắp được
 
 bù đầu
 khẩu ngữ
@@ -13643,20 +13614,10 @@ verb
 -
 To separate completely, to cut off|to be cut off for some long years : mấy năm trời cách biệt|o be very different from|under socialism, the countryside gets more and more different from the cities : dưới chế độ xã hội chủ nghĩa, nông thôn ngày càng cách biệt với thành thị
 
-
--
--
-
-
 cách bức
 verb
 -
 To cut off, to separate, to isolate|their houses being cut off from one another, they see little of each other : vì ở cách bức nhau nên ít khi lui tới
-
-
-verb
--
-cách chức|To dismiss from office, to relieve of one's function|to dismiss a director for lack of the sense of responsibility : cách chức một giám đốc không làm tròn trách nhiệm
 
 cách cấu tạo
 -
@@ -13666,7 +13627,7 @@ tructure
 cách chức
 verb
 -
-o dismiss; to fire; to relieve of one's function
+o dismiss; to fire; to relieve of one's function|cách chức|To dismiss from office, to relieve of one's function|to dismiss a director for lack of the sense of responsibility : cách chức một giám đốc không làm tròn trách nhiệm
 
 cách điện
 -

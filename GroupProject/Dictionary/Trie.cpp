@@ -87,12 +87,15 @@ void Trie::insert(Word word) {
 void Trie::saveHelper(TrieNode* root, wofstream& fout) {
     if (root->wordEnd) {
         fout << root->word.key << L"\n";
-        fout << root->word.type << L"\n";
-        fout << root->word.spelling << L"\n";
+        if (root->word.type.empty()) fout << L"-\n";
+        else fout << root->word.type << L"\n";
+        if (root->word.spelling.empty()) fout << L"-\n";
+        else fout << root->word.spelling << L"\n";
         for (int i = 0; i < (int)root->word.definitions.size(); i++) {
-            fout << root->word.definitions[i] << L"\n";
+            if (i != 0) fout << L"|";
+            fout << root->word.definitions[i];
         }
-        fout << L"\n";
+        fout << L"\n\n";
     }
 
     for (int i = 0; i < sizeChar; i++) {
