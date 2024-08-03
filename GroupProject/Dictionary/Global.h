@@ -3,10 +3,12 @@
 
 extern vector<Trie> trieLists;
 
-extern vector<string> dataSetDir;
+extern vector<string> originDataPath;
+
+extern vector<string> dataPath;
 
 extern vector<string> storyDir;
 
-extern vector<string> historyDir;
+extern vector<string> historyPath;
 
-extern vector<string> favoriteDir;
+extern vector<string> favoritePath;

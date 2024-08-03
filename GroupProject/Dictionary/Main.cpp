@@ -3,6 +3,12 @@
 
 using namespace std;
 
+//Index 0 for English - Vietnamese
+//Index 1 for Vietnamese - English
+//Index 2 for English - English
+//Index 3 for Slang
+//Index 4 for Emoji
+
 int main() {
     setChar();
     
@@ -13,7 +19,7 @@ int main() {
     fout << s;
     fout.close();
     */
-    wofstream fout("output.txt");
+    /*wofstream fout("output.txt");
     buildAll();
     Word word;
     if (trieLists[0].search(word, L"a b c")) {
@@ -23,7 +29,7 @@ int main() {
         for (int i = 0; i < word.definitions.size(); i++) {
             fout << L"-" << word.definitions[i] << L"\n";
         }
-    }
+    }*/
     /*
     engEng_Trie.remove(L";-)");
     if (engEng_Trie.search(word, L";-)")) {

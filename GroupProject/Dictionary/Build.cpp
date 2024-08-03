@@ -27,7 +27,8 @@ void buildTrie(wifstream& fin, Trie& trie) {
 
 void buildAll() {
     for (int i = 0; i <= 4; i++) {
-        wifstream fin(dataSetDir[i]);
+        wifstream fin;
+        fin.open(originDataPath[i]);
         auto start = chrono::high_resolution_clock::now();
 
         buildTrie(fin, trieLists[i]);
@@ -37,13 +38,28 @@ void buildAll() {
         cout << duration.count() << "ms\n";
 
         if (!filesystem::exists(storyDir[i])) filesystem::create_directories(storyDir[i]);
-        if (!filesystem::exists(historyDir[i])) {
-            ofstream fout(historyDir[i]);
+        if (!filesystem::exists(historyPath[i])) {
+            ofstream fout(historyPath[i]);
             fout.close();
         }
-        if (!filesystem::exists(favoriteDir[i])) {
-            ofstream fout(favoriteDir[i]);
+        if (!filesystem::exists(favoritePath[i])) {
+            ofstream fout(favoritePath[i]);
             fout.close();
         }
     }
+}
+
+void saveTrie(wofstream& fout, Trie& trie) {
+    trie.save(fout);
+}
+
+void saveAll() {
+    for (int i = 0; i <= 4; i++) {
+        wofstream fout(dataPath[i]);
+        saveTrie(fout, trieLists[i]);
+    }
+}
+
+void freeMemory() {
+    for (int i = 0; i <= 4; i++) trieLists.clear();
 }
