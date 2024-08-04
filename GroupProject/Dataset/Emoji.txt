@@ -1,7 +1,7 @@
-:-) Your basic smiley. This smilie is used to inflect a sarcastic or joking statement since we can't hear voice inflection over Unix.
+:-)
 -
 -
-
+Your basic smiley. This smilie is used to inflect a sarcastic or joking statement since we can't hear voice inflection over Unix.
 
 ;-)
 -

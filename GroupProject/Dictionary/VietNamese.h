@@ -2,6 +2,9 @@
 #include<bits/stdc++.h>
 #include<chrono>
 #include<filesystem>
+#include <io.h>
+#include <fcntl.h>
+#include "../lib/utf8.h"
 
 constexpr auto sizeChar = 169;
 
@@ -77,6 +80,8 @@ const wchar_t vietnamese_chars_upper[] = {
 extern int mp[10000];
 extern int mp_upper[10000];
 
+wstring utf8_to_utf16(const string& utf8_str);
+string utf16_to_utf8(const wstring& utf16_str);
 void setChar();
 wchar_t lowerCase(wchar_t c);
 wchar_t upperCase(wchar_t c);

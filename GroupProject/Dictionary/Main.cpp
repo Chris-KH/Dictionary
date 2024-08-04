@@ -10,6 +10,9 @@ using namespace std;
 //Index 4 for Emoji
 
 int main() {
+    if (_setmode(_fileno(stdin), _O_U16TEXT) == -1 && _setmode(_fileno(stdout), _O_U8TEXT) == -1) {
+        return 0;
+    }
     setChar();
     
     /*
@@ -19,17 +22,31 @@ int main() {
     fout << s;
     fout.close();
     */
-    /*wofstream fout("output.txt");
+
+    /*wstring s;
+    getline(wcin, s);
+    wcout << s << L"\n";
+    cout << int(s[0]) << " ";
+    cout << "\n";
+    cout << (int)L'ị';*/
+    ofstream fout("output.txt");
     buildAll();
+
+    wstring s;
+    getline(wcin, s);
     Word word;
-    if (trieLists[0].search(word, L"a b c")) {
-        fout << word.key << L"\n";
-        fout << word.type << L"\n";
-        fout << word.spelling << L"\n";
+    // Đổi qua lại giữa các kiểu data để test
+    // s thì mở dataset ra copy rồi paste khi build xong trie
+    if (trieLists[1].search(word, s)) {
+        cout << "OK";
+        fout << utf16_to_utf8(word.key) << "\n";
+        fout << utf16_to_utf8(word.type) << "\n";
+        fout << utf16_to_utf8(word.spelling) << "\n";
         for (int i = 0; i < word.definitions.size(); i++) {
-            fout << L"-" << word.definitions[i] << L"\n";
+            fout << "-" << utf16_to_utf8(word.definitions[i]) << "\n";
         }
-    }*/
+    }
+
     /*
     engEng_Trie.remove(L";-)");
     if (engEng_Trie.search(word, L";-)")) {

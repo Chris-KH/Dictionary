@@ -16,7 +16,7 @@ private:
     TrieNode* root;
     vector<Word*> listWord, listHistory;
 
-    void saveHelper(TrieNode* root, wofstream& fout);
+    void saveHelper(TrieNode* root, ofstream& fout);
     TrieNode* removeHelper(TrieNode* root, wstring key, int depth);
     void clearHelper(TrieNode* root);
 public:
@@ -24,7 +24,7 @@ public:
     void insert(Word word);
     void remove(wstring key);
     bool search(Word& word, wstring key);
-    void save(wofstream& fout);
+    void save(ofstream& fout);
     void clear();
 
     void addHistory(Word* word);

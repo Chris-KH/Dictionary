@@ -1,7 +1,7 @@
 a
 excl, noun
 -
-O; oh (exclamation of surprise, regret, ect.)| Oh! What a nice toy! : a, đồ chơi đẹp quá!|Oh!What a pity! : a, tội nghiệp quá|By the way|By the way, there's this one other question : a, còn một vấn đề này nữa |Acre (100 square meters)
+O; oh (exclamation of surprise, regret, ect.)|Oh! What a nice toy! : a, đồ chơi đẹp quá!|Oh!What a pity! : a, tội nghiệp quá|By the way|By the way, there's this one other question : a, còn một vấn đề này nữa|Acre (100 square meters)
 
 a dua
 verb
@@ -283,10 +283,10 @@ verb
 -
 To feel compassion for|at the sight of those waifs and strays, everyone feels compassion for them : thấy lũ trẻ bơ vơ, ai cũng ái ngại
 
-
+ái nữ
 noun
 -
-ái nữ|Daughter
+Daughter
 
 ái nhĩ lan
 noun
@@ -758,20 +758,15 @@ noun
 -
 Glowing tunic, dress|tunics are no status symbol, they wear them for they have no short jackets : áo dài cứ tưởng là sang bởi không áo ngắn phải mang áo dài
 
-
-noun
--
-áo giáp|Armour
-
 áo giáp
 noun
 -
-uirass; armour
+cuirass; armor
 
 áo gối
 noun
 -
-illow-case
+pillow-case
 
 áo khách
 noun
@@ -968,10 +963,10 @@ verb
 -
 To take stealthy rake off, to get pickings, to appropriate part of profits
 
-
+ăn cánh
 verb
 -
-ăn cánh|To be in collusion with, to be in confederacy with, to be in cahoots with, to be hand in glove with|it is rumoured that some taxmen have been in collusion with a band of smugglers for evil-doing : người ta đồn rằng một vài nhân viên thuế vụ đã ăn cánh với một băng buôn lậu để làm bậy|these evildoers are as thick as thieves : những kẻ bất lương này rất ăn cánh với nhau
+To be in collusion with, to be in confederacy with, to be in cahoots with, to be hand in glove with|it is rumoured that some taxmen have been in collusion with a band of smugglers for evil-doing : người ta đồn rằng một vài nhân viên thuế vụ đã ăn cánh với một băng buôn lậu để làm bậy|these evildoers are as thick as thieves : những kẻ bất lương này rất ăn cánh với nhau
 
 ăn cá
 verb
@@ -2016,7 +2011,7 @@ he ups and downs of life
 ba cọc ba đồng ba dò
 -
 -
- fixed and modest income
+fixed and modest income
 
 ba cùng
 -
@@ -2311,12 +2306,7 @@ To broadcast, to disseminate widely
 bá chủ
 noun
 -
-Suzerain, dominator|a country under the suzerainty of its powerful neighbour : một quốc gia nằm dưới quyền bá chủ của quốc gia láng giềng hùng mạnh
-
-
--
--
-suzerainty, domination, hegemony : quyền bá chủ|to nurture the wild ambition of world hegemony : nuôi cuồng vọng làm bá chủ thế giới
+Suzerain, dominator|a country under the suzerainty of its powerful neighbour : một quốc gia nằm dưới quyền bá chủ của quốc gia láng giềng hùng mạnh|suzerainty, domination, hegemony : quyền bá chủ|to nurture the wild ambition of world hegemony : nuôi cuồng vọng làm bá chủ thế giới
 
 bá hộ
 noun
@@ -3156,12 +3146,7 @@ Balcony
 ban đầu
 -
 -
-At first; Initial|at first I thought he was the director of this company, then I discovered that he was the director's younger brother : ban đầu tôi cứ tưởng anh ta là giám đốc của công ty này, về sau tôi mới phát hiện anh ta là em của giám đốc
-
-
--
--
-what are your initial intentions? : ý định ban đầu của anh là gì?
+At first; Initial|at first I thought he was the director of this company, then I discovered that he was the director's younger brother
 
 ban đêm
 -
@@ -3233,11 +3218,6 @@ verb
 -
 To award, to grant|this young man has been awarded a medal for bravery : anh thanh niên này đã được ban tặng huy chương về lòng dũng cảm
 
-
--
--
-
-
 ban thứ
 -
 -
@@ -3256,7 +3236,7 @@ Midday, noon, at noon
 bàn
 noun
 -
-Table|a dinner-table : bàn ăn|a square table : bàn vuông|a folding table : bàn gấp lại được, bàn xếp|a bedside-table : bàn đặt bên cạnh giừơng|a dressing-table : bàn trang điểm, bàn phấn|a billiard-table : bàn bi-a|a table-cloth : khăn bàn|=bày bàn ăn : bày bàn ăn
+Table|a dinner-table : bàn ăn|a square table : bàn vuông|a folding table : bàn gấp lại được, bàn xếp|a bedside-table|a dressing-table|a billiard-table|a table-cloth
 
 bàn ăn
 -
@@ -3266,22 +3246,12 @@ Dining-table
 bàn bạc
 verb
 -
-To discuss, to deliberate, to consult, to exchange views on|we should deliberate what action to take : chúng ta nên bàn bạc kỹ xem phải hành động như thế nào|it is advisable to consult with one's partners before signing the contract : cần phải bàn bạc với các đối tác trước khi ký hợp đồng
-
-
--
--
-
-
-
--
--
-to hold public discussions : bàn bạc tập thể
+To discuss, to deliberate, to consult, to exchange views on|we should deliberate what action to take|it is advisable to consult with one's partners before signing the contract|to hold public discussions
 
 bàn cãi
 verb
 -
-To argue, to debate|to argue away, to fight out : bàn cãi cho ra lẽ|the point is clear, there is no need for further argument : vấn đề đã rõ ràng, không cần phải bàn cãi gì nữa
+To argue, to debate|to argue away, to fight out|the point is clear, there is no need for further argument
 
 bàn chải
 noun
@@ -3341,22 +3311,17 @@ Furniture
 bàn giao
 verb
 -
-To transfer, to hand over (officẹ..)|to hand over power to an elected government : bàn giao quyền hành cho một chính phủ được bầu ra|I am resigning as commander-in-chief and handing over to my deputy : tôi xin từ chức tổng tư lệnh và bàn giao chức vụ ấy cho người phó của tôi
-
-
--
--
-hand-over ceremony : lễ bàn giao|to take over : nhận bàn giao, tiếp quản|B will take over as director when A retires : B sẽ tiếp nhận chức giám đốc khi A về hưu
+To transfer, to hand over (officẹ..)|to hand over power to an elected government|I am resigning as commander-in-chief and handing over to my deputy : tôi xin từ chức tổng tư lệnh và bàn giao chức vụ ấy cho người phó của tôi|hand-over ceremony|to take over|B will take over as director when A retires
 
 bàn giấy
 noun
 -
-Writing table, desk|Office, secretariat..|clerical work, paperwork : công việc bàn giấy, công việc giấy tờ|bureaucracy, red tape : lối làm việc quan liêu bàn giấy|procedures hedged about with red tape : các thủ tục bị trắc trở vì tệ quan liêu
+Writing table, desk|Office, secretariat..|clerical work, paperwork : công việc bàn giấy, công việc giấy tờ|bureaucracy, red tape|procedures hedged about with red tape
 
 bàn hoàn
 -
 -
-(cũ) Be anxious, be worried
+(old) Be anxious, be worried
 
 bàn là
 noun
@@ -3366,7 +3331,7 @@ Iron|an electric iron : bàn là điện
 bàn luận
 verb
 -
-To discuss|to discuss current events : bàn luận về thời sự|many questions have to be put to discussion : còn nhiều vấn đề cần được đưa ra bàn luận|nothing to speak of : chẳng có gì đáng bàn luận
+To discuss|to discuss current events|many questions have to be put to discussion|nothing to speak of
 
 bàn lùi
 -
@@ -3376,7 +3341,7 @@ Argue to refuse (to do something); argue somebody out of doing something
 bàn mảnh
 verb
 -
-To hold private discussions|not to take part in the general meeting and to hold separate discussions : không tham gia thảo luận ở hội nghị, lại đi bàn mảnh
+To hold private discussions|not to take part in the general meeting and to hold separate discussions
 
 bàn mổ
 noun
@@ -3386,7 +3351,7 @@ noun
 bàn phím
 noun
 -
-Keyboard|to press a key on the keyboard : nhấn một phím trên bàn phím|a keyboarder : người thao tác trên một bàn phím|key-pad : bàn phím nhỏ trên máy điện thoại (thay cho dĩa quay số)
+Keyboard|to press a key on the keyboard|a keyboarder : người thao tác trên một bàn phím|key-pad
 
 bàn ra
 -
@@ -3486,17 +3451,7 @@ Headquarters
 bản địa
 adj
 -
-Native, indigenous|the native people : dân bản địa|the native culture : nền văn hoá bản địa|the indigenous language : ngôn ngữ bản địa|the tiger is native to India : hổ là loài thú bản địa ở ẩn Độ|he's emigrated to the USA and gone completely native : ông ta di cư đến Mỹ, và hoàn toàn trở thành người bản địa
-
-
--
--
-the white people here don't mix socially with the natives : người da trắng ở đây không hoà nhập về mặt xã hội với người bản địa
-
-
--
--
-
+Native, indigenous|the native people|the native culture|the indigenous language|the tiger is native to India|he's emigrated to the USA and gone completely native|the white people here don't mix socially with the natives
 
 bản đồ
 noun
@@ -3688,11 +3643,6 @@ noun
 -
 (dùng phụ sau danh từ) Indigenous country, native country|The native people : dân bản xứ|the colonialists' policy of using the natives to fight the natives : chính sách thực dân dùng người bản xứ đánh người bản xứ
 
-
--
--
-
-
 bán
 verb
 -
@@ -3778,11 +3728,6 @@ noun
 -
 Radius|The radius of a circle : bán kính hình tròn|the police searched all the woods within a radius of six miles : cảnh sát đã lục soát tất cả các khu rừng trong vòng bán kính sáu dặm
 
-
--
--
-
-
 bán lẻ
 -
 -
@@ -3846,7 +3791,7 @@ To cry|to cry roast ground-nuts, to be a roast groundnut vendor : Bán lạc ran
 bán sỉ
 -
 -
-như bán buôn |(địa phương) như bán lẻ
+như bán buôn|(địa phương) như bán lẻ
 
 bán sơn địa
 adj
@@ -4101,12 +4046,7 @@ Short overcoat, topcoat
 bành trướng
 verb
 -
-To expand, to spread|to expand economically : bành trướng về kinh tế|the movement for democracy is expanding all over the world : trào lưu dân chủ đang bành trướng khắp năm châu|colonial expansion : sự bành trướng thuộc địa|expansionism was advocated by many British politicians in the late 19th century : chủ nghĩa bành trướng được nhiều chính khách Anh bênh vực ở cuối thế kỷ 19
-
-
--
--
-to check the expansion of the red tape : ngăn chặn sự bành trướng của nạn quan liêu
+To expand, to spread|to expand economically : bành trướng về kinh tế|the movement for democracy is expanding all over the world : trào lưu dân chủ đang bành trướng khắp năm châu|colonial expansion : sự bành trướng thuộc địa|expansionism was advocated by many British politicians in the late 19th century : chủ nghĩa bành trướng được nhiều chính khách Anh bênh vực ở cuối thế kỷ 19|to check the expansion of the red tape : ngăn chặn sự bành trướng của nạn quan liêu
 
 bành voi
 noun
@@ -4323,11 +4263,6 @@ noun
 -
 Cake picture, fine allusion|Political independence without economic independence will finally turn out to be a fine allusion : độc lập chính trị mà không có độc lập kinh tế thì cuối cùng chỉ là bánh vẽ
 
-
--
--
-
-
 bánh xe
 -
 -
@@ -4378,11 +4313,6 @@ verb
 -
 To screen, to shield|to screen an erring subordinate official : bao che cho một cán bộ cấp dưới có khuyết điểm|you can't shield this smuggler from prosecution : anh không thể bao che cho tên buôn lậu này khỏi bị khởi tố đâu
 
-
--
--
-
-
 bao chiếm
 verb
 -
@@ -4391,12 +4321,7 @@ To appropriate|to appropriate common land : bao chiếm ruộng công
 bao dung
 adj
 -
-generous, magnanimous|an immensely kind and generous heart, capable of elevating everyone : lòng rộng như biển cả, bao dung, cảm hoá tất cả mọi người
-
-
--
--
-generosity, magnanimity : tính bao dung
+generous, magnanimous|an immensely kind and generous heart, capable of elevating everyone : lòng rộng như biển cả, bao dung, cảm hoá tất cả mọi người|generosity, magnanimity : tính bao dung
 
 bao giấy
 noun
@@ -4417,11 +4342,6 @@ bao hàm
 verb
 -
 to imply|to imply much significance : bao hàm nhiều ý nghĩa|freedom does not necessarily imply responsibility : tự do không nhất thiết bao hàm trách nhiệm|any work of art implies a certain social attitude : sáng tác văn nghệ nào cũng bao hàm một thái độ xã hội nhất định
-
-
--
--
-
 
 bao la
 adj
@@ -4491,12 +4411,7 @@ Stomach|stomach-ache : bệnh đau bao tử|it is quite unwise to swim on a full
 bao vây
 verb
 -
-to surround, to encircle, to blockade, to besiege, to lay a siege to|the rebel forces surrounded the station police from dawn till dusk : lực lượng nổi loạn đã bao vây bót cảnh sát từ sáng sớm đến sẫm tối
-
-
--
--
-the town is encircled by two enemy regiments : thành phố bị hai trung đoàn địch bao vây|to stage an economic blockade of the enemy areas : bao vây kinh tế địch|to lay a siege to an opium den : bao vây một ổ hút thuốc phiện
+to surround, to encircle, to blockade, to besiege, to lay a siege to|the rebel forces surrounded the station police from dawn till dusk : lực lượng nổi loạn đã bao vây bót cảnh sát từ sáng sớm đến sẫm tối|the town is encircled by two enemy regiments : thành phố bị hai trung đoàn địch bao vây|to stage an economic blockade of the enemy areas : bao vây kinh tế địch|to lay a siege to an opium den : bao vây một ổ hút thuốc phiện
 
 bào
 noun, verb
@@ -4826,12 +4741,7 @@ To show gratitude to one's parents|o give a decent funeral to one's dead parents
 báo hiệu
 -
 -
-Signal|to fire a three-shot signal : bắn ba phát súng báo hiệu|is this announcement the signal of better times ahead? : phải chăng lời tuyên bố này báo hiệu rằng tình hình sẽ khả quan hơn?
-
-
--
--
-an event signals a change in public opinion : một sự kiện báo hiệu một sự thay đổi trong công luận|a bell signals the end of a shift : hồi kẻng báo hiệu giờ tan tầm|signal light : đèn báo hiệu
+Signal|to fire a three-shot signal : bắn ba phát súng báo hiệu|is this announcement the signal of better times ahead? : phải chăng lời tuyên bố này báo hiệu rằng tình hình sẽ khả quan hơn?|an event signals a change in public opinion : một sự kiện báo hiệu một sự thay đổi trong công luận|a bell signals the end of a shift : hồi kẻng báo hiệu giờ tan tầm|signal light : đèn báo hiệu
 
 báo hỷ
 noun
@@ -4972,11 +4882,6 @@ bạo ngược
 adj
 -
 Wickedly cruel|nazist troops' wickedly cruel and savage deeds in the Second World War : những hành động bạo ngược dã man của quân đội Quốc xã trong thời Đệ nhị thế chiến
-
-
--
--
-
 
 bạo phát
 -
@@ -5311,12 +5216,7 @@ Supercilious, haughty|a supercilious and proud person : con người bắc bậc
 bắc cầu
 verb
 -
-To bridge, to fill the gap|the pioneer's age bridges childhood and youth : tuổi thiếu niên là tuổi bắc cầu giữa tuổi nhi đồng và tuổi thanh niên
-
-
--
--
-to take the intervening day off as well : nghỉ bắc cầu
+To bridge, to fill the gap|the pioneer's age bridges childhood and youth : tuổi thiếu niên là tuổi bắc cầu giữa tuổi nhi đồng và tuổi thanh niên|to take the intervening day off as well : nghỉ bắc cầu
 
 bắc cực
 noun
@@ -5562,11 +5462,6 @@ bằng cứ
 verb
 -
 To rely on the strength of, to base oneself on|relying on the strength of the documents, we can affirm that : bằng cứ vào tài liệu, có thể khẳng định được điều đó
-
-
--
--
-
 
 bằng địa
 -
@@ -5928,15 +5823,10 @@ adj
 -
 Innate, inborn|an innate defect : tật bẩm sinh|genius is the result of long and enduring efforts and not something innate : thiên tài là do cố gắng bền bỉ lâu dài, đâu phải một thứ bẩm sinh
 
-
--
--
-
-
-
+bẩm tính
 noun
 -
-bẩm tính|Innate character|to be innately good-natured : bẩm tính hiền lành
+Innate character|to be innately good-natured : bẩm tính hiền lành
 
 bẩm tính
 noun
@@ -6088,11 +5978,6 @@ adj
 -
 Haggard, worried|to look haggard : vẻ mặt bần thần|she was worried the whole afternoon, waiting in vain for her child : mong mãi không thấy con về, chị ấy bần thần cả buổi chiều
 
-
--
--
-
-
 bần tiện
 adj
 -
@@ -6127,11 +6012,6 @@ bấn
 adj
 -
 Hard pressed|to be hard pressed for manpower : đang bấn người|Flustering, pothering (because of too much work)|to fluster because of much work to do : lo bấn lên vì nhiều việc|under a barrage of questions, he was flustered, not knowing whom to answer first : ai cũng tranh hỏi, làm anh cứ bấn lên, không còn biết trả lời ai trước nữa
-
-
--
--
-
 
 bận
 noun, verb, adj
@@ -6251,12 +6131,7 @@ Unfair, unjust, unequal
 bất biến
 adj
 -
-Immutable|there is no immutable natural or social phenomenon : không có hiện tượng thiên nhiên cũng như xã hội nào là bất biến
-
-
--
--
-fixism : thuyết bất biến
+Immutable|there is no immutable natural or social phenomenon : không có hiện tượng thiên nhiên cũng như xã hội nào là bất biến|fixism : thuyết bất biến
 
 bất bình
 adj
@@ -6426,12 +6301,7 @@ Immortal|an immortal epic : bản anh hùng ca bất hủ
 bất kể
 -
 -
-Irrespective of, regardless of|everyone, irrespective of age and sex, has the duty to defend the fatherland : bất kể già trẻ gái trai, ai cũng có nhiệm vụ bảo vệ tổ quốc
-
-
--
--
-day or night : bất kể ngày đêm|egardless of everything|to run for dear life, frightened out of one's wits : sợ hết hồn, chạy bất kể
+Irrespective of, regardless of|everyone, irrespective of age and sex, has the duty to defend the fatherland : bất kể già trẻ gái trai, ai cũng có nhiệm vụ bảo vệ tổ quốc|day or night : bất kể ngày đêm|egardless of everything|to run for dear life, frightened out of one's wits : sợ hết hồn, chạy bất kể
 
 bất khả tri
 -
@@ -6542,11 +6412,6 @@ bất quá
 -
 -
 At most|this job can be done in five days at most : việc này bất quá năm ngày làm xong|his view is approved of by two or three people at most : ý kiến của anh ta bất quá chỉ được vài ba người tán thành
-
-
--
--
-
 
 bất tài
 -
@@ -6842,11 +6707,6 @@ bấy nhiêu
 -
 -
 So much, that much|that much will do : chỉ cần bấy nhiêu|Only five years, only that much time, But so many changes have occurred to our land : Năm năm mới bấy nhiêu ngày, Mà trong trời đất đổi thay đã nhiều
-
-
--
--
-
 
 bậy
 adj
@@ -7338,11 +7198,6 @@ bề ngoài
 -
 Exterior, outward|the outward strength of nazism : sức mạnh bề ngoài của chủ nghĩa quốc xã|Outwardly a honey tongue, Inwardly a heart of gall : Bề ngoài thơn thớt nói cười Mà trong nham hiểm giết người không dao
 
-
--
--
-
-
 bề sâu
 -
 -
@@ -7387,11 +7242,6 @@ bể dâu
 -
 -
 Beach turned into a mulberry field, vicissitudes, whirligig|Through the whirligig of time, There are events which wrench one's heart : Trải qua một cuộc bể dâu Những điều trông thấy mà đau đớn lòng
-
-
--
--
-
 
 bể hoạn
 -
@@ -7633,11 +7483,6 @@ verb
 -
 To surge up, to emerge|the buoy surged up : chiếc phao bềnh lên|the boat was swallowed clean by big waves, then emerged suddenly and rode the surf : thuyền bị những con sóng lớn nuốt mất tăm, đột nhiên lại bềnh lên cưỡi sóng
 
-
--
--
-
-
 bềnh bệch
 -
 -
@@ -7844,14 +7689,9 @@ adj
 Woeful and majestic at the same time|a woeful and majestic song : bài ca bi tráng
 
 bì
-noun
+noun, verb
 -
-Skin|=gọt bì phật thủ to peel the skin of a Buddha's hand : gọt bì phật thủ to peel the skin of a Buddha's hand
-
-
-verb
--
-to peel the skin of a China tree : tước bì xoan|acking, bag|to pack rice in bags : đóng gạo vào bì|are|(dùng có kèm ý phủ định)+Matchable, comparable|of unmatchable strength : khỏe không ai bì kịp|no one can bear comparison with him : bì sao được với nó
+Skin|gọt bì phật thủ to peel the skin of a Buddha's hand : gọt bì phật thủ to peel the skin of a Buddha's hand|to peel the skin of a China tree : tước bì xoan|acking, bag|to pack rice in bags : đóng gạo vào bì|are|(dùng có kèm ý phủ định)+Matchable, comparable|of unmatchable strength : khỏe không ai bì kịp|no one can bear comparison with him : bì sao được với nó
 
 bì bà bì bõm
 -
@@ -8763,11 +8603,6 @@ verb, noun
 -
 To manifest, to manifest itself, to show plainly|a fine action manifesting the nature of a communist : hành động đẹp đẽ biểu hiện phẩm chất người cộng sản|the contradiction manifests itself in many different forms : mâu thuẫn biểu hiện dưới nhiều hình thức khác nhau|o depict (with artistic means)|music depicts life with sounds : âm nhạc dùng âm thanh để biểu hiện cuộc sống|Manifestation|slighting important details is a manifestation of schematism, of perfunctoriness : coi thường các chi tiết quan trọng là biểu hiện của bệnh sơ lược đại khái sơ lược
 
-
--
--
-
-
 biểu kiến
 adj
 -
@@ -8908,10 +8743,10 @@ noun
 -
 Multi-battalion (multi-regiment, multi-division, multi-army), corps (unit)
 
-
+binh đội
 -
 -
-binh đội|từ cũ, nghĩa cũ) Troops
+(từ cũ, nghĩa cũ) Troops
 
 binh gia
 noun
@@ -9081,7 +8916,7 @@ To assess through discussion the achievements of (members of a community)
 bình dân
 noun, adj
 -
-Commoner|the opposition between aristocrats and commoners : sự đối lập giữa quý tộc và bình dân|the sections of common people : tầng lớp bình dân|Antiilliteracy : khẩu ngữ (dùng phụ sau danh từ)|an antiilliteracy teacher : giáo viên bình dân|an antiilliteracy class : lớp bình dân|popular |popular literature : văn học bình dân|=quán ăn bình dân : quán ăn bình dân
+Commoner|the opposition between aristocrats and commoners : sự đối lập giữa quý tộc và bình dân|the sections of common people : tầng lớp bình dân|Antiilliteracy : khẩu ngữ (dùng phụ sau danh từ)|an antiilliteracy teacher : giáo viên bình dân|an antiilliteracy class : lớp bình dân|popular|popular literature : văn học bình dân|=quán ăn bình dân : quán ăn bình dân
 
 bình dị
 adj
@@ -9102,11 +8937,6 @@ bình điện
 noun
 -
 Battery, small-size dynamo
-
-Bình Định
--
--
-Quy Nhơn, provincial capital of Bình Định, is 1,065km from Hà Nội on National Highway 1. In the old days, Quy Nhơn was called Thị Nại, the name of a beautiful lake inside the city. Biển Quy Nhơn (Quy Nhon+Sea) has an annual average temperature of 25.7oC and is suitable for tourism the year round. Hoàng Hậu Beach is an ideal place for bathing. Quang Trung Museum is dedicated to Nguyễn Huệ, a national hero of the 18th century. It was built in his native land of Kien My village, Binh Thanh commune, Tây Sơn district, some 45km from Quy Nhon City. Nguyễn Huệ is one of three brothers who led the Tây Sơn Insurrection. In 1788, he led a great force advancing from Phú Xuân (Huế) to the North. It took 35 days and they exacted an overwhelming defeat on the Qing invaders near Thăng Long (now Hà Nội), thereby liberating the royal+capital. He crowned himself Emperor Quang Trung the same year. At Quang Trung Museum, visitors will enjoy music and demonstrations of Võ Tây Sơn (traditional martial arts of Bình Định). In particular, they can+see a young woman, a niece of the 9th generation of Emperor Quang Trung, playing 11 battle drums. In addition, Hoi Van village (Cat Trinh commune, Phù Cát district) is well known for its hot spring. It is composed of+various chemical components useful in the treatment of rheumatism, mental disorder, cardio-vascular diseases and skin diseases. Beside the hot spring, there is a sanatorium which offers steam baths with mineral water of 38oC useful for medical treatment and general health improvement.=Built in 1665 in the Đồ Bàn Citadel - second capital of the Kingdom of Chăm Pa some 27km from Quy Nhơn City - Thap Thap Pagoda is a Buddhist temple, but its decorations are characterized by the Chăm decorative art. Dương Long Chàm Tower is also called Tháp Ngà (Tower of Ivory),+consisting of three towers. This group of towers is one of the most beautiful in Central Vietnam. Banh It Tower is also called Tháp Bạc (Silver Tower). There, tourists can enjoy a panoramic view of this fertile countryside
 
 bình định
 verb
@@ -9434,14 +9264,9 @@ bo siết
 Be stingy|To be stingy with every penny : Bo siết từng xu
 
 bò
-noun
+noun, verb
 -
-Ox, cow; beef|a herd of milch cows : bò sữa đàn bò sữa
-
-
-verb
--
-dull as a cow : ngu như bò|a dish of vermicelli and beef : bún bò|a ridge-tile : ngói bò|To creep, to crawl|a snake crawled out of its hole : rắn trong lỗ bò ra|the baby can crawl at 7 months of age : em bé bảy tháng đã biết bò
+Ox, cow; beef|a herd of milch cows : bò sữa đàn bò sữa|dull as a cow : ngu như bò|a dish of vermicelli and beef : bún bò|a ridge-tile : ngói bò|To creep, to crawl|a snake crawled out of its hole : rắn trong lỗ bò ra|the baby can crawl at 7 months of age : em bé bảy tháng đã biết bò
 
 bò cạp
 noun
@@ -9481,12 +9306,7 @@ Musk-ox
 bỏ
 verb
 -
-To put, to place|to put money in one's pocket : bỏ tiền vào túi|=bỏ thuốc độc to put poison (vào thức ăn, thức uống..), to poison : bỏ thuốc độc to put poison (vào thức ăn, thức uống..), to poison
-
-
--
--
-like a drop in the ocean : như muối bỏ biển|to pour oil on the fire : lửa đỏ lại bỏ thêm rơm|to put in jail : bỏ tù|to devote some capital to business, to invest money in business : bỏ vốn kinh doanh|to devote half a day to some work : bỏ ra một buổi để làm việc gì
+To put, to place|to put money in one's pocket : bỏ tiền vào túi|=bỏ thuốc độc to put poison (vào thức ăn, thức uống..), to poison : bỏ thuốc độc to put poison (vào thức ăn, thức uống..), to poison|like a drop in the ocean : như muối bỏ biển|to pour oil on the fire : lửa đỏ lại bỏ thêm rơm|to put in jail : bỏ tù|to devote some capital to business, to invest money in business : bỏ vốn kinh doanh|to devote half a day to some work : bỏ ra một buổi để làm việc gì
 
 bỏ bà
 -
@@ -10203,11 +10023,6 @@ bóp mồm
 -
 (khẩu ngữ) như bóp miệng|=Bóp mồm bóp miệng như bóp miệng (nhưng mạnh hơn) : Bóp mồm bóp miệng như bóp miệng (nhưng mạnh hơn)
 
-
--
--
-
-
 bóp mũi
 khẩu ngữ
 -
@@ -10461,17 +10276,7 @@ To supplement|to give supplementary ideas : bổ sung ý kiến|to deliver a sup
 bổ trợ
 verb
 -
-To supplement|the family bytrades play a supplementary role to the collective economy : nghề phụ gia đình đóng vai trò bổ trợ cho nền kinh tế tập thể
-
-
--
--
-to develop other activities to supplement the main ones : phát triển một số ngành sản xuất khác để bổ trợ cho các ngành chính
-
-
--
--
-
+To supplement|the family bytrades play a supplementary role to the collective economy : nghề phụ gia đình đóng vai trò bổ trợ cho nền kinh tế tập thể|to develop other activities to supplement the main ones : phát triển một số ngành sản xuất khác để bổ trợ cho các ngành chính
 
 bổ túc
 verb
@@ -10888,11 +10693,6 @@ adj
 -
 Ingenuous|an ingenuous person : con người bộc tuệch|to be ingenuous in one's words : ăn nói bộc tuệch|very ingenuous : bộc tuệch bộc toạc|to be straight forward and very ingenuous and never be cross with anyone long : tính ngay thẳng bộc tuệch bộc toạc chẳng để ý giận ai lâu
 
-
--
--
-
-
 bộc tuệch bộc toạc
 -
 -
@@ -10934,12 +10734,7 @@ bôi vôi
 (từ cũ, nghĩa cũ) (Gọt gáy bôi vôi) To have one's nape shaven and marked with lime (a punishment which adulteresses were subjected to)
 
 bồi
-noun
--
-Waiter (khách sạn), man-servant (nhà riêng bọn thực dân), houseboy
-
-
-verb
+verb, noun
 -
 a waiter : bồi bàn|a hotel room boy : bồi phòng|To strengthen (by pasting on additional layers of the same material)|to strengthen a cover : bồi bìa|to strengthen the back of a picture (with layers of paper pasted on it) : bồi bức tranh|to strengthen the foot of a dyke with earth : đắp đất bồi thêm chân đê|(nói về bùn cát trong nước sông hồ) To raise the level of, to extend the area of with one's deposit
 
@@ -11751,8 +11546,7 @@ To make good, to make up, to compensate|to put in compensating work : làm bù|t
 bù đắp
 verb
 -
-To make up for, to compensate|to compensate for the damage : bù đắp thiệt hại|comradeship makes up for lack of family affection : tình đồng chí bù đắp những thiếu thốn về tình cảm gia đình
-|o assist in settling down, to help settle down|to help one's children settle down : bù đắp cho con cái|o reciprocate|such a favour cannot be reciprocated : ơn ấy không lấy gì bù đắp được
+To make up for, to compensate|to compensate for the damage : bù đắp thiệt hại|comradeship makes up for lack of family affection : tình đồng chí bù đắp những thiếu thốn về tình cảm gia đình|o assist in settling down, to help settle down|to help one's children settle down : bù đắp cho con cái|o reciprocate|such a favour cannot be reciprocated : ơn ấy không lấy gì bù đắp được
 
 bù đầu
 khẩu ngữ
@@ -12114,11 +11908,6 @@ noun
 -
 Spell, length of time, time, period, moment|a transitional period : buổi giao thời|the vening time in the family : buổi tối trong gia đình|to travel a length of time on the road : đi mất một buổi đường|to do two spells of work a day : ngày hai buổi đi làm|to remember the parting moment : nhớ buổi ra đi|day on day off, intermittently : buổi đực buổi cái|because of frequent illness, he could not attend class regularly, only day on day off : vì đau ốm luôn cho nên đi học thất thường, buổi đực buổi cái
 
-
--
--
-
-
 buổi chiều
 -
 -
@@ -12197,12 +11986,7 @@ như buôn bạc
 buồn
 adj
 -
-Sad, melancholy, grieved|sad news : tin buồn|the mother was sad because a child of hers was bad : người mẹ buồn vì có đứa con hư|to sit sad and silent : ngồi buồn, chẳng nói chẳng rằng|No sight is free of sadness. When one is sad, no sight is cheerful : Cảnh nào cảnh chẳng đeo sầu Người buồn cảnh có vui đâu bao giờ
-
-
--
--
-eeling an itch (for, to)|his mouth was itching to sing, so he sang a few disconnected phrases : buồn miệng hát ngêu ngao|icklish|=tính hay buồn nên bị cù không nhịn cười được : tính hay buồn nên bị cù không nhịn cười được
+Sad, melancholy, grieved|sad news : tin buồn|the mother was sad because a child of hers was bad : người mẹ buồn vì có đứa con hư|to sit sad and silent : ngồi buồn, chẳng nói chẳng rằng|No sight is free of sadness. When one is sad, no sight is cheerful : Cảnh nào cảnh chẳng đeo sầu Người buồn cảnh có vui đâu bao giờ|feeling an itch (for, to)|his mouth was itching to sing, so he sang a few disconnected phrases : buồn miệng hát ngêu ngao|icklish|=tính hay buồn nên bị cù không nhịn cười được : tính hay buồn nên bị cù không nhịn cười được
 
 buồn bã
 -
@@ -12457,7 +12241,7 @@ bứ cổ
 bứ họng
 -
 -
-như bứ cổ |e reduced to silence|Caught red-handed, he was reduced to silence : Bị bắt quả tang, cậu ta bứ họng
+như bứ cổ|e reduced to silence|Caught red-handed, he was reduced to silence : Bị bắt quả tang, cậu ta bứ họng
 
 bự
 adj
@@ -12667,12 +12451,7 @@ To lift, to take up (để chuyển đi trồng nơi khác)
 bước
 noun
 -
-Step, pace|heavy steps : bước đi nặng nề|not to step back in front of difficulties, not to shrink from difficulties : không lùi bước trước khó khăn
-
-
--
--
-separated by about ten steps : cách nhau mươi bước|the movement has switched to step two : cuộc vận động đã sang bước hai|="Bước ban đầu là bước gian nan " : "Bước ban đầu là bước gian nan "|he first step is difficult to take|ituation, juncture|to meet with a favourable juncture : gặp bước thuận lợi|to land in a difficult situation, to land in a fix : lâm bước khó khăn
+Step, pace|heavy steps : bước đi nặng nề|not to step back in front of difficulties, not to shrink from difficulties : không lùi bước trước khó khăn|separated by about ten steps : cách nhau mươi bước|the movement has switched to step two : cuộc vận động đã sang bước hai|="Bước ban đầu là bước gian nan " : "Bước ban đầu là bước gian nan "|he first step is difficult to take|ituation, juncture|to meet with a favourable juncture : gặp bước thuận lợi|to land in a difficult situation, to land in a fix : lâm bước khó khăn
 
 bước đầu
 -
@@ -12952,7 +12731,7 @@ Carat|24 carat gold, pure gold : Vàng 24 ca ra
 ca ri
 noun
 -
-urry powder |chicken curry : cari gà
+urry powder|chicken curry : cari gà
 
 ca rô
 noun
@@ -12972,7 +12751,7 @@ Singer
 ca trù
 -
 -
-Ca Trù - an original art performance of academic character - has been preserved for the past 10 centuries.To appreciate Ca Trù is to appreciate poetry and music. Ca Trù appeared officially under Nhà Hậu Lý (11th century). First, it served royal and religious rituals and was called Hát Khuôn. Later, it was used in banquets, weddings, friendly meetings... and called Hát Hàng Hoạ Ca Trù had bamboo castanets as principal+instrument. By beating time on tomtoms, spectators accompanied and praised the singer. Ca Trù was also called Hát Nhà Trò (singing or dancing while pulling funny tricks), Hát Thưởng (Singing to be rewarded by king or mandarins), Hát Cửa Quyền (singing in royal palaces), Hát Cửa Đình (singing for religious rituals), Hát ả đào (name of a famous songstress in the Lý times).... Under the French domination, Ca Trù declined. Nowadays, it is restored as a type of original popular art|What is a Ca Trù declamation? Originally, Ca Trù was like chèo singing and served at ceremonies and festivals in the northern delta. When these ceremonies and festivals were no longer held, Ca Trù became a type of chamber music serving as intellectual food for those who would like to enjoy music and poetry|Music and poetry are the basis of Ca Trù and decide which ensemble of principal instruments, musicians and subordinate instruments should provide the accompaniment. Ca Trù has many melodies that are sung differently, but the chief is singing-reciting: A singer and a musician playing a long-necked lute-like instrument. Also taking part is a member of the audience who expresses his appreciation and response by beating a drum. A rather special description fits the songstress of former days: "Fine clothes, velvet turban, delicate bobtailed hair, a moon-shaped face, knife-sharp eyes, refined manners, with sweet words, mild as flowers, transparent as snow, her beauty and charm are second only to Kim Vân Kiều's..." To perform as expected, the+singer must practise very hard and know many tunes. A male musician accompanies the singer. He too practises hard so as to be in perfect harmony with the singer. The music accompaniment consists of a "phách" - a bamboo instrument beaten with two wooden sticks - and "trống chầu" - a drum beaten by a member of the audience in appreciation or comment. Of course, this member of the audience is very experienced at beating the drum - a single beat, three or five successive beats and nine beats at the climax to be "in tune" with the lute. A timely response by the drummer encourages the singer who knows that she has met someone who both understands and appreciates her talent. These three instruments: The lute, the "phách" and the "trống chầu" are inseparable. Being a subordinate+instrument, the drum is essential as a bridge between the performer and audience. The harmonious combination of the lute, the "phách" and the+human voice makes it a perfect performance as praised in these lines by Vũ Hoàng Chương: Sweet phach, passionate lute mild smoke cushion. The sad voice lingers on in the middle of night. To enjoy Ca Trù is to enjoy both music and singing. The art of Ca Trù is both high and original. Its sound range originates from that of the lullaby in the Red River delta. Ca Trù - with water puppetry - is+indigenous to Vietnam. It is a valuable legacy for Vietnamese culture|Many talented poets like Chu Mạnh Trinh, Nguyễn Công Trứ, Tú Xương, Dương Khuê and Tản Đà composed excellent tunes, extraordinarily pure and high-falutin to charm the audience.+At the beginning of the 20th century, before the 1945, there were many places where Ca Trù was performed: Khâm Thiên, Bồ Đề, Lộ Khê (Hanoi); Quan Ba Mau, Quỳnh Cư (Hải Phòng) and throughout Bắc Ninh, Hải Dương and Nam Định provinces. But then, Ca Trù became Cô Đầu - performed by a sing-song girl or type of geisha. The art of Ca Trù was forgotten because it was thought to be a product of the ruling+class; the singers whores and the audience no more than hedonists. Singers abandoned their careers because of this bias and inhabitants of the Khâm Thiên area even left their homes because of it. Before 1976, musician Nguyễn Xuân Khoát was the only Vietnamese musicologist to study Ca Trù. Ca Trù artists are still rare now, but attention is being given their art. Lộ Khê village, Phu Do (in Hà Nội) is considered the cradle of Ca Trù and on the 6th of the 4th lunar month and the 13th of the tenth lunar month each year, members of the Ca Trù circle hold initiator-worshipping celebrations Artists young and old sing the Ca Trù, always beginning with two pieces: Non Mai and Hồng Hạnh.+The artist who deserves most praise for the revival and world-wide spread of Ca Trù is Doctor-Professor Trần Văn Khệ He has recorded Ca Trù, Quan Họ and chèo songs and declamations and sent them to France for the UNESCO Musical Committee to study. As a result, many recordings of Ca Trù and Quan Họ songs have been made. The support of eminent artist Quách Thị Hồ has made the recordings a great success. All the original features of Ca Trù are prominent, and Hồ was evaluated by the Musical+Committee and awarded with an honorary commendation with these lines: "We thank you for your contribution to the keeping of an original, traditional art legacy of Vietnam and an exceptional delicacy of mankind". Since then, Vietnam has sent a delegation to an Asian tribute held in the People's Democratic Republic of Korea where Ho^`'s recordings were among the most honoured. A Ca Trù club has been established in Hà Nội, a place for all of Vietnam's excellent Ca Trù artists. It not only revives an old+musical form but attracts foreign musicologists: American, English, German and Japanese. American researcher Mirada Krenzen has written a persuasive study, Vietnam's Traditional Music Process. It was presented at a seminar to discuss Vietnam's traditional music in Hà Nội in 1994. Krenzen possesses a deep knowledge of Ca Trù and has gained the admiration of Vietnamese musicologists. She wrote: "Ca Trù seems to have a magic power, a fermented substance to charm the listeners. Once I understood Ca Trù, I understood the Vietnamese people better". It is possible that Ca Trù is a patch of the Vietnamese soul that Krenzen has understood? ()
+Ca Trù - an original art performance of academic character - has been preserved for the past 10 centuries.To appreciate Ca Trù is to appreciate poetry and music
 
 ca tụng
 verb
@@ -13003,11 +12782,6 @@ cà
 noun, verb, noun
 -
 Egg-plant|an egg-plant flower coloured dress, a lilac dress : chiếc áo màu tím hoa cà|Leaving one feels nostalgic for the home place, For the water morning-glory soup, for the soya sauce pickled egg-plants : Anh đi anh nhớ quê nhà Nhớ canh rau muống, nhớ cà dầm tương|Animal testicle|To rub|the buffalo rubbed its back against a tree : trâu cà lưng vào cây|To file|some ethnic groups have the custom of filing their teeth : một số dân tộc có tục cà răng|To grind|To stir up a miff|Tomato|=quả cà chua cây cà chua cảnh : quả cà chua cây cà chua cảnh
-
-
--
--
-
 
 cà chua
 noun
@@ -13602,12 +13376,7 @@ Quack (a duck's cry)
 cách
 noun
 -
-Way, manner, fashion|a deliberate way of walking, a deliberate carriage : cách đi đứng khoan thai|to look for a way to deal with : tìm cách đối phó|the old learn their own way, the young theirs : "Già thì học theo cách già, trẻ thì học theo cách trẻ"|ase|there are six cases in Russian : tiếng Nga có sáu cách|=phá cách to break convention (and create a new genrẹ.) : phá cách to break convention (and create a new genrẹ.)
-
-
-verb
--
-a convention-breaking poem : bài thơ phá cách|To be separated
+Way, manner, fashion|a deliberate way of walking, a deliberate carriage : cách đi đứng khoan thai|to look for a way to deal with : tìm cách đối phó|the old learn their own way, the young theirs : "Già thì học theo cách già, trẻ thì học theo cách trẻ"|ase|there are six cases in Russian : tiếng Nga có sáu cách|=phá cách to break convention (and create a new genrẹ.) : phá cách to break convention (and create a new genrẹ.)|a convention-breaking poem : bài thơ phá cách|To be separated
 
 cách biệt
 verb
@@ -13637,22 +13406,12 @@ Isolated, insulated
 cách điện hóa
 -
 -
-Stylize|The flower and leaf design on the old engraving is stylized : Hình hoa lá trên bức chạm trổ cổ đã được cách điện hóa
-
-
--
--
-The stylized gestures in the traditional operetta : Những động tác cách điệu hóa trong chèo
+Stylize|The flower and leaf design on the old engraving is stylized : Hình hoa lá trên bức chạm trổ cổ đã được cách điện hóa|The stylized gestures in the traditional operetta : Những động tác cách điệu hóa trong chèo
 
 cách điệu hoá
 verb
 -
-To stylize|the flower and leaf design on the old engraving is stylized : hình hoa lá trên bức chạm trổ cổ cổ đã được cách điệu hoá
-
-
--
--
-the stylized gestures in the traditional operetta : những động tác cách điệu hoá trong chèo
+To stylize|the flower and leaf design on the old engraving is stylized : hình hoa lá trên bức chạm trổ cổ cổ đã được cách điệu hoá|the stylized gestures in the traditional operetta : những động tác cách điệu hoá trong chèo
 
 cách ly
 verb
@@ -13763,11 +13522,6 @@ cai trị
 verb
 -
 To rule|the colonialist regime used feudal mandarins to rule over provinces and districts : chính quyền thực dân dùng quan lại phong kiến cai trị các tỉnh và các phủ, huyện
-
-
--
--
-
 
 cai tuần
 -
@@ -13967,7 +13721,7 @@ To bicker, to squabble|they bickered with each other over some trifle : chuyện
 cái đã
 noun, adj
 -
-Mother|the mother is responsible for the foolishness of her child : con dại cái mang|khẩu ngữ) (denoting a young girl of one's rank or below)|I'm calling for Hoa to go to school with her : cháu đến rủ cái Hoa đi học|other, mother of vinegar|mother of vinegar : cái giấm|mother of fermented cold rice : cái mẻ|Solid part (of liquid food) : Banker (trong đám bạc)|to eat both the liquid and the solid part (of a food) : ăn cả nước lẫn cái||First, the first thing|Let's have some tea first, then set about the job : Uống chè cái đã rồi hãy bắt đầu
+Mother|the mother is responsible for the foolishness of her child : con dại cái mang|khẩu ngữ) (denoting a young girl of one's rank or below)|I'm calling for Hoa to go to school with her : cháu đến rủ cái Hoa đi học|other, mother of vinegar|mother of vinegar : cái giấm|mother of fermented cold rice : cái mẻ|Solid part (of liquid food) : Banker (trong đám bạc)|to eat both the liquid and the solid part (of a food) : ăn cả nước lẫn cái|First, the first thing|Let's have some tea first, then set about the job : Uống chè cái đã rồi hãy bắt đầu
 
 cái ghẻ
 noun
@@ -13982,7 +13736,7 @@ Mother of vinegar
 cái thế anh hùng
 -
 -
- hero over the world
+hero over the world
 
 cam
 noun, verb
@@ -13997,7 +13751,7 @@ Sour orange
 cam chịu
 verb
 -
-o reconcile; to be content with |to accept one's fate with resignation : cam chịu số_phận của mình
+o reconcile; to be content with|to accept one's fate with resignation : cam chịu số_phận của mình
 
 cam đoan
 verb
@@ -14164,11 +13918,6 @@ cảm tạ
 -
 To express one's gratitude|we express our sincere gratitude to the brother countries for their whole-hearted help : chân thành cảm tạ các nước anh em đã hết lòng giúp đỡ chúng ta
 
-
--
--
-
-
 cảm thán
 -
 -
@@ -14203,11 +13952,6 @@ cảm tính
 noun
 -
 Feeling|that is only a comment dictated by feeling : đó chỉ mới là nhận xét theo cảm tính|perception through feeling must be completed by perception through reason : nhận thức cảm tính cần được bổ sung bằng nhận thức lý tính
-
-
--
--
-
 
 cảm tử
 verb
@@ -14294,11 +14038,6 @@ adj, noun
 -
 Courageous|to endure the grief courageously : can đảm chịu nỗi đau thương|the little boy is very courageous, he does not mind going by himself in the dark : em bé can đảm dám đi đêm một mình|Courage|we have enough strength, courage and intelligence to build for ourselves a new life : "Chúng ta có đầy đủ sức mạnh, can đảm và thông minh để xây dựng cuộc sống mới của mình"
 
-
--
--
-
-
 can gián
 verb
 -
@@ -14373,11 +14112,6 @@ cản trở
 verb, noun
 -
 To bar, to obstruct, to block|to obstruct the traffic : cản trở giao thông|work is obstructed : công việc bị cản trở|to block progress : cản trở sự tiến bộ|Obstacle|conservatism is a great obstacle in the march forward : "Tư tưởng bảo thủ là một cản trở lớn trên bước đường đi tới"
-
-
--
--
-
 
 cán
 noun, verb
@@ -14669,11 +14403,6 @@ verb
 -
 To awaken, to open the eyes of|that appeal has awakened those who had gone astray : lời kêu gọi đó như tiếng chuông cảnh tỉnh những kẻ lầm đường
 
-
--
--
-
-
 cảnh trí
 noun
 -
@@ -14902,7 +14631,7 @@ o fly; to run away
 Cao Bằng
 -
 -
-Cao Bằng is a mountainous province in North-Vietnam. Its provincial capital is under the same name. It shares a border of 314km with China to the north and the east, and is inhabited by many ethnic groups. Some 60km from the provincial capital is Pắc Bó, a small hamlet in Truong Ha commune, Hà Quảng district, close to the Vietnamese-Chinese border. In the local dialect, Pắc Bó means watershed, where springs of clear water run. From Thái Nguyên City, provincial capital of Bắc Thái province, you drive along Highway 3 to the towns of Bắc Cạn and Phu Thong. After another 16km, you will arrive at Ba Bể Lake which is about 225km from Hà Nội. The lake actually consists of three lakes called Pe Lam, Pe Lu and Pe Leng, so it is called Ba Bể (Three Seas). Ba Bể Lake is surrounded by limestone mountains and thick forests, home to many species of rare birds and animals
+Cao Bằng is a mountainous province in North-Vietnam
 
 cao bồi
 noun
@@ -15414,11 +15143,6 @@ verb
 -
 To rule as a feud|before the Dinh dynasty, twelve warlords ruled each a region as his feud : trước đời Đinh, mười hai sứ quân cát cứ mỗi người một địa phương
 
-
--
--
-
-
 cát đằng
 -
 -
@@ -15562,12 +15286,7 @@ Bitter and humiliating|the bitter and humiliating plight of a citizen of a forei
 cay đắng
 -
 -
-Bitter|a bitter defeat : thất bại cay đắng|In life, the bitters are legion but none is bitterer than the loss of freedom : Trên đời nghìn vạn điều cay đắng Cay đắng chi bằng mất tự do
-
-
--
--
-plagued by all kinds of bitterness : trăm cay nghìn đắng|the life full of all kinds of bitterness of women in the old times : cuộc đời trăm cay nghìn đắng của người phụ nữ ngày xưa
+Bitter|a bitter defeat : thất bại cay đắng|In life, the bitters are legion but none is bitterer than the loss of freedom : Trên đời nghìn vạn điều cay đắng Cay đắng chi bằng mất tự do|plagued by all kinds of bitterness : trăm cay nghìn đắng|the life full of all kinds of bitterness of women in the old times : cuộc đời trăm cay nghìn đắng của người phụ nữ ngày xưa
 
 cay độc
 -
@@ -15673,11 +15392,6 @@ căm ghét
 -
 -
 To feel resentment and hatred against, to resent and abhor|that was one of the most resented, abhorred and cursed wars : đó là một trong những cuộc chiến tranh bị căm ghét và nguyền rủa nhiều nhất
-
-
--
--
-
 
 căm giận
 -
@@ -15859,11 +15573,6 @@ cằn cỗi
 -
 (nói về đất trồng trọt) Exhausted|exhausted fields : ruộng đất cằn cỗi|tunted, dwarfed|because of the impoverished soil and lack of manure, the tree was stunted : đất xấu lại không có phân bón, cây trở nên cằn cỗi|stunted thinking : tư tưởng cằn cỗi|a culture without deep roots in the broad masses is a stunted, withered culture : văn hoá không bắt rễ thẳng ở đại chúng, kết quả là văn hoá cằn cỗi héo hon
 
-
--
--
-
-
 cằn nhằn
 verb
 -
@@ -15992,7 +15701,7 @@ Carry under one's arm
 cặp ba lá
 noun, verb
 -
-Bag, case|a school bag : cặp học sinh|a leather briefcase : cặp da|to go to school, one's bag under one's arms : cắp cặp đi học|air, couple|a couple : cặp vợ chồng|a pair of eyes : cặp mắt|ongs, pin|to pick up coal with tongs : dùng cặp gắp than||Three - bladed hairpin
+Bag, case|a school bag : cặp học sinh|a leather briefcase : cặp da|to go to school, one's bag under one's arms : cắp cặp đi học|air, couple|a couple : cặp vợ chồng|a pair of eyes : cặp mắt|ongs, pin|to pick up coal with tongs : dùng cặp gắp than|Three - bladed hairpin
 
 cặp bến
 verb
@@ -16157,12 +15866,7 @@ To stick|to stick a pig : cắt tiết lợn|to stick a chicken : cắt tiết g
 cắt xén
 verb
 -
-To truncate|the play should not be casually truncated of some of its incidents : không thể tùy tiện cắt xén một số tình tiết của vở kịch
-
-
--
--
-to truncate a quoted passage : cắt xén một đoạn trích dẫn
+To truncate|the play should not be casually truncated of some of its incidents : không thể tùy tiện cắt xén một số tình tiết của vở kịch|to truncate a quoted passage : cắt xén một đoạn trích dẫn
 
 cấc
 -
@@ -16284,10 +15988,10 @@ cầm lái
 -
 To take the helm, to be at the wheel, to hold the steering wheel, to steer
 
-
+cẩm lai
 noun
 -
-cẩm lai|Barian kingwood
+Barian kingwood
 
 cầm lòng
 -
@@ -16397,7 +16101,7 @@ Embroidered brocade; very beautiful landscape; very beautiful literature|one's v
 cấm binh
 verb, adv, noun
 -
-To forbid, to prohibit, to ban|crossing prohibited, no crossing : cấm người qua lại|it is forbidden to smoke in theatres; no smoking in theatres : cấm hút thuốc trong rạp hát|it is forbidden to use anything which may kindle a fire; beware of danger of fire; danger of fire! : cấm lửa|a banned book : sách cấm|o seal off, to place out of bounds|to seal off a road : cấm đường|a forest out of bounds; a preserved forest : rừng cấm||Royal palace guard
+To forbid, to prohibit, to ban|crossing prohibited, no crossing : cấm người qua lại|it is forbidden to smoke in theatres; no smoking in theatres : cấm hút thuốc trong rạp hát|it is forbidden to use anything which may kindle a fire; beware of danger of fire; danger of fire! : cấm lửa|a banned book : sách cấm|o seal off, to place out of bounds|to seal off a road : cấm đường|a forest out of bounds; a preserved forest : rừng cấm|Royal palace guard
 
 cấm cẳn
 -
@@ -16469,10 +16173,10 @@ noun
 -
 Forbidden citadel|="Cấm thành bỗng chốc xôn xao chiến trường " the forbidden citadel was all of a sudden seized by the flurry of fighting : "Cấm thành bỗng chốc xôn xao chiến trường " the forbidden citadel was all of a sudden seized by the flurry of fighting
 
-
+cấm vận
 -
 -
-cấm vận|o put an embargo on
+o put an embargo on
 
 cấm vào
 verb
@@ -17609,11 +17313,6 @@ verb
 -
 To painstakingly entreat (influential people) for a favour.|in former times, one used to have to painstakingly entreat or bribe influential people for a job : ngày trước, thường phải cậy cục, đút lót mới xin được việc làm
 
-
--
--
-
-
 cậy thế
 verb
 -
@@ -17622,12 +17321,7 @@ o rely on one's position or standing
 cha
 noun
 -
-Father, dad|Right Reverend Father : Đức Cha|amn, curse|Damn this ragged jacket which has cost me friends and acquaintances : Cha đời cái áo rách này Mất chúng mất bạn vì mày áo ơi
-
-
--
--
-like father like son : cha nào con nấy|of unknown origin; not to be trusted : cha căng chú kiết|everybody's business is nobody's business : cha chung không ai khóc
+Father, dad|Right Reverend Father : Đức Cha|amn, curse|Damn this ragged jacket which has cost me friends and acquaintances : Cha đời cái áo rách này Mất chúng mất bạn vì mày áo ơi|like father like son : cha nào con nấy|of unknown origin; not to be trusted : cha căng chú kiết|everybody's business is nobody's business : cha chung không ai khóc
 
 cha anh
 -
@@ -18522,7 +18216,7 @@ To click (one's tongue)|to click one's tongue scornfully : chặc lưỡi chê b
 Chăm
 -
 -
-dân tộc Chăm|With about 100,000 inhabitants, Chăm (Chàm, Chiêm, Hời) ethnic group originates from Ancient Chăm Pa Kingdom. They live mainly in Ninh Thuận, Bình Thuận, Bình Định, Phú Yên. Belonging to Mã Lai-Đa Đảo linguistic group, the Chăm people remains influenced by matriarchy and Indian culture. The ancient Chăm writing is Sanskrit-based. Hinduism+and Mohammedanism are their principal religions|THE UNIQUE CHĂM CULTURE: The Chăm culture is a unique tradition, contributing much to the+diversity and richness of the Vietnamese multi-ethnic culture. From the first century AD, the Chăm people received deep influences from Indian culture. In the 7th century AD, Chăm Pa was already a kingdom with a capital in Trà Kiệu (now Quảng Nam) with a temple dedicated to the Indian Valmiki and his famous epic, the Ramayana By the middle of the 8th century AD, their capital was shifted to Nha Trang and five years later to Đông Dương, 15 km away from Trà Kiệu in the southeast.|The Chăm are one of the 53 ethnic groups in Vietnam and comprise various subgroups. There are around 98,000 Chăm people, including the Chăm Hroi in Bình Định, Phú Yên and those living in Ninh Thuận, Bình Thuận and other parts of southern Vietnam Inhabiting a large area, the Chăm also have many diversified customs and social practices. While most of the Chăm in Saigon, AnGiang and Tây Ninh, and the Chăm from Cambodia follow Islam, those living in Bình Thuận, Ninh Thuận provinces follow Brahmanism. Islam is modified to suit the people here and is called 'Baní. The Chăm language is of the+Malayo-Polynesian family and is spoken by about 250,000 people (G Moussay, Dictionaire Cham-Vietnamien-Francais, published by Phan Rang Culture Centre 1971). However, it does not necessarily follow that the Chăm in different regions can fully understand each other. It is natural that the Chăm borrow local words and expressions at the place they reside, mainly from Khơ Me and Vietnamese. In terms of their script, only the Cham Dong (in Bình Thuận, Ninh Thuận provinces) have preserved their original script. The Chăm script is now being taught at elementary school to help maintain this unique linguistic tradition. The Chăm also+utilised the Akhar Thrah scripts from Nam An which has been incorporated into present-day Chăm scripts. Ancient texts written on papyrus or paper+used both of these scripts and include various epics and love stories such as the Devamuno Inra Patra, Ummurup, Cambini, Bini-Cam, Sah Pakei, Patauw Kamai, Patauw adat Likei etc. This ancient literature gives a clear picture of the life and society of the Chăm through history. Together with academic literature, the Chăm also have very rich popular literature+which comprises hundreds of stories, sayings, idioms, puzzles, songs etc., which make up a precious literary tradition. Chăm people have songs for+fishing using the 'vai chai' rhythm (pwoc jah), betrothals (danh dom da ra), milling rice (danh rasung chai) etc. These rhythms are also sung during festivities with dances which have become a real attraction to spectators. Surely the greatest and most unique contribution from the Chăm culture is their architecture and carvings Historical stupa compounds in Mỹ Sơn (Quảng Nam-Đà Nẵng), Tháp Bà (Nha Trang), Tháp Chàm (Ninh Thuận) and various Tara statues in Đông Dương, and Apsaras in Trà Kiệu have all had their position+confirmed in the Southeast Asian sculptural tradition.+Though most of these works were created for religious purposes and stemmed from Brahmin spiritualism, they became popularised and part of the Chăm+national culture. As such, the Indian-inspired Vishnus, and Shivas went through considerable transformations and became more human when recreated by Chăm artisans.=In the present day, the Chăm people have adjusted their lives to local conditions. People in Tây Ninh mostly work in agriculture, fishing and+commerce while those who live near Saigon have developed an urban lifestyle. The majority, however, still maintain traditional professions like cultivation, husbandry, weaving and ceramic production. Chăm+handicrafts are now exported to various countries where they are highly appreciated due to their unique style and high quality workmanship
+dân tộc Chăm|With about 100,000 inhabitants, Chăm (Chàm, Chiêm, Hời) ethnic group originates from Ancient Chăm Pa Kingdom. They live mainly in Ninh Thuận, Bình Thuận, Bình Định, Phú Yên. Belonging to Mã Lai-Đa Đảo linguistic group, the Chăm people remains influenced by matriarchy and Indian culture. The ancient Chăm writing is Sanskrit-based. Hinduism+and Mohammedanism are their principal religions
 
 chăm
 noun & verb, verb
@@ -18872,12 +18566,7 @@ Stage, halt; hop (đường bay)|the route was divided into several stages : con
 chắp
 noun, verb
 -
-Sty, stye|to lance a sty on an eye : mổ cái chắp ở mắt|To patch up, to piece out, to piece up, to connect|to patch up a broken mirror : chắp mảnh gương vỡ|each person only remembered one line but a whole poem could be pieced out : mỗi người chỉ nhớ một câu, nhưng chắp lại cũng thành bài thơ trọn vẹn
-
-
--
--
-to connect the contact and set up the liaison : chắp mối để bắt liên lạc|o join, to clasp (the two hands)|to clasp hands and make a kowtow : chắp tay lạy
+Sty, stye|to lance a sty on an eye : mổ cái chắp ở mắt|To patch up, to piece out, to piece up, to connect|to patch up a broken mirror : chắp mảnh gương vỡ|each person only remembered one line but a whole poem could be pieced out : mỗi người chỉ nhớ một câu, nhưng chắp lại cũng thành bài thơ trọn vẹn|to connect the contact and set up the liaison : chắp mối để bắt liên lạc|o join, to clasp (the two hands)|to clasp hands and make a kowtow : chắp tay lạy
 
 chắp nhặt
 verb
@@ -18902,12 +18591,7 @@ Great-grandchild|ame of skill with sticks and a ball|To decant|to decant water f
 chắt bóp
 -
 -
-To stint oneself in|that sum of money was the result of many years stinting himself in everything : phải chắt bóp trong bao nhiêu năm mới có được món tiền ấy
-
-
--
--
-to stint oneself in money and save every penny : chắt bóp từng đồng
+To stint oneself in|that sum of money was the result of many years stinting himself in everything : phải chắt bóp trong bao nhiêu năm mới có được món tiền ấy|to stint oneself in money and save every penny : chắt bóp từng đồng
 
 chắt chiu
 verb
@@ -19174,11 +18858,6 @@ chân rết
 -
 Centipede-foot-shaped|a piece of centipede-foot-shaped darning : miếng mạng chân rết|to dig a centipede-foot-shaped network of canals to irrigate rice-fields : đào những mương máng chân rết để đưa nước vào ruộng|the trade branch sets up many more local centipede-foot-shaped networks : ngành thương nghiệp tổ chức thêm nhiều chân rết ở các địa phương
 
-
--
--
-
-
 chân tài
 noun
 -
@@ -19222,7 +18901,7 @@ Plebeian, commoner
 chân trời
 noun
 -
-Horizon|the sun emerges on the horizon : mặt trời nhô lên ở chân trời|rospect,vista|over the hills and far away, to the ends of the earth : Chân trời góc biển|non : Nhắn ai góc biển chân trời, Nghe mưa ai có nhớ lời nước| want to send word to someone at the ends of the world, Do you remember our pledge when hearing the rain fall?
+Horizon|the sun emerges on the horizon : mặt trời nhô lên ở chân trời|rospect,vista|over the hills and far away, to the ends of the earth : Chân trời góc biển|non : Nhắn ai góc biển chân trời, Nghe mưa ai có nhớ lời nước|want to send word to someone at the ends of the world, Do you remember our pledge when hearing the rain fall?
 
 chân truyền
 -
@@ -19424,10 +19103,10 @@ noun, verb
 -
 như chặp|To fasten together, to twist together|to fasten together two strings for more solidity : chập hai sợi dây buộc cho chắc|a thread made of three strands twisted together, a three-strand thread : sợi chỉ xe chập ba|four-ply wool thread : sợi len chập bốn|o put in direct contact (electric wire); to tangle (a watch hairspring..)
 
-
+chập mả
 -
 -
-chạp mả|isit one's ancestor tombs (at the end of the Lunar Year)
+visit one's ancestor tombs (at the end of the Lunar Year)
 
 chập chà chập choạng
 -
@@ -19529,11 +19208,6 @@ noun
 -
 Material|oil is a painting material : sơn dầu là một chất liệu của hội hoạ|the facts of the fighting and production are seminal materials for artistic creation : thực tế đấu tranh và sản xuất là chất liệu phong phú của sáng tác nghệ thuật
 
-
--
--
-
-
 chất lỏng
 -
 -
@@ -19597,27 +19271,12 @@ Unsteady, unstable, cranky|the bed is cranky : giừơng kê chật chưỡng|=n
 chật hẹp
 -
 -
-Narrow, cramped|to live cramped in a narrow room : ở chen chúc trong một gian phòng chật hẹp|the narrow space of a newspaper article : khuôn khổ chật hẹp của một bài báo|the narrow way of thinking, the narrow outlook of a small producer : nếp suy nghĩ chật hẹp, cái nhìn chật hẹp của người sản xuất nhỏ
-
-
--
--
-etty|petty feelings : tình cảm chật hẹp
+Narrow, cramped|to live cramped in a narrow room : ở chen chúc trong một gian phòng chật hẹp|the narrow space of a newspaper article : khuôn khổ chật hẹp của một bài báo|the narrow way of thinking, the narrow outlook of a small producer : nếp suy nghĩ chật hẹp, cái nhìn chật hẹp của người sản xuất nhỏ|petty feelings : tình cảm chật hẹp
 
 chật vật
 adj
 -
-(nói về làm việc gì) Toilsome, tough, strenuous, requiring a lot of exertion|climbing that slippery slope required much exertion : phải chật vật lắm mới vượt qua được cái dốc trơn như mỡ
-
-
--
--
-he had to make a lot of exertion to get that job done : anh ta chật vật lắm mới làm xong được việc đó|nói về đời sống) Hard|life is not yet comfortable, but not so hard as before : đời sống chưa được phong lưu, nhưng không còn chật vật như trước
-
-
--
--
-
+(nói về làm việc gì) Toilsome, tough, strenuous, requiring a lot of exertion|climbing that slippery slope required much exertion : phải chật vật lắm mới vượt qua được cái dốc trơn như mỡ|he had to make a lot of exertion to get that job done : anh ta chật vật lắm mới làm xong được việc đó|(nói về đời sống) Hard|life is not yet comfortable, but not so hard as before : đời sống chưa được phong lưu, nhưng không còn chật vật như trước
 
 châu
 noun, verb
@@ -19647,12 +19306,7 @@ Delta|The Mekong delta : châu thổ sông Cửu Long
 chầu chực
 noun, verb
 -
-Soiree with sing-song girls, soiree with geishas|ound, bout, session|to treat someone to a round of noodle soup : đãi một chầu phở|to attend a session of film show : xem một chầu xi nê|to pay for a drinking bout : thết một chầu rượu|eriod, season|the end of the harvesting season : cuối chầu gặt|it rains often in this period of time : chầu này trời hay mưa|to scold (someone) for a length of time : mắng cho một chầu||To attend upon (a mandarin..)|o cool one's heels|it was no matter of importance, still they had to cool their heels for a whole afternoon : việc chẳng có gì mà bắt người ta phải chầu chực suốt buổi chiều
-
-
--
--
-
+Soiree with sing-song girls, soiree with geishas|ound, bout, session|to treat someone to a round of noodle soup : đãi một chầu phở|to attend a session of film show : xem một chầu xi nê|to pay for a drinking bout : thết một chầu rượu|eriod, season|the end of the harvesting season : cuối chầu gặt|it rains often in this period of time : chầu này trời hay mưa|to scold (someone) for a length of time : mắng cho một chầu|To attend upon (a mandarin..)|o cool one's heels|it was no matter of importance, still they had to cool their heels for a whole afternoon : việc chẳng có gì mà bắt người ta phải chầu chực suốt buổi chiều
 
 chầu rìa
 -
@@ -19728,11 +19382,6 @@ che đậy
 verb
 -
 To cover|to cover goods against the rain : che đậy hàng hoá cho khỏi bị mưa ướt|o cover up, to smother up|no cunning propaganda can cover up the mafiosi's dishonest nature : không một luận điệu xảo trá nào che đậy được bản chất bất lương của bọn maphia
-
-
--
--
-
 
 che giấu
 -
@@ -19819,10 +19468,10 @@ verb
 -
 To cut (with a sword..), to guillotine|to cut off (someone's) head : chém đầu|to execute by the guillotine : xử chém|o sting, to stick it on|to be stung for three dong for something worth one dong : chỉ đáng một đồng mà bị chém ba đồng|this inn sticks it on : quán này chém tợn|to attach more importance to substance than to form : chém to kho mặn|to do something with little regard for the feeling of the people concerned : chém tre không dè đầu mặt
 
-
+chêm
 verb, noun
 -
-chêm|To wedge|to wedge a hoe handle : chêm cán cuốc|o cut in|to listen and cut in from time to time with a sentence : ngồi nghe thỉnh thoảng chêm vào một câu|Wedge
+To wedge|to wedge a hoe handle : chêm cán cuốc|o cut in|to listen and cut in from time to time with a sentence : ngồi nghe thỉnh thoảng chêm vào một câu|Wedge
 
 chém giết
 -
@@ -19962,22 +19611,12 @@ To choke, to block, to strangle|to choke the throat, to strangle : chẹt cổ|t
 chê
 verb
 -
-To make little of, to run down|For nine things promised, one should do ten; If for ten things promised, one does only nine, one will be made little of and sneered at : Nói chín thì làm nên mười Nói mười làm chín, kẻ cười người chê
-
-
--
--
-the pig cared little for bran soup (because of some illness) : lợn chê cám|to be overparticular about details of a thing to choose; to pick and choose : chê ỏng chê eo|xem vụng
+To make little of, to run down|For nine things promised, one should do ten; If for ten things promised, one does only nine, one will be made little of and sneered at : Nói chín thì làm nên mười Nói mười làm chín, kẻ cười người chê|the pig cared little for bran soup (because of some illness) : lợn chê cám|to be overparticular about details of a thing to choose; to pick and choose : chê ỏng chê eo|xem vụng
 
 chê bai
 verb
 -
 To speak scornfully of, to disparage|public opinion speaks scornfully of him because of his bad treatment of his wife : dư luận chê bai anh ta đối xử với vợ không tốt|If you don't like cabbage soup seasoned with ginger, Don't eat it please and don't disparage it : Canh cải mà nấu với gừng Chẳng ăn thì chớ xin đừng chê bai
-
-
--
--
-
 
 chê chán
 -
@@ -20023,11 +19662,6 @@ chế giễu
 verb
 -
 To ridicule|satirical folk-songs ridicule bad habits and backward practices of the old society : ca dao trào phúng b chế giễu những thói hư tật xấu trong xã hội cũ
-
-
--
--
-
 
 chế ngự
 verb
@@ -20099,11 +19733,6 @@ chênh lệch
 -
 Uneven, unequal, of different levels|the prices are of different levels : giá cả chênh lệch|both sides' strength is very unequal : lực lượng hai bên rất chênh lệch|to do away with the still uneven development of crop growing and animal husbandry : khắc phục tình trạng trồng trọt và chăn nuôi phát triển còn chênh lệch nhau
 
-
--
--
-
-
 chênh vênh
 adj
 -
@@ -20128,11 +19757,6 @@ chết
 adj & verb
 -
 ead, to die|a panther when dead leaves behind a skin, a man when dead leaves behind a name : báo chết để da, người ta chết để tiếng|to die of a disease : chết bệnh|to die of hunger, to starve to death : chết đói|to die from a serious wound : chết vì bị thương nặng|a dead body, a corpse : xác chết|to rake weeds and make them die, to rake weeds dead : bừa cho chết cỏ|the sight of a dead town during a general strike : quang cảnh một thành phố chết trong những ngày tổng bãi công
-
-
--
--
-
 
 chết cha
 -
@@ -20174,11 +19798,6 @@ chết mệt
 -
 To be over head and ears in love, to be captivated|=chết mê chết mệt như chết mệt : chết mê chết mệt như chết mệt
 
-
--
--
-
-
 chết tươi
 verb
 -
@@ -20193,11 +19812,6 @@ chi
 noun, verb
 -
 Limb, leg|the forelegs of a horse : hai chi trước của ngựa|ine of descent|to be of the same descent but by a different line, to be a collateral to (another) : cùng họ, nhưng khác chi|Earth's Stem : địa chi|xem chữ_chi|To spend (money from a fund, budget), to pay out, to disburse|spending on production : tiền chi cho sản xuất|to increase the income, to cut down the spending (the outlay) : tăng thu giảm chi
-
-
--
--
-
 
 chi bằng
 -
@@ -20253,11 +19867,6 @@ chi phối
 verb
 -
 To control, to rule, to govern|ideology rules over behaviour : tư tưởng chi phối hành động|the writer's world outlook rules over the ideological content of the work : thế giới quan của nhà văn chi phối nội dung tư tưởng của tác phẩm
-
-
--
--
-
 
 chi tiết
 noun, adj
@@ -20384,11 +19993,6 @@ chỉ trỏ
 -
 To point (with the fingers)|some children were standing in front of the toy department, looking and pointing : mấy đứa bé đứng trước gian hàng đồ chơi vừa xem vừa chỉ trỏ
 
-
--
--
-
-
 chỉ vẽ
 -
 -
@@ -20428,11 +20032,6 @@ chí công
 -
 -
 Very just|Very Just, God : Đấng chí công|public-spirited and selfless : Chí công vô tư|to show public spirit and selflessness in one's dealing with other people and in one's work : đem lòng chí công vô tư mà đối với người, đối với việc
-
-
--
--
-
 
 chí hiếu
 -
@@ -20502,12 +20101,7 @@ Tropic
 chí tử
 -
 -
-Deadly, to death|to strike deadly blows : giáng cho những đòn chí tử|some beasts were disputing a prey, inflicting deadly wounds on one another : mấy con thú tranh mồi, cắn xé nhau chí tử
-
-
--
--
-to work oneself to death : làm việc chí tử|deadly poor : nghèo chí tử
+Deadly, to death|to strike deadly blows : giáng cho những đòn chí tử|some beasts were disputing a prey, inflicting deadly wounds on one another : mấy con thú tranh mồi, cắn xé nhau chí tử|to work oneself to death : làm việc chí tử|deadly poor : nghèo chí tử
 
 chí yếu
 -
@@ -20649,20 +20243,10 @@ verb
 -
 To be experienced in observing (something)|the sea fishing people are very experienced in observing the weather : những người làm nghề đánh cá biển rất giỏi chiêm nghiệm thời tiết
 
-
--
--
-
-
 chiêm ngưỡng
 verb
 -
 To gaze with veneration|to gaze with veneration at a statue : chiêm ngưỡng một bức tượng|o pay homage to the memory of|to pay homage to the memory of the fighters who have gloriously laid down their lives for the fatherland : chiêm ngưỡng những chiến sĩ đã oanh liệt hy sinh vì tổ quốc
-
-
--
--
-
 
 chiêm tinh học
 noun
@@ -20757,22 +20341,17 @@ War situation, war complexion|to follow the war situation : theo dõi chiến cu
 chiến dịch
 noun
 -
-Campaign, movement
-
-
--
--
-to launch a summer prophylactic hygiene campaign (movement) : phát động một chiến dịch vệ sinh phòng bệnh mùa hè
+Campaign, movement|to launch a summer prophylactic hygiene campaign (movement) : phát động một chiến dịch vệ sinh phòng bệnh mùa hè
 
 chiến đấu
 verb
 -
 To fight, to combat, to struggle, to militate
 
-
+chiến địa
 noun
 -
-chiến địa|Battlefield
+Battlefield
 
 chiến hạm
 noun
@@ -20812,12 +20391,7 @@ Strategy|the strategy of protrated fighting : chiến lược đánh lâu dài|N
 chiến sĩ
 noun
 -
-Man, soldier|ighter
-
-
--
--
-a peace-fighter : chiến sĩ hoà bình
+Man, soldier|fighter|a peace-fighter : chiến sĩ hoà bình
 
 chiến sự
 noun
@@ -20872,7 +20446,7 @@ Combat vehicle|a tank is a kind of combat vehicle : xe tăng là một loại ch
 chiêng
 noun
 -
-Gong|Gongs were found in Vietnam in the Bronze Age (Đông Sơn culture from 2000 to 3500 years ago). Gongs were cast in bronze, an alloy of copper, zinc and lead. Gongs are used as a musical instrument by most ethnic groups in Vietnam. Gongs are frequently mentioned in Highland songs, and its music displays its contemplative nature. Highlanders believe that when gong music is played, there is an encounter between the human and spirit worlds, between the worlds of the living and the dead. In real life, the gong is closely associated with each stage of a lifespan. In the ceremony of blowing the ear for a newborn child, the sound of a gong serves to declare the offical acceptance of a new community member. When he or she is old enough to get married, in the ceremony of exchanging necklace, the gong sound is a reminder to the new couple to observe family and community traditions. The sound is so deep that it seems to ring only once in one's life. When beasts are destroying crops or a war rages, the gong seems to urge young people to dash to the battlefield and struggle for the survival of the community. If the gong sounds hilarious and fast, it heralds a victory or the ceremony of killing buffalo. When the gong sounds slow, sinister and heavy, then it is the news of a death. The gong is warm in a night of rest or around a fire with a pot of wine, an indication of a good harvest when young people gather to sing and dance and tell of their love|hen the gong sounds from the communal house, it can be heard all over the mountain and forest as a call for the young men to return to the communal house. When an old man passes away, the gong echoes its farewell. Virtually, all Western Highland and Long Range tribes have their own gongs. There are various types: Cồng (with a nipple) and Chiêng (without one) and there are also different sizes depending on the tribe, each region with its own regulations. It would not be an exaggeration to say that the gong is one of the main instruments in the orchestras of the Western Highland (Tây Nguyên) and Long Range (Trường Sơn) tribes, used in festivals such as the welcoming of a victory, killing buffalo, forgetting a tomb, and welcoming a good harvest. There are three pieces: Juar, Trum and Vang. Juar has an accelerating tempo revealing the majestic heroism of the victory; Trum (accompanied by a shield dance) expresses the hard but brave fight of the soldiers; and Vang, with a slow tempo, tells of sorrow, grief and regret felt for fallen soldiers. Gongs are named differently according to their size, register, timbre and function: Mother Gong, Father Gong, Older Sister Gong, Younger Sister Gong, or high pitch, medium pitch and low pitch. Hands or sticks are used to beat the gong. Sticks can be wrapped with cloth and/or rubber and a gong can be held by hand, put on the thigh or hung on a frame when played. Researchers all agree that of all the gongs of the ethnic groups, the Ba Na gong is the most majestic, imposing, romantic and echoing; the Gia Rai gong is the most solid, echoing and accelerated. The gong is an instrument of a philosophical and contemplative character. Closely associated with other art forms like singing and dancing, they can also be witty, cheerful and romantic. They are not only the property of the ethnic groups of the Western Highlands and the Long Range, but also bear unique and cherished value for Vietnamese culture as a whole. ()
+Gong|Gongs were found in Vietnam in the Bronze Age (Đông Sơn culture from 2000 to 3500 years ago). Gongs were cast in bronze, an alloy of copper, zinc and lead. Gongs are used as a musical instrument by most ethnic groups in Vietnam. Gongs are frequently mentioned in Highland songs, and its music displays its contemplative nature
 
 chiếp
 -
@@ -21094,11 +20668,6 @@ number
 -
 ine, ninth|a hundred and nine : một trăm lẻ chín|two thousand nine hundred : hai nghìn chín|the 15th day of the ninth month : rằm tháng chín|Nine men, ten opinions; so many men, so many opinions : chín người mười ý|cloud-touching, cloud-topped, cloud-capped : chín từng mây|to easily let pass (others' mistakes...), to tolerate : chín bỏ làm mười|Solidarity does not mean easily letting pass any mistakes of others as past things : đoàn kết không phải là bất cứ cái gì cũng chín bỏ làm mười cho qua chuyện
 
-
--
--
-
-
 chín cây
 -
 -
@@ -21177,7 +20746,7 @@ To dress, to reorganize, to set right|to dress the ranks : chỉnh đốn hàng 
 chỉnh hình
 -
 -
-Orthopaedy|thuật chỉnh hình 
+Orthopaedy|thuật chỉnh hình
 
 chỉnh huấn
 verb
@@ -21534,11 +21103,6 @@ choáng lộn
 -
 Swanky and shining|the goods displayed in the shop window looked swanky and shining in the neon light : hàng hoá bày trong tủ kính choáng lộn dưới ánh sáng đèn nê ông
 
-
--
--
-
-
 choáng óc
 -
 -
@@ -21597,7 +21161,7 @@ Big-bellied jar|như loé|Bright and translucent|of a bright and translucent yel
 chóe
 noun
 -
- big jar|Bright red : đỏ chóe
+big jar|Bright red : đỏ chóe
 
 choẹt
 -
@@ -21882,7 +21446,7 @@ Như từ chối
 chôm chôm
 noun
 -
-Rambutan| rambutan tree has a broad foliage and many branches. The tree yields fruit at the beginning of the rainy season in the southern provinces. The|hom fruit season finishes at the end of the rainy season (from May to|ctober). The skin of the fruit is tough, thick and hairy. Its pulp is transparent white and tender, and has a cool sweet taste in the mouth.The kind of rambutan most reputed nation-wide is grown in Binh Hoa Phuoc village in Long Ho district (Vinh Long province). During the rambutan season, one can notice the typical bright red colour of rambutan fruit stands located in the markets or along road intersections throughout the southern provinces
+Rambutan|rambutan tree has a broad foliage and many branches. The tree yields fruit at the beginning of the rainy season in the southern provinces. The|hom fruit season finishes at the end of the rainy season (from May to|ctober). The skin of the fruit is tough, thick and hairy. Its pulp is transparent white and tender, and has a cool sweet taste in the mouth.The kind of rambutan most reputed nation-wide is grown in Binh Hoa Phuoc village in Long Ho district (Vinh Long province). During the rambutan season, one can notice the typical bright red colour of rambutan fruit stands located in the markets or along road intersections throughout the southern provinces
 
 chồm
 verb
@@ -22017,12 +21581,7 @@ To oppose, to be hostile to|to enforce dictatorship against those who oppose the
 chống đỡ
 -
 -
-To prop up|a pillar propping up the roof : cột chống đỡ mái nhà|o resist|coming under a surprise attack, the enemy resisted passively : bị tiến công bất ngờ, địch chống đỡ một cách bị động
-
-
--
--
-the body is strong enough to resist disease : cơ thể đủ sức chống đỡ với bệnh tật
+To prop up|a pillar propping up the roof : cột chống đỡ mái nhà|o resist|coming under a surprise attack, the enemy resisted passively : bị tiến công bất ngờ, địch chống đỡ một cách bị động|the body is strong enough to resist disease : cơ thể đủ sức chống đỡ với bệnh tật
 
 chống trả
 verb
@@ -22332,7 +21891,7 @@ noun
 Chu Văn An
 -
 -
-Chu Văn An (1292-1370) - talented and virtuous pedagogue and scholar in the Trần times - was reputed for straightforwardness and not being concerned with fame and advantages. His native village was in Thanh Đạm (Thanh Trì- Hà Nội). He graduated as doctor and came home to teach instead of becoming a mandarin. Many of his students make their way in the world (Phạm Sư Mạnh, Lê Quát). Chu Văn An taught the crown prince at Quốc Tử Giám, and submitted Thất Trảm Sớ (petition asking to behead seven sycophantic mandarins) to the king. Because the king's disapproval, he resigned and led a secluded life under the pen-name Tiều Ân (secluded woodcutter). His works were Quốc Ngữ Thi Tập (Anthology of national language), Tiều Ân Thi Tập (Anthology of a secluded woodcutter). There is a temple to his memory at the Temple of Literature in Hà Nội|CHU VĂN AN: LIFE AND TIMES. Chu Văn An died over six centuries ago, in the year 1370, but the example he set as a great patriot and teacher will remain engraved in the hearts of our people. Having won the degree of Thái Học Sinh (doctorate) in the official literary examinations, he refused to be appointed a mandarin official at the royal court and instead opened a school to train the country's scholars. Many of his more talented students would later go on to pursue successful careers. Two of his students, Phạm Sư Mạnh and Lê Quát, rose to the position of prime minister. In the reign of Trần Minh Tôn, Chu Văn An was invited to teach at Quốc Tử Giám, the National University in the capital city of Thăng Long (now Hà Nội), attended by the most talented scholars as well as the sons of high dignitaries, including the prince heir to the throne. He was the author of many books: Collections of poems in both the vernacular and classical Chinese, dissertations on Confucian classics, and a treaty on traditional medicine The vestiges of his life and career, carefully preserved by the people in spite of the ravages of war and the passage of time, testify to the great respect in which his memory is held. Thanh Liệt commune in Thanh Trì district south of Hà Nội is believed to be the birth place of his mother, Lê Thị Chiêm. In the communal house are kept a record of his life and a couplet praising his virtues and achievements. A shrine was also built in 1846, dedicated to him and to a remarkable man among his descendants, Doctor Chu Đinh Bang, who lived in the reign of Lê Thánh Tôn (15th century) In Tam Hiệp commune, Thanh Trì district is found Hùynh Cung Temple, built on the site of a famous school founded by Chu Văn An. In Văn Điển south of Hà Nội is a stone stele with an inscription honouring Chu Văn An, erected in 1803. But the most important national institutions related to his life and career are the Temple of Literature (Văn Miếu) and the National University (Quốc Tử Giám) in Hà Nội. Here the Trần kings erected an altar to honour him alongside those dedicated to Confucius and his 72 disciples. Also in Hà Nội, a tree-lined street and a secondary school, the most renowned in the country, are named after him. In Hải Hưng province are found vestiges related to the later years of his life. Here he lived as a recluse for ten years after unsuccessfully petitioning the king for the death sentence to seven corrupt high-ranking dignitaries. The commune where he spent those years is now named after him. It is located in Chí Linh district near a beautiful range of hills called Phượng Sơn (Phoenix Mount). His remains were buried there
+Chu Văn An (1292-1370) - talented and virtuous pedagogue and scholar in the Trần times - was reputed for straightforwardness and not being concerned with fame and advantages. His native village was in Thanh Đạm (Thanh Trì- Hà Nội)
 
 chu vi
 noun
@@ -22714,11 +22273,6 @@ verb
 -
 To approve, to grant|the amendments to the plan have been approved by higher level : những điểm sửa đổi trong kế hoạch đã được cấp trên chuẩn y
 
-
--
--
-
-
 chúc
 verb
 -
@@ -22909,11 +22463,6 @@ chung quy
 -
 In the last analysis, on the whole|there were many questions, but on the whole there was only one problem : nhiều câu hỏi, nhưng chung quy chỉ có một vấn đề|=chung quy lại như chung quy : chung quy lại như chung quy
 
-
--
--
-
-
 chung thẩm
 -
 -
@@ -23019,15 +22568,10 @@ verb
 -
 To glide|the fish glided into the pond : con cá chuồi xuống ao|o drop (slip) quickly and neatly|to drop quickly and neatly a present in a wrapping into (someone's) pocket : chuồi gói quà vào túi
 
-
-noun
--
-chuỗi|String|a string of pearls : chuỗi ngọc|a string of coins : một chuỗi tiền xu|uccession, round, peal|a succession (round) of childhood days : chuỗi ngày thơ ấu|to ring with peals of laughter : vang lên những chuỗi cười|eries
-
 chuỗi
 noun
 -
-hain; string; series
+String|a string of pearls : chuỗi ngọc|a string of coins : một chuỗi tiền xu|uccession, round, peal|a succession (round) of childhood days : chuỗi ngày thơ ấu|to ring with peals of laughter : vang lên những chuỗi cười|eries
 
 chuỗi ngày
 -
@@ -23418,11 +22962,6 @@ chuyển tự
 -
 -
 To transliterate|to transliterate a Russian proper name into Vietnamese : ghi một tên tiếng Nga bằng chữ quốc ngữ theo lối chuyển tự
-
-
--
--
-
 
 chuyển vần
 -
@@ -23832,7 +23371,7 @@ Stately, dignified|a stately gait : dáng điệu chững chạc|to be dignified
 chứng bệnh
 noun, verb
 -
-Disease, trouble|the coughing trouble : chứng ho|ad habit|The bad habit of blabbing : chứng ba hoa|Habit is a second nature; Can the leopard change his spots? ; What is bred in the bone will come out in the flesh : chứng nào tật nấy|vidence, proof|To offer to give evidence : đứng ra làm chứng|to cite verse and chapter when speaking and produce evidence when informing : nói có sách mách có chứng||Disease, illness|dangerous diseases : những chứng bệnh hiểm nghèo
+Disease, trouble|the coughing trouble : chứng ho|ad habit|The bad habit of blabbing : chứng ba hoa|Habit is a second nature; Can the leopard change his spots? ; What is bred in the bone will come out in the flesh : chứng nào tật nấy|vidence, proof|To offer to give evidence : đứng ra làm chứng|to cite verse and chapter when speaking and produce evidence when informing : nói có sách mách có chứng|Disease, illness|dangerous diseases : những chứng bệnh hiểm nghèo
 
 chứng bịnh
 noun
@@ -24197,12 +23736,7 @@ Lousy with money, wealthy
 có điều
 -
 -
-Only, only that|life and death is the natural way of the flesh, only one must live and die in a worthy manner : sống chết là lẽ thường, có điều phải biết sống thế nào, chết thế nào cho xứng đáng
-
-
--
--
-he works very hard, only that his capacity is still not up to the mark : anh ta là việc tích cực, có điều khả năng còn kém
+Only, only that|life and death is the natural way of the flesh, only one must live and die in a worthy manner : sống chết là lẽ thường, có điều phải biết sống thế nào, chết thế nào cho xứng đáng|he works very hard, only that his capacity is still not up to the mark : anh ta là việc tích cực, có điều khả năng còn kém
 
 có hậu
 -
@@ -27257,17 +26791,17 @@ to conduct; to guide; to escort to lead|to lead the way : dẫn đường
 dẫn chứng
 verb
 -
-to cite; to adduce; to quete
+to cite; to adduce; to quote
 
 dẫn cưới
 -
 -
-Bring wedding offerings (according to traditional rituals) to the bridés
+Bring wedding offerings (according to traditional rituals) to the brides
 
-
+chuỗi
 -
 -
-dẫn dắt|uide, conduct, lead up to, direct|To know how to direct(to lead) the conversation up to (some subject) : Biết cách dẫn dắt câu chuyện
+guide, conduct, lead up to, direct|To know how to direct(to lead) the conversation up to (some subject) : Biết cách dẫn dắt câu chuyện
 
 dẫn dầu
 verb
@@ -29377,7 +28911,7 @@ xem rắn dọc dưa
 dọc dừa
 -
 -
-Mũi dọc dừa| straight nose
+Mũi dọc dừa|straight nose
 
 dọc đường
 -
@@ -29437,7 +28971,7 @@ to look at
 dóm
 -
 -
-(địa phương) như nhóm |to kindle a fire : Dóm lửa
+(địa phương) như nhóm|to kindle a fire : Dóm lửa
 
 dòn
 adj
@@ -29692,7 +29226,7 @@ Repress; pen|Repressed feelings; pent-up feelings : Tình cảm bị dồn nén
 dốn
 -
 -
-xem rốn 
+xem rốn
 
 dông
 noun
@@ -30274,10 +29808,10 @@ dụng võ
 -
 Give full scope to one's abilities|a wide field of action (where one can give full scope to one's abilities) : Đất dụng võ
 
-
+dụng ý
 verb
 -
-dụng ý|to intend to
+to intend to
 
 dụng ý
 verb
@@ -30347,7 +29881,7 @@ duy tâm luận
 Duy Tân
 -
 -
-King Duy Tân (ruler from 1907 to 1916) whose name at birth was Vĩnh San was considered the mastermind behind the patriotic armed insurrection led by Thái Phiên, Trần Cao Vân and many other patriots. The insurrection, however, was soon discovered and crushed and all participants were killed. Only King Duy Tân was exiled to the Reunion island in the Indian Ocean. The king was released from jail only to be dragged into a re-invasion scheme of Vietnam after the World War II. He was fired at in a suspicious air-crack in Middle-Africa on Christmas day of 1945 as his "Absolute Independence policy" was not in line with the colonial aspirations of General De Gaulle. Unfortunately, the patriotic king was misunderstood by most Vietnamese people due to his unclear relation with General De Gaulle. By the 1960s, Vietnamese and French researchers brought to light the relation between king Duy Tân and General De Gaulle, proving the unchanging patriotic will of the king. In 942, from the jail island Reunion, listening for the first time to the anti-fascism appeal of General De Gaulle broadcast from Britain, king Duy Tân showed a deep respect and admiration for him. He then founded a war-resistant group operating for the ally- France. With a self-made radio, he recorded and transmitted information to the French Liberation Force against the pro-Germany government at VichỵWhen Reunion island was liberated by the French Liberation Force, he voluntarily enrolled as a Radio maitre aboard the ship Leopard. In March 1945, France was liberated. By the end of the year, subsequent to the abdication of king Bảo Đại in Vietnam, De Gaulle arranged for 100 parachute commandos in Sài Gòn to prepare for the setting up of a dynasty headed by king Duy Tân.But Vĩnh San (king Duy Tân) knew nothing about this secret scheme. He vigorously believed that the French hero De Gaulle would help him bring peace, re-unification, and complete independence to his home country, Vietnam.+Additionally, he was opposed to the plan of ascending the throne . His political viewpoint was sharply contested and led him to become pessimistic. On December 17, 1945, he predicted his death to his friend and immediately wrote a political statement to express his belief in struggling for the unification of the north, centre and the south of Vietnam. As predicted, the event of his death took place eight days later His statement was veiled in secrecy until 1947 when the Combat newspaper copied and ran it. This delay in publicizing the facts surrounding his death and the nature of his true intentions for planning for a unified Vietnam made him misunderstood by the people of Vietnam. In reality, this patriot deserves the respect of all the peoplẹIn April 1987, thanks to the joint assistance of the governments of Vietnam and France, the king's remains were moved by his relatives to Vietnam and set down next to the royal mausoleums of King Dục Đức (his grandfather) and King Thành Thái (his father) in the central city of Huế 
+King Duy Tân (ruler from 1907 to 1916) whose name at birth was Vĩnh San was considered the mastermind behind the patriotic armed insurrection led by Thái Phiên, Trần Cao Vân and many other patriots. The insurrection, however, was soon discovered and crushed and all participants were killed. Only King Duy Tân was exiled to the Reunion island in the Indian Ocean. The king was released from jail only to be dragged into a re-invasion scheme of Vietnam after the World War II. He was fired at in a suspicious air-crack in Middle-Africa on Christmas day of 1945 as his "Absolute Independence policy" was not in line with the colonial aspirations of General De Gaulle. Unfortunately, the patriotic king was misunderstood by most Vietnamese people due to his unclear relation with General De Gaulle. By the 1960s, Vietnamese and French researchers brought to light the relation between king Duy Tân and General De Gaulle, proving the unchanging patriotic will of the king. In 942, from the jail island Reunion, listening for the first time to the anti-fascism appeal of General De Gaulle broadcast from Britain, king Duy Tân showed a deep respect and admiration for him. He then founded a war-resistant group operating for the ally- France. With a self-made radio, he recorded and transmitted information to the French Liberation Force against the pro-Germany government at VichỵWhen Reunion island was liberated by the French Liberation Force, he voluntarily enrolled as a Radio maitre aboard the ship Leopard. In March 1945, France was liberated. By the end of the year, subsequent to the abdication of king Bảo Đại in Vietnam, De Gaulle arranged for 100 parachute commandos in Sài Gòn to prepare for the setting up of a dynasty headed by king Duy Tân.But Vĩnh San (king Duy Tân) knew nothing about this secret scheme. He vigorously believed that the French hero De Gaulle would help him bring peace, re-unification, and complete independence to his home country, Vietnam.+Additionally, he was opposed to the plan of ascending the throne . His political viewpoint was sharply contested and led him to become pessimistic. On December 17, 1945, he predicted his death to his friend and immediately wrote a political statement to express his belief in struggling for the unification of the north, centre and the south of Vietnam. As predicted, the event of his death took place eight days later His statement was veiled in secrecy until 1947 when the Combat newspaper copied and ran it. This delay in publicizing the facts surrounding his death and the nature of his true intentions for planning for a unified Vietnam made him misunderstood by the people of Vietnam. In reality, this patriot deserves the respect of all the peoplẹIn April 1987, thanks to the joint assistance of the governments of Vietnam and France, the king's remains were moved by his relatives to Vietnam and set down next to the royal mausoleums of King Dục Đức (his grandfather) and King Thành Thái (his father) in the central city of Huế
 
 duy tân
 verb
@@ -31907,7 +31441,7 @@ Great scholar
 đại số
 -
 -
-như đại số học Algebraic |An algebraic expression : Biểu thức đại số|An algebraic nummber : Số đại số
+như đại số học Algebraic|An algebraic expression : Biểu thức đại số|An algebraic nummber : Số đại số
 
 đại số học
 -
@@ -32244,11 +31778,6 @@ While
 -
 To be ruthless enough to beat a child : Be ruthless enough to Đang tay đánh một em bé
 
-
--
--
-
-
 đang tay
 -
 -
@@ -32409,10 +31938,10 @@ Incisive, trenchant|Trenchant words : Lời nói đanh thép|an incisive style :
 -
 Make up one's mind t, reconcile oneself to, resign oneself tọ|For want of a cotton-padded coat, he resigned himself to suffer from cold : Không có áo bông đành chịu rét
 
-
+đanh đá
 -
 -
-đanh đá|harp-tongued, shrewish
+harp-tongued, shrewish
 
 đành dạ
 -
@@ -32742,7 +32271,7 @@ Storm|To storm into a post : Đánh thốc vào một vị trí
 đánh thông
 -
 -
-như đả thông 
+như đả thông
 
 đánh thuế
 verb
@@ -32922,7 +32451,7 @@ to desert
 đào nương
 -
 -
-|(cũ) Singsong girl, geisha
+(cũ) Singsong girl, geisha
 
 đào sâu
 -
@@ -33319,11 +32848,6 @@ to be guilty
 -
 Have one's wish fulfilled, be fully satisfied|The poet had his wish fulfilled, with his works having become popular with the masses : Nhà thơ rất đắc ý vì tác phẩm của mình được quần chúng yêu chuộng
 
-
--
--
-
-
 đặc
 adj, adj
 -
@@ -33398,11 +32922,6 @@ Prerogative, privilege|Diplomatic privileges : Đặc quyền ngoại giao
 -
 -
 Special issue (of a paper)|A special issue of the magazine Linguistics on methods of foreign languages teaching : Đặc san của tạp chí Ngôn ngữ về phương pháp dạy ngoại ngữ
-
-
--
--
-
 
 đặc sản
 -
@@ -34329,20 +33848,10 @@ o reason|duel of reason : cuộc đấu lý
 -
 Bid forr contract, put in (make) a tender|Thar work was put forth for construction firm to bid for contract to build it (to make tenders for its building) : Công trình ấy được đưa rra cho các hãng xây dựng đấu thầu
 
-
--
--
-
-
 đấu thủ
 -
 -
 Contender, player (in a competition of sport, chess...)|To select players for a team taking part in the World Cup Footbal matches : Chọn đấu thủ cho đội bóng đá đi dự giải vô địch Thế giới
-
-
--
--
-
 
 đấu tố
 -
@@ -34482,7 +33991,7 @@ Have in profusion,be choke-full with|The market was choke-full with tomatoes : c
 đầy ối
 -
 -
-(địa phương) như đầy ói 
+(địa phương) như đầy ói
 
 đầy phè
 -
@@ -34507,7 +34016,7 @@ Exactly one month old (of a baby)
 đầy tớ
 -
 -
-xem đày tớ 
+xem đày tớ
 
 đầy tràn
 -
@@ -34527,7 +34036,7 @@ to push; to shove; to thrust
 đẩy lùi
 -
 -
-|cũng như đẩy lui|oll back, push back, drive back|To roll back an attack : Đẩy lùi một cuộc tấn công|heck|To check an epidemic : Đẩy lùi bệnh dịch
+cũng như đẩy lui|oll back, push back, drive back|To roll back an attack : Đẩy lùi một cuộc tấn công|heck|To check an epidemic : Đẩy lùi bệnh dịch
 
 đẩy mạnh
 -
@@ -35407,7 +34916,7 @@ About, soon|It is about to rain : Mưa đến nơi
 đến tháng
 -
 -
-như đến ngày nghĩa 2 
+như đến ngày nghĩa 2
 
 đến thế
 -
@@ -35512,7 +35021,7 @@ như đi bộ
 đi chân đất
 -
 -
-cũng nói đi chân không To go (walk) barefoot 
+cũng nói đi chân không To go (walk) barefoot
 
 đi chơi
 verb
@@ -35837,7 +35346,7 @@ Seismograph
 địa chất
 -
 -
-cũng nói địa chất học Geology 
+cũng nói địa chất học Geology
 
 địa chi
 -
@@ -36797,22 +36306,17 @@ to guess; to conjecture; to divine
 đoán chừng
 -
 -
-Infer (fro what is known)|To infer a conclusion just like that without any certainly of correctness : Cũng đoán chừng thế thôi, chưa chắc đã đúng
+Infer (for what is known)|To infer a conclusion just like that without any certainly of correctness : Cũng đoán chừng thế thôi, chưa chắc đã đúng
 
-
+đoán định
 -
 -
-đoán định|dge and decide|To hold a full right to udge ad decide : Giữ toàn quyền đoán định
+judge and decide|To hold a full right to judge ad decide : Giữ toàn quyền đoán định
 
 đoán già
 -
 -
-Make a positive affirmation o uncertainn grounds|To make a positive affirmation on something one has not got any factual information : Tuy chưa biết gì chắc chắn về việc đó, nhưng cũng cứ đoán già
-
-
--
--
-To make a sheer conecture : Đoán già đoán non
+Make a positive affirmation o uncertain grounds|To make a positive affirmation on something one has not got any factual information : Tuy chưa biết gì chắc chắn về việc đó, nhưng cũng cứ đoán già|To make a sheer conjecture : Đoán già đoán non
 
 đoán mò
 -
@@ -36822,7 +36326,7 @@ Guess willdy
 đoán phỏng
 -
 -
-Conecture|To have to conecture (to be reduced to conecture) for lack of concrete date : Thiếu số liệu cụ thể đành phải đoán phỏng
+Conecture|To have to conjecture (to be reduced to conjecture) for lack of concrete date : Thiếu số liệu cụ thể đành phải đoán phỏng
 
 đoán trước
 verb
@@ -37222,7 +36726,7 @@ Young shoot; sprout|Browse : đọt non
 đô
 -
 -
-như kinh đô (nói tắt)|To move the capital to another place : Dời đô đi một nơi khác| (musical note)|C major. : Đô trưởng|khẩu ngữ) Well-built, muscular; athletic|=như đô vật (nói tắt) : như đô vật (nói tắt)
+như kinh đô (nói tắt)|To move the capital to another place : Dời đô đi một nơi khác|(musical note)|C major. : Đô trưởng|khẩu ngữ) Well-built, muscular; athletic|=như đô vật (nói tắt) : như đô vật (nói tắt)
 
 đô đốc
 -
@@ -37472,12 +36976,7 @@ Land|The allied troops landed in Normandy : Quân đồng minh đổ bộ ở No
 đổ dồn
 -
 -
-Flock into, concentrate upon|As the weather was very hot, people flocked into refreshment rooms : Trời nóng quá, người ta đổ dồn vào các cửa hàng giải khát
-
-
--
--
-His thoughts concentrated on one thing : ý nghĩa của nó đổ dồn vào một việc
+Flock into, concentrate upon|As the weather was very hot, people flocked into refreshment rooms : Trời nóng quá, người ta đổ dồn vào các cửa hàng giải khát|His thoughts concentrated on one thing : ý nghĩa của nó đổ dồn vào một việc
 
 đổ đồng
 -
@@ -38684,11 +38183,6 @@ Answer in another's stead, answer on another's behalf|I wish to thank you on beh
 -
 Be speechless from shortage of argument|To be spechless from the failure to answer one's opponent's trenchant arguments : Đớ ra vì không trả lời lại được những lý lẽ sắc bén của đối phương
 
-
--
--
-
-
 đớ họng
 -
 -
@@ -38854,11 +38348,6 @@ simple
 -
 Pure|Industrialization is not purely a matter of mechanization : Công nghiệp hóa không phải đơn thuần là vấn đề cơ khí hoá
 
-
--
--
-
-
 đơn thuốc
 -
 -
@@ -38962,7 +38451,7 @@ Papaw, papaya, melon-tree|=quả đu đủ : quả đu đủ
 đu đủ tía
 -
 -
-như thầu dầu 
+như thầu dầu
 
 đu đưa
 verb
@@ -39212,7 +38701,7 @@ Do the cooking|To do cooking all day : Đun nấu suốt ngày
 đùn
 -
 -
-Push out, push up (from below)|Worms push up earth : Giun đùn đất|Smoke coiled up from the earth : Khói đùn từ mặt đất lên|ass the buck, shift the responsibility (of some hard job)|To shift to another person : Đùn việc khó cho người khác|Shit oneself (of chindren) : cũn nói ỉa đùn 
+Push out, push up (from below)|Worms push up earth : Giun đùn đất|Smoke coiled up from the earth : Khói đùn từ mặt đất lên|ass the buck, shift the responsibility (of some hard job)|To shift to another person : Đùn việc khó cho người khác|Shit oneself (of chindren) : cũn nói ỉa đùn
 
 đụn
 noun
@@ -39342,7 +38831,7 @@ Canthus
 đuôi nheo
 -
 -
-Cờ đuôi nheo| pennon, a pennant
+Cờ đuôi nheo|pennon, a pennant
 
 đuôi sam
 -
@@ -39382,7 +38871,7 @@ to run after
 đuối
 -
 -
-xem cá đuối|oing very badly, very weak|To do very badly in one's studies, to be very weak at learning : Học đuối lắm| little short, not quite the right [weight]|This kilo of oranges is a little short : Cân cam này hơi đuối
+xem cá đuối|oing very badly, very weak|To do very badly in one's studies, to be very weak at learning : Học đuối lắm|little short, not quite the right [weight]|This kilo of oranges is a little short : Cân cam này hơi đuối
 
 đuối hơi
 -
@@ -39603,11 +39092,6 @@ Be at the head of, head|To head a list : Đứng đầu danh sách
 -
 -
 Lounge at treet corners|To lounge at street corners and market-places : Đứng đường đứng chợ|These days, that boy is very badly-behaved, doing nothing but lounging at street corners and market-places : Độ này nó rất hư, chỉ đứng đường đứng chợ suốt ngày
-
-
--
--
-
 
 đứng giá
 -
@@ -39869,11 +39353,6 @@ path of life
 -
 Stately, having a stately brearing|Openly, overtly : Đường đường chính chính|Just do that openly without any secretiveness : Cứ làm việc nơi ấy một cách đường đường chính chính không úp mở
 
-
--
--
-
-
 đường huyền
 -
 -
@@ -40002,7 +39481,7 @@ Feel deeply pained|To feel deeply pained by the sight of death and grief : Thấ
 đứt tay
 verb
 -
-o cut one's finger |Everything has it's day : chơi dao có ngày đứt tay
+o cut one's finger|Everything has it's day : chơi dao có ngày đứt tay
 
 e
 verb
@@ -41029,11 +40508,6 @@ gắng gượng
 -
 Make an unusual effort|Though he was ill, he made an unusual effort to sit up and work on some very importannt business : ốm mà cũng gắn gượng ngồi dậy làm vì có việc rất quan trọng
 
-
--
--
-
-
 gắng sức
 verb
 -
@@ -41047,7 +40521,7 @@ gặng
 gặng hỏi
 -
 -
-như gặng 
+như gặng
 
 gắp
 verb
@@ -41674,11 +41148,6 @@ ghê rợn
 -
 Shudder with horror|To shudder with horror at the sight of death caused by the war : Trông thấy cảnh chết chóc trong kháng chiến mà ghê rợn cả người
 
-
--
--
-
-
 ghê tởm
 adj
 -
@@ -41732,12 +41201,12 @@ Plank bed (made of two or three boards)
 ghế tựa
 -
 -
-như ghế dựa 
+như ghế dựa
 
 ghế xích đu
 -
 -
-như ghế chao 
+như ghế chao
 
 ghếch
 verb
@@ -41787,7 +41256,7 @@ Cite|To cite somebody foe bbravery : Ghi công ai vì dũng cảm
 ghi lòng
 -
 -
-Engrave on one's heart| To engrave forever on one ' s heart  : Ghi lòng tạc dạ 
+Engrave on one's heart|To engrave forever on one ' s heart  : Ghi lòng tạc dạ
 
 ghi nhận
 -
@@ -41867,7 +41336,7 @@ to increase; to ađ
 gia ân
 -
 -
-như gia ơn 
+như gia ơn
 
 gia bảo
 -
@@ -42052,7 +41521,7 @@ Thành gia thất|o get married
 gia thế
 -
 -
-Con nhà gia thế| child of an influential family
+Con nhà gia thế|child of an influential family
 
 gia tiên
 -
@@ -42172,7 +41641,7 @@ Advanced in years, stricken in years
 già mồm
 -
 -
-(cũng nói già họng) Verbosely argumentative | To talk back verbosely  : Già mồm cãi 
+(cũng nói già họng) Verbosely argumentative|To talk back verbosely  : Già mồm cãi
 
 già nua
 -
@@ -42582,7 +42051,7 @@ Giải cấu tương phùng|eet unexpectedly
 giải cứu
 verb
 -
-to save; to rescuse; to deliver
+to save; to rescues; to deliver
 
 giải đáp
 -
@@ -42592,17 +42061,17 @@ Clear up (someone's) queries, answer (someone's) questions|To clear up queries a
 giải độc
 -
 -
-Detoxicate|An antidote, an antipoison : Thuốc giải độc
+Detoxicate|An antidote, an anti-poison : Thuốc giải độc
 
 giải giáp
 -
 -
-lay down one's arms|Would rather die than lay down one''s arms; to perfer death to surrennder : Thà chết không chịu giải giáp
+lay down one's arms|Would rather die than lay down one''s arms; to prefer death to surrender : Thà chết không chịu giải giáp
 
-
+giải hạn
 -
 -
-giải hạn|elieve (someone) of his run of bad luck
+relieve (someone) of his run of bad luck
 
 giải hoà
 -
@@ -43064,10 +42533,10 @@ giản chính
 -
 Streamline a staff by reducing it|To streamline a cumbersome administrative machinery br reducing its staff : Giản chính bộ máy hành chính cồng kềnh
 
-
+giản dị
 adj
 -
-giản dị|easy; simple; plain|The simple life : đời sống giản dị|To simplity : giản dị hóa
+easy; simple; plain|The simple life : đời sống giản dị|To simplity : giản dị hóa
 
 giản dị
 adjective
@@ -43157,7 +42626,7 @@ Perhaps, maybe (Mỹ)|Perhaps because of the rain he could not come : Ông ta kh
 gián thu
 -
 -
-(Thuế gián thu) Indirect taxes 
+(Thuế gián thu) Indirect taxes
 
 gián tiếp
 adj
@@ -43322,7 +42791,7 @@ Straddle
 gianh
 -
 -
-như tranh |Alang grass : Cỏ gianh|A thatched cottage : Nhà gianh
+như tranh|Alang grass : Cỏ gianh|A thatched cottage : Nhà gianh
 
 giành
 verb
@@ -43997,7 +43466,7 @@ Wash (nói khái quát)
 giặt giũ
 -
 -
-như giặt giạ 
+như giặt giạ
 
 giặt là
 -
@@ -44377,7 +43846,7 @@ Flowered letter paper
 giấy in
 noun
 -
-rinting-paper |news-print : giấy in báo
+rinting-paper|news-print : giấy in báo
 
 giấy kẻ ô
 -
@@ -44877,7 +44346,7 @@ brittle; fragide; crispy|As brittle as glass : giòn như thủy tinh
 giòn giã
 -
 -
-như giòn |There are peals of bells : Tiếng chuông giòn giã|esounding|Resounding victories : Chiến thắng giòn giã
+như giòn|There are peals of bells : Tiếng chuông giòn giã|esounding|Resounding victories : Chiến thắng giòn giã
 
 giòn tan
 -
@@ -46374,11 +45843,6 @@ adj
 -
 very harsh, draconian, severe|a severe punishment : một hình phạt hà khắc|dictatorial governments often apply draconian policies to political opposition : các chính phủ độc tài thường áp dụng chính sách hà khắc đối với thành phần chính trị đối lập
 
-
--
--
-
-
 hà khẩu
 -
 -
@@ -46402,7 +45866,7 @@ Hippopatamus
 Hà Nội
 -
 -
-Hà Nội is the political capital of Vietnam. Hà Nội lies in Red River Delta and is situated in a tropical area having a strong monsoon influence. The name of Hà Nội (Interior side of a river) has been+derived from an ancient language which is literally known as a land area located in the inner side of Red River. It does not mean that the city is inside the river, but it is embraced by about 100 km of the Red River dykes. Hà Nội has four inner precincts (Hoàn Kiếm, Ba Đình, Hai Bà Trưng, Đống Đa) and five suburban districts (Từ Liêm, Thanh Trì, Gia Lâm, Đông Anh and Sóc Sơn). From the time when the first State of ancient Vietnam was established, Hà Nội (formerly Thăng+Long) has been considered a sacred and typical part of Vietnam. It was in the autumn of 1010 that Lý Công Ờân (also known as Lý Thái Tổ) - the founder of Nhà Hậu Lý (Post-Ly Dynasty) - removed the court from Hoa Lư (present-day Ninh Bình province) to Đại La Citadel which was later renamed as Thăng Long. As soon as the royal fleet with King Lý Thái Tổ aboard cast anchors at the landing wharf in the Nhị River (present-day Red River), there ascended a golden dragon. Thinking that it was a good omen for his trip, King Lý Thái Tổ had Đại La Citadel renamed Thăng Long (Ascending Dragon). He also had Hoa Lư - his former capital - renamed Trường Yên. 1397 was the year marking an end to the decline of Nhà Hậu Lê (Post-Le Dynasty). It was the time when the king indulged himself in entertainments. Hồ Quý Ly, a high-ranking court+official, overthrew the king and proclaimed himself the king of a new dynasty - Hồ Dynasty. This dynasty removed the court to Tây Đô (Western Capital) in Thanh Hoá province. Thăng Long was then renamed Đông Đô (Eastern Capital). In 1407, the Ming aggressors defeated the army of Hồ Dynasty. They rushed to Đông Đô Citadel and renamed it Đông Quan Citadel. In 1418, a farmer whose name was Lê Lợi (future Lê Thái Tổ) grouped an insurrection army in Lam Sơn district in Thanh Hoá province. He proclaimed himself as Bình Định Vương (King+of Pacification) and led the resistance against the aggressors for 10 years and regained national independence. He entered the then Đông Quan Citadel and the next year, he renamed the citadel as Đông Kinh (Eastern Imperial City). In 1527, when a new dynasty - Nhà Mạc (Mac Dynasty) - was in the control of the country, the citadel resumed its former name (Thăng Long). In 1802, King Gia Long established the first court of Nhà Nguyễn (Nguyễn Dynasty) in Phú Xuân in the central coastal city of Huế. Thăng Long was then used as the regional capital exercising+influence on 11 northern citadels. But the word LONG which literally meant RũNG (Dragon) was changed to 'long' which was understood as 'thịnh' (Prosperity). In 1831, King Minh Mạng established the province of Hà Nội which includes the ancient Thăng Long Citadel and the districts of Từ Liêm, ứng Hoà, Thường Tín and Lý Nhân. In 1888, after the tragic defeat of Nhà Nguyễn (Nguyễn Dynasty), Hà Nội became a colonial city until 1954. Hà Nội capital was liberated from French colonialists on October 10, 1954. After April 30, 1975, Hà Nội was+officially recognized as the capital of Vietnam by the communist goverment. In the old days, each of 36 guild streets in Hà Nội had its+name closely associated with the trade and occupation of the inhabitants Now, Hà Nội has 381 streets representing a tenfold increase as compared with the ancient Hà Nội with 36 guild streets only. These are some tourist attractions of Hà Nội|Chùa một cột (One-pillar Pagoda): Its original name was Diên Hựu (long-lasting happiness and good luck). Legend has it that King Lý Thái Tôn was very old and had no son of his own. Therefore, he often went to pagodas to pray for Buddha's blessing so that he might have a son.+One night, he had a dream that he was granted a private audience with Buddha with a male baby in his hands. Buddha, sitting on a lotus flower in a square-shaped lotus pond in the western side of Thăng Long Citadel,+gave the king the baby. Months later, the queen got pregnant and gave birth to a male child. To repay gift from Buddha, the king ordered the construction of a pagoda which was supported by only one pillar resembling a lotus seat on which Buddha had been seated. The pagoda was dedicated to Buddha|Quốc Tử Giám (Temple of Literature) was built in 1070 as a dedication to the founder of Confucianism. Six years later, Quốc Tử Giám - the first university of Vietnam - was built in the premises of Văn Miếu. Quốc Tử Giám was the first school for princes and children of royal family members. In 1482, King Lê Thánh Tôn ordered+the erection of steles with inscription of all the names, birth dates and birth places of doctors and other excellent graduates who took part in examinations since 1442. Each stela is placed on the back of a turtle representing the nation's longevity. During Nhà Nguyễn (Nguyễn Dynasty), Temple of Literature was moved to Phú Xuân (Huế Royal City)|Chùa Kim Liên (Kim Lien Pagoda): Legend has it that in the 12th century, Princess Tu Hoa, daughter of King Lý Thần Tôn, led her ladies-in-waiting to this area. They cultivated mulberry and silkworms to make silk. Later, a pagoda was built right on the site and by 1771, it was named Kim Liên (Golden Lotus)|Chùa Quán Sứ (Quan Su Pagoda) was built in the 17th century. It is located in the street of the same name. Since 1958, Vietnam Buddhism Association has used this pagoda as its head office|Đền Quan Thánh (Quan Thanh Temple): The three ancient Chinese characters which are still seen today on the top of the entrance to the temple mean Tran Vu Quan. Literally, the temple is dedicated to Saint Tran Vụ Temples are places for worshipping saints while pagodas are dedicated+to Buddha and faithful disciplines. Saint Tran Vu was a legendary figure which was a combination between a legendary character in Vietnam's legend and a mystic character derived from Chinás legend. In Vietnam's legend, he was a saint who had earned the merits of assisting Thục Phán (future King An Dương Vương) in getting rid of ghost spirit during the construction of Cổ Loa Citadel. An Dương Vương Temple in Cổ Loa Citadel (Đông Anh district) is also named Thuong Temple. Inside it, there are An Dương Vu+o+ng's bronze statue (cast in 1897) and a big arbalest symbolizing the magic arbalest in the old days. In Chinás+legend, Saint Tran Vu was a saint who had made many contributions in safeguarding the northern border. Quan Thánh Temple was built during the reign of King Lý Thái Tổ (1010-1028). Special attention should be paid to the black bronze statue of Saint Tran Vụ Another object of no less+significance is a smaller black bronze statue of Old Trong, a chief artisan of the bronze casting team who had made the giant statue of Saint Tran Vu and the great bell on top of the entrance|Đền Hai Bà Trưng (Hai Bà Trưng Temple) is also called Đồng Nhân Temple, because it is located in Đồng Nhân village, Hai Bà Trưng precinct. Built in 1142 under the reign of King Lý Anh Tôn, it is dedicated to the two Vietnamese heroines Trưng Trắc and Trưng Nhị. On+the 5th and 6th days of the lunar second month, there is a grand festival at this temple to commemorate the two national heroines|Hồ Tây (West Lake) & Đường Thanh Niên (Youth Road): Youth Road can be compared to a beautiful bridge spanning across the two large bodies of water - West Lake to the northwest and Trúc Bạch Lake to the southeast. Covering an area of nearly 500 hectares, Hồ Tây was also+called Dam Dam (Misty Pond), Lang Bac (White Waves)....Oral tradition has it that Hồ Tây derived from a low-lying area upturned by a golden buffalo, so the stream derived from Hồ Tây was named Sông Kim Ngưu (Golden Buffalo River). As for Trúc Bạch Lake, legend has it that in the old days, Trúc Bạch Lake was where lived the abandoned ladies-in-waiting who were forced to weave silk. Therefore, beautiful silk was called Trúc Bạch (Silk of the Trúc village). As the biggest lake in the city, Hồ Tây is surrounded by many areas reputed for their traditional occupations: Yên Phụ and Nghi Tàm (silkworm-breeding and silk-weaving villages in the past), Quảng Bá, Nhật Tân (peach-growing village), Bưởi (paper-making village). In Tây Sơn times, Nguyễn Huy Lượng wrote Tụng Tây Hồ Phú (Eulogy for West Lake) so as to highlight the landscapes of the West Lake and Nguyễn Huệ (future Quang Trung)'s glorious merits. Now, Hồ Tây has been earmarked for the city's major+tourism development center|Hồ Hoàn Kiếm (Lake of Restored Sword): The name of this lake is derived from a legend having it that a fisherman named Lê Thân caught a sword blade when drawing the fish-net. Thân decided to offer it to his commanding general Lê Lợi (future Lê Thái Tổ). Afterwards, Lê Lợi found a hilt fitting that blade very well. This sword had always+been on his side during 10 years of resistance against Ming aggressors After winning over the foreign aggression, King Lê Thái Tổ returned to Thăng Long Citadel. One day, aboard a royal boat, he took a cruise in the Lục Thủy lake. Suddenly, a giant turtle emerged and came towards him.+The king withdrew his sword, and pinpointed with the sword the direction of the coming turtle for his soldiers' attention. All of a sudden, the turtle caught the sword between its teeth from the king's hand and submerged. The king thought that during the resistance against Ming aggressors, the genius had offered him this sword to help him defeat the enemy. At that time, the peace was returning, and the genius appeared to take back the sword. Consequently, King Lê Thái Tổ decided to name the Luc Thuy lake Hồ Hoàn Kiếm (Lake of Restored Sword). In the middle of the lake is Tháp Rùa (Turtle Tower). The lake abounds in big turtles+aged five or six hundred. When there are the changes in weather, they often emerge or expose themselves at the foot of the Turtle Temple|Đền Ngọc Sơn (Ngoc Son Temple): Initially, the temple was called Ngọc Sơn Pagoda. Later, it was renamed as Ngọc Sơn Temple, because it+was dedicated to the saints. Saint Van Xuong was a person considered the brightest star in Vietnam's literature and intellectual circles. Trần Hưng Đạo was worshipped because he was the national hero who led the Vietnamese people to a resounding victory over the Mongol aggression. The temple as it is seen today was attributable to the restoration efforts of Nguyễn Văn Siêu, a great Hanoian writer. He had a large pen-shaped tower (Tháp Bút) built at the entrance to the temple. On the upper section of Tháp Bút, there are three Chinese characters Tả Thanh Thiên which mean literally that to write on the blue sky is to imply the height of a genuine and righteous person's determination and will. Behind Tháp Bút is Đài Nghiên (Ink Stand). The Ink Stand is carved from stone resembling a peach, which is placed on the back of three frogs on top of the gate to the temple. Passing through Đài Nghiên, visitors will tread on the wooden bridge called Thê Húc. Thê Húc is literally understood+as the place where beams of morning sunshine are touching|NGHI TÀM: A VILLAGE OF FLOWERS? Once upon a time, the King of Nhà Hậu Lý decided to build a palace for Princess Từ Hoa in a village near Thăng Long so that she could spend+her time farming silk cocoons on the large mulberry fields. The village was Nghi Tàm, a name now famous throughout the country for the flowers grown here. Nghi Tàm flowers in fact add to the beauty of Hồ Tây or the West Lake area in present-day Hà Nội. It is said that Nhà Hậu Lý in Vietnam was not only famous for its glorious victories in defence+of the country against foreign invaders. It paid much attention to the development of agriculture and handicrafts. For long, the village of Tằm (or the village of silk cocoons) had been known for its handlooms. The story of this village goes as follows: Initially, there were only three basic kinds of trees grown here, ịẹ the peach, kumquat and chrysanthemum. Peach trees and their spring blossom have brought fame to this village. Originally, the cultivation of peach started in the village of Tằm, then spread to Nhật Tân. Young peach trees are carefully tended and allowed to blossom only on the Lunar New Year's Eve. Hanoians take the utmost care in the selection of their New Year branch of peach From the size to the form of the branch and the design of the pot, every tiny detail must be in harmony with the sentiment or philosophy that one wishes to express, in addition to matching with the interior decoration of the house. Kumquat is another species that spread from Tằm village to Tây Hồ. During tết, most families in Hà Nội, and now throughout the country, have their kumquat trees inside the home. Kumquat is used by Vietnamese to symbolise "talents" and "wealth" for the family White apricot blossoms called "Bạch mai" in Vietnamese are yet another scene-stealer in Nghi Tàm. The villagers of Nghi Tàm consider an apricot blossom as beautiful only when it has six white soft petals on a green calyx. They must resemble the swallow's wings in the spring days. There is also a kind of green apricot which is rare and valuable. Then there is "Song mai" or "Double apricot" since each flower gives two fruits. The apricot branch should be able to incorporate the spirit. After the flowering season, the branch starts to give fruit which are washed and put in a ceramic cask to prepare apricot wine for the following New Year's festival. Narcissus of various kinds are also cultivated in Nghi Tàm. The people here know the secret of making these flowers bloom at the required time as on New Year's Eve or on the wedding day etc. Each narcissus pot should have about 20-30 flowers blooming to the right degree to express the virginity of the bride. Along with these species of flowers, Nghi Tàm is also known for the chrysanthemum and camelia species it grows. But the concern now is that with the rapid urbanisation of the locality, will it continue to preserve this beautiful tradition?
+Hà Nội is the political capital of Vietnam. Hà Nội lies in Red River Delta and is situated in a tropical area having a strong monsoon influence
 
 hà tằn hà tiện
 -
@@ -47879,11 +47343,6 @@ adj
 -
 vain; emply|fantastic dreams : hão huyền fantastic mơ mộng hão huyền
 
-
--
--
-
-
 hão huyền
 -
 -
@@ -48002,7 +47461,7 @@ Good and bad, good or bad|Please give me your view whether it is good or bad : H
 hay đâu
 -
 -
-Do not expect| he though he+would surely fail and did not expect to pass : Tưởng trượt mười mươi, hay đâu lại đỗ 
+Do not expect|he though he+would surely fail and did not expect to pass : Tưởng trượt mười mươi, hay đâu lại đỗ
 
 hay hay
 -
@@ -48217,7 +47676,7 @@ hăng máu
 hăng say
 -
 -
-Be engrossed in, be utterly dedicated to |To be engrossed in scientific research : Hăng say nghiên cứu khoa học|To be utterly dedicated to one's work : Hăng say công tác
+Be engrossed in, be utterly dedicated to|To be engrossed in scientific research : Hăng say nghiên cứu khoa học|To be utterly dedicated to one's work : Hăng say công tác
 
 hăng tiết
 -
@@ -48812,7 +48271,7 @@ Try collectively tọ|They tried collectivelly to push the cart up the slope : H
 hé
 -
 -
-Open slightly|To open a door slightly : hé cửa|To open one's lips slightly : Hé môi|reak|The clouds broke and the sun came out : Mây hé ra và mặt trời lộ rõ| Dawn (the day) was breaking : Trời hé sáng 
+Open slightly|To open a door slightly : hé cửa|To open one's lips slightly : Hé môi|reak|The clouds broke and the sun came out : Mây hé ra và mặt trời lộ rõ|Dawn (the day) was breaking : Trời hé sáng
 
 hé môi
 verb
@@ -49347,12 +48806,12 @@ Be beside oneself with joy|The little boy was beside himself with joy, having be
 hí kịch
 -
 -
-Play, drame 
+Play, drame
 
 hí viện
 noun
 -
-theater; theatre|(từ cũ; nghĩa cũ) place of entertainment, playhouse||(từ cũ; nghĩa cũ) playhouse
+theater; theatre|(từ cũ; nghĩa cũ) place of entertainment, playhouse|(từ cũ; nghĩa cũ) playhouse
 
 hia
 noun
@@ -51694,11 +51153,6 @@ học hỏi
 -
 Investigate, inquire, learn|To have an inquiring mind : Có tinh thần học hỏi|One must patiently investigate if one is to reach peaks of science : Phải kiên trì học hỏi thì mới đạt được những đỉnh cao của khoa học
 
-
--
--
-
-
 học khóa
 -
 -
@@ -51877,12 +51331,7 @@ Assail (ply) (somebody) with questions
 hỏi gạn
 -
 -
-Questions closed but gently|=Hỏi gạn mãi thằng bé nó mới thú nhận đã bỏ học đi chơi  : Hỏi gạn mãi thằng bé nó mới thú nhận đã bỏ học đi chơi 
-
-
--
--
-nly after many close and gentle questionns did the little boy admitted that he had played truant
+Questions closed but gently|Hỏi gạn mãi thằng bé nó mới thú nhận đã bỏ học đi chơi : only after many close and gentle questions did the little boy admitted that he had played truant
 
 hỏi han
 verb
@@ -51892,12 +51341,12 @@ to inquire after, to ask after
 hỏi nhỏ
 -
 -
-Ask privately, ask under one's breath|To ask privately one's friend to lennd one his bivcycle : Hỏi nhỏ bạn mượn cái xe đạp
+Ask privately, ask under one's breath|To ask privately one's friend to lend one his bicycle : Hỏi nhỏ bạn mượn cái xe đạp
 
 hỏi thăm
 -
 -
-Ask after, inquire affter|To inquire after one's friend's family : Hỏi thăm gia đình bạn|sk for, inquire about|To ask [for] one's way : Hỏi thăm đường đi
+Ask after, inquire after inquire after one's friend's family : Hỏi thăm gia đình bạn|sk for, inquire about|To ask [for] one's way : Hỏi thăm đường đi
 
 hỏi thi
 -
@@ -52519,10 +51968,10 @@ hồi dương
 -
 Resuscitative, having a resuscitative virtue (nói về phương thuốc)
 
-
+Hồi giáo
 -
 -
-Hồi giáo|ohammedanism, Islam|An Islam temple, a mosque : Nhà thờ Hồi giáo
+mohammedanism, Islam|An Islam temple, a mosque : Nhà thờ Hồi giáo
 
 hồi giáo
 noun
@@ -52669,15 +52118,10 @@ hối cải
 -
 Show repentance and desire to redeem one's faults|To lenient to those who show repentance and desire to redeem their faults : Khoan dung đối với người biết hối cải
 
-
-noun
--
-hối đoái|exchange|Foreign exchange office : sở hối đoái
-
 hối đoái
 noun
 -
-xchange|Foreign exchange office : sở hối đoái
+exchange|Foreign exchange office : sở hối đoái
 
 hối hả
 -
@@ -53468,11 +52912,6 @@ hơn nữa
 -
 -
 Moreover|He is a reasonable man, moreover he often likes to do others a good turn : Anh ấy là người biết điều, hơn nữa lại hay giúp đỡ người khác
-
-
--
--
-
 
 hơn thế nữa
 -
@@ -54902,12 +54341,12 @@ Sunflower, turnsole|Sunflower oil : Dầu hướng dương
 hướng đạo
 -
 -
-(ít dùng) Guide, show the way 
+(ít dùng) Guide, show the way
 
 hướng đạo sinh
 -
 -
-Boy scout 
+Boy scout
 
 hướng động
 -
@@ -54972,7 +54411,7 @@ to truce
 hưu non
 -
 -
-Retire before one's time 
+Retire before one's time
 
 hưu thẩm
 -
@@ -54997,7 +54436,7 @@ Lòng hữu ái|raternity, affection between friends
 hữu biên
 -
 -
-=Outside right (bóng ddá)  : Outside right (bóng ddá) 
+=Outside right (bóng ddá)  : Outside right (bóng ddá)
 
 hữu cơ
 noun
@@ -55197,7 +54636,7 @@ Motherwort (cây)
 ịch
 -
 -
-Thud|The coconut fell with a thud on the ground : Quả dừa rơi ịch một cái xuống đất|Chug|The engine chugged on : Tiếng máy chạy ình ịch|ình ịch (láy, ý liên tiếp) 
+Thud|The coconut fell with a thud on the ground : Quả dừa rơi ịch một cái xuống đất|Chug|The engine chugged on : Tiếng máy chạy ình ịch|ình ịch (láy, ý liên tiếp)
 
 im
 adj
@@ -55697,7 +55136,7 @@ horn|to blow one's horn bugle; trumplet; clarion : bóp kèo
 kèo cò
 -
 -
-(cũng nói kèo nèo) Importune |If it suits you, then by it and don't importune the dealer any longer : Có thích thì mua đừng kèo cò mãi|with bargaining)
+(cũng nói kèo nèo) Importune|If it suits you, then by it and don't importune the dealer any longer : Có thích thì mua đừng kèo cò mãi|with bargaining)
 
 kèo kẹo
 -
@@ -55932,7 +55371,7 @@ Take over someone's job|eplace somebody, succeed someone|To look for a replaceme
 kế đến
 -
 -
-Immediately after, after that 
+Immediately after, after that
 
 kế hoạch
 verb
@@ -56389,11 +55828,6 @@ khác biệt
 -
 Different (in some respects)|The two view-points are similar but still different in many details : Hai quan điểm tuy giống nhau nhưng còn khác biệt nhau về nhiều chi tiết
 
-
--
--
-
-
 khác chi
 -
 -
@@ -56677,7 +56111,7 @@ Cough up blood
 khái luận
 -
 -
-Outline 
+Outline
 
 khái niệm
 noun
@@ -57127,7 +56561,7 @@ Opium-tray, opium-set
 khảy
 -
 -
-(địa phương) như gảy |To pluck the strings of a mandolin : Khảy đàn măng đô lin
+(địa phương) như gảy|To pluck the strings of a mandolin : Khảy đàn măng đô lin
 
 kháy
 -
@@ -58099,11 +57533,6 @@ khía cạnh
 -
 Angle|To consider every angle of problem before putting forward a solution : Xem xét mọi khía cạnh của một vấn đề trước khi đề ra một giải pháp
 
-
--
--
-
-
 khích
 -
 -
@@ -58537,7 +57966,7 @@ Incredible
 khó tính
 -
 -
-Fastidious, hard to please, cross-grained|To be fastidious about one's clothing : Khó tính về ăn mặc| (khẩu ngữ) như khó tính : khó tính khó nết
+Fastidious, hard to please, cross-grained|To be fastidious about one's clothing : Khó tính về ăn mặc|(khẩu ngữ) như khó tính : khó tính khó nết
 
 khó trôi
 -
@@ -58737,7 +58166,7 @@ potato
 khoai từ
 -
 -
-Edible yam 
+Edible yam
 
 khoai vạc
 -
@@ -58802,7 +58231,7 @@ khoan hậu
 khoan hoà
 -
 -
-Generous and kind 
+Generous and kind
 
 khoan hồng
 verb
@@ -59027,17 +58456,12 @@ Be a professional mourner, be a weepper
 khóc than
 -
 -
-Lament, Bewail |To bewail one's lot : Khóc than số phận
+Lament, Bewail|To bewail one's lot : Khóc than số phận
 
 khóc thầm
 -
 -
-Cry one's heart out.|="Người ngoài cười nụ người trong khóc thầm " (Nguyễn Du) : "Người ngoài cười nụ người trong khóc thầm " (Nguyễn Du)
-
-
--
--
-he outsider smiled a disc reet satisfied smile while the insider criesd her heart out
+Cry one's heart out.|"Người ngoài cười nụ người trong khóc thầm " (Nguyễn Du) : the outsider smiled a discreet satisfied smile while the insider cries her heart out
 
 khoe
 verb
@@ -59052,7 +58476,7 @@ Boast, brag, show off|To show off one's culture : Khoe khoang chữ nghĩa
 khoe mẽ
 -
 -
-Show off 
+Show off
 
 khỏe
 -
@@ -59072,7 +58496,7 @@ trong bodied; healthy
 khoé
 -
 -
-(cũ,văn chương) Corner, angle, canthus|Corner of the eye, canthus  : Khoé mắt|rick |To pull all tricks and deceive : Giở mọi khoé để lừa bịp
+(cũ,văn chương) Corner, angle, canthus|Corner of the eye, canthus  : Khoé mắt|rick|To pull all tricks and deceive : Giở mọi khoé để lừa bịp
 
 khóe
 noun
@@ -59107,7 +58531,7 @@ to bow; to bend
 khom khom
 -
 -
-xem khom (láy) 
+xem khom (láy)
 
 khom khòm
 -
@@ -59142,7 +58566,7 @@ Dried up, affectedby drought|The fields were dry after many weeks of drought : H
 khô cằn
 -
 -
-Arid, Barren (nói về đất) 
+Arid, Barren (nói về đất)
 
 khô đét
 -
@@ -59167,7 +58591,7 @@ Dry|The roads are dry and very passable : Đường khô ráo rồi rất dễ �
 khô khóc
 -
 -
-Very dry 
+Very dry
 
 khô mực
 noun
@@ -59182,17 +58606,12 @@ unhappy; miserable|width; size
 khổ chủ
 -
 -
-(cũ) Victim (of a calamitỵ..)|After the blaze, the victims were given wholehearted help. : Sau cơn hoả hoạn khổ chủ đã được đồng bào hết sức giúp đỡ
-
-
--
--
-thông tục) Host, person who throws a party, person who stands treat|Today out host stands treat for twelve people  : Hôm nay khổ chủ thết đến mười hai người
+(cũ) Victim (of a calamitỵ..)|After the blaze, the victims were given wholehearted help. : Sau cơn hoả hoạn khổ chủ đã được đồng bào hết sức giúp đỡ|(thông tục) Host, person who throws a party, person who stands treat|Today out host stands treat for twelve people  : Hôm nay khổ chủ thết đến mười hai người
 
 khổ công
 -
 -
-Take great pains, work hard 
+Take great pains, work hard
 
 khổ cực
 -
@@ -59207,7 +58626,7 @@ vorvee, piece of hard labour
 khổ độc
 -
 -
-Hard to recite, tomguetwisting (nói về câu thơ) 
+Hard to recite, tomguetwisting (nói về câu thơ)
 
 khổ hạnh
 adj
@@ -59377,7 +58796,7 @@ cute; clever|a clever person : một kẻ khôn khéo
 khôn lẽ
 -
 -
-Impossible|="Chim lồng khôn lẽ cất mình bay cao " (Nguyễn Du) : "Chim lồng khôn lẽ cất mình bay cao " (Nguyễn Du)|t is impossible for a bird in cage to soar up in the air 
+Impossible|="Chim lồng khôn lẽ cất mình bay cao " (Nguyễn Du) : "Chim lồng khôn lẽ cất mình bay cao " (Nguyễn Du)|t is impossible for a bird in cage to soar up in the air
 
 khôn lớn
 -
@@ -59412,7 +58831,7 @@ Destitute|To be reduced to destitution : Gặp cảnh ngộ khốn cùng
 khốn cực
 -
 -
-(ít dùng) Utterly destitute 
+(ít dùng) Utterly destitute
 
 khốn đốn
 -
@@ -59592,7 +59011,7 @@ mpossible; unable|I'm unable to help you : tôi không thể giúp anh được
 không trung
 -
 -
-Air 
+Air
 
 không tưởng
 -
@@ -60112,7 +59531,7 @@ khuôn thiêng
 khuôn trăng
 -
 -
-(cũ,văn chương) Fair face|="Khuôn trăng đầy đặn " (Nguyễn Du) : "Khuôn trăng đầy đặn " (Nguyễn Du)| fair plump face
+(cũ,văn chương) Fair face|="Khuôn trăng đầy đặn " (Nguyễn Du) : "Khuôn trăng đầy đặn " (Nguyễn Du)|fair plump face
 
 khuôn xanh
 -
@@ -60227,7 +59646,7 @@ o recommend|recommendation : lời khuyến cáo
 khuyến dụ
 -
 -
-(cũ) Give recommen-dation, advise 
+(cũ) Give recommen-dation, advise
 
 khuyến học
 -
@@ -60247,7 +59666,7 @@ Recommend, give recommendations
 khuyến nông
 -
 -
-(cũ) Encourage agriculture 
+(cũ) Encourage agriculture
 
 khuyến thiện
 -
@@ -60277,7 +59696,7 @@ Defect; flaw|A gem with many flaws in it  : Viên ngọc có nhiều khuyết t�
 khuyết tịch
 -
 -
-(luật) Default |Judgment by default : Xử khuyết tịch
+(luật) Default|Judgment by default : Xử khuyết tịch
 
 khuynh
 adj
@@ -60462,7 +59881,7 @@ Run down, disparage|They dislike and disparage each other continously : Họ gh�
 kích cỡ
 -
 -
-Dimention; size 
+Dimention; size
 
 kích dục
 -
@@ -60567,7 +59986,7 @@ Scene
 kịch vui
 -
 -
-Comedy 
+Comedy
 
 kiêm
 verb
@@ -60697,17 +60116,12 @@ Criticize, self-criticize|To write one's self-criticisms (for some mistake commi
 kiểm tra
 -
 -
-Inspect|=Đi kiểm tra việc thực hiện chính sách mới về nông nghiệp : Đi kiểm tra việc thực hiện chính sách mới về nông nghiệp
-
-
--
--
-o go on an inspection tour about the implementation of the new agricultural policy|ontrol, check|Please check these figures : Làm ơn kiểm tra lại những con số này
+Inspect|=Đi kiểm tra việc thực hiện chính sách mới về nông nghiệp : Đi kiểm tra việc thực hiện chính sách mới về nông nghiệp|go on an inspection tour about the implementation of the new agricultural policy|ontrol, check|Please check these figures : Làm ơn kiểm tra lại những con số này
 
 kiếm
 noun, verb
 -
-sword|to search for; to clook for; to find
+sword|to search for; to look for; to find
 
 kiếm ăn
 -
@@ -60717,7 +60131,7 @@ Look for a living, look for a means of livelihood|=Search for food (nói về đ
 kiếm chác
 -
 -
-Live by one;s wits, make small profits by dishonest tricks|contraband : Kiếm chác bằng cách buôn lậưTo live by one's wits with
+Live by one's wits, make small profits by dishonest tricks|contraband : Kiếm chác bằng cách buôn lậu|To live by one's wits with
 
 kiếm chuyện
 -
@@ -60807,7 +60221,7 @@ kiên tâm
 kiên tín
 -
 -
-(tôn giáo) Pietist |Pietism : Thuyết kiên tín
+(tôn giáo) Pietist|Pietism : Thuyết kiên tín
 
 kiên trì
 -
@@ -61112,7 +60526,7 @@ kiều nhi
 kiều nương
 -
 -
-(cũ) Fair, fair lady, fair damsel 
+(cũ) Fair, fair lady, fair damsel
 
 kiểu
 noun
@@ -61187,7 +60601,7 @@ kim cải
 kim chỉ
 -
 -
-Sewing work, stitching work 
+Sewing work, stitching work
 
 kim chỉ nam
 -
@@ -61197,7 +60611,7 @@ Magnetic needle.|bóng)Lodestar
 kim cổ
 -
 -
-The present and the past 
+The present and the past
 
 kim cúc
 -
@@ -61207,7 +60621,7 @@ Indian chrysanthemum
 kim cương
 -
 -
-Diamond |A diamond ring : Cái nhẫn kim cương
+Diamond|A diamond ring : Cái nhẫn kim cương
 
 kim đan
 -
@@ -61222,7 +60636,7 @@ Fairy's page. child|Children's books : Sách kim đồng
 kim găm
 -
 -
-Pin 
+Pin
 
 kim hoàn
 -
@@ -61242,7 +60656,7 @@ metalware, hardware
 kim lan
 -
 -
-(cũ) close friend 
+(cũ) close friend
 
 kim loại
 noun
@@ -61302,7 +60716,7 @@ kim phong
 kim thoa
 -
 -
-gold hairpin 
+gold hairpin
 
 kim thuộc
 -
@@ -61352,7 +60766,7 @@ Very tight|To shut one 's windows very tight : Đóng cửa sổ kín mít
 kín tiếng
 -
 -
-Keep mum about where one is 
+Keep mum about where one is
 
 kinh
 noun
@@ -61362,7 +60776,7 @@ prayer; prayer-book; the bible canal
 kinh bổn
 -
 -
-(tôn giáo) Liturgical books 
+(tôn giáo) Liturgical books
 
 kinh cụ
 -
@@ -61457,7 +60871,7 @@ menses; periods
 kinh nhật tụng
 -
 -
-(tôn giáo) Office |To say office  : Đọc kinh nhật tụng
+(tôn giáo) Office|To say office  : Đọc kinh nhật tụng
 
 kinh niên
 -
@@ -61477,7 +60891,7 @@ Epileptic convulsion
 kinh qua
 -
 -
-Undergo 
+Undergo
 
 kinh quyền
 -
@@ -64192,7 +63606,7 @@ to look over
 lịch sử
 noun, Thời Cận Đại (Modern times)+, Thời Hiện Đại (Present times)
 -
-History|Vietnam's history from an early age is a national history characterised by uninterrupted struggles against foreign invaders. The Northern Kingdom's Domination lasted one thousand years. This was one of the fiercest trials and periods of hardship in Vietnam's history of national development of the different tribal peoples inhabiting Vietnamese soil. However, the Viet people managed to maintain their particular cultural identity. Such revolts which were led by Hai Bà Trưng (the two Trung ladies), Bà Triệu (Lady Trieu), and Lý Nam Đế and especially the historic victory at the Bạch Đằng river in 938, under the leadership of Ngô Quyền which finally led the Vietnamese people to a complete victory and they regained their national independence. National Construction and Defence for National Independence lasted about one thousand years (from the early 10th Century to the middle of the 19th Century). This period also witnessed several fierce struggles launched by the Vietnamese people against the northern aggressors. The wars of resistance included the battle against the Tống army in the 11th century, three separate wars against the invading Mongol army in the 13rd century, and the resistance against the Minh army in the 14th century. In the late 17th century, the Vietnamese feudal nation was faced with a social and economic crisis that led to an annexation of the country into two parts. However, the victory of the Tây Sơn revolt at the close of the 18th century reunified the country. In the first half of the 19th century, the Nguyễn dynasty continued to consolidate national unification. Yet, a prevailing conservative attitude among Nguyễn dynasty court officials allowed the country to drift into a period of stagnation and Vietnam eventually became a French colony. At present, the Vietnamese people are trying to develop their national economy in a very difficult situation mostly due to the dictatorship of the Vietnamese communist goverment. Now, let's have a chronological summary on Vietnamese history:|In the ancient times, Red River Civilization succeeded the native prehistoric cultures. At its apogee, the ancient Viet people's first nations (Văn Lang, Âu Lạc) appeared|Thời Bắc Thuộc (Period of Chinese domination) lasted 1117 years between 179BC and 938|Các quốc gia phong kiến độc lập (Independent feudal nations)| :  Nhà Ngô (Ngô Dynasty)| :  Nhà Đinh (Đinh Dynasty)| :  Nhà Tiền Lê (Pre-Lê Dynasty)| :  Nhà Hậu Lý (Post-Lý Dynasty)| :  Nhà Trần (Trần Dynasty)| :  Nhà Hậu Trần (Post-Trần Dynasty)| :  Nhà Hậu Lê (Post-Lê Dynasty)| :  Nhà Mạc (Mạc Dynasty)| :  Trịnh-Nguyễn Phân Tranh (Trịnh-Nguyễn conflicts)| :  Nhà Tây Sơn (Tây Sơn Dynasty)| :  Nhà Nguyễn (Nguyễn Dynasty)|Incontestably, Phong Trào Yêu Nước (Patriotic movements) always feature the heroic Vietnamese history. To have an overview of the Vietnamese culture, see also Các Nền Văn Hoá Ỗ Việt Nam |Restoration of cultural and historical monuments in Vietnam: Vietnam has 979 classified national monuments relics including 497 historical monuments, 440 ancient architectures (pagodas, temples and communal houses), 30 scenic places and 12 archaeological sites. Thirty years of war have inflicted serious damage on these monuments. Some have been almost completely destroyed like the old citadel at Quảng Trị in Central Vietnam. Others were heavily damaged such as many temples, pagodas, churches and other places of worship in northern Vietnam Nature has also taken its toll. Conservation work has been compounded by growing appropriation of public lands by people for house construction, especially in the towns The government has taken positive steps in recent years to restore some of the most significant historical relies like the old capital in Huế, central Vietnam, Cổ Loa Citadel, the first capital of Vietnam, the ancient capital of Hoa Lư in Nam Hà province, or the temples of the Hùng Kings, founders of the Vietnamese nation nearly 4,000 years ago. Conservationists are all interested in preserving original features. They have received helpful assistance in expertise from many countries, like Poland's assistance in the restoration of Chăm towers in Central Vietnam, assistance from UNESCO and Japan in the restoration of old Huế and Hội An and German assistance in the restoration of Bút Tháp Pagoda in Hà Bắc provincẹOne major problem is the destruction caused by termites to iron-wood pillars in temples and pagodas. Vietnamese restorers have found a solution by drawing upon the experience of builders in the past. A common method is either to fill hollowed-out pillars with concrete or to replace them with new ones. But both have their drawbacks. In the first case, the concrete would detach from the wood within a few years. In the latter case, the cost involved and the risk of collapse during the replacement would be high.To solve the problem, Vietnamese restorers have combined the use of traditional termite killers with the spraying of chemicals into the infested pillars. That would both kill the insects and prevent the growth of fungi. They can gnaw away each year from 0.2mm to.5mm of wood. But what is more damaging is that the humid secretion they leave on the surface will create the necessary environment for the development of fungi. This damage can be best seen at Keo Pagoda in Thái Bình province, 100 km southeast of Hà Nội, where several hundred iron-wood pillars have been virtually eaten up.=Recent years in Hà Nội have seen the restoration of many pagodas and temples thanks to contributions in money and manpower from the population Since 1991, the local authorities have spent dozens of millions of dong on repairing the Temple of Literature, the first national university where 82 stone stelas can be found on which the names of 1,234 laureates of successive examinations in the feudal times are recorded. Cost of the whole project is estimated at 12 billion dong, or about 1 million dollars.Work is also going on for the renovation of ancient constructions on and around the Gươm Lake in the centre of the capital city
+History|Vietnam's history from an early age is a national history characterised by uninterrupted struggles against foreign invaders. The Northern Kingdom's Domination lasted one thousand years. This was one of the fiercest trials and periods of hardship in Vietnam's history of national development of the different tribal peoples inhabiting Vietnamese soil. However, the Viet people managed to maintain their particular cultural identity. Such revolts which were led by Hai Bà Trưng (the two Trung ladies), Bà Triệu (Lady Trieu), and Lý Nam Đế and especially the historic victory at the Bạch Đằng river in 938, under the leadership of Ngô Quyền which finally led the Vietnamese people to a complete victory and they regained their national independence. National Construction and Defence for National Independence lasted about one thousand years (from the early 10th Century to the middle of the 19th Century). This period also witnessed several fierce struggles launched by the Vietnamese people against the northern aggressors. The wars of resistance included the battle against the Tống army in the 11th century, three separate wars against the invading Mongol army in the 13rd century, and the resistance against the Minh army in the 14th century. In the late 17th century, the Vietnamese feudal nation was faced with a social and economic crisis that led to an annexation of the country into two parts. However, the victory of the Tây Sơn revolt at the close of the 18th century reunified the country. In the first half of the 19th century, the Nguyễn dynasty continued to consolidate national unification. Yet, a prevailing conservative attitude among Nguyễn dynasty court officials allowed the country to drift into a period of stagnation and Vietnam eventually became a French colony. At present, the Vietnamese people are trying to develop their national economy in a very difficult situation mostly due to the dictatorship of the Vietnamese communist goverment. Now, let's have a chronological summary on Vietnamese history:|In the ancient times, Red River Civilization succeeded the native prehistoric cultures. At its apogee, the ancient Viet people's first nations (Văn Lang, Âu Lạc) appeared|Thời Bắc Thuộc (Period of Chinese domination) lasted 1117 years between 179BC and 938|Các quốc gia phong kiến độc lập (Independent feudal nations)|:  Nhà Ngô (Ngô Dynasty)|:  Nhà Đinh (Đinh Dynasty)|:  Nhà Tiền Lê (Pre-Lê Dynasty)|:  Nhà Hậu Lý (Post-Lý Dynasty)|:  Nhà Trần (Trần Dynasty)|:  Nhà Hậu Trần (Post-Trần Dynasty)|:  Nhà Hậu Lê (Post-Lê Dynasty)|:  Nhà Mạc (Mạc Dynasty)|:  Trịnh-Nguyễn Phân Tranh (Trịnh-Nguyễn conflicts)|:  Nhà Tây Sơn (Tây Sơn Dynasty)|:  Nhà Nguyễn (Nguyễn Dynasty)|Incontestably, Phong Trào Yêu Nước (Patriotic movements) always feature the heroic Vietnamese history. To have an overview of the Vietnamese culture, see also Các Nền Văn Hoá Ỗ Việt Nam|Restoration of cultural and historical monuments in Vietnam: Vietnam has 979 classified national monuments relics including 497 historical monuments, 440 ancient architectures (pagodas, temples and communal houses), 30 scenic places and 12 archaeological sites. Thirty years of war have inflicted serious damage on these monuments. Some have been almost completely destroyed like the old citadel at Quảng Trị in Central Vietnam. Others were heavily damaged such as many temples, pagodas, churches and other places of worship in northern Vietnam Nature has also taken its toll. Conservation work has been compounded by growing appropriation of public lands by people for house construction, especially in the towns The government has taken positive steps in recent years to restore some of the most significant historical relies like the old capital in Huế, central Vietnam, Cổ Loa Citadel, the first capital of Vietnam, the ancient capital of Hoa Lư in Nam Hà province, or the temples of the Hùng Kings, founders of the Vietnamese nation nearly 4,000 years ago. Conservationists are all interested in preserving original features. They have received helpful assistance in expertise from many countries, like Poland's assistance in the restoration of Chăm towers in Central Vietnam, assistance from UNESCO and Japan in the restoration of old Huế and Hội An and German assistance in the restoration of Bút Tháp Pagoda in Hà Bắc provincẹOne major problem is the destruction caused by termites to iron-wood pillars in temples and pagodas. Vietnamese restorers have found a solution by drawing upon the experience of builders in the past. A common method is either to fill hollowed-out pillars with concrete or to replace them with new ones. But both have their drawbacks. In the first case, the concrete would detach from the wood within a few years. In the latter case, the cost involved and the risk of collapse during the replacement would be high.To solve the problem, Vietnamese restorers have combined the use of traditional termite killers with the spraying of chemicals into the infested pillars. That would both kill the insects and prevent the growth of fungi. They can gnaw away each year from 0.2mm to.5mm of wood. But what is more damaging is that the humid secretion they leave on the surface will create the necessary environment for the development of fungi. This damage can be best seen at Keo Pagoda in Thái Bình province, 100 km southeast of Hà Nội, where several hundred iron-wood pillars have been virtually eaten up.=Recent years in Hà Nội have seen the restoration of many pagodas and temples thanks to contributions in money and manpower from the population Since 1991, the local authorities have spent dozens of millions of dong on repairing the Temple of Literature, the first national university where 82 stone stelas can be found on which the names of 1,234 laureates of successive examinations in the feudal times are recorded. Cost of the whole project is estimated at 12 billion dong, or about 1 million dollars.Work is also going on for the renovation of ancient constructions on and around the Gươm Lake in the centre of the capital city
 
 lịch sự
 adj
@@ -65444,7 +64858,7 @@ lục xì
 -
 (từ cũ; nghĩa cũ) Prostitues' medical service (thời thuộc pháp)
 
- lui
+lui
 noun, verb
 -
 to move back; to fall back|to fall back a paco. to abate : lui lại một bước|the fit of malaria has abated. to retire : cơn sốt rét đã lui|to retired to one's room : lui về phòng
@@ -65682,7 +65096,7 @@ Drum rolls
 lủng
 -
 -
-(xem) thủng 
+(xem) thủng
 
 lủng cà lủng củng
 -
@@ -66079,7 +65493,7 @@ noun
 -
 fire|to catch fire : bốc lửa|dead fire : lửa tắt
 
- lửa binh
+lửa binh
 -
 -
 từ cũ; nghĩa cũ) Fine and sword, war, warfare
@@ -66612,7 +66026,7 @@ như lương cư
 lưỡng tiện
 -
 -
-Convenient both ways| To kill two birds with one stone : Nhất cử lưỡng tiện 
+Convenient both ways|To kill two birds with one stone : Nhất cử lưỡng tiện
 
 lưỡng tính
 -
@@ -67102,7 +66516,7 @@ mmediately
 má
 noun, noun, noun
 -
-mother ; mama; mama|centella|cheek |dimpled cheek  : má lúm đồng tiền|chuboby : má bánh đúc
+mother ; mama; mama|centella|cheek|dimpled cheek  : má lúm đồng tiền|chuboby : má bánh đúc
 
 má đào
 adj
@@ -67112,7 +66526,7 @@ fair
 mạ
 noun, verb
 -
-rise seeding |to sow rice seeds : gieo mạ|to plate|silver-plated : mạ bạc
+rise seeding|to sow rice seeds : gieo mạ|to plate|silver-plated : mạ bạc
 
 mạ bạc
 adjective
@@ -67347,7 +66761,7 @@ python
 máng
 verb, noun
 -
-to hang up|spout; gutter |water-spout : máng xối
+to hang up|spout; gutter|water-spout : máng xối
 
 mạng
 verb
@@ -67717,7 +67131,7 @@ front; battle front
 mâm
 noun
 -
-tray; salver; waiter |copper tray : mâm đồng
+tray; salver; waiter|copper tray : mâm đồng
 
 mầm
 noun
@@ -68042,7 +67456,7 @@ vast; immense; spacious|The spacious seas : biển mênh mông
 mệt
 adj
 -
-tired; fatigued; weary |tired to death : mệt đừ
+tired; fatigued; weary|tired to death : mệt đừ
 
 mệt mỏi
 adj
@@ -68342,7 +67756,7 @@ to teeth; to grow teeth
 mọc sừng
 -
 -
-Người chồng mọc sừng| cuckold
+Người chồng mọc sừng|cuckold
 
 moi
 verb
@@ -68752,7 +68166,7 @@ mốc xì
 mộc
 -
 -
-Cây mộc| tree|ood|A workman making wood-things, a carpemter, a oiner : Thợ mộc|lain, unlacquered, unvarished, unbleached|To buy a pair of plain wood clogs : Mua đôi guốc mộc|Unbleached silk cloth : Lụa mộc|hield|To stop a arrow with a shield : Lấy mộc đỡ tên
+Cây mộc|tree|ood|A workman making wood-things, a carpemter, a oiner : Thợ mộc|lain, unlacquered, unvarished, unbleached|To buy a pair of plain wood clogs : Mua đôi guốc mộc|Unbleached silk cloth : Lụa mộc|hield|To stop a arrow with a shield : Lấy mộc đỡ tên
 
 mộc bản
 -
@@ -68873,11 +68287,6 @@ mồm mép
 -
 -
 Tongue|A caddish tongue : Mồn mép đều giả|ift of the gad|The littleboy has real gift of the gad : Thằng bé mồm mép gớm|Loud-mouthed, loud-spoken : Mồm loa mép giải|To loud-mouthedly deny an obvious mistake : Khuyết điểm rành rành nhưng cứ mồm loa mép giải chối phăng.
-
-
--
--
-
 
 mồm miệng
 -
@@ -70437,7 +69846,7 @@ small bag|sack; bag : tay nải
 nái
 -
 -
-female of certain animals |sow : heo nái
+female of certain animals|sow : heo nái
 
 nái sề
 -
@@ -70637,7 +70046,7 @@ noun
 nàng
 noun
 -
-she; her |he and she : chàng và nàng
+she; her|he and she : chàng và nàng
 
 nàng dâu
 noun
@@ -70958,11 +70367,6 @@ nảy nòi
 -
 -
 Begin to sprout (a defect not hereditary)|Of all the members of the family who are quite gentle only he has begun to sprout such vionlence : Cả nhà ai cũng hiền lành, chỉ có nó mới nảy nòi hung dữ như thế
-
-
--
--
-
 
 nảy nở
 -
@@ -71457,7 +70861,7 @@ Overloaded, overburdened; laden with|Branches leaden with fruits : Cành nặng 
 nặng vía
 -
 -
-Người nặng vía| bird of ill-omen
+Người nặng vía|bird of ill-omen
 
 nắp
 noun
@@ -71722,7 +71126,7 @@ to repress; suppress one's feelings
 neo
 noun, verb
 -
-anchor |to cast anchor : thả neo|to anchor |anchorage : chỗ thả neo
+anchor|to cast anchor : thả neo|to anchor|anchorage : chỗ thả neo
 
 neo đơn
 -
@@ -71987,7 +71391,7 @@ Set an example|To set an example of industriousness in national construction : N
 nếu
 -
 -
-if; unless|If I'm free; : nếu tôi rảnh, tôi sẽ đi chơi| shall go out. In the event of|In the event of his death : Nếu nó chết
+if; unless|If I'm free; : nếu tôi rảnh, tôi sẽ đi chơi|shall go out. In the event of|In the event of his death : Nếu nó chết
 
 nếu cần
 -
@@ -72159,7 +71563,7 @@ ngạch trật
 -
 Various ranks and grades (in a classification scale of civil servants...)
 
- ngai
+ngai
 noun
 -
 throne
@@ -72329,7 +71733,7 @@ ngang dọc
 -
 (Do something) in one's own sweet time (way); at will; fearless of nobody
 
- ngang điểm
+ngang điểm
 -
 -
 e equal in score
@@ -73322,7 +72726,7 @@ Importune; nag at
 ngấy
 -
 -
-Salmonberry (cây)|ave one's appetite cloyed|This dish is too greasy, it easily cloys one's appetite : Món ăn này mỡ quá rất ngấy|This cake is cloyingly sweet : Bánh ngọt ngấy|e fed up with, be tried of|To be tired of a food one has to eat every day : Ngày nào cũng ăn một thứ, ngấy rồi|To be completely fed up with : Ngấy đến mang tai|Feel feverish : Ngấy sốt |To feel a bit feverish : Ngây ngấy (láy, ý giảm)
+Salmonberry (cây)|ave one's appetite cloyed|This dish is too greasy, it easily cloys one's appetite : Món ăn này mỡ quá rất ngấy|This cake is cloyingly sweet : Bánh ngọt ngấy|e fed up with, be tried of|To be tired of a food one has to eat every day : Ngày nào cũng ăn một thứ, ngấy rồi|To be completely fed up with : Ngấy đến mang tai|Feel feverish : Ngấy sốt|To feel a bit feverish : Ngây ngấy (láy, ý giảm)
 
 ngậy
 -
@@ -73869,11 +73273,6 @@ nghĩ ngợi
 -
 Ponder over, consider carefully, worry about|Don't worry about that thing any longer, what is done cannot be undone : Thôi đừng nghĩ ngợi làm gì, việc đã xảy ra rồi không thể cứu vãn được
 
-
--
--
-
-
 nghĩ ra
 -
 -
@@ -74162,22 +73561,12 @@ nghiêm từ
 nghiễm nhiên
 -
 -
-Unruffed, Imperturbable|To carry on imperturbably one's talk despite a big explosion : Đang nói chuyện có tiếng nổ to nhưng vẫn nghiễm nhiên nói tiếp
-
-
--
--
-ithout any trouble, without any fuss, without much ado|To partake of a feast without any fuss after dropping in on a friend who is commemorating a death anniversary : Đến chơi nhà bạn đang có giỗ, cứ nghiễm nhiên ngồi vào ăn cỗ
-
-
--
--
-
+Unruffled, Imperturbable|To carry on imperturbably one's talk despite a big explosion : Đang nói chuyện có tiếng nổ to nhưng vẫn nghiễm nhiên nói tiếp|without any trouble, without any fuss, without much ado|To partake of a feast without any fuss after dropping in on a friend who is commemorating a death anniversary : Đến chơi nhà bạn đang có giỗ, cứ nghiễm nhiên ngồi vào ăn cỗ
 
 nghiệm
 -
 -
-Consider|Let me have some time to consider the pros and cons of that bit of work : Để cho tôi thì giờ nghiệm xem việc ấy có nên làm hay không|e efficacious|Is that antimalarian drug efficacious? : Thuốc chống sốt rét ấy có nghiệm không?|toán học) Root (of an equation)
+Consider|Let me have some time to consider the pros and cons of that bit of work : Để cho tôi thì giờ nghiệm xem việc ấy có nên làm hay không|efficacious|Is that antimalarian drug efficacious? : Thuốc chống sốt rét ấy có nghiệm không?|toán học) Root (of an equation)
 
 nghiệm số
 -
@@ -74372,32 +73761,22 @@ Look at, attend to, see tọ|Not to attend to the education of one's children : 
 ngó ngoáy
 -
 -
-Scrape round (in something hollow)|=Đừng ngó ngoáy vào cái lỗ thủng ở tường làm cho nó to ra : Đừng ngó ngoáy vào cái lỗ thủng ở tường làm cho nó to ra
-
-
--
--
-on't scrape round in that hole in the wall and enlarge it
+Scrape round (in something hollow)|=Đừng ngó ngoáy vào cái lỗ thủng ở tường làm cho nó to ra : Đừng ngó ngoáy vào cái lỗ thủng ở tường làm cho nó to ra|don't scrape round in that hole in the wall and enlarge it
 
 ngọ
 -
 -
-The seventh Earthly Branch (symbolized by the horse)|oon, midday|To have one's lunch at noon sharp : Ăn cơm trưa lúc đúng ngọ|Midday, noontime : Giờ ngọ|Born in the year of the horse : Tuổi ngọ
+The seventh Earthly Branch (symbolized by the horse)|noon, midday|To have one's lunch at noon sharp : Ăn cơm trưa lúc đúng ngọ|Midday, noontime : Giờ ngọ|Born in the year of the horse : Tuổi ngọ
 
 ngọ ngoạy
 -
 -
-Wriggle, spuirm|The snake had its head crushed but was still wriggling : Con rắn bị đánh giập đầu nhưng vẫn còn ngọ ngoạy
+Wriggle, squirm|The snake had its head crushed but was still wriggling : Con rắn bị đánh giập đầu nhưng vẫn còn ngọ ngoạy
 
 ngoa
 -
 -
-Sharp-tongue|What a sharp tongue that girl has! What a shrew of a girl! : Con gái gì mà ngoa thế!|ntruthful
-
-ngoã
--
--
-xem thợ ngõa
+Sharp-tongue|What a sharp tongue that girl has! What a shrew of a girl! : Con gái gì mà ngoa thế!|untruthful
 
 ngoác
 -
@@ -75109,11 +74488,6 @@ ngộ
 -
 Queer, quaint|What quaint clothing! : Ăn mặc gì mà trông ngộ thế|thông tục) cute (mỹ)|The girl looks very cute : Cô bé trông rất ngộ|Rather quaint, rather queer : Ngồ ngộ (láy, ý giảm).|That story is rather quaint. : Câu chuyện ấy nghe ngồ ngộ|địa phương) Rabid|Rabid dog : Chó ngộ|n case|To carry always a first-aid bag with one on trips in case of an accident : Bao giờ đi đường cũng có túi thuốc cấp cứu, ngộ có bị tai nạn
 
-
--
--
-
-
 ngộ biến
 -
 -
@@ -75167,7 +74541,7 @@ xem ngốc nghếch (láy)
 ngốc nghếch
 -
 -
-như ngốc |=Ngốc nga ngốc nghếch (láy, ý tăng) : Ngốc nga ngốc nghếch (láy, ý tăng)
+như ngốc|=Ngốc nga ngốc nghếch (láy, ý tăng) : Ngốc nga ngốc nghếch (láy, ý tăng)
 
 ngộc nghệch
 -
@@ -75264,7 +74638,7 @@ noun
 -
 Language|The Vietnamese language belongs to a language group which was established quite a long time ago in East Asia. However, changes in material conditions over many centuries and the increasing demands of cultural life increased the development of the Vietnamese language, both spoken and written. While adopting many elements of the Chinese language, the Vietnamese people creatively Vietnamized many Chinese words, and they gradually became Han-Viet (Chinese-Vietnamese), incorporated alongside purely Vietnamese words. The Vietnamization was not only applied to the Chinese language however, but also to the French and other languages to create a great, diversified, vital vocabulary for the Vietnamese language
 
- ngôn ngữ học
+ngôn ngữ học
 -
 -
 inguistics|Modern linguistics : Ngôn ngữ học hiện đại
@@ -76037,7 +75411,7 @@ Tone, intonation
 ngữ ngôn học
 -
 -
-như ngôn ngữ học 
+như ngôn ngữ học
 
 ngữ pháp
 noun
@@ -76119,7 +75493,7 @@ ngứa tay
 -
 Feel the urge of doing something someone is bungling|e itching to strike (someone)
 
- ngứa tiết
+ngứa tiết
 -
 -
 khẩu ngữ) Have one's blood up, be fiare by one's anger to action, flare up|To flare up at hearing one's friend being spoken ill of : Nghe nói xấu bạn, ngứa tiết lên
@@ -76572,7 +75946,7 @@ House, dwelling|To tidy one's house : Dọn dẹp nhà cửa
 nhà dây thép
 -
 -
-(cũ) Post office 
+(cũ) Post office
 
 nhà dòng
 -
@@ -76632,7 +76006,7 @@ Bride's family|ride's [family] guest
 nhà giai
 -
 -
-xem nhà trai 
+xem nhà trai
 
 nhà giam
 -
@@ -76737,7 +76111,7 @@ nhà mô phạm
 nhà mồ
 -
 -
-Sepulchre, miniature house built on a fresh grave|Bỏ nhà mồ (Grave-hut removal ceremony): A ceremony of Ba Na and Gia Rai ethnic minorities in which they see off a dead person's soul instead of caring about his or her tomb in the future. This ceremony lasts between 3 and 5 days, at which attenders sing, play gongs and drink throughout the night : Bỏ nhà mồ: Lễ của người Bana và Giarai để đưa tiễn hồn ma người chết về thế giới bên kia và từ nay không phải trông coi mồ mả nữa. Lễ này diễn ra từ ba đến năm ngày và có múa hát, đánh chiêng và uống rượu suốt đêm 
+Sepulchre, miniature house built on a fresh grave|Bỏ nhà mồ (Grave-hut removal ceremony): A ceremony of Ba Na and Gia Rai ethnic minorities in which they see off a dead person's soul instead of caring about his or her tomb in the future. This ceremony lasts between 3 and 5 days, at which attenders sing, play gongs and drink throughout the night : Bỏ nhà mồ: Lễ của người Bana và Giarai để đưa tiễn hồn ma người chết về thế giới bên kia và từ nay không phải trông coi mồ mả nữa. Lễ này diễn ra từ ba đến năm ngày và có múa hát, đánh chiêng và uống rượu suốt đêm
 
 nhà ngang
 -
@@ -77007,7 +76381,7 @@ Garage
 nhà xí
 -
 -
-như nhà tiêu 
+như nhà tiêu
 
 nhà xuất bản
 noun
@@ -77997,7 +77371,7 @@ to pick up; to gather|to gather the ball : nhặt banh|fast; quick
 nhặt nhạnh
 -
 -
-Clear up, clear away|To clear up all the tools.+Gather : Nhặt nhạnh hết dụng cụ vào |To gather information : Nhặt nhạnh tin tức
+Clear up, clear away|To clear up all the tools.+Gather : Nhặt nhạnh hết dụng cụ vào|To gather information : Nhặt nhạnh tin tức
 
 nhấc
 -
@@ -78012,7 +77386,7 @@ The night Heavenly Stem
 nhầm
 -
 -
-như lầm |To take the wrong way : Nhầm đường|To mistake someone's meaning : Hiểu nhầm ý ai
+như lầm|To take the wrong way : Nhầm đường|To mistake someone's meaning : Hiểu nhầm ý ai
 
 nhầm lẫn
 -
@@ -78247,7 +77621,7 @@ Outlook on life
 nhân tài
 -
 -
-Talent, talented man 
+Talent, talented man
 
 nhân tạo
 -
@@ -78907,7 +78281,7 @@ Make light of (some) feeling|To make light of fraternal feeling : Nhẹ tình an
 nhẹ tính
 -
 -
-như nhẹ dạ 
+như nhẹ dạ
 
 nhem
 -
@@ -79017,7 +78391,7 @@ Winkle out, extract|To winkle out shellfishes : Nhể ốc|To extract a thorn : 
 nhện
 noun
 -
-spider |spider-thread : tơ nhện
+spider|spider-thread : tơ nhện
 
 nhênh nhang
 -
@@ -79614,7 +78988,7 @@ nhịu
 -
 cũng nói nói nhịu Say one word for another, make a slip of the tongue
 
- nhịu mồm
+nhịu mồm
 -
 -
 =như nhịu : như nhịu
@@ -80062,7 +79436,7 @@ Strike (break up) camp
 nhố nhăng
 -
 -
-(địa phương) như lố lăng |To be dressed in a ridiculous manner : Ăn mặc nhố nhăng
+(địa phương) như lố lăng|To be dressed in a ridiculous manner : Ăn mặc nhố nhăng
 
 nhôi
 -
@@ -80337,7 +79711,7 @@ nhơi
 nhời
 -
 -
-(địa phương) như lời |To obey one's parents' word : Nghe nhời bố mẹ
+(địa phương) như lời|To obey one's parents' word : Nghe nhời bố mẹ
 
 nhởi
 -
@@ -80412,7 +79786,7 @@ nhớt kế
 nhớt nhát
 -
 -
-Slimy |Slimy saliva and nose mucus : Mũi dãi nhớt nhát
+Slimy|Slimy saliva and nose mucus : Mũi dãi nhớt nhát
 
 nhớt nhợt
 -
@@ -81857,7 +81231,7 @@ to speak the truth
 nói toạc
 -
 -
-như nói trắng 
+như nói trắng
 
 nói toẹt
 -
@@ -82792,7 +82166,7 @@ Farming calendar
 nông nghiệp
 noun
 -
-Agriculture, farming|Ministry of Agriculture : Bộ nông nghiệp|EREMONIES STILL AT THE HEART OF AGRICULTURE IN VIETNAM: Lễ Hạ Điền is a popular ceremony which bears a religious significance for Vietnamese farmers. During the ceremony, farmers pray to heaven to grant them blessings. As Vietnam is an agricultural country where labour-intensive wet-rice is grown, the life of the majority of people is closely linked with the land. Hence, almost all ceremonies and rituals are connected with farming. Wet-rice is grown in very difficult natural conditions, especially in the Red River Delta and central Vietnam where natural calamities - typhoons, flooding, drought and pests - are a constant menace for the peasantry. In the past, in the absence of science and technology, Vietnamese farmers believed in mysterious forces which decided their success or failure. This faith is found in such folk songs as "Thanks to heaven which grants us good weather conditions" or "I pray to heaven to bring rain so that I can have enough water to drink and cover my fields". Heaven (or Trời in Vietnamese) is a common appellation for the spirit world. The belief in the power of spirits is handed down from generation to generation, so that even now our farmers turn to spirits for assistance. Hence the existence of so many farming-related ceremonies. In the past, there were two main rice crops: the Mùa and the Chiêm Depending on climate and local understanding, farmers regard the Chiêm as the main crop, or vice versa. For this reason, Lễ Hạ Điền differs from one region to another. In many villages, the ceremony is regarded as a major event in the life of the peasantry. Although the ceremonies may differ in scale, the rituals have many common features. On the day of the ceremony, early in the morning, village notables called Già Làng (elder people) in the central highlands make their way to the communal house where other villagers await. There they pay tribute to Thành Hoàng (tutelary god) and Thần Nông (god of agriculture) and other divinities; begging them to bring security, prosperity and bumper crops. Afterwards, the villagers head to a chosen location, usually not too far from the communal house, where the ceremony inaugurating the farming season takes place. In a first-class rice field already meticulously ploughed and harrowed, a bamboo tree is planted with all its branches and leaves. The tree is called Cây Ne^u. Ears of rice are attached to the top of the tree, and having reported to the god of agriculture, they start the ceremony proper. To start the ball rolling, a rice transplant ritual is performed. For this, many Chúa Đồng (Field Lords) are selected. In some villages, only one Chúa Đồng is singled out. They are mostly elderly people, versed in farming techniques and the soil. In addition, they must be kind-hearted people having extended families whose members live in perfect concord. Last but not least, they should not be mourning People hope that the good qualities of the Chúa Đồng will blend into the rice plants and impart great vitality to them. Having paid their respects to the god of agriculture, the Chúa Đồng step into the field and transplant rice around the bamboo tree. In the meantime, the villagers shout cheerfully and beat drums (mimicking natural disaster), targeting the Chúa Đồng. If these people can stand firm on their feet and manage to perform their task well, people believe that their wish will come true Lễ Hạ Điền is held in a very simple way, but it is very dear to the  farmers. They pin all their hopes on the good health, prosperity and happiness that the ceremony promises. Furthermore, it is in this ceremony that the spirit of the community comes to the surface. In their hearts, everyone pledges to join forces for the common cause|Agricultual leisure : nông nhàn
+Agriculture, farming|Ministry of Agriculture : Bộ nông nghiệp
 
 nông sản
 noun
@@ -85182,7 +84556,7 @@ braggard
 ông vải
 -
 -
-Ancestor |To pratise the ancestors' cult : Thờ cúng ông vải.
+Ancestor|To pratise the ancestors' cult : Thờ cúng ông vải.
 
 ông vãi
 noun
@@ -85252,7 +84626,7 @@ chimney|the chimneys of a factory : ống khói nhà máy
 ống lòng
 -
 -
-|Telescopic|Telescopic legs : Chân kiểu ống lòng
+Telescopic|Telescopic legs : Chân kiểu ống lòng
 
 ống máng
 -
@@ -85662,7 +85036,7 @@ phả hệ
 phả hệ học
 -
 -
-(cũng nói phổ hệ học) Genealogy |Genealogist : Nhà phả hệ học
+(cũng nói phổ hệ học) Genealogy|Genealogist : Nhà phả hệ học
 
 phá
 verb
@@ -85902,17 +85276,12 @@ phai lạt
 phai mờ
 -
 -
-Fade|=Mọi kỷ niệm của thời thơ ấu đã phai mờ trong trí óc anh ta : Mọi kỷ niệm của thời thơ ấu đã phai mờ trong trí óc anh ta
-
-
--
--
-ll memory of his childhood faded from his mind
+Fade|Mọi kỷ niệm của thời thơ ấu đã phai mờ trong trí óc anh ta : all memory of his childhood faded from his mind
 
 phai nhạt
 -
 -
-như phai nghiã 2
+faded|the process of becoming less bright|gradually grow faint and disappear.
 
 phải
 adj, verb
@@ -87348,11 +86717,6 @@ phần nào
 -
 -
 to some extent, to a certain degree|The hot weather affects to some extent the efficiency of labour : Khí hậu nóng bức có ảnh hưởng phần nào đến năng suất công tác
-
-
--
--
-
 
 phần nhiều
 -
@@ -89167,7 +88531,7 @@ Loose, dissipated, dissolute|A dissolute man who is only after sensual pleasures
 phóng pháo
 -
 -
-(từ cũ) Máy bay phóng pháo| bomber
+(từ cũ) Máy bay phóng pháo|bomber
 
 phóng sinh
 -
@@ -95637,7 +95001,7 @@ Prickly heat|To get prickly heat all over one's body as soon as the hot weather 
 rôm trò
 -
 -
-Lively, exciting| To make (rejoicings, entertainments...) more lively : Cho thêm rôm trò 
+Lively, exciting|To make (rejoicings, entertainments...) more lively : Cho thêm rôm trò
 
 rộm
 -
@@ -95654,7 +95018,7 @@ noun
 -
 navel
 
- rốn lại
+rốn lại
 -
 -
 ake another effort and stay on, sit on and wait
@@ -95792,7 +95156,7 @@ to feel; to touch; to handle|to fell soft : rờ thấy mềm
 rờ mó
 -
 -
-(địa phương) như sờ mó |Not to touch one's books and to waste one's time in play : Chỉ chơi, không rờ mó đến sách
+(địa phương) như sờ mó|Not to touch one's books and to waste one's time in play : Chỉ chơi, không rờ mó đến sách
 
 rờ rẩm
 -
@@ -95887,7 +95251,7 @@ Let go of (somebody, something); part with|nock off, have a rest|To work without
 rợi
 -
 -
-(địa phương) như rượi |=Rời rợi (láy, ý tăng) : Rời rợi (láy, ý tăng)
+(địa phương) như rượi|=Rời rợi (láy, ý tăng) : Rời rợi (láy, ý tăng)
 
 rơm
 noun
@@ -95907,7 +95271,7 @@ xem rớm (láy)
 rờm
 -
 -
-(địa phương) như rườm 
+(địa phương) như rườm
 
 rởm
 -
@@ -96057,7 +95421,7 @@ rú rí
 rua
 -
 -
-xem giua 
+xem giua
 
 rùa
 noun
@@ -97097,7 +96461,7 @@ sách dẫn
 sách đèn
 -
 -
-như đèn sách 
+như đèn sách
 
 sách giáo khoa
 -
@@ -97288,11 +96652,6 @@ sãi
 -
 -
 Boatman|Everybody's business is nobody's business : Pagoda's warden Nhiều sãi không ai đóng cửa chùa
-
-
--
--
-
 
 sái
 adj
@@ -97667,7 +97026,7 @@ to have good eyesight,be seen sighted|The old man still has a good eyesight to h
 sáng ngày
 -
 -
-như sáng mai 
+như sáng mai
 
 sáng nghiệp
 -
@@ -98422,7 +97781,7 @@ to go shopping, to shop, to go and buy (get)
 sắm nắm
 -
 -
-xem xắm nắm 
+xem xắm nắm
 
 sắm sanh
 -
@@ -98482,7 +97841,7 @@ Sinewy, brawny
 săn sắt
 -
 -
-như cá thia 
+như cá thia
 
 săn sóc
 verb
@@ -98677,7 +98036,7 @@ xem sầm (láy)
 sầm sập
 -
 -
-xem sập 
+xem sập
 
 sầm uất
 adj
@@ -99162,7 +98521,7 @@ will see
 sẽ sàng
 -
 -
-như khẽ khàng 
+như khẽ khàng
 
 sẹ
 -
@@ -99422,7 +98781,7 @@ noun
 sị
 -
 -
-xem xị 
+xem xị
 
 sỉa
 -
@@ -100202,7 +99561,7 @@ unshakably loyal, faithful
 son sẻ
 -
 -
-Still childless (nói về người vợ)|Svelte of stature : Vóc người son sẻ|như thon thả 
+Still childless (nói về người vợ)|Svelte of stature : Vóc người son sẻ|như thon thả
 
 son trẻ
 adj
@@ -101912,7 +101271,7 @@ ifle
 suối
 noun
 -
-spring| : suối Giải Oan - chùa Hương
+spring|: suối Giải Oan - chùa Hương
 
 suối vàng
 noun
@@ -103392,7 +102751,7 @@ to wither, to become doued up
 tàn nhang
 noun
 -
-(xem) tàn hương 
+(xem) tàn hương
 
 tàn nhẫn
 adj
@@ -104859,11 +104218,6 @@ noun
 -
 waterfall, falls
 
-
-verb
--
-to die to pretext
-
 thạc sĩ
 noun
 -
@@ -104938,11 +104292,6 @@ thải hồi
 verb
 -
 to sack, to dismiss
-
-Thái
--
--
-With nearly 900,000 inhabitants (1.45% of the Vietnamese population), Thái ethnic group is divided into Thái trắng (White Thái) and Thái đen (Black Thái) on the basis of the clothing colour. The residential sphere spreads from Red River right bank to Thanh Hoá, Nghệ An Highlands. It is easy for them to mix with native ethnic groups. They settle in valleys surrounding immense fields (Mường Thanh, Quang Huy, Than Uyên, Nghĩa Lộ), and live on farming, breeding, weaving. The Thái people has its own writing and a very developed popular culture|In the western part of Nghệ An Province, there reside about 13,000 ethnic Thais belonging to the sub-groups of Tay Thanh, Tay Muoi, and others. Like their counterparts in the North-West of the country, the Thái community here possesses a rich culture that has been built up over the centuries. In their everyday working life, the Thái minority has developed a rich and abundant culture. Many traditional rites and festivals exist along with other Thái cultural activities. In this article, we introduce one particular cultural event - the Thái's Cave-Picnicking Festival. According to the elders in the community, the Cave-Visiting Festival of the Thái people living in the mountain villages surrounding Quỳ Hợp dates back to time immemorial, and was in existence up to the middle of the twentieth century. Every year during the period from the 3rd through the 10th day of Tháng Giêng (the Lunar Year's first month following Nguyên Đán - the Lunar New Year's Day), the Thái folk in and around the locality flock to the Cave - Picnicking Festival The event takes place in Tham Mon (Mon Cave) located in the Châu Quy commune, Quỳ Hợp district. The Cave visitors are of all ages, but mainly single young people. They are natives from the villages of Quỳ Hợp and other neighbouring districts in West Nghệ An. Visitors are allowed to enter the cave only once a day until they find themselves a boy or girl friend, and return home when the festival ends. It is an inviolable rule that cave visitors must not bring in a lamp, fire or any source of light.+All visitors come into the cave for the festive occasion amid complete darkness. Young people first enter in groups, then disperse and move further into the dark cave. Once inside the cave, the girls usually gather in small groups of two or three, and stand timidly in the cave alleys. The boys, also in small groups, grope in the dark for girl friends. Every action must be made by hand, and every move made by foot as calling, speaking or shouting are completely forbiđen... Having found a friend of the opposite sex, the boy can talk with and court the girl in the cave. If they find each other suitable, the couple come out of the cave hand-in-hand and go to the boy's home to announce their love to his parents. The parents then take the responsibility of guardianship, by assisting and creating favourable conditions for the couple to become husband and wife. That the Festival takes place in such a dark cave makes it an extremely fun-filled and enjoyable experience. All unmarried Thái boys and girls are eager to go to the Cave- Visiting Festival to try their luck at seeking a life companion. The Thái men traditionally look for a pretty girl of marriageable age who must be well-built and in good health Therefore, in the cave, a boy first makes sure that he finds himself the right girl, that is, he asks in whispers after her name, her whereabouts and her parents so as not to mistake a blood sister or relative whom he cannot marry. He then feels her thoroughly to find out whether she is strong and sturdy. If satisfied, he then starts to exchange intimacies, courts her and ultimately leads her out of the cave. Such a play of courtship all in the dark cave with the boys fumbling for the girls who hide themselves in the cave gorges or alleys cannot be free of conflicts and jostlings among the men. A struggle inevitably ensues when a boy finds a girl who has a flaw and tries to get rid of her. Similar to practices such as the "moonlight dance" or "moonlight stroll" of some other ethnic minorities, the Cave - Picnicking Festival of the Thái community in western Nghệ An is a cultural activity - a community-gathering place for dating and courting couples.+It is a healthy practice and requires the participants to strictly adhere to the community's rules and customs. In earlier times, when social events were virtually non-existent among the Tháis, the Cave-Picnicking festival presented a good opportunity for young people to discover and exchange love. The Festival in fact was an indispensable part of the cultural life of the Thái people in western Nghệ An up to the first half of this century
 
 thái
 verb
@@ -105257,7 +104606,7 @@ puritanism
 Thanh Hoá
 -
 -
-Thanh Hoá is a large province of Central Vietnam. Thanh Hoá is composed of three categories of mountain, plain and mid-land terrains. Its coastline is 102km in length. Being the dwelling place of the ancient Viets, Thanh Hoa is proud of the glorious Đông Sơn culture (see also Các Nền Văn Hoá ở Việt Nam). Only 16 km from Thanh Hoá City, Sầm Sơn Beach is very good for bathing. Beside sandy beaches, Sầm Sơn also has some scenic spots such as Trong Mai Island, Doc Cuoc Temple and Co Tien Mount. Citadel of the Hồ Dynasty (Thành Nhà Hồ) was built in 1397. It was not only the location for the central government, but also a quite military project. All the ancient citadels in Vietnam such as the citadels of Hoa Lư and Cổ Loa were made of earth, the only exception being the Hồ Dynasty Citadel, which was wholly built in block granite, depicting the power of creativeness and industriousness of the labouring people more than six centuries ago. The Hồ Citadel Dynasty only existed for 10 years (1397-1407), but its vestiges are still surprising because many of its technical questions remain the unknowns |Bà Triệu (Lady Trieu) Temple is located at the foot of the Tùng mountain (Triệu Lộc commune, Thanh Hoá province). This mountain was the centre of the insurrection led by her. Bà Triệu whose full name was Triệu Thị Trinh was a beloved national heroine. She led the nation in an uprising against the northern invasion in the 3rd century. Ritual ceremonies are held yearly at the temple on the 21st day of the lunar second month. People on pilgrimage to the temple often recall Bà Triệu s outright declaration: "I want to drive over strong wind, sail over strong waves and chase the foreign invaders out of the country, and I will not give up myself to be their servant-concubine". Mã River is the largest one in Thanh Hoá. Nearing the coast, the river meets a high mountain which resembles a dragon's head, from which the bridge spanning that part of river derives its name. In the early 20th century, French engineers tried in vain to built an iron bridge over Mã River. In 1905, they completed a suspension bridge only to see it destroyed in the anti-French war. When peace returned in 1954, Vietnamese engineers applied new engineering techniques and built an iron bridge. The new Hàm Rồng bridge was completed on May 19, 1964. The bridge gained fame because it became the main target of US air forces in the efforts to break the North-South supply lines
+Thanh Hoá is a large province of Central Vietnam. Thanh Hoá is composed of three categories of mountain, plain and mid-land terrains. Its coastline is 102km in length. Being the dwelling place of the ancient Viets, Thanh Hoa is proud of the glorious Đông Sơn culture (see also Các Nền Văn Hoá ở Việt Nam). Only 16 km from Thanh Hoá City, Sầm Sơn Beach is very good for bathing. Beside sandy beaches, Sầm Sơn also has some scenic spots such as Trong Mai Island, Doc Cuoc Temple and Co Tien Mount. Citadel of the Hồ Dynasty (Thành Nhà Hồ) was built in 1397. It was not only the location for the central government, but also a quite military project. All the ancient citadels in Vietnam such as the citadels of Hoa Lư and Cổ Loa were made of earth, the only exception being the Hồ Dynasty Citadel, which was wholly built in block granite, depicting the power of creativeness and industriousness of the labouring people more than six centuries ago. The Hồ Citadel Dynasty only existed for 10 years (1397-1407), but its vestiges are still surprising because many of its technical questions remain the unknowns|Bà Triệu (Lady Trieu) Temple is located at the foot of the Tùng mountain (Triệu Lộc commune, Thanh Hoá province). This mountain was the centre of the insurrection led by her. Bà Triệu whose full name was Triệu Thị Trinh was a beloved national heroine. She led the nation in an uprising against the northern invasion in the 3rd century. Ritual ceremonies are held yearly at the temple on the 21st day of the lunar second month. People on pilgrimage to the temple often recall Bà Triệu s outright declaration: "I want to drive over strong wind, sail over strong waves and chase the foreign invaders out of the country, and I will not give up myself to be their servant-concubine". Mã River is the largest one in Thanh Hoá. Nearing the coast, the river meets a high mountain which resembles a dragon's head, from which the bridge spanning that part of river derives its name. In the early 20th century, French engineers tried in vain to built an iron bridge over Mã River. In 1905, they completed a suspension bridge only to see it destroyed in the anti-French war. When peace returned in 1954, Vietnamese engineers applied new engineering techniques and built an iron bridge. The new Hàm Rồng bridge was completed on May 19, 1964. The bridge gained fame because it became the main target of US air forces in the efforts to break the North-South supply lines
 
 thanh kiếm
 adjective
@@ -110734,7 +110083,7 @@ verb, noun
 -
 to damage, to hurt|damage
 
- tổn thất
+tổn thất
 noun
 -
 loss
@@ -115392,7 +114741,7 @@ Vietnamese resident, overseas Vietnamese
 Việt Nam
 -
 -
-Vietnam|Different from China in the north, Vietnam referred to the Việt community in the south. Through its 4,000-year history, Việt Nam was named Văn Lang, Âu Lạc, Vạn Xuân, Đại Cồ Việt, Đại Việt, Đại Ngu, Đại Việt. Under Thời Bắc Thuộc (Chinese domination), Vietnam was called Giao Châu, An Nam Đô Hộ Phủ (Dominated An Nam). Since 1804, Nhà Nguyễn renamed this country Việt Nam. However, King Minh Mạng (Nhà Nguyễn - Nguyễn Dynasty) himself admitted that the name Việt Nam had existed long before. Nguyễn Trãi, Nguyễn Bỉnh Khiêm and Lê Quý Đôn had also used the name Việt Nam. In 1991, in Đồng Đăng (Lạng Sơn), the archaeologists discovered the Thủy Môn Đình stela with the words Việt Nam on it. Under the French domination, Vietnam was named An Nam, and An Nam also referred to Central Vietnam itself. The name Việt Nam has been officially and popularly used from 1945 till our days.|Besides 53 other ethnic groups (Dao, Ba Na, H'Mông, Hoa, Khơ Me, Mường, Mơ Nông, Nùng, Xơ Đăng, Thái, Gia Rai, Ê Đê, Chăm...), Việt (Việt or Kinh ethnic group) occupies up to 87% of the Vietnamese population. Many of ethnic minorities have the unnoticeable economic and cultural development, or remain in a primitive state.*See also Các Nền Văn Hoá Việt Nam 
+Vietnam|Different from China in the north, Vietnam referred to the Việt community in the south. Through its 4,000-year history, Việt Nam was named Văn Lang, Âu Lạc, Vạn Xuân, Đại Cồ Việt, Đại Việt, Đại Ngu, Đại Việt. Under Thời Bắc Thuộc (Chinese domination), Vietnam was called Giao Châu, An Nam Đô Hộ Phủ (Dominated An Nam). Since 1804, Nhà Nguyễn renamed this country Việt Nam. However, King Minh Mạng (Nhà Nguyễn - Nguyễn Dynasty) himself admitted that the name Việt Nam had existed long before. Nguyễn Trãi, Nguyễn Bỉnh Khiêm and Lê Quý Đôn had also used the name Việt Nam. In 1991, in Đồng Đăng (Lạng Sơn), the archaeologists discovered the Thủy Môn Đình stela with the words Việt Nam on it. Under the French domination, Vietnam was named An Nam, and An Nam also referred to Central Vietnam itself. The name Việt Nam has been officially and popularly used from 1945 till our days.|Besides 53 other ethnic groups (Dao, Ba Na, H'Mông, Hoa, Khơ Me, Mường, Mơ Nông, Nùng, Xơ Đăng, Thái, Gia Rai, Ê Đê, Chăm...), Việt (Việt or Kinh ethnic group) occupies up to 87% of the Vietnamese population. Many of ethnic minorities have the unnoticeable economic and cultural development, or remain in a primitive state.*See also Các Nền Văn Hoá Việt Nam
 
 việt vị
 adj
@@ -116777,7 +116126,7 @@ sealing wax polish
 xi lanh
 noun
 -
- cylinder
+cylinder
 
 xi líp
 noun

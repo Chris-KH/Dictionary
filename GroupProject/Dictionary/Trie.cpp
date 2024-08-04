@@ -10,7 +10,7 @@ TrieNode::TrieNode() {
 bool TrieNode::isLeaf() const {
     //Leaf has no children
     for (int i = 0; i < sizeChar; i++) {
-        if (!childNode[i]) return false;
+        if (childNode[i] != nullptr) return false;
     }
     return true;
 }
@@ -84,18 +84,18 @@ void Trie::insert(Word word) {
     }
 }
 
-void Trie::saveHelper(TrieNode* root, wofstream& fout) {
+void Trie::saveHelper(TrieNode* root, ofstream& fout) {
     if (root->wordEnd) {
-        fout << root->word.key << L"\n";
-        if (root->word.type.empty()) fout << L"-\n";
-        else fout << root->word.type << L"\n";
-        if (root->word.spelling.empty()) fout << L"-\n";
-        else fout << root->word.spelling << L"\n";
+        fout << utf16_to_utf8(root->word.key) << "\n";
+        if (root->word.type.empty()) fout << "-\n";
+        else fout << utf16_to_utf8(root->word.type) << "\n";
+        if (root->word.spelling.empty()) fout << "-\n";
+        else fout << utf16_to_utf8(root->word.spelling) << "\n";
         for (int i = 0; i < (int)root->word.definitions.size(); i++) {
-            if (i != 0) fout << L"|";
-            fout << root->word.definitions[i];
+            if (i != 0) fout << "|";
+            fout << utf16_to_utf8(root->word.definitions[i]);
         }
-        fout << L"\n\n";
+        fout << "\n\n";
     }
 
     for (int i = 0; i < sizeChar; i++) {
@@ -103,7 +103,7 @@ void Trie::saveHelper(TrieNode* root, wofstream& fout) {
     }
 }
 
-void Trie::save(wofstream& fout) {
+void Trie::save(ofstream& fout) {
     saveHelper(this->root, fout);
     fout.close();
 }

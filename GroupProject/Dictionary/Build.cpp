@@ -1,11 +1,13 @@
 #include"Build.h"
 
-void buildTrie(wifstream& fin, Trie& trie) {
+void buildTrie(ifstream& fin, Trie& trie) {
     while (!fin.eof()) {
         Word word;
+        string line_8;
         wstring line;
         for (int i = 0; i <= 4; i++) {
-            getline(fin, line);
+            getline(fin, line_8);
+            line = utf8_to_utf16(line_8);
             while (!line.empty() && line.back() == L' ') line.pop_back();
             if (i == 0) word.key = line;
             if (i == 1 && line != L"-") word.type = line;
@@ -28,7 +30,7 @@ void buildTrie(wifstream& fin, Trie& trie) {
 
 void buildAll() {
     for (int i = 0; i <= 4; i++) {
-        wifstream fin;
+        ifstream fin;
         if (filesystem::exists(dataPath[i])) fin.open(dataPath[i]);
         else fin.open(originDataPath[i]);
         auto start = chrono::high_resolution_clock::now();
@@ -52,13 +54,13 @@ void buildAll() {
     saveAll();
 }
 
-void saveTrie(wofstream& fout, Trie& trie) {
+void saveTrie(ofstream& fout, Trie& trie) {
     trie.save(fout);
 }
 
 void saveAll() {
     for (int i = 0; i <= 4; i++) {
-        wofstream fout(dataPath[i]);
+        ofstream fout(dataPath[i]);
         saveTrie(fout, trieLists[i]);
     }
 }
