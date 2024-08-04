@@ -33,12 +33,13 @@ int main() {
     buildAllTrie();
 
     wstring s;
+    cout << "Input string: ";
     getline(wcin, s);
     Word word;
     // Đổi qua lại giữa các kiểu data để test
     // s thì mở dataset ra copy rồi paste khi build xong trie
     if (trieLists[1].search(word, s)) {
-        cout << "OK";
+        cout << "OK\n";
         fout << utf16_to_utf8(word.key) << "\n";
         fout << utf16_to_utf8(word.type) << "\n";
         fout << utf16_to_utf8(word.spelling) << "\n";
@@ -49,16 +50,18 @@ int main() {
     }
 
     /*
-    engEng_Trie.remove(L";-)");
-    if (engEng_Trie.search(word, L";-)")) {
-        wcout << word.key << L"\n";
-        wcout << word.type << L"\n";
-        wcout << word.spelling << L"\n";
-        for (int i = 0; i < word.definitions.size(); i++) {
-            wcout << L"-" << word.definitions[i] << L"\n";
+    cout << "Input string to remove: ";
+    getline(wcin, s);
+    trieLists[1].remove(s);
+    if (trieLists[1].search(word, s)) {
+        fout << utf16_to_utf8(word.key) << "\n";
+        fout << utf16_to_utf8(word.type) << "\n";
+        fout << utf16_to_utf8(word.spelling) << "\n";
+        for (int i = 0; i < (int)word.definitions.size(); i++) {
+            fout << "-" << utf16_to_utf8(word.definitions[i]) << "\n";
         }
     }
-    else cout << "NO";
+    else cout << "Not find\n";
     */
 
     saveAllTrie();
