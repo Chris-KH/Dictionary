@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Trie.h"
+#include "Word.h"
 
 class List {
 private:

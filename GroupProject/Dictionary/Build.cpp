@@ -53,6 +53,10 @@ void buildAllTrie() {
     }
     buildAllList(0);
     buildAllList(1);
+    for (int i = 0; i <= 4; i++) {
+        trieLists[i].setListHistory(&historyLists[i]);
+        trieLists[i].setListFavorite(&favoriteLists[i]);
+    }
     saveAllTrie();
 }
 

@@ -1,5 +1,5 @@
 #pragma once
-#include"Word.h"
+#include"Lists.h"
 
 class TrieNode {
 public:
@@ -14,7 +14,8 @@ public:
 class Trie {
 private:
     TrieNode* root;
-    vector<Word*> listWord, listHistory;
+    List* listHistory;
+    List* listFavorite;
 
     void saveHelper(TrieNode* root, ofstream& fout);
     TrieNode* removeHelper(TrieNode* root, wstring key, int depth);
@@ -26,11 +27,8 @@ public:
     bool search(Word& word, wstring key);
     void save(ofstream& fout);
     void clear();
-
-    void addHistory(Word* word);
-    vector<Word*> getFavoriteList();
-    vector<Word*> getHistoryList();
-    
+    void setListHistory(List* list);
+    void setListFavorite(List* list);
 };
 
 

@@ -17,6 +17,8 @@ bool TrieNode::isLeaf() const {
 
 Trie::Trie() {
     root = new TrieNode();
+    listHistory = nullptr;
+    listFavorite = nullptr;
 }
 
 TrieNode* Trie::removeHelper(TrieNode* root, wstring key, int depth) {
@@ -24,7 +26,8 @@ TrieNode* Trie::removeHelper(TrieNode* root, wstring key, int depth) {
 
     if (depth == key.size()) {
         root->wordEnd = false;
-        
+        listHistory->erase(root->word.key);
+        listFavorite->erase(root->word.key);
         // If given is not prefix of any other word
         if (root->isLeaf()) {
             delete root;
@@ -139,34 +142,10 @@ void Trie::clear() {
     this->root = nullptr;
 }
 
-vector<Word*> Trie::getFavoriteList()
-{
-    vector<Word*> result;
-    result.clear();
-    for (auto curWord : listWord)
-    {
-        if (curWord->isFavorite)
-            result.push_back(curWord);
-    }
-    return result;
+void Trie::setListHistory(List* list) {
+    this->listHistory = list;
 }
 
-vector<Word*> Trie::getHistoryList()
-{
-    return listHistory;
-}
-
-void Trie::addHistory(Word* word)
-{
-    //if (listHistory.size() > LIMIT) ???
-    //    listHistory.pop_back();
-    for (int i = 0; i < (int) listHistory.size(); i++)
-        if (listHistory[i] == word)
-        {
-            listHistory.erase(listHistory.begin() + i);
-            break;
-        }
-    
-    listHistory.insert(listHistory.begin(), word);
-    
+void Trie::setListFavorite(List* list) {
+    this->listFavorite = list;
 }
