@@ -33,7 +33,10 @@
     <ClCompile Include="Build.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FavoritesAndHistory.cpp">
+    <ClCompile Include="Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Definition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,7 +50,7 @@
     <ClInclude Include="VietNamese.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FavoritesAndHistory.h">
+    <ClInclude Include="Lists.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Global.h">
@@ -56,10 +59,13 @@
     <ClInclude Include="Build.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Definition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
 </Project>

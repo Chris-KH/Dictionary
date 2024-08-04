@@ -30,7 +30,7 @@ int main() {
     cout << "\n";
     cout << (int)L'ị';*/
     ofstream fout("output.txt");
-    buildAll();
+    buildAllTrie();
 
     wstring s;
     getline(wcin, s);
@@ -42,9 +42,10 @@ int main() {
         fout << utf16_to_utf8(word.key) << "\n";
         fout << utf16_to_utf8(word.type) << "\n";
         fout << utf16_to_utf8(word.spelling) << "\n";
-        for (int i = 0; i < word.definitions.size(); i++) {
+        for (int i = 0; i < (int)word.definitions.size(); i++) {
             fout << "-" << utf16_to_utf8(word.definitions[i]) << "\n";
         }
+        historyLists[1].insert(s);
     }
 
     /*
@@ -60,7 +61,9 @@ int main() {
     else cout << "NO";
     */
 
-    //saveAll();
+    saveAllTrie();
+    saveAllList(0);
+    saveAllList(1);
     freeMemory();
 	return 0;
 }

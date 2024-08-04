@@ -1,6 +1,8 @@
 #include"Global.h"
 
 vector<Trie> trieLists(5);
+vector<List> historyLists(5);
+vector<List> favoriteLists(5);
 
 vector<string> originDataPath = { "../Dataset/Eng_Vie.txt", "../Dataset/Vie_Eng.txt",
         "../Dataset/Eng_Eng.txt", "../Dataset/Slang.txt", "../Dataset/Emoji.txt"
@@ -22,3 +24,6 @@ vector<string> favoritePath = { "../story/English-Vietnamese/favorite.txt", "../
 "../story/English-English/favorite.txt", "../story/Slang/favorite.txt", "../story/Emoji/favorite.txt"
 };
 
+Trie currentTrie;
+List currentHistory;
+List currentFavorite;

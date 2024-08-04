@@ -28,7 +28,7 @@ void buildTrie(ifstream& fin, Trie& trie) {
     fin.close();
 }
 
-void buildAll() {
+void buildAllTrie() {
     for (int i = 0; i <= 4; i++) {
         ifstream fin;
         if (filesystem::exists(dataPath[i])) fin.open(dataPath[i]);
@@ -51,17 +51,63 @@ void buildAll() {
             fout.close();
         }
     }
-    saveAll();
+    buildAllList(0);
+    buildAllList(1);
+    saveAllTrie();
 }
 
 void saveTrie(ofstream& fout, Trie& trie) {
     trie.save(fout);
 }
 
-void saveAll() {
+void saveAllTrie() {
     for (int i = 0; i <= 4; i++) {
         ofstream fout(dataPath[i]);
         saveTrie(fout, trieLists[i]);
+    }
+}
+
+void buildList(ifstream& fin, List& list) {
+    string line;
+    while (!fin.eof()) {
+        getline(fin, line);
+        if (line.empty()) continue;
+        list.insert(utf8_to_utf16(line));
+    }
+    fin.close();
+}
+
+void buildAllList(bool mode) {
+    if (mode == 0) {
+        for (int i = 0; i <= 4; i++) {
+            ifstream fin(historyPath[i]);
+            buildList(fin, historyLists[i]);
+        }
+    }
+    else {
+        for (int i = 0; i <= 4; i++) {
+            ifstream fin(favoritePath[i]);
+            buildList(fin, favoriteLists[i]);
+        }
+    }
+}
+
+void saveList(ofstream& fout, List& list) {
+    list.save(fout);
+}
+
+void saveAllList(bool mode) {
+    if (mode == 0) {
+        for (int i = 0; i <= 4; i++) {
+            ofstream fout(historyPath[i]);
+            saveList(fout, historyLists[i]);
+        }
+    }
+    else {
+        for (int i = 0; i <= 4; i++) {
+            ofstream fout(favoritePath[i]);
+            saveList(fout, favoriteLists[i]);
+        }
     }
 }
 

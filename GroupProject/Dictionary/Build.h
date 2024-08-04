@@ -2,10 +2,17 @@
 #include"Global.h"
 
 void buildTrie(ifstream& fin, Trie& trie);
-void buildAll();
+void buildAllTrie();
 
 void saveTrie(ofstream& fout, Trie& trie);
-void saveAll();
+void saveAllTrie();
+
+void buildList(ifstream& fin, List& list);
+void buildAllList(bool mode);
+
+void saveList(ofstream& fout, List& list);
+void saveAllList(bool mode);
+
 
 void resetToOrigin();
 void freeMemory();
