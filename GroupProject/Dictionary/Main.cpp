@@ -50,15 +50,16 @@ int main() {
     }
 
     /*
+    Word word_remove;
     cout << "Input string to remove: ";
     getline(wcin, s);
     trieLists[1].remove(s);
-    if (trieLists[1].search(word, s)) {
-        fout << utf16_to_utf8(word.key) << "\n";
-        fout << utf16_to_utf8(word.type) << "\n";
-        fout << utf16_to_utf8(word.spelling) << "\n";
-        for (int i = 0; i < (int)word.definitions.size(); i++) {
-            fout << "-" << utf16_to_utf8(word.definitions[i]) << "\n";
+    if (trieLists[1].search(word_remove, s)) {
+        fout << utf16_to_utf8(word_remove.key) << "\n";
+        fout << utf16_to_utf8(word_remove.type) << "\n";
+        fout << utf16_to_utf8(word_remove.spelling) << "\n";
+        for (int i = 0; i < (int)word_remove.definitions.size(); i++) {
+            fout << "-" << utf16_to_utf8(word_remove.definitions[i]) << "\n";
         }
     }
     else cout << "Not find\n";
