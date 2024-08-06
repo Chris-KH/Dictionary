@@ -26,6 +26,8 @@ vector<string> favoritePath = { "../story/English-Vietnamese/favorite.txt", "../
 "../story/English-English/favorite.txt", "../story/Slang/favorite.txt", "../story/Emoji/favorite.txt"
 };
 
+vector<vector<Word*>> listWord(5);
+
 Trie currentTrie;
 List currentHistory;
 List currentFavorite;

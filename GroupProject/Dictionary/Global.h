@@ -19,3 +19,5 @@ extern vector<string> storyDir;
 extern vector<string> historyPath;
 
 extern vector<string> favoritePath;
+
+extern vector<vector<Word*>> listWord;

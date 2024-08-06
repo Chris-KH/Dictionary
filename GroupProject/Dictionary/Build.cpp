@@ -1,6 +1,6 @@
 #include"Build.h"
 
-void buildTrie(ifstream& fin, Trie& trie) {
+void buildTrie(ifstream& fin, Trie& trie, const int mode) {
     while (!fin.eof()) {
         Word word;
         string line_8;
@@ -23,6 +23,7 @@ void buildTrie(ifstream& fin, Trie& trie) {
         }
         if (word.key.empty()) continue;
         trie.insert(word);
+        listWord[mode].push_back(&word);
     }
 
     fin.close();
@@ -35,7 +36,7 @@ void buildAllTrie() {
         else fin.open(originDataPath[i]);
         auto start = chrono::high_resolution_clock::now();
 
-        buildTrie(fin, trieLists[i]);
+        buildTrie(fin, trieLists[i], i);
 
         auto end = chrono::high_resolution_clock::now();
         auto duration = chrono::duration_cast<chrono::milliseconds>(end - start);
@@ -60,18 +61,18 @@ void buildAllTrie() {
     saveAllTrie();
 }
 
-void saveTrie(ofstream& fout, Trie& trie) {
+void saveTrie(ofstream& fout, Trie& trie, const int mode) {
     trie.save(fout);
 }
 
 void saveAllTrie() {
     for (int i = 0; i <= 4; i++) {
         ofstream fout(dataPath[i]);
-        saveTrie(fout, trieLists[i]);
+        saveTrie(fout, trieLists[i], i);
     }
 }
 
-void buildList(ifstream& fin, List& list) {
+void buildList(ifstream& fin, List& list, const int mode) {
     string line;
     while (!fin.eof()) {
         getline(fin, line);
@@ -85,18 +86,18 @@ void buildAllList(bool mode) {
     if (mode == 0) {
         for (int i = 0; i <= 4; i++) {
             ifstream fin(historyPath[i]);
-            buildList(fin, historyLists[i]);
+            buildList(fin, historyLists[i], i);
         }
     }
     else {
         for (int i = 0; i <= 4; i++) {
             ifstream fin(favoritePath[i]);
-            buildList(fin, favoriteLists[i]);
+            buildList(fin, favoriteLists[i], i);
         }
     }
 }
 
-void saveList(ofstream& fout, List& list) {
+void saveList(ofstream& fout, List& list, const int mode) {
     list.save(fout);
 }
 
@@ -104,19 +105,20 @@ void saveAllList(bool mode) {
     if (mode == 0) {
         for (int i = 0; i <= 4; i++) {
             ofstream fout(historyPath[i]);
-            saveList(fout, historyLists[i]);
+            saveList(fout, historyLists[i], i);
         }
     }
     else {
         for (int i = 0; i <= 4; i++) {
             ofstream fout(favoritePath[i]);
-            saveList(fout, favoriteLists[i]);
+            saveList(fout, favoriteLists[i], i);
         }
     }
 }
 
 void resetToOrigin(Trie& trie) {
     trie.clear();
+    listWord[system_Mode].clear();
     filesystem::remove(dataPath[system_Mode]);
     filesystem::remove(historyPath[system_Mode]);
     filesystem::remove(favoritePath[system_Mode]);
@@ -127,7 +129,7 @@ void resetToOrigin(Trie& trie) {
 
     Trie temp;
     ifstream fin(originDataPath[system_Mode]);
-    buildTrie(fin, temp);
+    buildTrie(fin, temp, system_Mode);
     trie = temp;
     trie.setListHistory(&historyLists[system_Mode]);
     trie.setListFavorite(&favoriteLists[system_Mode]);

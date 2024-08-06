@@ -5,6 +5,7 @@
 #include <io.h>
 #include <fcntl.h>
 #include "../lib/utf8.h"
+#include<random>
 
 constexpr auto sizeChar = 169;
 

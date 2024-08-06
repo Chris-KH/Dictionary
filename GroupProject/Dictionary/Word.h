@@ -3,7 +3,6 @@
 
 class Word {
 public:
-
 	wstring key; //Ex: dog, cat...
 	wstring type; // Noun, adj...
 	wstring spelling; // /ˈap(ə)l/

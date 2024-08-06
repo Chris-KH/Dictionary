@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="Build.cpp" />
     <ClCompile Include="Definition.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="Lists.cpp" />
     <ClCompile Include="Global.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -141,6 +142,7 @@
   <ItemGroup>
     <ClInclude Include="Build.h" />
     <ClInclude Include="Definition.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="Lists.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="Trie.h" />
