@@ -21,6 +21,10 @@ Trie::Trie() {
     listFavorite = nullptr;
 }
 
+TrieNode* Trie::getRoot() {
+    return this->root;
+}
+
 TrieNode* Trie::removeHelper(TrieNode* root, wstring key, int depth) {
     if (root == nullptr) return nullptr;
 
@@ -111,7 +115,20 @@ void Trie::save(ofstream& fout) {
     fout.close();
 }
 
-bool Trie::search(Word& word, wstring key) {
+void Trie::suggest(TrieNode* node, vector<Word>& list) {
+    if (node == nullptr) return;
+    if (list.size() >= 10) return;
+
+    if (node->wordEnd) {
+        list.push_back(node->word);
+    }
+
+    for (int i = 0; i < sizeChar; i++) {
+        suggest(node->childNode[i], list);
+    }
+}
+
+bool Trie::search(Word& word, wstring key, vector<Word>& list) {
     TrieNode* cur = this->root;
 
     for (int i = 0; i < (int)key.length(); i++) {
@@ -120,6 +137,8 @@ bool Trie::search(Word& word, wstring key) {
         if (cur->childNode[idx] == nullptr) return false;
         cur = cur->childNode[idx];
     }
+
+    suggest(cur, list);
 
     if (cur->wordEnd) {
         word = cur->word;
@@ -140,6 +159,8 @@ void Trie::clear() {
     if (root == nullptr) return;
     clearHelper(this->root);
     this->root = nullptr;
+    this->listFavorite = nullptr;
+    this->listHistory = nullptr;
 }
 
 void Trie::setListHistory(List* list) {

@@ -14,5 +14,5 @@ void saveList(ofstream& fout, List& list);
 void saveAllList(bool mode);
 
 
-void resetToOrigin();
+void resetToOrigin(Trie& trie);
 void freeMemory();

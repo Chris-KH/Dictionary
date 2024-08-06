@@ -2,6 +2,8 @@
 #include"Trie.h"
 #include"Lists.h"
 
+extern int system_Mode;
+
 extern vector<Trie> trieLists;
 
 extern vector<List> historyLists;

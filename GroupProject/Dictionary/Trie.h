@@ -22,9 +22,11 @@ private:
     void clearHelper(TrieNode* root);
 public:
     Trie();
+    TrieNode* getRoot();
     void insert(Word word);
     void remove(wstring key);
-    bool search(Word& word, wstring key);
+    void suggest(TrieNode* node, vector<Word>& list);
+    bool search(Word& word, wstring key, vector<Word>& list);
     void save(ofstream& fout);
     void clear();
     void setListHistory(List* list);

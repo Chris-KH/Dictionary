@@ -115,6 +115,24 @@ void saveAllList(bool mode) {
     }
 }
 
+void resetToOrigin(Trie& trie) {
+    trie.clear();
+    filesystem::remove(dataPath[system_Mode]);
+    filesystem::remove(historyPath[system_Mode]);
+    filesystem::remove(favoritePath[system_Mode]);
+    ofstream fout(historyPath[system_Mode]);
+    fout.close();
+    fout.open(favoritePath[system_Mode]);
+    fout.close();
+
+    Trie temp;
+    ifstream fin(originDataPath[system_Mode]);
+    buildTrie(fin, temp);
+    trie = temp;
+    trie.setListHistory(&historyLists[system_Mode]);
+    trie.setListFavorite(&favoriteLists[system_Mode]);
+}
+
 void freeMemory() {
     for (int i = 0; i <= 4; i++) trieLists.clear();
 }

@@ -1,5 +1,7 @@
 #include"Global.h"
 
+int system_Mode;
+
 vector<Trie> trieLists(5);
 vector<List> historyLists(5);
 vector<List> favoriteLists(5);

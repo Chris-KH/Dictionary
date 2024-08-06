@@ -6,17 +6,17 @@ Your basic smiley. This smilie is used to inflect a sarcastic or joking statemen
 ;-)
 -
 -
-Winky smiley.  User just made a flirtatious and/or sarcastic remark.  More of a "don't hit me for what I just said" smiley.
+Winky smiley. User just made a flirtatious and/or sarcastic remark. More of a "don't hit me for what I just said" smiley.
 
 :-(
 -
 -
-Frowning smiley.  User did not like that last statement or is upset or depressed about something.
+Frowning smiley. User did not like that last statement or is upset or depressed about something.
 
 :-I
 -
 -
-Indifferent smiley.  Better than a Frowning smilie but not quite as good as a happy smiley.
+Indifferent smiley. Better than a Frowning smilie but not quite as good as a happy smiley.
 
 :->
 -
