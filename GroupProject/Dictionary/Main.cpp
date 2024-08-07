@@ -14,9 +14,10 @@ int main() {
     if (_setmode(_fileno(stdin), _O_U16TEXT) == -1 && _setmode(_fileno(stdout), _O_U8TEXT) == -1) {
         return 0;
     }
-    setChar();
     
-    ofstream fout("output.txt");
+    
+    //ofstream fout("output.txt");
+    setChar();
     buildAllTrie();
 
     /* vector<pair<double, Word>> v = defSearch(trieLists[0], s);
@@ -109,7 +110,7 @@ int main() {
     } */
    
 
-    fout.close();
+    //fout.close();
     saveAllTrie();
     saveAllList(0);
     saveAllList(1);
