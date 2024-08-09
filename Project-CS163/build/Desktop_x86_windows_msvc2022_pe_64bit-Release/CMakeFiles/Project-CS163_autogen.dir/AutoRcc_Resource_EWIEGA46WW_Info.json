@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/Project-CS163_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Acer/Documents/Project-CS163 - Copy",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Acer/Documents/Project-CS163 - Copy",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/Project-CS163_autogen/include",
+	"INPUTS" : [ "C:/Users/Acer/Documents/Project-CS163 - Copy/styles.qss" ],
+	"LOCK_FILE" : "C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/CMakeFiles/Project-CS163_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "Resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resource.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.8.0/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/CMakeFiles/Project-CS163_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/Acer/Documents/Project-CS163 - Copy/Resource.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
