@@ -128,7 +128,7 @@ font-size: 18px;
 
 }
 
-#favouristButton{
+#favouriteButton{
 background-color: #BCE1ED;
 border-radius: 12%;
 font-size: 18px;
@@ -165,7 +165,7 @@ background-color: #B0F6E1;
 background-color: #B0F6E1;
 }
 
-#favouristButton:hover{
+#favouriteButton:hover{
 background-color: #B0F6E1;
 }
 
@@ -213,7 +213,7 @@ border-radius: 8px;
 background-color: white;
 font-size: 16px;
 height: 30px;
-width: 70px;
+width: 60px;
 
 }
 
@@ -226,7 +226,7 @@ border-radius: 8px;
 background-color: white;
 font-size: 16px;
 height: 30px;
-width: 70px;
+width: 60px;
 }
 
 #deleteButton:hover{
@@ -238,7 +238,7 @@ border-radius: 8px;
 background-color: white;
 font-size: 16px;
 height: 30px;
-width: 70px;
+width: 60px;
 }
 
 #editButton:hover{

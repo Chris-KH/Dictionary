@@ -44,7 +44,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    vector<word> engVietWords,engEngWords,vietEngWords,slangWords,emoijWords,historyWords,favouristWords;
+    vector<word> engVietWords,engEngWords,vietEngWords,slangWords,emoijWords,historyWords,favouriteWords;
 private slots:
     void on_engVietButton_clicked();
     void on_engEngButton_clicked();
@@ -65,5 +65,6 @@ public:
     void showWordDefinition(QString &word, QString &definition);
     void deleteWord(const QString word);
     void editWordDefinition(const QString &word, QLabel *definitionLabel,QString oldDefinition);
+    void addWordToFavouriteList(const QString wd,const QString definition);
 };
 #endif // MAINWINDOW_H

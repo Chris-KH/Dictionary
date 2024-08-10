@@ -23,15 +23,15 @@ int main(int argc, char *argv[])
     wd.name = "application"; wd.definition = "đơn xin\nsự chuyên cần\nthuốc mỡ";
     w.engVietWords.push_back(wd);
     w.historyWords.push_back(wd);
-    w.favouristWords.push_back(wd);
+    w.favouriteWords.push_back(wd);
     wd.name = "capable"; wd.definition = "có năng lực\ncó khả năng";
     w.historyWords.push_back(wd);
     w.engVietWords.push_back(wd);
-    w.favouristWords.push_back(wd);
+    w.favouriteWords.push_back(wd);
     wd.name = "gorgeous"; wd.definition = "lộng lẫy\ntuyệt vời";
     w.engVietWords.push_back(wd);
     w.historyWords.push_back(wd);
-    w.favouristWords.push_back(wd);
+    w.favouriteWords.push_back(wd);
     w.show();
     return a.exec();
 }

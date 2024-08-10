@@ -23,18 +23,6 @@ void ShowListOfWords::setupUI()
     wordListWidget = new QListWidget(this);
     leftLayout->addWidget(wordListWidget);
 
-    QScrollBar *scrollBar = new QScrollBar(Qt::Vertical, this);
-    scrollBar->setPageStep(10);  // Number of items to scroll by
-    scrollBar->setSingleStep(1); // Number of items to scroll by on arrow click
-
-    // Set up the scrolling for QListWidget
-    connect(scrollBar, &QScrollBar::valueChanged, [this](int value) {
-        wordListWidget->verticalScrollBar()->setValue(value);
-    });
-
-    // Connect the QListWidget's vertical scrollbar to the custom scrollbar
-    connect(wordListWidget->verticalScrollBar(), &QScrollBar::valueChanged, scrollBar, &QScrollBar::setValue);
-
     // Create a vertical layout for the right side (definition label)
     QVBoxLayout *rightLayout = new QVBoxLayout();
     definitionLabel = new QLabel("Select a word to view its definition.", this);
@@ -59,7 +47,7 @@ void ShowListOfWords::setupUI()
 
     // Set stretch factors to achieve the 3/7 ratio
     mainLayout->setStretchFactor(leftWidget, 3);
-    mainLayout->setStretchFactor(rightWidget, 7);
+    mainLayout->setStretchFactor(rightWidget, 8);
 
     // Set the main layout for the dialog
     setLayout(mainLayout);
@@ -108,7 +96,6 @@ void ShowListOfWords::populateList()
 
 void ShowListOfWords::connectSignals()
 {
-    // Any additional signal connections if needed
 }
 
 void ShowListOfWords::onViewButtonClicked(const QString &word, const QString &definition)

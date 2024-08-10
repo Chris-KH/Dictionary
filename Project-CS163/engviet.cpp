@@ -38,7 +38,7 @@ EngViet::EngViet(MainWindow *parent)
 
     definitionLabel->setObjectName("rightWidget");
     splitter->addWidget(definitionLabel);
-    splitter->setStretchFactor(0, 5);  // Left widget is 40% (2 out of total 5)
+    splitter->setStretchFactor(0, 6);  // Left widget is 40% (2 out of total 5)
     splitter->setStretchFactor(1, 6);  // Right widget is 60% (3 out of total 5)
     QWidget *splitterPlaceholder = ui->splitterPlaceholder;
     QVBoxLayout *layout = new QVBoxLayout(splitterPlaceholder);
@@ -46,7 +46,7 @@ EngViet::EngViet(MainWindow *parent)
     splitterPlaceholder->layout()->addWidget(splitter);
     QHBoxLayout *listButtonLayout=new QHBoxLayout(ui->buttonWidget);
     QPushButton *historyButton = new QPushButton("History",this);
-    QPushButton *favouristButton = new QPushButton("Favourist words",this);
+    QPushButton *favouristButton = new QPushButton("Favourite words",this);
     QPushButton *gameButton = new QPushButton("Play game",this);
     QPushButton *addNewWord = new QPushButton("Add word",this);
     QPushButton *searchByDefinition = new QPushButton("Search by definition",this);
@@ -59,7 +59,7 @@ EngViet::EngViet(MainWindow *parent)
 
     ui->buttonWidget->setLayout(listButtonLayout);
     historyButton->setObjectName("historyButton");
-    favouristButton->setObjectName("favouristButton");
+    favouristButton->setObjectName("favouriteButton");
     gameButton->setObjectName("gameButton");
     addNewWord->setObjectName("addNewWordButton");
     searchByDefinition->setObjectName("searchByDefinitionButton");
@@ -118,6 +118,11 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, const QString &word,
     editButton->setObjectName("editButton");
     layout->addWidget(editButton);
 
+    // Create the add word to favourist list button
+    QPushButton *add = new QPushButton("Add", wordWidget);
+    add->setObjectName("viewButton");
+    layout->addWidget(add);
+
     layout->addStretch();  // Add stretch to push the buttons to the right
 
     // Add the widget to the QListWidget as a QListWidgetItem
@@ -139,6 +144,11 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, const QString &word,
 
     connect(editButton, &QPushButton::clicked, this, [=]() {
         editWordDefinition(word, definitionLabel,definition);
+    });
+
+    connect(add, &QPushButton::clicked, this,[=](){
+
+        addWordToFavouriteList(word,definition);
     });
 
 }
@@ -210,6 +220,17 @@ void MainWindow::editWordDefinition(const QString &word, QLabel *definitionLabel
     }
 }
 
+void MainWindow::addWordToFavouriteList(const QString wd,const QString definition){
+    for(auto w:favouriteWords){
+        if(w.name==wd)
+            return;
+    }
+    word newWord;
+    newWord.name= wd;
+    newWord.definition= definition;
+    favouriteWords.push_back(newWord);
+}
+
 void EngViet::on_historyButton_clicked()
 {
     ShowListOfWords historyDialog(mainWindow->historyWords, this);
@@ -218,6 +239,6 @@ void EngViet::on_historyButton_clicked()
 
 void EngViet::on_favouristButton_clicked()
 {
-    ShowListOfWords favouristDialog(mainWindow->favouristWords, this);
+    ShowListOfWords favouristDialog(mainWindow->favouriteWords, this);
     favouristDialog.exec();
 }
