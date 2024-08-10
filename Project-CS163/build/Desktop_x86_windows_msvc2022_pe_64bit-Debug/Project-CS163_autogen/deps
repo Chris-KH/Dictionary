@@ -173,6 +173,7 @@ Project-CS163_autogen/timestamp: \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMessageBox \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QPushButton \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QSplitter \
+	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QTextEdit \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QVBoxLayout \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QWidget \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qabstractbutton.h \
@@ -204,6 +205,7 @@ Project-CS163_autogen/timestamp: \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qstyleoption.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtabbar.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtabwidget.h \
+	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtextedit.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsexports.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -399,6 +401,8 @@ Project-CS163_autogen/timestamp: \
 	C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	C:/Users/Acer/Documents/Project-CS163/editdefinitiondialog.cpp \
+	C:/Users/Acer/Documents/Project-CS163/editdefinitiondialog.h \
 	C:/Users/Acer/Documents/Project-CS163/emoij.cpp \
 	C:/Users/Acer/Documents/Project-CS163/emoij.h \
 	C:/Users/Acer/Documents/Project-CS163/engeng.cpp \

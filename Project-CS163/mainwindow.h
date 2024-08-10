@@ -7,6 +7,7 @@
 #include "vieteng.h"
 #include  "emoij.h"
 #include "slang.h"
+#include "EditDefinitionDialog.h"
 #include <QFile>
 #include <QString>
 #include <vector>
@@ -64,6 +65,6 @@ public:
     void searchWord(QListWidget *wordListWidget, const QString &searchTerm, const std::vector<word> &words, QLabel *definitionLabel);
     void showWordDefinition(QString &word, QString &definition);
     void deleteWord(const QString word);
-    void editWordDefinition(const QString &word, QLabel *definitionLabel);
+    void editWordDefinition(const QString &word, QLabel *definitionLabel,QString oldDefinition);
 };
 #endif // MAINWINDOW_H

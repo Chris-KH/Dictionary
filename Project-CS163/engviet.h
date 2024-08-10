@@ -26,6 +26,8 @@ public:
 
 private slots:
     void on_backButton_clicked();
+    void addNewWord();
+
 
 private:
     Ui::EngViet *ui;

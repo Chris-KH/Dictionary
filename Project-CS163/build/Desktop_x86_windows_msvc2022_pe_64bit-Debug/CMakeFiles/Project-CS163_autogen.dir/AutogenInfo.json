@@ -282,6 +282,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/Acer/Documents/Project-CS163/editdefinitiondialog.h",
+			"MU",
+			"EWIEGA46WW/moc_editdefinitiondialog.cpp",
+			null
+		],
+		[
 			"C:/Users/Acer/Documents/Project-CS163/emoij.h",
 			"MU",
 			"EWIEGA46WW/moc_emoij.cpp",
@@ -373,6 +379,11 @@
 	"SETTINGS_FILE" : "C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/Project-CS163_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/Acer/Documents/Project-CS163/editdefinitiondialog.cpp",
+			"MU",
+			null
+		],
 		[ "C:/Users/Acer/Documents/Project-CS163/emoij.cpp", "MU", null ],
 		[ "C:/Users/Acer/Documents/Project-CS163/engeng.cpp", "MU", null ],
 		[ "C:/Users/Acer/Documents/Project-CS163/engviet.cpp", "MU", null ],

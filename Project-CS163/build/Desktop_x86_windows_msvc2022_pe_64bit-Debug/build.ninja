@@ -121,6 +121,15 @@ build CMakeFiles\Project-CS163.dir\slang.cpp.obj: CXX_COMPILER__Project-CS163_un
   TARGET_COMPILE_PDB = CMakeFiles\Project-CS163.dir\
   TARGET_PDB = Project-CS163.pdb
 
+build CMakeFiles\Project-CS163.dir\editdefinitiondialog.cpp.obj: CXX_COMPILER__Project-CS163_unscanned_Debug C$:\Users\Acer\Documents\Project-CS163\editdefinitiondialog.cpp || cmake_object_order_depends_target_Project-CS163
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IC:\Users\Acer\Documents\Project-CS163\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\Project-CS163_autogen\include -external:IC:\Qt\6.8.0\msvc2022_64\include\QtCore -external:IC:\Qt\6.8.0\msvc2022_64\include -external:IC:\Qt\6.8.0\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.8.0\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.8.0\msvc2022_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\Project-CS163.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project-CS163.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Project-CS163.dir\
+  TARGET_PDB = Project-CS163.pdb
+
 build CMakeFiles\Project-CS163.dir\Project-CS163_autogen\EWIEGA46WW\qrc_Resource.cpp.obj: CXX_COMPILER__Project-CS163_unscanned_Debug C$:\Users\Acer\Documents\Project-CS163\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\Project-CS163_autogen\EWIEGA46WW\qrc_Resource.cpp || cmake_object_order_depends_target_Project-CS163
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
@@ -138,7 +147,7 @@ build CMakeFiles\Project-CS163.dir\Project-CS163_autogen\EWIEGA46WW\qrc_Resource
 #############################################
 # Link the executable Project-CS163.exe
 
-build Project-CS163.exe: CXX_EXECUTABLE_LINKER__Project-CS163_Debug CMakeFiles\Project-CS163.dir\Project-CS163_autogen\mocs_compilation.cpp.obj CMakeFiles\Project-CS163.dir\main.cpp.obj CMakeFiles\Project-CS163.dir\mainwindow.cpp.obj CMakeFiles\Project-CS163.dir\engviet.cpp.obj CMakeFiles\Project-CS163.dir\engeng.cpp.obj CMakeFiles\Project-CS163.dir\vieteng.cpp.obj CMakeFiles\Project-CS163.dir\emoij.cpp.obj CMakeFiles\Project-CS163.dir\slang.cpp.obj CMakeFiles\Project-CS163.dir\Project-CS163_autogen\EWIEGA46WW\qrc_Resource.cpp.obj | C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Cored.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib || Project-CS163_autogen Project-CS163_autogen_timestamp_deps
+build Project-CS163.exe: CXX_EXECUTABLE_LINKER__Project-CS163_Debug CMakeFiles\Project-CS163.dir\Project-CS163_autogen\mocs_compilation.cpp.obj CMakeFiles\Project-CS163.dir\main.cpp.obj CMakeFiles\Project-CS163.dir\mainwindow.cpp.obj CMakeFiles\Project-CS163.dir\engviet.cpp.obj CMakeFiles\Project-CS163.dir\engeng.cpp.obj CMakeFiles\Project-CS163.dir\vieteng.cpp.obj CMakeFiles\Project-CS163.dir\emoij.cpp.obj CMakeFiles\Project-CS163.dir\slang.cpp.obj CMakeFiles\Project-CS163.dir\editdefinitiondialog.cpp.obj CMakeFiles\Project-CS163.dir\Project-CS163_autogen\EWIEGA46WW\qrc_Resource.cpp.obj | C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Cored.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib || Project-CS163_autogen Project-CS163_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
   LINK_LIBRARIES = C:\Qt\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib  C:\Qt\6.8.0\msvc2022_64\lib\Qt6Guid.lib  C:\Qt\6.8.0\msvc2022_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  C:\Qt\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib  shell32.lib  d3d11.lib  dxgi.lib  dxguid.lib  d3d12.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -214,7 +223,7 @@ build Project-CS163_autogen_timestamp_deps: phony
 #############################################
 # Utility command for Project-CS163_autogen
 
-build Project-CS163_autogen: phony CMakeFiles\Project-CS163_autogen Project-CS163_autogen\include\ui_mainwindow.h Project-CS163_autogen\include\ui_engviet.h Project-CS163_autogen\include\ui_engeng.h Project-CS163_autogen\include\ui_vieteng.h Project-CS163_autogen\include\ui_emoij.h Project-CS163_autogen\include\ui_slang.h Project-CS163_autogen\timestamp Project-CS163_autogen\mocs_compilation.cpp Project-CS163_autogen_timestamp_deps
+build Project-CS163_autogen: phony CMakeFiles\Project-CS163_autogen Project-CS163_autogen\include\ui_mainwindow.h Project-CS163_autogen\include\ui_engviet.h Project-CS163_autogen\include\ui_engeng.h Project-CS163_autogen\include\ui_vieteng.h Project-CS163_autogen\include\ui_emoij.h Project-CS163_autogen\include\ui_slang.h Project-CS163_autogen\include\ui_editdefinitiondialog.h Project-CS163_autogen\timestamp Project-CS163_autogen\mocs_compilation.cpp Project-CS163_autogen_timestamp_deps
 
 
 #############################################
@@ -240,7 +249,7 @@ build Project-CS163_autogen\EWIEGA46WW\qrc_Resource.cpp | ${cmake_ninja_workdir}
 #############################################
 # Phony custom command for CMakeFiles\Project-CS163_autogen
 
-build CMakeFiles\Project-CS163_autogen Project-CS163_autogen\include\ui_mainwindow.h Project-CS163_autogen\include\ui_engviet.h Project-CS163_autogen\include\ui_engeng.h Project-CS163_autogen\include\ui_vieteng.h Project-CS163_autogen\include\ui_emoij.h Project-CS163_autogen\include\ui_slang.h | ${cmake_ninja_workdir}CMakeFiles\Project-CS163_autogen ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_mainwindow.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_engviet.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_engeng.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_vieteng.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_emoij.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_slang.h: phony Project-CS163_autogen\timestamp || Project-CS163_autogen_timestamp_deps
+build CMakeFiles\Project-CS163_autogen Project-CS163_autogen\include\ui_mainwindow.h Project-CS163_autogen\include\ui_engviet.h Project-CS163_autogen\include\ui_engeng.h Project-CS163_autogen\include\ui_vieteng.h Project-CS163_autogen\include\ui_emoij.h Project-CS163_autogen\include\ui_slang.h Project-CS163_autogen\include\ui_editdefinitiondialog.h | ${cmake_ninja_workdir}CMakeFiles\Project-CS163_autogen ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_mainwindow.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_engviet.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_engeng.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_vieteng.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_emoij.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_slang.h ${cmake_ninja_workdir}Project-CS163_autogen\include\ui_editdefinitiondialog.h: phony Project-CS163_autogen\timestamp || Project-CS163_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

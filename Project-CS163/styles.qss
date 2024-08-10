@@ -241,31 +241,39 @@ width: 70px;
 background-color: #B0F6E1;
 }
 
-QInputDialog {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+#wordInputDialog{
+font-size: 20px;
+border-radius: 8px;
+padding: 10px;
+background-color: white;
 }
-QInputDialog QLabel {
-    color: #333;
-    font-size: 14px;
+
+#okButtonDialog{
+border-radius: 8px;
+background-color: white;
+font-size: 16px;
+height: 30px;
+width: 70px;
 }
-QInputDialog QLineEdit {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 5px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    font-size: 14px;
+
+#cancelButtonDialog{
+border-radius: 8px;
+background-color: white;
+font-size: 16px;
+height: 30px;
+width: 70px;
 }
-QInputDialog QPushButton {
-    background-color: #4CAF50;
-    color: white;
-    padding: 5px 15px;
-    border: none;
-    border-radius: 3px;
-    font-size: 14px;
+
+#okButtonDialog:hover{
+background-color: #B0F6E1;
 }
-QInputDialog QPushButton:pressed {
-    background-color: #45a049;
+
+#cancelButtonDialog:hover{
+background-color: #B0F6E1;
+}
+
+#definitionInputDialog{
+font-size: 20px;
+border-radius: 8px;
+padding: 10px;
 }

@@ -1,6 +1,8 @@
 #include "engviet.h"
 #include "ui_engviet.h"
 #include "mainwindow.h"  // Include mainwindow.h here
+#include "EditDefinitionDialog.h"
+
 
 EngViet::EngViet(MainWindow *parent)
     : QDialog(parent)
@@ -68,6 +70,7 @@ EngViet::EngViet(MainWindow *parent)
     connect(searchButton, &QPushButton::clicked, this, [=]() {
         mainWindow->searchWord(wordListWidget, searchInput->text(), mainWindow->engVietWords, definitionLabel);
     });
+    connect(addNewWord , &QPushButton::clicked, this, &EngViet::addNewWord);
 
 
 }
@@ -132,7 +135,7 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, const QString &word,
     });
 
     connect(editButton, &QPushButton::clicked, this, [=]() {
-        editWordDefinition(word, definitionLabel);
+        editWordDefinition(word, definitionLabel,definition);
     });
 
 }
@@ -167,27 +170,41 @@ void MainWindow::deleteWord(const QString word){
     }
 }
 
-void MainWindow::editWordDefinition(const QString &word, QLabel *definitionLabel) {
-    bool ok;
-    QInputDialog *dialog = new QInputDialog(this);
-    dialog->setObjectName("editDialog");
+void EngViet::addNewWord() {
+    EditDefinitionDialog dialog(this);
+    dialog.setWindowTitle("Add New Word");
 
+    if (dialog.exec() == QDialog::Accepted) {
+        QString word = dialog.getWord();
+        QString definition = dialog.getDefinition();
 
-    QString newDefinition = dialog->getText(this, tr("Edit Definition"),
-                                            tr("Edit the definition of \"%1\":").arg(word),
-                                            QLineEdit::Normal,
-                                            definitionLabel->text(), &ok);
+        if (!word.isEmpty() && !definition.isEmpty()) {
+            mainWindow->engVietWords.push_back({word, definition});
+        }
+    }
+}
 
-    if (ok && !newDefinition.isEmpty()) {
-        // Find the word in the vector and update its definition
-        for (auto &w : engVietWords) {
-            if (w.name == word) {
-                w.definition = newDefinition;
-                definitionLabel->setText(newDefinition); // Update the QLabel with the new definition
-                break;
+void MainWindow::editWordDefinition(const QString &word, QLabel *definitionLabel,QString oldDefinition) {
+    EditDefinitionDialog dialog(this);
+    dialog.setWindowTitle("Edit Definition");
+
+    // Set the word and current definition in the dialog
+    dialog.setWord(word);
+    dialog.setDefinition(oldDefinition);
+
+    // Execute the dialog and check if it was accepted
+    if (dialog.exec() == QDialog::Accepted) {
+        QString newDefinition = dialog.getDefinition();
+
+        if (!newDefinition.isEmpty()) {
+            // Find the word in the vector and update its definition
+            for (auto &w : engVietWords) {
+                if (w.name == word) {
+                    w.definition = newDefinition;
+                    definitionLabel->setText(newDefinition); // Update the QLabel with the new definition
+                    break;
+                }
             }
         }
     }
-    delete dialog;
 }
-

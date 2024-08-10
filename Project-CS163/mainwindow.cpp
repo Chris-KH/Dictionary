@@ -1,4 +1,6 @@
 #include "mainwindow.h"
+#include "EditDefinitionDialog.h"
+
 #include "./ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -55,4 +57,6 @@ void MainWindow::on_slangButton_clicked()
     slang = new Slang(this);
     slang->show();
 }
+
+
 

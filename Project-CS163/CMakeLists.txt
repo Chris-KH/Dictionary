@@ -30,6 +30,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         styles.qss
         emoij.h emoij.cpp emoij.ui
         slang.h slang.cpp slang.ui
+        editdefinitiondialog.h editdefinitiondialog.cpp editdefinitiondialog.ui
 
 
 
