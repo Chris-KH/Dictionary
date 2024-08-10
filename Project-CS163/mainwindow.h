@@ -23,6 +23,8 @@
 #include <QMessageBox>
 #include <QLineEdit>
 #include <QInputDialog>
+#include <QScrollBar>
+
 
 using namespace std;
 using namespace Qt;
@@ -42,16 +44,13 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    vector<word> engVietWords,engEngWords,vietEngWords;
-
+    vector<word> engVietWords,engEngWords,vietEngWords,slangWords,emoijWords,historyWords,favouristWords;
 private slots:
     void on_engVietButton_clicked();
     void on_engEngButton_clicked();
     void on_vietEngButton_clicked();
     void on_emoijButton_clicked();
-
     void on_slangButton_clicked();
-
 private:
     Ui::MainWindow *ui;
     EngViet *engViet;

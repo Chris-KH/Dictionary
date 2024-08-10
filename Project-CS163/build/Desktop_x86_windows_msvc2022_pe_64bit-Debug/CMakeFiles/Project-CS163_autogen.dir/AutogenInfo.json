@@ -312,6 +312,12 @@
 			null
 		],
 		[
+			"C:/Users/Acer/Documents/Project-CS163/showlistofwords.h",
+			"MU",
+			"EWIEGA46WW/moc_showlistofwords.cpp",
+			null
+		],
+		[
 			"C:/Users/Acer/Documents/Project-CS163/slang.h",
 			"MU",
 			"EWIEGA46WW/moc_slang.cpp",
@@ -389,6 +395,11 @@
 		[ "C:/Users/Acer/Documents/Project-CS163/engviet.cpp", "MU", null ],
 		[ "C:/Users/Acer/Documents/Project-CS163/main.cpp", "MU", null ],
 		[ "C:/Users/Acer/Documents/Project-CS163/mainwindow.cpp", "MU", null ],
+		[
+			"C:/Users/Acer/Documents/Project-CS163/showlistofwords.cpp",
+			"MU",
+			null
+		],
 		[ "C:/Users/Acer/Documents/Project-CS163/slang.cpp", "MU", null ],
 		[ "C:/Users/Acer/Documents/Project-CS163/vieteng.cpp", "MU", null ]
 	],

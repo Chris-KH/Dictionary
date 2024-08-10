@@ -4,5 +4,6 @@
 #include "EWIEGA46WW/moc_engeng.cpp"
 #include "EWIEGA46WW/moc_engviet.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
+#include "EWIEGA46WW/moc_showlistofwords.cpp"
 #include "EWIEGA46WW/moc_slang.cpp"
 #include "EWIEGA46WW/moc_vieteng.cpp"

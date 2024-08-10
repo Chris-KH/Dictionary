@@ -190,6 +190,10 @@ font-size: 14px;
 background-color: #B0F6E1;
 }
 
+#leftWidget{
+background-color: white;
+}
+
 #rightWidget{
 padding-left: 60px;
 font-size: 24px;

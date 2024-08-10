@@ -2,7 +2,7 @@
 #include "ui_engviet.h"
 #include "mainwindow.h"  // Include mainwindow.h here
 #include "EditDefinitionDialog.h"
-
+#include "showlistofwords.h"
 
 EngViet::EngViet(MainWindow *parent)
     : QDialog(parent)
@@ -29,6 +29,8 @@ EngViet::EngViet(MainWindow *parent)
     searchLayout->addWidget(searchButton);
     leftLayout->addWidget(searchWidget);
     leftLayout->addWidget(wordListWidget);
+
+
     QWidget *leftWidget = new QWidget(this);
     leftWidget->setLayout(leftLayout);
     splitter->addWidget(leftWidget);
@@ -44,7 +46,7 @@ EngViet::EngViet(MainWindow *parent)
     splitterPlaceholder->layout()->addWidget(splitter);
     QHBoxLayout *listButtonLayout=new QHBoxLayout(ui->buttonWidget);
     QPushButton *historyButton = new QPushButton("History",this);
-    QPushButton *favouristButton = new QPushButton("Favourist",this);
+    QPushButton *favouristButton = new QPushButton("Favourist words",this);
     QPushButton *gameButton = new QPushButton("Play game",this);
     QPushButton *addNewWord = new QPushButton("Add word",this);
     QPushButton *searchByDefinition = new QPushButton("Search by definition",this);
@@ -71,7 +73,8 @@ EngViet::EngViet(MainWindow *parent)
         mainWindow->searchWord(wordListWidget, searchInput->text(), mainWindow->engVietWords, definitionLabel);
     });
     connect(addNewWord , &QPushButton::clicked, this, &EngViet::addNewWord);
-
+    connect(historyButton, &QPushButton::clicked, this, &EngViet::on_historyButton_clicked);
+    connect(favouristButton, &QPushButton::clicked, this, &EngViet::on_favouristButton_clicked);
 
 }
 
@@ -187,11 +190,9 @@ void EngViet::addNewWord() {
 void MainWindow::editWordDefinition(const QString &word, QLabel *definitionLabel,QString oldDefinition) {
     EditDefinitionDialog dialog(this);
     dialog.setWindowTitle("Edit Definition");
-
     // Set the word and current definition in the dialog
     dialog.setWord(word);
     dialog.setDefinition(oldDefinition);
-
     // Execute the dialog and check if it was accepted
     if (dialog.exec() == QDialog::Accepted) {
         QString newDefinition = dialog.getDefinition();
@@ -207,4 +208,16 @@ void MainWindow::editWordDefinition(const QString &word, QLabel *definitionLabel
             }
         }
     }
+}
+
+void EngViet::on_historyButton_clicked()
+{
+    ShowListOfWords historyDialog(mainWindow->historyWords, this);
+    historyDialog.exec();
+}
+
+void EngViet::on_favouristButton_clicked()
+{
+    ShowListOfWords favouristDialog(mainWindow->favouristWords, this);
+    favouristDialog.exec();
 }

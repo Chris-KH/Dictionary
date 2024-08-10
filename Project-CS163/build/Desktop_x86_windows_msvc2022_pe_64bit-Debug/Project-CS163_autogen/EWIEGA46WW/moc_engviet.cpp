@@ -39,6 +39,8 @@ constexpr auto qt_meta_stringdata_CLASSEngVietENDCLASS = QtMocHelpers::stringDat
     "EngViet",
     "on_backButton_clicked",
     "",
+    "on_historyButton_clicked",
+    "on_favouristButton_clicked",
     "addNewWord"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -52,7 +54,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSEngVietENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -60,10 +62,14 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSEngVietENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x08,    1 /* Private */,
-       3,    0,   27,    2, 0x08,    2 /* Private */,
+       1,    0,   38,    2, 0x08,    1 /* Private */,
+       3,    0,   39,    2, 0x08,    2 /* Private */,
+       4,    0,   40,    2, 0x08,    3 /* Private */,
+       5,    0,   41,    2, 0x08,    4 /* Private */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -81,6 +87,10 @@ Q_CONSTINIT const QMetaObject EngViet::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<EngViet, std::true_type>,
         // method 'on_backButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_historyButton_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_favouristButton_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'addNewWord'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
@@ -94,7 +104,9 @@ void EngViet::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         (void)_t;
         switch (_id) {
         case 0: _t->on_backButton_clicked(); break;
-        case 1: _t->addNewWord(); break;
+        case 1: _t->on_historyButton_clicked(); break;
+        case 2: _t->on_favouristButton_clicked(); break;
+        case 3: _t->addNewWord(); break;
         default: ;
         }
     }
@@ -120,13 +132,13 @@ int EngViet::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 4;
     }
     return _id;
 }

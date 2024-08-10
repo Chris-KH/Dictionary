@@ -1,4 +1,4 @@
-C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Project-CS163_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Acer/Documents/Project-CS163/mainwindow.h \
+C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Project-CS163_autogen/EWIEGA46WW/moc_showlistofwords.cpp: C:/Users/Acer/Documents/Project-CS163/showlistofwords.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtCore/QDebug \
   C:/Qt/6.8.0/msvc2022_64/include/QtCore/QFile \
   C:/Qt/6.8.0/msvc2022_64/include/QtCore/QString \
@@ -216,5 +216,6 @@ C:/Users/Acer/Documents/Project-CS163/build/Desktop_x86_windows_msvc2022_pe_64bi
   C:/Users/Acer/Documents/Project-CS163/emoij.h \
   C:/Users/Acer/Documents/Project-CS163/engeng.h \
   C:/Users/Acer/Documents/Project-CS163/engviet.h \
+  C:/Users/Acer/Documents/Project-CS163/mainwindow.h \
   C:/Users/Acer/Documents/Project-CS163/slang.h \
   C:/Users/Acer/Documents/Project-CS163/vieteng.h

@@ -26,6 +26,8 @@ public:
 
 private slots:
     void on_backButton_clicked();
+    void on_historyButton_clicked(); // Declare the slot
+    void on_favouristButton_clicked();
     void addNewWord();
 
 
