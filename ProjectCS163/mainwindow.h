@@ -65,7 +65,7 @@ public:
     void deleteWord(const QString word);
     void editWordDefinition(const QString &word, QLabel *definitionLabel,QString oldDefinition);
     void addWordToFavouriteList(const QString wd,const QString definition);
-
-
+    void searchDefinition(QListWidget *wordListWidget, const QString &searchTerm, const std::vector<word> &words, QLabel *definitionLabel);
+    void searchByDefinition(QListWidget *wordListWidget, const std::vector<word> &words, QLabel *definitionLabel);
 };
 #endif // MAINWINDOW_H

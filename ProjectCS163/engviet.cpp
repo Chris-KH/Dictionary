@@ -2,6 +2,7 @@
 #include "ui_engviet.h"
 #include "mainwindow.h"  // Include mainwindow.h here
 #include "EditDefinitionDialog.h"
+#include "searchbydefinition.h"
 #include "showlistofwords.h"
 #include "gameplaydialog.h"
 #include "gameplayoption.h"
@@ -31,7 +32,6 @@ EngViet::EngViet(MainWindow *parent)
     searchLayout->addWidget(searchButton);
     leftLayout->addWidget(searchWidget);
     leftLayout->addWidget(wordListWidget);
-
 
     QWidget *leftWidget = new QWidget(this);
     leftWidget->setLayout(leftLayout);
@@ -78,6 +78,9 @@ EngViet::EngViet(MainWindow *parent)
     connect(historyButton, &QPushButton::clicked, this, &EngViet::on_historyButton_clicked);
     connect(favouristButton, &QPushButton::clicked, this, &EngViet::on_favouristButton_clicked);
     connect(gameButton, &QPushButton::clicked, this, &EngViet::on_gameButton_clicked);
+    connect(searchByDefinition, &QPushButton::clicked, this, [=]() {
+        mainWindow->searchByDefinition(wordListWidget, mainWindow->engVietWords, definitionLabel);
+    });
 
 }
 
@@ -164,8 +167,6 @@ void MainWindow::deleteWordFromList(QListWidget *wordListWidget, QListWidgetItem
 void MainWindow::searchWord(QListWidget *wordListWidget, const QString &searchTerm, const std::vector<word> &words, QLabel *definitionLabel) {
     // Clear the current list
     wordListWidget->clear();
-
-
     // Search and add matching words to the list
     for (const auto &word : words) {
         if (word.name.startsWith(searchTerm, Qt::CaseInsensitive)) {
@@ -174,6 +175,16 @@ void MainWindow::searchWord(QListWidget *wordListWidget, const QString &searchTe
     }
 }
 
+void MainWindow::searchDefinition(QListWidget *wordListWidget, const QString &searchTerm, const std::vector<word> &words, QLabel *definitionLabel){
+    // Clear the current list
+    wordListWidget->clear();
+    // Search and add matching words to the list
+    for (const auto &word : words) {
+        if (word.definition.startsWith(searchTerm, Qt::CaseInsensitive)) {
+            addWordToList(wordListWidget, word.name, word.definition, definitionLabel);
+        }
+    }
+}
 
 void MainWindow::deleteWord(const QString word){
     // Loop through the vector and find the word to delete
@@ -199,6 +210,20 @@ void EngViet::addNewWord() {
     }
 }
 
+void  MainWindow::searchByDefinition(QListWidget *wordListWidget, const std::vector<word> &words, QLabel *definitionLabel){
+    SearchByDefinition searchDefDialog(this);
+    searchDefDialog.setWindowTitle("Search by definition");
+
+    if(searchDefDialog.exec()== QDialog::Accepted){
+        QString definition = searchDefDialog.getDefinition();
+
+        if(!definition.isEmpty()){
+            searchDefinition(wordListWidget,definition,words,definitionLabel);
+        }
+    }
+}
+
+
 void MainWindow::editWordDefinition(const QString &word, QLabel *definitionLabel,QString oldDefinition) {
     EditDefinitionDialog dialog(this);
     dialog.setWindowTitle("Edit Definition");
@@ -208,7 +233,6 @@ void MainWindow::editWordDefinition(const QString &word, QLabel *definitionLabel
     // Execute the dialog and check if it was accepted
     if (dialog.exec() == QDialog::Accepted) {
         QString newDefinition = dialog.getDefinition();
-
         if (!newDefinition.isEmpty()) {
             // Find the word in the vector and update its definition
             for (auto &w : engVietWords) {

@@ -26,6 +26,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         engviet.cpp engviet.h engviet.ui
         editdefinitiondialog.cpp editdefinitiondialog.h editdefinitiondialog.ui engviet.cpp engviet.h engviet.ui GameMode.h gameplaydialog.cpp gameplaydialog.h gameplaydialog.ui gameplayoption.cpp gameplayoption.h gameplayoption.ui Resource.qrc showlistofwords.cpp showlistofwords.h showlistofwords.ui
         DictionnaryMode.h
+        searchbydefinition.h searchbydefinition.cpp searchbydefinition.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET ProjectCS163 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

@@ -121,6 +121,15 @@ build CMakeFiles\ProjectCS163.dir\showlistofwords.cpp.obj: CXX_COMPILER__Project
   TARGET_COMPILE_PDB = CMakeFiles\ProjectCS163.dir\
   TARGET_PDB = ProjectCS163.pdb
 
+build CMakeFiles\ProjectCS163.dir\searchbydefinition.cpp.obj: CXX_COMPILER__ProjectCS163_unscanned_Debug C$:\Users\Acer\Documents\ProjectCS163\searchbydefinition.cpp || cmake_object_order_depends_target_ProjectCS163
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IC:\Users\Acer\Documents\ProjectCS163\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\ProjectCS163_autogen\include -external:IC:\Qt\6.8.0\msvc2022_64\include\QtCore -external:IC:\Qt\6.8.0\msvc2022_64\include -external:IC:\Qt\6.8.0\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.8.0\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.8.0\msvc2022_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\ProjectCS163.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjectCS163.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ProjectCS163.dir\
+  TARGET_PDB = ProjectCS163.pdb
+
 build CMakeFiles\ProjectCS163.dir\ProjectCS163_autogen\EWIEGA46WW\qrc_Resource.cpp.obj: CXX_COMPILER__ProjectCS163_unscanned_Debug C$:\Users\Acer\Documents\ProjectCS163\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\ProjectCS163_autogen\EWIEGA46WW\qrc_Resource.cpp || cmake_object_order_depends_target_ProjectCS163
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
@@ -138,7 +147,7 @@ build CMakeFiles\ProjectCS163.dir\ProjectCS163_autogen\EWIEGA46WW\qrc_Resource.c
 #############################################
 # Link the executable ProjectCS163.exe
 
-build ProjectCS163.exe: CXX_EXECUTABLE_LINKER__ProjectCS163_Debug CMakeFiles\ProjectCS163.dir\ProjectCS163_autogen\mocs_compilation.cpp.obj CMakeFiles\ProjectCS163.dir\main.cpp.obj CMakeFiles\ProjectCS163.dir\mainwindow.cpp.obj CMakeFiles\ProjectCS163.dir\engviet.cpp.obj CMakeFiles\ProjectCS163.dir\editdefinitiondialog.cpp.obj CMakeFiles\ProjectCS163.dir\gameplaydialog.cpp.obj CMakeFiles\ProjectCS163.dir\gameplayoption.cpp.obj CMakeFiles\ProjectCS163.dir\showlistofwords.cpp.obj CMakeFiles\ProjectCS163.dir\ProjectCS163_autogen\EWIEGA46WW\qrc_Resource.cpp.obj | C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Cored.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib || ProjectCS163_autogen ProjectCS163_autogen_timestamp_deps
+build ProjectCS163.exe: CXX_EXECUTABLE_LINKER__ProjectCS163_Debug CMakeFiles\ProjectCS163.dir\ProjectCS163_autogen\mocs_compilation.cpp.obj CMakeFiles\ProjectCS163.dir\main.cpp.obj CMakeFiles\ProjectCS163.dir\mainwindow.cpp.obj CMakeFiles\ProjectCS163.dir\engviet.cpp.obj CMakeFiles\ProjectCS163.dir\editdefinitiondialog.cpp.obj CMakeFiles\ProjectCS163.dir\gameplaydialog.cpp.obj CMakeFiles\ProjectCS163.dir\gameplayoption.cpp.obj CMakeFiles\ProjectCS163.dir\showlistofwords.cpp.obj CMakeFiles\ProjectCS163.dir\searchbydefinition.cpp.obj CMakeFiles\ProjectCS163.dir\ProjectCS163_autogen\EWIEGA46WW\qrc_Resource.cpp.obj | C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6Cored.lib C$:\Qt\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib || ProjectCS163_autogen ProjectCS163_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
   LINK_LIBRARIES = C:\Qt\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib  C:\Qt\6.8.0\msvc2022_64\lib\Qt6Guid.lib  C:\Qt\6.8.0\msvc2022_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  C:\Qt\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib  shell32.lib  d3d11.lib  dxgi.lib  dxguid.lib  d3d12.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -214,7 +223,7 @@ build ProjectCS163_autogen_timestamp_deps: phony
 #############################################
 # Utility command for ProjectCS163_autogen
 
-build ProjectCS163_autogen: phony CMakeFiles\ProjectCS163_autogen ProjectCS163_autogen\include\ui_mainwindow.h ProjectCS163_autogen\include\ui_engviet.h ProjectCS163_autogen\include\ui_editdefinitiondialog.h ProjectCS163_autogen\include\ui_gameplaydialog.h ProjectCS163_autogen\include\ui_gameplayoption.h ProjectCS163_autogen\include\ui_showlistofwords.h ProjectCS163_autogen\timestamp ProjectCS163_autogen\mocs_compilation.cpp ProjectCS163_autogen_timestamp_deps
+build ProjectCS163_autogen: phony CMakeFiles\ProjectCS163_autogen ProjectCS163_autogen\include\ui_mainwindow.h ProjectCS163_autogen\include\ui_engviet.h ProjectCS163_autogen\include\ui_editdefinitiondialog.h ProjectCS163_autogen\include\ui_gameplaydialog.h ProjectCS163_autogen\include\ui_gameplayoption.h ProjectCS163_autogen\include\ui_showlistofwords.h ProjectCS163_autogen\include\ui_searchbydefinition.h ProjectCS163_autogen\timestamp ProjectCS163_autogen\mocs_compilation.cpp ProjectCS163_autogen_timestamp_deps
 
 
 #############################################
@@ -240,7 +249,7 @@ build ProjectCS163_autogen\EWIEGA46WW\qrc_Resource.cpp | ${cmake_ninja_workdir}P
 #############################################
 # Phony custom command for CMakeFiles\ProjectCS163_autogen
 
-build CMakeFiles\ProjectCS163_autogen ProjectCS163_autogen\include\ui_mainwindow.h ProjectCS163_autogen\include\ui_engviet.h ProjectCS163_autogen\include\ui_editdefinitiondialog.h ProjectCS163_autogen\include\ui_gameplaydialog.h ProjectCS163_autogen\include\ui_gameplayoption.h ProjectCS163_autogen\include\ui_showlistofwords.h | ${cmake_ninja_workdir}CMakeFiles\ProjectCS163_autogen ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_mainwindow.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_engviet.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_editdefinitiondialog.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_gameplaydialog.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_gameplayoption.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_showlistofwords.h: phony ProjectCS163_autogen\timestamp || ProjectCS163_autogen_timestamp_deps
+build CMakeFiles\ProjectCS163_autogen ProjectCS163_autogen\include\ui_mainwindow.h ProjectCS163_autogen\include\ui_engviet.h ProjectCS163_autogen\include\ui_editdefinitiondialog.h ProjectCS163_autogen\include\ui_gameplaydialog.h ProjectCS163_autogen\include\ui_gameplayoption.h ProjectCS163_autogen\include\ui_showlistofwords.h ProjectCS163_autogen\include\ui_searchbydefinition.h | ${cmake_ninja_workdir}CMakeFiles\ProjectCS163_autogen ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_mainwindow.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_engviet.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_editdefinitiondialog.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_gameplaydialog.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_gameplayoption.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_showlistofwords.h ${cmake_ninja_workdir}ProjectCS163_autogen\include\ui_searchbydefinition.h: phony ProjectCS163_autogen\timestamp || ProjectCS163_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 64,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 47,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
@@ -371,11 +371,11 @@
 				2,
 				5,
 				8,
-				11,
+				12,
 				15,
-				18,
-				22,
-				33
+				19,
+				24,
+				34
 			]
 		}
 	],
@@ -496,11 +496,11 @@
 				2,
 				5,
 				8,
-				11,
+				12,
 				15,
-				18,
-				22,
-				33
+				19,
+				24,
+				34
 			]
 		},
 		{
@@ -510,18 +510,19 @@
 				3,
 				6,
 				9,
-				12,
-				14,
+				11,
+				13,
 				16,
-				19,
+				20,
+				22,
 				23,
-				25,
 				26,
 				27,
 				28,
 				29,
 				30,
-				31
+				31,
+				32
 			]
 		},
 		{
@@ -531,20 +532,20 @@
 				4,
 				7,
 				10,
-				13,
+				14,
 				17,
-				20,
+				18,
 				21,
-				24,
-				32
+				25,
+				33
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				34,
-				35
+				35,
+				36
 			]
 		}
 	],
@@ -582,17 +583,17 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/Acer/Documents/Project-CS163/engviet.cpp",
+			"path" : "engviet.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "C:/Users/Acer/Documents/Project-CS163/engviet.h",
+			"path" : "engviet.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,
-			"path" : "C:/Users/Acer/Documents/Project-CS163/engviet.ui",
+			"path" : "engviet.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -609,22 +610,6 @@
 		{
 			"backtrace" : 4,
 			"path" : "editdefinitiondialog.ui",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "engviet.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 4,
-			"path" : "engviet.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 4,
-			"path" : "engviet.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -686,6 +671,27 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "DictionnaryMode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "searchbydefinition.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "searchbydefinition.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "searchbydefinition.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/ProjectCS163_autogen/include/ui_mainwindow.h",
@@ -694,19 +700,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/ProjectCS163_autogen/Project-CS163/ui_engviet.h",
+			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/ProjectCS163_autogen/include/ui_engviet.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/ProjectCS163_autogen/include/ui_editdefinitiondialog.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/ProjectCS163_autogen/include/ui_engviet.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -725,6 +725,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/ProjectCS163_autogen/include/ui_showlistofwords.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/ProjectCS163_autogen/include/ui_searchbydefinition.h",
 			"sourceGroupIndex" : 1
 		},
 		{

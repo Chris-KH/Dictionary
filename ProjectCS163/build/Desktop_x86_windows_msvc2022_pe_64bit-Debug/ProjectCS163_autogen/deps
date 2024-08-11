@@ -416,8 +416,11 @@ ProjectCS163_autogen/timestamp: \
 	C:/Users/Acer/Documents/ProjectCS163/main.cpp \
 	C:/Users/Acer/Documents/ProjectCS163/mainwindow.cpp \
 	C:/Users/Acer/Documents/ProjectCS163/mainwindow.h \
+	C:/Users/Acer/Documents/ProjectCS163/searchbydefinition.cpp \
+	C:/Users/Acer/Documents/ProjectCS163/searchbydefinition.h \
 	C:/Users/Acer/Documents/ProjectCS163/showlistofwords.cpp \
 	C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h \
 	C:/Users/Acer/Documents/ProjectCS163/engviet.ui \
 	C:/Users/Acer/Documents/ProjectCS163/mainwindow.ui \
+	C:/Users/Acer/Documents/ProjectCS163/searchbydefinition.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

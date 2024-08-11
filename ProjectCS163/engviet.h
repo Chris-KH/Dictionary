@@ -32,6 +32,7 @@ private slots:
     void addNewWord();
 
 
+
 private:
     Ui::EngViet *ui;
     MainWindow *mainWindow; // Pointer to MainWindow instance

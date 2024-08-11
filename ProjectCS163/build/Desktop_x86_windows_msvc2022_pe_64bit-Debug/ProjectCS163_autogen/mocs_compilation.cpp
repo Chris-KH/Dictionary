@@ -4,4 +4,5 @@
 #include "EWIEGA46WW/moc_gameplaydialog.cpp"
 #include "EWIEGA46WW/moc_gameplayoption.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
+#include "EWIEGA46WW/moc_searchbydefinition.cpp"
 #include "EWIEGA46WW/moc_showlistofwords.cpp"

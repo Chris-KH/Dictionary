@@ -324,6 +324,12 @@
 			null
 		],
 		[
+			"C:/Users/Acer/Documents/ProjectCS163/searchbydefinition.h",
+			"MU",
+			"EWIEGA46WW/moc_searchbydefinition.cpp",
+			null
+		],
+		[
 			"C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h",
 			"MU",
 			"EWIEGA46WW/moc_showlistofwords.cpp",
@@ -395,6 +401,11 @@
 		[ "C:/Users/Acer/Documents/ProjectCS163/gameplayoption.cpp", "MU", null ],
 		[ "C:/Users/Acer/Documents/ProjectCS163/main.cpp", "MU", null ],
 		[ "C:/Users/Acer/Documents/ProjectCS163/mainwindow.cpp", "MU", null ],
+		[
+			"C:/Users/Acer/Documents/ProjectCS163/searchbydefinition.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/Acer/Documents/ProjectCS163/showlistofwords.cpp",
 			"MU",
