@@ -1,0 +1,359 @@
+QWidget {
+font-family: Arial, sans-serif;
+}
+
+#title{
+font-size: 30px;
+}
+
+#centralWidget{
+background-color: #03A9E5;
+}
+
+#engVietButton{
+background-color: #BCE1ED;
+width: 100px;
+height: 50px;
+margin: 10px;
+margin: 10px 15px;
+font-size: 26px;
+font-weight: 400;
+border-radius: 8%;
+border: 0.1px solid black;
+}
+
+#vietEngButton{
+background-color: #BCE1ED;
+width: 100px;
+height: 42px;
+margin: 10px 15px;
+padding: 5px 0;
+font-size: 26px;
+font-weight: 400;
+border-radius: 8%;
+border: 0.1px solid black;
+}
+
+#engEngButton{
+background-color: #BCE1ED;
+width: 100px;
+height: 42px;
+margin: 5px 15px;
+padding: 5px 0;
+font-size: 26px;
+font-weight: 400;
+border-radius: 8%;
+border: 0.1px solid black;
+}
+
+#emoijButton{
+background-color: #BCE1ED;
+width: 100px;
+height: 42px;
+margin: 10px 15px;
+padding: 5px 0;
+font-size: 26px;
+font-weight: 400;
+border-radius: 8%;
+border: 0.1px solid black;
+}
+
+#slangButton{
+background-color: #BCE1ED;
+width: 100px;
+height: 42px;
+margin: 10px 15px;
+padding: 5px 0;
+font-size: 26px;
+font-weight: 400;
+border-radius: 12%;
+border: 0.1px solid black;
+}
+
+#groupBox{
+border: none;
+text-align: center;
+font-size: 30px;
+
+}
+#emoijButton:hover{
+background-color: #B0F6E1;
+}
+
+#engVietButton:hover{
+background-color: #B0F6E1;
+}
+
+#engEngButton:hover{
+background-color: #B0F6E1;
+}
+
+#vietEngButton:hover{
+background-color: #B0F6E1;
+}
+
+#slangButton:hover{
+background-color: #B0F6E1;
+}
+
+#backButton{
+font-size: 18px;
+font-weight: 400;
+background-color: #BCE1ED;
+border: 0.1px solid black;
+border-radius: 12%;
+padding: 4px 0;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+#backButton:hover{
+background-color: #B0F6E1;
+}
+
+#engVietWidget{
+background-color: red;
+}
+
+#splitterPlaceholder{
+background-color: #BCE1ED;
+}
+
+
+#historyButton{
+background-color: #BCE1ED;
+border-radius: 12%;
+font-size: 18px;
+
+}
+
+#favouriteButton{
+background-color: #BCE1ED;
+border-radius: 12%;
+font-size: 18px;
+}
+
+#gameButton{
+background-color: #BCE1ED;
+border-radius: 12%;
+font-size: 18px;
+}
+
+#addNewWordButton{
+background-color: #BCE1ED;
+border-radius: 12%;
+font-size: 18px;
+}
+
+#addNewWordButton:hover{
+background-color: #B0F6E1;
+}
+
+#searchByDefinitionButton{
+background-color: #BCE1ED;
+border-radius: 12%;
+font-size: 18px;
+
+}
+
+#searchByDefinitionButton:hover{
+background-color: #B0F6E1;
+}
+
+#historyButton:hover{
+background-color: #B0F6E1;
+}
+
+#favouriteButton:hover{
+background-color: #B0F6E1;
+}
+
+#gameButton:hover{
+background-color: #B0F6E1;
+}
+
+#searchInput{
+background-color: white;
+border-radius: 8px;
+padding-left: 16px;
+font-size: 14px;
+}
+
+#searchButton{
+border-radius: 8px;
+background-color: white;
+font-size: 14px;
+}
+
+#searchButton:hover{
+background-color: #B0F6E1;
+}
+
+#leftWidget{
+background-color: white;
+}
+
+#rightWidget{
+padding-left: 60px;
+font-size: 24px;
+}
+
+#word{
+border: 0.1px solid black;
+margin-right: 5px;
+font-size: 20px;
+height: 30px;
+width: 70px;
+margin: 0 16px;
+}
+
+#viewButton{
+border-radius: 8px;
+background-color: white;
+font-size: 16px;
+height: 30px;
+width: 60px;
+
+}
+
+#viewButton:hover{
+background-color: #B0F6E1;
+}
+
+#deleteButton{
+border-radius: 8px;
+background-color: white;
+font-size: 16px;
+height: 30px;
+width: 60px;
+}
+
+#deleteButton:hover{
+background-color: #B0F6E1;
+}
+
+#editButton{
+border-radius: 8px;
+background-color: white;
+font-size: 16px;
+height: 30px;
+width: 60px;
+}
+
+#editButton:hover{
+background-color: #B0F6E1;
+}
+
+#wordInputDialog{
+font-size: 20px;
+border-radius: 8px;
+padding: 10px;
+background-color: white;
+}
+
+#okButtonDialog{
+border-radius: 8px;
+background-color: white;
+font-size: 16px;
+height: 30px;
+width: 70px;
+}
+
+#cancelButtonDialog{
+border-radius: 8px;
+background-color: white;
+font-size: 16px;
+height: 30px;
+width: 70px;
+}
+
+#okButtonDialog:hover{
+background-color: #B0F6E1;
+}
+
+#cancelButtonDialog:hover{
+background-color: #B0F6E1;
+}
+
+#definitionInputDialog{
+font-size: 20px;
+border-radius: 8px;
+padding: 10px;
+}
+
+
+
+#titleGameOption{
+qproperty-alignment: 'AlignCenter';
+width: 80px;
+border-radius: 12px;
+border: 0.1px solid black;
+font-size: 24px;
+height: 30px;
+padding-bottom: 0px;
+}
+
+#guessWordButton{
+font-size: 20px;
+width: 80px;
+padding: 10px 0;
+background-color: #BCE1ED;
+border-radius: 12px;
+border: 0.1px solid black;
+margin-bottom: 10px;
+}
+
+#guessWordButton:hover{
+background-color: #B0F6E1;
+}
+
+#guessDefinitionButton{
+font-size: 20px;
+width: 80px;
+padding: 10px 0;
+background-color: #BCE1ED;
+border-radius: 12px;
+border: 0.1px solid black;
+margin-bottom: 20px;
+}
+
+#guessDefinitionButton:hover{
+background-color: #B0F6E1;
+}
+
+
+
+#resultLabel{
+font-size: 24px;
+qproperty-alignment: 'AlignCenter';
+margin: 20px 0 30px 0;
+}
+
+#questionLabel{
+font-size: 24px;
+qproperty-alignment: 'AlignCenter';
+padding: 0;
+margin-top: 40px;
+margin-bottom: 20px;
+margin-left: 60px;
+margin-right: 60px;
+}
+
+#wordLabel{
+font-size: 24px;
+qproperty-alignment: 'AlignCenter';
+padding: 0;
+margin: 0 0 20px 0;
+}
+
+#optionButtons{
+height: 30px;
+width: 160px;
+font-size: 18px;
+margin: 5px 80px;
+}
+
+#optionButtons:hover{
+background-color: #BCE1ED;
+}
