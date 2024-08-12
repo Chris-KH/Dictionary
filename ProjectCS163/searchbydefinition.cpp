@@ -7,7 +7,7 @@ SearchByDefinition::SearchByDefinition(QWidget *parent)
 {
     setWindowTitle("Edit Definition");
     setFixedSize(800, 600);
-    setStyleSheet("background-color: #BCE1ED; margin: 5px 10px 0px 10px;");
+    setStyleSheet("background-color: #BCE1ED; margin: 10px 10px 0px 10px;");
 
 
     definitionInput = new QTextEdit(this);

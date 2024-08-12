@@ -21,7 +21,7 @@ EditDefinitionDialog::EditDefinitionDialog(QWidget *parent) :
     cancelButton->setObjectName("cancelButtonDialog");
     cancelButton->setStyleSheet("#cancelButtonDialog:hover { background-color: #B0F6E1 ; }");
 
-    setStyleSheet("background-color: #BCE1ED; margin: 5px 10px 0px 10px;");
+    setStyleSheet("background-color: #BCE1ED; margin: 10px 10px 0px 10px;");
     definitionInput->setStyleSheet("background-color: white;");
     wordInput->setStyleSheet("background-color: white; margin-bottom: 10px;");
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
