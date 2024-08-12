@@ -172,6 +172,8 @@ void MainWindow::deleteWordFromList(QListWidget *wordListWidget, QListWidgetItem
 
 void MainWindow::searchWord(QListWidget *wordListWidget, const QString &searchTerm, const std::vector<word> &words, QLabel *definitionLabel) {
     wordListWidget->clear();
+    if(searchTerm.isEmpty())
+        return;
     for (const auto &word : words) {
         if (word.name.startsWith(searchTerm, Qt::CaseInsensitive)) {
             addWordToList(wordListWidget, word.name, word.definition, definitionLabel);
@@ -180,9 +182,9 @@ void MainWindow::searchWord(QListWidget *wordListWidget, const QString &searchTe
 }
 
 void MainWindow::searchDefinition(QListWidget *wordListWidget, const QString &searchTerm, const std::vector<word> &words, QLabel *definitionLabel){
-    // Clear the current list
+    if(searchTerm.isEmpty())
+        return;
     wordListWidget->clear();
-    // Search and add matching words to the list
     for (const auto &word : words) {
         if (word.definition.startsWith(searchTerm, Qt::CaseInsensitive)) {
             addWordToList(wordListWidget, word.name, word.definition, definitionLabel);

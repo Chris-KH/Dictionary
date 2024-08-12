@@ -1,0 +1,18 @@
+# ninja log v5
+4	507	7451667851165876	ProjectCS163_autogen/timestamp	4f183c0ab0d21bed
+4	507	7451667851165876	ProjectCS163_autogen/mocs_compilation.cpp	4f183c0ab0d21bed
+4	507	7451667851165876	C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/ProjectCS163_autogen/timestamp	4f183c0ab0d21bed
+4	507	7451667851165876	C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/ProjectCS163_autogen/mocs_compilation.cpp	4f183c0ab0d21bed
+510	552	7451667852095955	ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp	7f0344f8321d3c42
+510	552	7451667852095955	C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp	7f0344f8321d3c42
+576	615	7451667852745888	CMakeFiles/ProjectCS163.dir/ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	eae63cd8d8728fe3
+562	2554	7451667872075442	CMakeFiles/ProjectCS163.dir/editdefinitiondialog.cpp.obj	c89acc04259d12fb
+573	2746	7451667874017698	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	c2aa983b4eb1e898
+568	3443	7451667880954843	CMakeFiles/ProjectCS163.dir/gameplayoption.cpp.obj	1b18f1e7cab561c
+554	3477	7451667881304815	CMakeFiles/ProjectCS163.dir/main.cpp.obj	c05e1da761022bf5
+571	3480	7451667881354822	CMakeFiles/ProjectCS163.dir/showlistofwords.cpp.obj	8bf91b7c3fe71196
+557	3502	7451667881574824	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d6c979084d41b15e
+565	3518	7451667881734808	CMakeFiles/ProjectCS163.dir/gameplaydialog.cpp.obj	c99ece699c94e14b
+552	3606	7451667882614828	CMakeFiles/ProjectCS163.dir/ProjectCS163_autogen/mocs_compilation.cpp.obj	3290bc6afce04861
+559	3731	7451667883844796	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	d422ada2867f09ce
+3731	3832	7451667884795604	ProjectCS163.exe	810d62eb39e25269
