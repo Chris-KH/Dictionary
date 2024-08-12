@@ -17,17 +17,22 @@ EngViet::EngViet(MainWindow *parent)
     QSplitter *splitter = new QSplitter(this);
     splitter->setOrientation(Qt::Horizontal);
     splitter->setHandleWidth(0);
+
     QListWidget *wordListWidget = new QListWidget(this);
     QVBoxLayout *leftLayout = new QVBoxLayout;
     QLineEdit *searchInput = new QLineEdit(this);
+
     searchInput->setObjectName("searchInput");
     searchInput->setFixedHeight(30);
     searchInput->setPlaceholderText("Enter word to search");
+
     QPushButton *searchButton = new QPushButton("Search", this);
     searchButton->setObjectName("searchButton");
     searchButton->setFixedSize(80,30);
+
     QWidget *searchWidget = new QWidget(this);
     QHBoxLayout *searchLayout = new QHBoxLayout(searchWidget);
+
     searchLayout->addWidget(searchInput);
     searchLayout->addWidget(searchButton);
     leftLayout->addWidget(searchWidget);
@@ -35,17 +40,21 @@ EngViet::EngViet(MainWindow *parent)
 
     QWidget *leftWidget = new QWidget(this);
     leftWidget->setLayout(leftLayout);
-    splitter->addWidget(leftWidget);
-    QLabel *definitionLabel = new QLabel("Select a word to view its definition.\n", this);
 
+    splitter->addWidget(leftWidget);
+
+    QLabel *definitionLabel = new QLabel("Select a word to view its definition.\n", this);
     definitionLabel->setObjectName("rightWidget");
+
     splitter->addWidget(definitionLabel);
-    splitter->setStretchFactor(0, 6);  // Left widget is 40% (2 out of total 5)
-    splitter->setStretchFactor(1, 6);  // Right widget is 60% (3 out of total 5)
+    splitter->setStretchFactor(0, 6);
+    splitter->setStretchFactor(1, 6);
+
     QWidget *splitterPlaceholder = ui->splitterPlaceholder;
     QVBoxLayout *layout = new QVBoxLayout(splitterPlaceholder);
     splitterPlaceholder->setLayout(layout);
     splitterPlaceholder->layout()->addWidget(splitter);
+
     QHBoxLayout *listButtonLayout=new QHBoxLayout(ui->buttonWidget);
     QPushButton *historyButton = new QPushButton("History",this);
     QPushButton *favouristButton = new QPushButton("Favourite words",this);
@@ -137,12 +146,10 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, const QString &word,
     item->setSizeHint(wordWidget->sizeHint());
     wordListWidget->setItemWidget(item, wordWidget);
 
-    // Connect the view button's clicked signal to show the definition in the QLabel
     connect(viewButton, &QPushButton::clicked, this, [=]() {
         definitionLabel->setText(definition);
     });
 
-    // Connect the delete button's clicked signal to remove the item from the list
     connect(deleteButton, &QPushButton::clicked, this, [=]() {
         deleteWordFromList(wordListWidget, item);
         deleteWord(word);
@@ -159,15 +166,12 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, const QString &word,
 }
 
 void MainWindow::deleteWordFromList(QListWidget *wordListWidget, QListWidgetItem *item) {
-    // Remove and delete the item from the list
     wordListWidget->takeItem(wordListWidget->row(item));
     delete item;
 }
 
 void MainWindow::searchWord(QListWidget *wordListWidget, const QString &searchTerm, const std::vector<word> &words, QLabel *definitionLabel) {
-    // Clear the current list
     wordListWidget->clear();
-    // Search and add matching words to the list
     for (const auto &word : words) {
         if (word.name.startsWith(searchTerm, Qt::CaseInsensitive)) {
             addWordToList(wordListWidget, word.name, word.definition, definitionLabel);
@@ -187,11 +191,10 @@ void MainWindow::searchDefinition(QListWidget *wordListWidget, const QString &se
 }
 
 void MainWindow::deleteWord(const QString word){
-    // Loop through the vector and find the word to delete
     for (auto it = engVietWords.begin(); it != engVietWords.end(); ++it) {
         if (it->name == word) {
             engVietWords.erase(it);
-            return; // Exit after deleting the word
+            return;
         }
     }
 }
@@ -199,11 +202,9 @@ void MainWindow::deleteWord(const QString word){
 void EngViet::addNewWord() {
     EditDefinitionDialog dialog(this);
     dialog.setWindowTitle("Add New Word");
-
     if (dialog.exec() == QDialog::Accepted) {
         QString word = dialog.getWord();
         QString definition = dialog.getDefinition();
-
         if (!word.isEmpty() && !definition.isEmpty()) {
             mainWindow->engVietWords.push_back({word, definition});
         }
@@ -213,10 +214,8 @@ void EngViet::addNewWord() {
 void  MainWindow::searchByDefinition(QListWidget *wordListWidget, const std::vector<word> &words, QLabel *definitionLabel){
     SearchByDefinition searchDefDialog(this);
     searchDefDialog.setWindowTitle("Search by definition");
-
     if(searchDefDialog.exec()== QDialog::Accepted){
         QString definition = searchDefDialog.getDefinition();
-
         if(!definition.isEmpty()){
             searchDefinition(wordListWidget,definition,words,definitionLabel);
         }
@@ -227,18 +226,15 @@ void  MainWindow::searchByDefinition(QListWidget *wordListWidget, const std::vec
 void MainWindow::editWordDefinition(const QString &word, QLabel *definitionLabel,QString oldDefinition) {
     EditDefinitionDialog dialog(this);
     dialog.setWindowTitle("Edit Definition");
-    // Set the word and current definition in the dialog
     dialog.setWord(word);
     dialog.setDefinition(oldDefinition);
-    // Execute the dialog and check if it was accepted
     if (dialog.exec() == QDialog::Accepted) {
         QString newDefinition = dialog.getDefinition();
         if (!newDefinition.isEmpty()) {
-            // Find the word in the vector and update its definition
             for (auto &w : engVietWords) {
                 if (w.name == word) {
                     w.definition = newDefinition;
-                    definitionLabel->setText(newDefinition); // Update the QLabel with the new definition
+                    definitionLabel->setText(newDefinition);
                     break;
                 }
             }

@@ -13,7 +13,8 @@ ShowListOfWords::ShowListOfWords(std::vector<word> &words, QWidget *parent)
 void ShowListOfWords::setupUI()
 {
     setFixedSize(1200, 900);
-    // setStyleSheet("background-color: #BCE1ED");
+    setStyleSheet("background-color: #BCE1ED");
+
     // Create a horizontal layout for the main layout
     QHBoxLayout *mainLayout = new QHBoxLayout(this);
 
@@ -32,9 +33,8 @@ void ShowListOfWords::setupUI()
     QWidget *leftWidget = new QWidget(this);
     QWidget *rightWidget = new QWidget(this);
 
-    // Set object name for leftWidget to apply QSS styling
-    rightWidget->setStyleSheet("font-size: 24px;"
-                               "padding-left: 100px;");
+    rightWidget->setStyleSheet("font-size: 24px; padding-left: 100px;");
+    leftWidget->setStyleSheet("background-color: white;");
 
     // Set the layouts to the widgets
     leftWidget->setLayout(leftLayout);
@@ -44,7 +44,7 @@ void ShowListOfWords::setupUI()
     mainLayout->addWidget(leftWidget);
     mainLayout->addWidget(rightWidget);
 
-    // Set stretch factors to achieve the 3/7 ratio
+    // Set stretch factors to achieve the 3/8 ratio
     mainLayout->setStretchFactor(leftWidget, 3);
     mainLayout->setStretchFactor(rightWidget, 8);
 
@@ -69,10 +69,12 @@ void ShowListOfWords::populateList()
 
         QPushButton *viewButton = new QPushButton("View", wordWidget);
         viewButton->setObjectName("viewButton");
+        viewButton->setStyleSheet("#viewButton:hover { background-color: #B0F6E1; }");
         layout->addWidget(viewButton);
 
         QPushButton *deleteButton = new QPushButton("Delete", wordWidget);
         deleteButton->setObjectName("deleteButton");
+        deleteButton->setStyleSheet("#deleteButton:hover { background-color: #B0F6E1; }");
         layout->addWidget(deleteButton);
 
         layout->addStretch();
@@ -114,6 +116,5 @@ void ShowListOfWords::onDeleteButtonClicked(const QString &word,QListWidgetItem 
     delete item;
 }
 ShowListOfWords::~ShowListOfWords() {
-    // Any necessary cleanup can be done here
 }
 

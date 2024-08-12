@@ -7,17 +7,23 @@ SearchByDefinition::SearchByDefinition(QWidget *parent)
 {
     setWindowTitle("Edit Definition");
     setFixedSize(800, 600);
-
+    setStyleSheet("background-color: #BCE1ED; margin: 5px 10px 0px 10px;");
 
 
     definitionInput = new QTextEdit(this);
     definitionInput->setObjectName("definitionInputDialog");
+    definitionInput->setStyleSheet("background-color: white");
     definitionInput->setPlaceholderText("Enter definition");
 
     okButton = new QPushButton("OK", this);
     cancelButton = new QPushButton("Cancel", this);
+
     okButton->setObjectName("okButtonDialog");
+    okButton->setStyleSheet("#okButtonDialog:hover { background-color: #B0F6E1 ; }");
+
     cancelButton->setObjectName("cancelButtonDialog");
+    cancelButton->setStyleSheet("#cancelButtonDialog:hover { background-color: #B0F6E1 ; }");
+
     // setStyleSheet("background-color: #BCE1ED;");
     // definitionInput->setStyleSheet("background-color: white;");
     // wordInput->setStyleSheet("background-color: white;");

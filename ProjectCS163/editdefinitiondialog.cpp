@@ -17,10 +17,13 @@ EditDefinitionDialog::EditDefinitionDialog(QWidget *parent) :
     okButton = new QPushButton("OK", this);
     cancelButton = new QPushButton("Cancel", this);
     okButton->setObjectName("okButtonDialog");
+    okButton->setStyleSheet("#okButtonDialog:hover { background-color: #B0F6E1 ; }");
     cancelButton->setObjectName("cancelButtonDialog");
-    // setStyleSheet("background-color: #BCE1ED;");
-    // definitionInput->setStyleSheet("background-color: white;");
-    // wordInput->setStyleSheet("background-color: white;");
+    cancelButton->setStyleSheet("#cancelButtonDialog:hover { background-color: #B0F6E1 ; }");
+
+    setStyleSheet("background-color: #BCE1ED; margin: 5px 10px 0px 10px;");
+    definitionInput->setStyleSheet("background-color: white;");
+    wordInput->setStyleSheet("background-color: white; margin-bottom: 10px;");
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     QHBoxLayout *buttonLayout = new QHBoxLayout;
 

@@ -16,6 +16,7 @@ gamePlayDialog::gamePlayDialog(MainWindow *parent, GameMode mode)
         gamePlayWords = mainWindow->emoijWords;
     }
     setObjectName("gamePlayDialog");
+    setStyleSheet("background-color: #BCE1ED");
     // setFixedSize(600,480);
     questionLabel = new QLabel(this);
     resultLabel = new QLabel(this);
@@ -33,6 +34,18 @@ gamePlayDialog::gamePlayDialog(MainWindow *parent, GameMode mode)
         optionButtons[i] = new QPushButton(this);
         optionButtons[i]->setObjectName("optionButtons");
         optionButtons[i]->setText("Option");
+        optionButtons[i]->setStyleSheet(
+            "#optionButtons {"
+            "    padding: 6px 0;"
+            "    width: 160px;"
+            "    font-size: 18px;"
+            "    margin: 5px 80px;"
+            "    background-color: white;"
+            "} "
+            "#optionButtons:hover {"
+            "    background-color: #B0F6E1;"
+            "} "
+            );
         buttonLayout->addWidget(optionButtons[i]);
         connect(optionButtons[i], &QPushButton::clicked, this, &gamePlayDialog::handleOptionButtonClicked);
     }
