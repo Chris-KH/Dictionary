@@ -1,0 +1,500 @@
+#1
+-
+-
+Number one
+
+$
+-
+-
+Dollar|money
+
+$_$
+-
+-
+Has money
+
+%)
+-
+-
+Drunk|giddy
+
+&
+-
+-
+And
+
+&APOS;S
+-
+-
+Wrongly displayed 's
+
+&HEARTS;
+-
+-
+HTML code for a heart
+
+'EM
+-
+-
+Them
+
+(!)
+-
+-
+Sarcasm
+
+('_')
+-
+-
+Emoticon Representing Boredom
+
+(.)(.)
+-
+-
+Female Breasts
+
+(8)
+-
+-
+Musical note (MSN)
+
+(:
+-
+-
+Happy
+
+(^^^)
+-
+-
+Shark
+
+(_8^(I)
+-
+-
+Homer Simpson
+
+({)(})
+-
+-
+Two People Hugging
+
+(A)
+-
+-
+Angel (MSN)
+
+(U)
+-
+-
+Heartbroken
+
+(Y)
+-
+-
+Thumbs up (MSN)
+
+(YN)
+-
+-
+Fingers crossed (MSN)
+
+(H)
+-
+-
+Cool dude emoticon (MSN)
+
+(K)
+-
+-
+Kiss (MSN)
+
+(L)
+-
+-
+Love heart (MSN)
+
+(N)
+-
+-
+Thumbs down (MSN)
+
+(S)
+-
+-
+Seriously
+
+*
+-
+-
+Indicating a spelling correction
+
+*$
+-
+-
+Starbucks
+
+*$$
+-
+-
+Starbucks
+
+*.*
+-
+-
+Every file on a computer
+
+*<:-)
+-
+-
+Clown
+
+*\O/*
+-
+-
+Cheerleader
+
+*_*
+-
+-
+In love|dazed
+
+*O*
+-
+-
+Confused|surprised|shocked
+
+*G*
+-
+-
+Grin
+
+*HUG*
+-
+-
+A Cyberhug
+
+*S*
+-
+-
+Salute
+
++1
+-
+-
+Partner|Me too
+
++_+
+-
+-
+Dead man
+
++REP
+-
+-
+Boost reputation
+
+-.-
+-
+-
+Annoyance
+
+-_-
+-
+-
+Annoyed|tired
+
+.-.
+-
+-
+Sad|unhappy
+
+...
+-
+-
+Silence|A Trailing Thought
+
+._.
+-
+-
+Emoticon Representing Apathy
+
+.EDU
+-
+-
+education
+
+.ORG
+-
+-
+non-profit organizations
+
+.BIZ
+-
+-
+Top level domain for business
+
+.CO
+-
+-
+Alternative to .COM
+
+.COM
+-
+-
+commerce
+
+.GOV
+-
+-
+governments
+
+.MIL
+-
+-
+military
+
+.NET
+-
+-
+network providers
+
+/.\
+-
+-
+Shy|Ashamed
+
+//
+-
+-
+Love|I love you
+
+/:)
+-
+-
+Flirtation|Sign Of Suspicion
+
+/O/
+-
+-
+Happy|arms in the air
+
+/O\
+-
+-
+Frustrated|hands on head
+
+/B/
+-
+-
+4chan's random image board
+
+/R/
+-
+-
+Requesting
+
+/S
+-
+-
+Sarcasm
+
+/THREAD
+-
+-
+End of a thread on a forum
+
+/W
+-
+-
+Whisper
+
+0.0
+-
+-
+Surprise
+
+0.O
+-
+-
+Raised eyebrow
+
+0/
+-
+-
+Waving
+
+0_0
+-
+-
+Shocked
+
+10-1
+-
+-
+Radio code for 'Receiving poorly'
+
+10-2
+-
+-
+Radio code for 'Receiving well'
+
+10-4
+-
+-
+Understood, OK
+
+10CHAR
+-
+-
+Padding where at least 10 characters are required
+
+10Q
+-
+-
+Thank you
+
+10X
+-
+-
+Thanks
+
+1AAT
+-
+-
+One At A Time
+
+<#
+-
+-
+Misspelling of <3
+
+<.<
+-
+-
+Shifty look
+
+</3
+-
+-
+Broken Hearted
+
+<2
+-
+-
+Not quite love (<3)
+
+<3
+-
+-
+Love (heart shape)
+
+<333
+-
+-
+Multiple hearts
+
+<3U
+-
+-
+Love You
+
+<4
+-
+-
+More than love (<3)
+
+<>
+-
+-
+Not equal|No comment
+
+<><
+-
+-
+Fish
+
+<_<
+-
+-
+Sarcasm|look left
+
+<B
+-
+-
+Hate
+
+<G>
+-
+-
+Grin
+
+>,<
+-
+-
+Angry|annoyed
+
+>.<
+-
+-
+Frustrated|angry|upset|in pain
+
+>.>
+-
+-
+Suspicious|wary
+
+>//<
+-
+-
+Embarrassed|blushing
+
+>3
+-
+-
+Evil but happy|Hate
+
+>:(
+-
+-
+Angry
+
+>:)
+-
+-
+Evil Grin
+
+>:O
+-
+-
+Angry
+
+>:D
+-
+-
+Scheming|Maniacal
+
+>:D<
+-
+-
+Hug
+
+><
+-
+-
+Frustration
+
+>_<
+-
+-
+Frustrated
+
+>_>
+-
+-
+Looking left|shifty look
+
+>O<
+-
+-
+Yelling
+

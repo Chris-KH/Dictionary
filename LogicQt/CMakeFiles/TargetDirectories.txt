@@ -1,0 +1,9 @@
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/LogicQt.dir
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/edit_cache.dir
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/rebuild_cache.dir
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/list_install_components.dir
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/install.dir
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/install/local.dir
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/install/strip.dir
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/LogicQt_autogen_timestamp_deps.dir
+D:/BT/C++/0HCMUS/Year 1/S3/LogicQt/LogicQt/CMakeFiles/LogicQt_autogen.dir
