@@ -141,7 +141,7 @@ EngViet::EngViet(MainWindow *parent)
         Word word;
         QVector<Word> currentList;
        if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
-            mainWindow->addWordToList(wordListWidget, word, definitionLabel);
+            mainWindow->addWordToList(wordListWidget, word, definitionLabel, 1);
        }
         historyLists[system_Mode].insert(word.key);
     });
@@ -186,9 +186,10 @@ void MainWindow::updateCompleterModel(QCompleter *completer, QVector<Word> &curr
     }
 }
 
-void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *definitionLabel)
+void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *definitionLabel, bool check)
 {
-    wordListWidget->clear();
+    if (check)
+        wordListWidget->clear();
     QWidget *wordWidget = new QWidget(wordListWidget);
 
     wordWidget->setObjectName("wordWidget");
@@ -268,8 +269,10 @@ void MainWindow::searchByDefinition(QListWidget *wordListWidget,QLabel *definiti
         wordListWidget->clear();
         QVector<QPair<double,Word>> current;
         getWord(trieLists[system_Mode].getRoot(),definition,current);
+        sort(current.begin(), current.end(), [](QPair<double, Word> a, QPair<double, Word> b) {return a.first < b.first; });
+
         for(auto it:current){
-            addWordToList(wordListWidget,it.second, definitionLabel);
+            addWordToList(wordListWidget,it.second, definitionLabel, 0);
         }
     }
 
