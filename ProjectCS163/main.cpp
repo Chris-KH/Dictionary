@@ -4,7 +4,6 @@
 #include <QApplication>
 #include <QDebug>
 
-
 using namespace std;
 int main(int argc, char *argv[])
 {
@@ -24,7 +23,6 @@ int main(int argc, char *argv[])
 
     setChar();
     buildAllTrie();
-
     MainWindow w;
     w.show();
 

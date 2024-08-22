@@ -8,7 +8,6 @@ void buildTrie(QFile& file, Trie& trie, const int mode) {
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)){
         return;
     }
-
     QTextStream fin(&file);
 
     while (!fin.atEnd()) {
@@ -85,13 +84,14 @@ void buildAllTrie() {
 }
 
 void saveTrie(QFile& file, Trie& trie, const int mode) {
+
     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
         QTextStream fout(&file);
         trie.save(fout);
         file.close();
     }
     else{
-        qDebug()<<file.fileName();
+
         qDebug()<<0;
     }
 }
@@ -141,8 +141,6 @@ void saveList(QFile& file, List& list, const int mode) {
         list.save(fout);
         file.close();
     }
-    else
-        qDebug()<<file.fileName();
 }
 
 void saveAllList(bool mode) {
