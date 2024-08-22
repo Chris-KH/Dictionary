@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ProjectCS163::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ProjectCS163-Debug-6bf43de0ca42172358fa.json",
+					"jsonFile" : "target-ProjectCS163-Debug-deeeb618917d10ad57fb.json",
 					"name" : "ProjectCS163",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
-		"source" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163"
+		"build" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163"
 	},
 	"version" : 
 	{

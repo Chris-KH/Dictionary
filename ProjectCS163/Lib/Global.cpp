@@ -26,7 +26,7 @@ QVector<QString> favoritePath = { "story/English-Vietnamese/favorite.txt", "stor
 "story/English-English/favorite.txt", "story/Slang/favorite.txt", "story/Emoji/favorite.txt"
 };
 
-QVector<QVector<Word*>> listWord(5);
+QVector<QVector<Word>> listWord(5);
 
 Trie currentTrie;
 List currentHistory;

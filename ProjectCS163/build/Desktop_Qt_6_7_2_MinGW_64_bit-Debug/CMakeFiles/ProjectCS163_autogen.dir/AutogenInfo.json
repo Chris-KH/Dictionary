@@ -1,17 +1,17 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen",
-	"CMAKE_BINARY_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163",
+	"BUILD_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen",
+	"CMAKE_BINARY_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/CMakeLists.txt",
-		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/CMakeLists.txt",
+		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystem.cmake.in",
-		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
+		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake",
@@ -65,7 +65,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
-		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
+		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
@@ -80,7 +80,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in",
-		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
+		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake",
@@ -97,7 +97,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
-		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
+		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
@@ -318,120 +318,120 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
-		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Resource.qrc"
+		"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Resource.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163",
+	"CMAKE_SOURCE_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/deps",
+	"DEP_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "ProjectCS163_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/DictionnaryMode.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/DictionnaryMode.h",
 			"MU",
 			"EWIEGA46WW/moc_DictionnaryMode.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/GameMode.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/GameMode.h",
 			"MU",
 			"EWIEGA46WW/moc_GameMode.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Build.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Build.h",
 			"MU",
 			"HNEM6LUDXB/moc_Build.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Definition.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Definition.h",
 			"MU",
 			"HNEM6LUDXB/moc_Definition.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Game.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Game.h",
 			"MU",
 			"HNEM6LUDXB/moc_Game.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Global.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Global.h",
 			"MU",
 			"HNEM6LUDXB/moc_Global.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Lists.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Lists.h",
 			"MU",
 			"HNEM6LUDXB/moc_Lists.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Trie.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Trie.h",
 			"MU",
 			"HNEM6LUDXB/moc_Trie.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/VietNamese.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/VietNamese.h",
 			"MU",
 			"HNEM6LUDXB/moc_VietNamese.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Word.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Word.h",
 			"MU",
 			"HNEM6LUDXB/moc_Word.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/editdefinitiondialog.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/editdefinitiondialog.h",
 			"MU",
 			"EWIEGA46WW/moc_editdefinitiondialog.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/engviet.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/engviet.h",
 			"MU",
 			"EWIEGA46WW/moc_engviet.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/gameplaydialog.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/gameplaydialog.h",
 			"MU",
 			"EWIEGA46WW/moc_gameplaydialog.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/gameplayoption.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/gameplayoption.h",
 			"MU",
 			"EWIEGA46WW/moc_gameplayoption.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/mainwindow.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/searchbydefinition.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/searchbydefinition.h",
 			"MU",
 			"EWIEGA46WW/moc_searchbydefinition.cpp",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/showlistofwords.h",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/showlistofwords.h",
 			"MU",
 			"EWIEGA46WW/moc_showlistofwords.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -487,96 +487,96 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/ProjectCS163_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/ProjectCS163_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/ProjectCS163_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/ProjectCS163_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Build.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Build.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Definition.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Definition.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Game.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Game.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Global.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Global.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Lists.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Lists.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Trie.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Trie.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/VietNamese.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/VietNamese.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Word.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Word.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/editdefinitiondialog.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/editdefinitiondialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/engviet.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/engviet.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/gameplaydialog.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/gameplaydialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/gameplayoption.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/gameplayoption.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/main.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/mainwindow.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/searchbydefinition.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/searchbydefinition.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/showlistofwords.cpp",
+			"D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver7/ProjectCS163/showlistofwords.cpp",
 			"MU",
 			null
 		]

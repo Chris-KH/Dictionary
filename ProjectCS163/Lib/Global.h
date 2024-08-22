@@ -21,7 +21,7 @@ extern QVector<QString> historyPath;
 
 extern QVector<QString> favoritePath;
 
-extern QVector<QVector<Word*>> listWord;
+extern QVector<QVector<Word>> listWord;
 
 extern Trie currentTrie;
 extern List currentHistory;

@@ -30,6 +30,9 @@ void List::showWords(){
     }
 }
 
+void List::clear(){
+    list.clear();
+}
 QVector<QString> List::getAllWords(){
     return list;
 }

@@ -144,26 +144,26 @@ EngViet::EngViet(MainWindow *parent)
     connect(searchButton, &QPushButton::clicked, this, [=]() {
         Word word;
         QVector<Word> currentList;
-       if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
+        if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
             mainWindow->addWordToList(wordListWidget, word, definitionLabel, 1);
-       }
-       else{
-           definitionLabel->setText(" This word don't exist !");
-       }
-       if(!word.key.isEmpty()){
-        historyLists[system_Mode].insert(word.key);
-       }
+        }
+        else{
+            definitionLabel->setText(" This word don't exist !");
+        }
+        if(!word.key.isEmpty()){
+            historyLists[system_Mode].insert(word.key);
+        }
     });
     connect(searchInput, &QLineEdit::textChanged, this, [=]() {
         Word word;
         QVector<Word> currentList;
-         if (trieLists[system_Mode].search(word, searchInput->text(), currentList) == false) {
+        if (trieLists[system_Mode].search(word, searchInput->text(), currentList) == false) {
             mainWindow->updateCompleterModel(completer, currentList);
         } else {
-           currentList.clear();
-           currentList.push_back(word);
-           mainWindow->updateCompleterModel(completer, currentList);
-       }
+            currentList.clear();
+            currentList.push_back(word);
+            mainWindow->updateCompleterModel(completer, currentList);
+        }
     });
 
 }
@@ -253,13 +253,13 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
     });
 
     connect(deleteButton, &QPushButton::clicked, this, [=]() {
-       deleteWordFromList(wordListWidget, item);
+        deleteWordFromList(wordListWidget, item);
         trieLists[system_Mode].remove(word.key);
     });
 
     connect(editButton, &QPushButton::clicked, this, [=]() {
-         Word editWord = word;
-         editWordDefinition(editWord, definitionLabel);
+        Word editWord = word;
+        editWordDefinition(editWord, definitionLabel);
     });
 
     connect(add, &QPushButton::clicked, this,[=](){
@@ -295,14 +295,14 @@ void MainWindow::searchByDefinition(QListWidget *wordListWidget,QLabel *definiti
 }
 
 void MainWindow::addNewWord()
- {
+{
     EditDefinitionDialog dialog(this);
     if(currentMode==DictionaryMode::EngViet)
         dialog.setWindowTitle("Thêm từ mới");
     else
         dialog.setWindowTitle("Add new word");
 
-     if (dialog.exec() == QDialog::Accepted) {
+    if (dialog.exec() == QDialog::Accepted) {
         Word newWord;
         QString newKey = dialog.getKey();
         QString newDefinition = dialog.getDefinition();
@@ -318,7 +318,7 @@ void MainWindow::addNewWord()
             newWord.spelling=newSpelling;
             trieLists[system_Mode].insert(newWord);
         }
-     }
+    }
 }
 
 
@@ -365,7 +365,7 @@ void EngViet::on_gameButton_clicked()
 {
     gamePlayOption *optionDialog = new gamePlayOption(mainWindow);
     connect(optionDialog, &gamePlayOption::guessWordMode, this, [=]() {
-         //mainWindow->gameWords = guessWord(system_Mode);
+        mainWindow->gameWords = guessWord(system_Mode);
         // gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessWord);
         // gameDialog->exec();
     });
@@ -383,6 +383,6 @@ void EngViet::closeEvent(QCloseEvent *event){
     saveAllList(0);
     saveAllList(1);
     freeMemory();
-     event->accept();
+    event->accept();
 }
 

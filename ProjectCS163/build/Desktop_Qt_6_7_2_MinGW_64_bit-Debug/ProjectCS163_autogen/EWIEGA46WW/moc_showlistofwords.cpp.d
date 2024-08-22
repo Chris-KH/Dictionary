@@ -1,5 +1,5 @@
-D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/EWIEGA46WW/moc_showlistofwords.cpp: D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/showlistofwords.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/moc_predefs.h \
+D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/EWIEGA46WW/moc_showlistofwords.cpp: D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/showlistofwords.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/moc_predefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QChar \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QCoreApplication \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QDebug \
@@ -514,16 +514,16 @@ D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_Mi
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/DictionnaryMode.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/EditDefinitionDialog.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/GameMode.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Build.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Definition.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Game.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Global.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Lists.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Trie.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/Lib/VietNamese.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/Lib/Word.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/engviet.h \
-  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver4/ProjectCS163/mainwindow.h
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/DictionnaryMode.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/EditDefinitionDialog.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/GameMode.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Build.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Definition.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Game.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Global.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Lists.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Trie.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/Lib/VietNamese.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/Lib/Word.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/engviet.h \
+  D:/BT/C++/0HCMUS/Year\ 1/S3/0PROJECT/ver7/ProjectCS163/mainwindow.h
