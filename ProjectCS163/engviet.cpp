@@ -51,9 +51,20 @@ EngViet::EngViet(MainWindow *parent)
 
     QLabel *definitionLabel = new QLabel("Select a word to view its definition.\n", this);
     definitionLabel->setObjectName("rightWidget");
+    definitionLabel->setStyleSheet("margin-top: 100px");
 
+
+    // Create a scroll area to contain the definition label
+  //  QScrollArea *scrollArea = new QScrollArea(this);
+
+  //  scrollArea->setWidget(definitionLabel);
+  //  scrollArea->setWidgetResizable(true); // Ensures the label resizes with the scroll area
+
+    // Add the scroll area to the right side of the splitter
+  //  splitter->addWidget(scrollArea);
+    //splitter->addWidget(definitionLabel);
     splitter->addWidget(definitionLabel);
-    splitter->setStretchFactor(0, 5);
+    splitter->setStretchFactor(0, 4);
     splitter->setStretchFactor(1, 6);
 
     QWidget *splitterPlaceholder = ui->splitterPlaceholder;

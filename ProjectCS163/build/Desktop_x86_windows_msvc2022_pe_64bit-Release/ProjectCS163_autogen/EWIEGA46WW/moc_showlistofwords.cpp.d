@@ -208,6 +208,7 @@ C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QPushButton \
+  C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QScrollArea \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QScrollBar \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QSplitter \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QTextEdit \
@@ -236,6 +237,7 @@ C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qpushbutton.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qrubberband.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qscrollarea.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qscrollbar.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qslider.h \

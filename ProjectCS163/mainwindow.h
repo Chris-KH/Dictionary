@@ -29,6 +29,7 @@
 #include "Lib/Game.h"
 #include <QStringList>
 #include <QCompleter>
+#include <QScrollArea>
 #include <random>
 
 using namespace std;
