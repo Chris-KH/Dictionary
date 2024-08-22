@@ -21,22 +21,32 @@ double editDistance(QString a, QString b) {
 
 void getWord(TrieNode* root, QString def, QVector<QPair<double, Word>>& defSearch) {
 	if (root == nullptr) return;
-	if (defSearch.size() >= 6) return;
+    //if (defSearch.size() >= 6) return;
 
 	if (root->wordEnd) {
 		bool ok = false;
 		double distance = 1e9;
 		double temp;
-		for (int i = 0; i < (int)root->word.definitions.size(); i++) {
-			distance = min(distance, editDistance(def, root->word.definitions[i]));
-			temp = distance / (double)max((double)def.length(), (double)root->word.definitions[i].length());
-			if (temp <= 0.08) {
-				ok = true;
-				break;
-			}
+        for (int i = 0; i < (int)root->word.definitions.size(); i++) {
+            distance = min(distance, editDistance(def, root->word.definitions[i]));
+            temp = distance / (double)max((double)def.length(), (double)root->word.definitions[i].length());
+            if (temp <= 0.08) {
+                if (defSearch.size() < 10) {
+                    defSearch.push_back({ temp, root->word });
+                } else {
+                    auto maxIt = std::max_element(defSearch.begin(), defSearch.end(), [](const QPair<double, Word>& a, const QPair<double, Word>& b) {
+                        return a.first < b.first;
+                    });
+
+                    if (temp < maxIt->first) {
+                        *maxIt = { temp, root->word };
+                    }
+                }
+                break;
+            }
 		}
 		if (ok) defSearch.push_back({ temp, root->word });
-	}
+    }
 
 	for (int i = 0; i < sizeChar; i++) {
 		getWord(root->childNode[i], def, defSearch);

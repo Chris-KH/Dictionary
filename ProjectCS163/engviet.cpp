@@ -271,7 +271,9 @@ void MainWindow::searchByDefinition(QListWidget *wordListWidget,QLabel *definiti
         getWord(trieLists[system_Mode].getRoot(),definition,current);
         sort(current.begin(), current.end(), [](QPair<double, Word> a, QPair<double, Word> b) {return a.first < b.first; });
 
-        for(auto it:current){
+        for (int i=0; i<min(int(current.size()),6); ++i)
+        {
+            auto it=current[i];
             addWordToList(wordListWidget,it.second, definitionLabel, 0);
         }
     }
