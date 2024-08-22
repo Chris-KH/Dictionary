@@ -39,7 +39,6 @@ gamePlayOption::~gamePlayOption()
 void gamePlayOption::onGuessWordButtonClicked()
 {
     if (mainWindow) {
-
         emit guessWordMode();
         accept();
     }

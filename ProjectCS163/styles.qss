@@ -201,11 +201,10 @@ font-size: 24px;
 
 #word{
 border: 0.1px solid black;
-margin-right: 5px;
 font-size: 20px;
 height: 30px;
 width: 70px;
-margin: 0 16px;
+margin: 0 5px;
 }
 
 #viewButton{
@@ -213,7 +212,7 @@ border-radius: 8px;
 background-color: white;
 font-size: 16px;
 height: 30px;
-width: 60px;
+padding: 0 10px;
 }
 
 #viewButton:hover{
@@ -225,7 +224,7 @@ border-radius: 8px;
 background-color: white;
 font-size: 16px;
 height: 30px;
-width: 60px;
+padding: 0 10px;
 }
 
 #deleteButton:hover{
@@ -237,7 +236,7 @@ border-radius: 8px;
 background-color: white;
 font-size: 16px;
 height: 30px;
-width: 60px;
+padding: 0 10px;
 }
 
 #editButton:hover{
