@@ -1,0 +1,83 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(ProjectCS163 VERSION 0.1 LANGUAGES CXX)
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+
+set(PROJECT_SOURCES
+        main.cpp
+        mainwindow.cpp
+        mainwindow.h
+        mainwindow.ui
+)
+
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(ProjectCS163
+        MANUAL_FINALIZATION
+        ${PROJECT_SOURCES}
+        engviet.cpp engviet.h engviet.ui
+        editdefinitiondialog.cpp editdefinitiondialog.h editdefinitiondialog.ui engviet.cpp engviet.h engviet.ui GameMode.h gameplaydialog.cpp gameplaydialog.h gameplaydialog.ui gameplayoption.cpp gameplayoption.h gameplayoption.ui Resource.qrc showlistofwords.cpp showlistofwords.h showlistofwords.ui
+        DictionnaryMode.h
+        searchbydefinition.h searchbydefinition.cpp searchbydefinition.ui
+        Lib/Definition.cpp Lib/Definition.h Lib/Game.cpp Lib/Game.h Lib/Global.cpp Lib/Global.h Lib/Lists.cpp Lib/Lists.h Lib/Trie.cpp Lib/Trie.h   Lib/Word.cpp Lib/Word.h
+        Lib/VietNamese.cpp Lib/VietNamese.h
+        Lib/Build.cpp Lib/Build.h
+        story/Emoij/Emoji.txt story/Emoij/favourite.txt story/Emoij/history.txt
+        story/English-English/Eng_Eng.txt story/English-English/favourite.txt story/English-English/history.txt
+        story/English-Vietnamese/Eng_Vie.txt story/English-Vietnamese/favourite.txt story/English-Vietnamese/history.txt
+        story/Slang/favourite.txt story/Slang/history.txt story/Slang/Slang.txt
+        story/Vietnamese-English/favourite.txt story/Vietnamese-English/history.txt story/Vietnamese-English/Vie_Eng.txt
+        Dataset/Emoji.txt Dataset/Eng_Eng.txt Dataset/Eng_Vie.txt Dataset/Slang.txt Dataset/Vie_Eng.txt
+    )
+# Define target properties for Android with Qt 6 as:
+#    set_property(TARGET ProjectCS163 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
+#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
+# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
+else()
+    if(ANDROID)
+        add_library(ProjectCS163 SHARED
+            ${PROJECT_SOURCES}
+        )
+# Define properties for Android with Qt 5 after find_package() calls as:
+#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+    else()
+        add_executable(ProjectCS163
+            ${PROJECT_SOURCES}
+        )
+    endif()
+endif()
+
+target_link_libraries(ProjectCS163 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+
+# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
+# If you are developing for iOS or macOS you should consider setting an
+# explicit, fixed bundle identifier manually though.
+if(${QT_VERSION} VERSION_LESS 6.1.0)
+  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.ProjectCS163)
+endif()
+set_target_properties(ProjectCS163 PROPERTIES
+    ${BUNDLE_ID_OPTION}
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
+)
+
+include(GNUInstallDirs)
+install(TARGETS ProjectCS163
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
+
+if(QT_VERSION_MAJOR EQUAL 6)
+    qt_finalize_executable(ProjectCS163)
+endif()

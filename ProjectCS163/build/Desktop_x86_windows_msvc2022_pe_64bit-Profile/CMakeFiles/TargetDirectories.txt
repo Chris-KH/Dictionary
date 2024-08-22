@@ -1,0 +1,8 @@
+C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Profile/CMakeFiles/ProjectCS163.dir
+C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Profile/CMakeFiles/edit_cache.dir
+C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Profile/CMakeFiles/rebuild_cache.dir
+C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Profile/CMakeFiles/list_install_components.dir
+C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Profile/CMakeFiles/install.dir
+C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Profile/CMakeFiles/install/local.dir
+C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Profile/CMakeFiles/ProjectCS163_autogen_timestamp_deps.dir
+C:/Users/Acer/Documents/ProjectCS163/build/Desktop_x86_windows_msvc2022_pe_64bit-Profile/CMakeFiles/ProjectCS163_autogen.dir
