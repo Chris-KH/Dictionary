@@ -27,6 +27,10 @@ EngViet::EngViet(MainWindow *parent)
     QCompleter *completer = new QCompleter(wordList, this);
     completer->setCaseSensitivity(Qt::CaseInsensitive);
 
+    QStyledItemDelegate *delegate = new QStyledItemDelegate(this);
+    completer->popup()->setItemDelegate(delegate);
+    completer->popup()->setStyleSheet("font-size: 14pt;");
+
     QLineEdit *searchInput = new QLineEdit(this);
     searchInput->setCompleter(completer);
     searchInput->setObjectName("searchInput");
@@ -142,6 +146,9 @@ EngViet::EngViet(MainWindow *parent)
         QVector<Word> currentList;
        if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
             mainWindow->addWordToList(wordListWidget, word, definitionLabel);
+       }
+       else{
+           definitionLabel->setText(" This word don't exist !");
        }
        if(!word.key.isEmpty()){
         historyLists[system_Mode].insert(word.key);
