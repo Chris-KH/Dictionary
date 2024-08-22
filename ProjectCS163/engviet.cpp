@@ -124,7 +124,6 @@ EngViet::EngViet(MainWindow *parent)
     connect(searchButton, &QPushButton::clicked, this, [=]() {
         Word word;
         QVector<Word> currentList;
-        qDebug()<<searchInput->text();
        if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
             historyLists[system_Mode].insert(word.key);
             qDebug()<<word.key;
@@ -171,7 +170,7 @@ void MainWindow::updateCompleterModel(QCompleter *completer, QVector<Word> &curr
 
 void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *definitionLabel)
  {
-
+    wordListWidget->clear();
     QWidget *wordWidget = new QWidget(wordListWidget);
 
     wordWidget->setObjectName("wordWidget");
