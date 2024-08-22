@@ -1,87 +1,63 @@
 # ninja log v6
-20	5142	7460389005919114	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-20	5142	7460389005919114	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-20	5142	7460389005919114	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-20	5142	7460389005919114	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
+78	541	7460421186576276	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
+548	10723	7460421191271981	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
+78	541	7460421186576276	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
+78	541	7460421186576276	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
 5154	5259	7460389008679912	ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp	709a23578dad48fd
+22101	27574	7460389177328770	CMakeFiles/ProjectCS163.dir/Lib/Word.cpp.obj	e24be12b97f276a7
+555	6776	7460421191341782	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
+78	541	7460421186576276	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
 5154	5259	7460389008679912	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp	709a23578dad48fd
-5340	17820	7460389009568715	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
-5349	19040	7460389009724933	CMakeFiles/ProjectCS163.dir/Lib/Definition.cpp.obj	70e93efb739f7452
-5272	20790	7460389008943857	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
+562	8195	7460421191411613	CMakeFiles/ProjectCS163.dir/Lib/Definition.cpp.obj	70e93efb739f7452
+542	9504	7460421191212138	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
 5266	21236	7460389008943857	CMakeFiles/ProjectCS163.dir/main.cpp.obj	be49659a1f43c3f9
 5306	22101	7460389009256283	CMakeFiles/ProjectCS163.dir/gameplayoption.cpp.obj	8dae8e9eb2c0d161
+17820	28109	7460389134515663	CMakeFiles/ProjectCS163.dir/Lib/Game.cpp.obj	3c45a9d4344024f5
 5288	22505	7460389009100071	CMakeFiles/ProjectCS163.dir/editdefinitiondialog.cpp.obj	c50a5942f30389e1
+5260	24759	7460389008911376	CMakeFiles/ProjectCS163.dir/ProjectCS163_autogen/mocs_compilation.cpp.obj	677b35317d6c5a9a
 5326	23986	7460389009568715	CMakeFiles/ProjectCS163.dir/showlistofwords.cpp.obj	8e0470391295c61f
-5280	24263	7460389009100071	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
 5296	24338	7460389009256283	CMakeFiles/ProjectCS163.dir/gameplaydialog.cpp.obj	d8b11046d3cc7949
 24264	24716	7460389198954763	CMakeFiles/ProjectCS163.dir/ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	eca855e86418db0b
-5260	24759	7460389008911376	CMakeFiles/ProjectCS163.dir/ProjectCS163_autogen/mocs_compilation.cpp.obj	677b35317d6c5a9a
-22101	27574	7460389177328770	CMakeFiles/ProjectCS163.dir/Lib/Word.cpp.obj	e24be12b97f276a7
 20790	27654	7460389164217462	CMakeFiles/ProjectCS163.dir/Lib/Lists.cpp.obj	c786a476089b0550
-17820	28109	7460389134515663	CMakeFiles/ProjectCS163.dir/Lib/Game.cpp.obj	3c45a9d4344024f5
 19040	28120	7460389146714766	CMakeFiles/ProjectCS163.dir/Lib/Global.cpp.obj	7527b1f89f291ea8
 21236	30958	7460389168680949	CMakeFiles/ProjectCS163.dir/Lib/Trie.cpp.obj	361dc65bf323a2f4
 22505	31104	7460389181368828	CMakeFiles/ProjectCS163.dir/Lib/VietNamese.cpp.obj	ad7149691bb8c4b1
 23986	32991	7460389196180106	CMakeFiles/ProjectCS163.dir/Lib/Build.cpp.obj	c9782cfbc55f1678
-32991	35139	7460389286229760	ProjectCS163.exe	c081f0c453a322db
-84	521	7460391803598467	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-84	521	7460391803598467	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-84	521	7460391803598467	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-84	521	7460391803598467	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-533	6137	7460391808076813	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
-539	7256	7460391808153053	CMakeFiles/ProjectCS163.dir/Lib/Definition.cpp.obj	70e93efb739f7452
-523	8635	7460391807984865	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
-527	11235	7460391808034773	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
-11235	13484	7460391915110887	ProjectCS163.exe	c081f0c453a322db
-108	686	7460393269744165	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-108	686	7460393269744165	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-108	686	7460393269744165	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-108	686	7460393269744165	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-704	7967	7460393275698235	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
-713	9235	7460393275789975	CMakeFiles/ProjectCS163.dir/Lib/Definition.cpp.obj	70e93efb739f7452
-688	10465	7460393275538664	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
-695	12202	7460393275618448	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
-12202	14432	7460393390690168	ProjectCS163.exe	c081f0c453a322db
-67	434	7460397543491778	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-67	434	7460397543491778	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-67	434	7460397543491778	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-67	434	7460397543491778	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-447	5613	7460397547291550	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
-452	6719	7460397547341406	CMakeFiles/ProjectCS163.dir/Lib/Definition.cpp.obj	70e93efb739f7452
-436	7924	7460397547181834	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
-441	9154	7460397547231710	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
-9154	10806	7460397634366290	ProjectCS163.exe	c081f0c453a322db
-68	429	7460403107441671	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-68	429	7460403107441671	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-68	429	7460403107441671	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-68	429	7460403107441671	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-438	4714	7460403111241097	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
-444	5743	7460403111300932	CMakeFiles/ProjectCS163.dir/Lib/Definition.cpp.obj	70e93efb739f7452
-429	6729	7460403111151340	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
-433	7794	7460403111201187	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
-7794	9426	7460403184671920	ProjectCS163.exe	c081f0c453a322db
-18	289	7460409871888266	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-18	289	7460409871888266	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-18	289	7460409871888266	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-18	289	7460409871888266	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-297	3465	7460409874731086	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
-302	4441	7460409874731086	CMakeFiles/ProjectCS163.dir/Lib/Definition.cpp.obj	70e93efb739f7452
-290	5313	7460409874581010	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
-293	6144	7460409874581010	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
-6144	7464	7460409933209436	ProjectCS163.exe	c081f0c453a322db
-58	526	7460418608501122	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-58	526	7460418608501122	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-58	526	7460418608501122	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-58	526	7460418608501122	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-538	5691	7460418613298807	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
-527	7577	7460418613189027	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
-532	8506	7460418613248864	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
-78	541	7460421186576276	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-78	541	7460421186576276	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-78	541	7460421186576276	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
-78	541	7460421186576276	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
-555	6776	7460421191341782	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
-562	8195	7460421191411613	CMakeFiles/ProjectCS163.dir/Lib/Definition.cpp.obj	70e93efb739f7452
-542	9504	7460421191212138	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
-548	10723	7460421191271981	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
 10723	12574	7460421293039216	ProjectCS163.exe	c081f0c453a322db
+64	3666	7460430180151445	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
+64	3666	7460430180151445	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
+64	3666	7460430180151445	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
+64	3666	7460430180151445	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
+3668	3772	7460430182602035	ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp	709a23578dad48fd
+3668	3772	7460430182602035	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp	709a23578dad48fd
+3918	4421	7460430184146419	CMakeFiles/ProjectCS163.dir/ProjectCS163_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	eca855e86418db0b
+3862	16346	7460430183677746	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
+3800	19456	7460430183052858	CMakeFiles/ProjectCS163.dir/editdefinitiondialog.cpp.obj	c50a5942f30389e1
+3772	19941	7460430182826608	CMakeFiles/ProjectCS163.dir/ProjectCS163_autogen/mocs_compilation.cpp.obj	677b35317d6c5a9a
+3812	20236	7460430183209080	CMakeFiles/ProjectCS163.dir/gameplaydialog.cpp.obj	d8b11046d3cc7949
+3778	20596	7460430182886497	CMakeFiles/ProjectCS163.dir/main.cpp.obj	be49659a1f43c3f9
+3786	20701	7460430182896476	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
+3831	20751	7460430183365302	CMakeFiles/ProjectCS163.dir/gameplayoption.cpp.obj	8dae8e9eb2c0d161
+3837	21275	7460430183365302	CMakeFiles/ProjectCS163.dir/showlistofwords.cpp.obj	8e0470391295c61f
+121	4043	7460431325691659	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
+121	4043	7460431325691659	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
+121	4043	7460431325691659	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
+121	4043	7460431325691659	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
+4121	11986	7460431327983947	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
+4051	15601	7460431327336708	CMakeFiles/ProjectCS163.dir/main.cpp.obj	be49659a1f43c3f9
+4073	16213	7460431327515276	CMakeFiles/ProjectCS163.dir/editdefinitiondialog.cpp.obj	c50a5942f30389e1
+4080	16631	7460431327515276	CMakeFiles/ProjectCS163.dir/gameplaydialog.cpp.obj	d8b11046d3cc7949
+4088	16762	7460431327671498	CMakeFiles/ProjectCS163.dir/gameplayoption.cpp.obj	8dae8e9eb2c0d161
+4058	16818	7460431327359054	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
+4108	17106	7460431327827807	CMakeFiles/ProjectCS163.dir/showlistofwords.cpp.obj	8e0470391295c61f
+4045	17427	7460431327276912	CMakeFiles/ProjectCS163.dir/ProjectCS163_autogen/mocs_compilation.cpp.obj	677b35317d6c5a9a
+4066	18366	7460431327359054	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
+18367	20478	7460431470508223	ProjectCS163.exe	c081f0c453a322db
+65	509	7460433189242130	ProjectCS163_autogen/timestamp	b82b863f9e1204bd
+65	509	7460433189242130	ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
+65	509	7460433189242130	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/timestamp	b82b863f9e1204bd
+65	509	7460433189242130	D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver4/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/mocs_compilation.cpp	b82b863f9e1204bd
+523	5712	7460433193837975	CMakeFiles/ProjectCS163.dir/searchbydefinition.cpp.obj	7a4b50967d3a4c1
+511	7981	7460433193708317	CMakeFiles/ProjectCS163.dir/mainwindow.cpp.obj	d15f447318153e81
+517	9080	7460433193768181	CMakeFiles/ProjectCS163.dir/engviet.cpp.obj	fb62721f186edcb8
+9080	10886	7460433279277000	ProjectCS163.exe	c081f0c453a322db
