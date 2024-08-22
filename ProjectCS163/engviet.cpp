@@ -27,6 +27,10 @@ EngViet::EngViet(MainWindow *parent)
     QCompleter *completer = new QCompleter(wordList, this);
     completer->setCaseSensitivity(Qt::CaseInsensitive);
 
+    QStyledItemDelegate *delegate = new QStyledItemDelegate(this);
+    completer->popup()->setItemDelegate(delegate);
+    completer->popup()->setStyleSheet("font-size: 14pt;");
+
     QLineEdit *searchInput = new QLineEdit(this);
     searchInput->setCompleter(completer);
     searchInput->setObjectName("searchInput");
@@ -141,9 +145,14 @@ EngViet::EngViet(MainWindow *parent)
         Word word;
         QVector<Word> currentList;
        if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
-            mainWindow->addWordToList(wordListWidget, word, definitionLabel, 1);
+            mainWindow->addWordToList(wordListWidget, word, definitionLabel);
        }
+       else{
+           definitionLabel->setText(" This word don't exist !");
+       }
+       if(!word.key.isEmpty()){
         historyLists[system_Mode].insert(word.key);
+       }
     });
     connect(searchInput, &QLineEdit::textChanged, this, [=]() {
         Word word;
@@ -186,10 +195,13 @@ void MainWindow::updateCompleterModel(QCompleter *completer, QVector<Word> &curr
     }
 }
 
-void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *definitionLabel, bool check)
+void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *definitionLabel)
 {
-    if (check)
-        wordListWidget->clear();
+
+    definitionLabel->setWordWrap(true);
+    definitionLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+
+    wordListWidget->clear();
     QWidget *wordWidget = new QWidget(wordListWidget);
 
     wordWidget->setObjectName("wordWidget");
@@ -211,7 +223,7 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
     editButton->setObjectName("editButton");
     layout->addWidget(editButton);
 
-    QPushButton *add = new QPushButton("Add", wordWidget);
+    QPushButton *add = new QPushButton("Add to favorite list", wordWidget);
     add->setObjectName("viewButton");
     layout->addWidget(add);
 
@@ -219,7 +231,7 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
         viewButton->setText("Xem");
         deleteButton->setText("Xóa");
         editButton->setText("Sửa");
-        add->setText("Thêm");
+        add->setText("Thêm vào danh sách yêu thích");
     }
     layout->addStretch();
 
@@ -314,10 +326,10 @@ void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
     dialog.setKey(word.key);
     dialog.setIndex("");
     QString definition = "";
-    for(auto s:word.definitions){
-        definition+=s+"\n";
-    }
-    dialog.setDefinition(definition);
+    // for(auto s:word.definitions){
+    //     definition+=s+"\n";
+    // }
+    // dialog.setDefinition(definition);
     if (dialog.exec() == QDialog::Accepted) {
         QString newDefinition = dialog.getDefinition();
         if (!newDefinition.isEmpty()){
@@ -351,15 +363,15 @@ void EngViet::on_gameButton_clicked()
 {
     gamePlayOption *optionDialog = new gamePlayOption(mainWindow);
     connect(optionDialog, &gamePlayOption::guessWordMode, this, [=]() {
-        mainWindow->gameWords = guessWord(system_Mode); //will crash if don't have data
-        gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessWord);
-        gameDialog->exec();
+         //mainWindow->gameWords = guessWord(system_Mode);
+        // gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessWord);
+        // gameDialog->exec();
     });
 
     connect(optionDialog, &gamePlayOption::guessDefinitionMode, this, [=]() {
-        mainWindow->gameWords = getDefinition(system_Mode);//will crash if don't have data
-        gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessDefinition);
-        gameDialog->exec();
+        // mainWindow->gameWords = getDefinition(system_Mode);
+        // gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessDefinition);
+        // gameDialog->exec();
     });
     optionDialog->exec();
 }

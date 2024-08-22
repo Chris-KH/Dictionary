@@ -47,8 +47,8 @@ EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent) :
     buttonLayout->addWidget(okButton);
     buttonLayout->addWidget(cancelButton);
 
-    mainLayout->addWidget(deleteIndex);
     mainLayout->addWidget(wordInput);
+    mainLayout->addWidget(deleteIndex);
     mainLayout->addWidget(typeInput);
     mainLayout->addWidget(spellingInput);
     mainLayout->addWidget(definitionInput);

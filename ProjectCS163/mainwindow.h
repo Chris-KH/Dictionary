@@ -32,6 +32,7 @@
 #include <QScrollArea>
 #include <random>
 #include <QCloseEvent>
+#include <QStyledItemDelegate>
 
 using namespace std;
 using namespace Qt;
@@ -69,7 +70,7 @@ private:
 
 public:
     void updateCompleterModel(QCompleter *completer,  QVector<Word> &currentList);
-    void addWordToList(QListWidget *wordListWidget, Word &word,QLabel *definitionLabel, bool check);
+    void addWordToList(QListWidget *wordListWidget, Word &word,QLabel *definitionLabel);
     void deleteWordFromList(QListWidget *wordListWidget, QListWidgetItem *item);
     void searchWord(QListWidget *wordListWidget,  QString &searchTerm,  QVector<Word> &currentList, QLabel *definitionLabel);
     void showWordDefinition(QString &word, QString &definition);

@@ -3,3 +3,7 @@ me
 love
 handsome
 as
+A ignore B gate
+a
+khaki
+c
