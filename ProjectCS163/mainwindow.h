@@ -31,6 +31,7 @@
 #include <QCompleter>
 #include <QScrollArea>
 #include <random>
+#include <QCloseEvent>
 
 using namespace std;
 using namespace Qt;
@@ -50,6 +51,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    // void closeEvent(QCloseEvent *event);
     DictionaryMode currentMode;
     GameMode currentGameMode;
     QVector<QString> gameWords;

@@ -24,8 +24,12 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QLocale
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMap
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMutex
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QObject
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QPair
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QRect
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSet
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSize
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSizeF
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QString
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringList
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
@@ -180,16 +184,24 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qyieldcpu.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QCloseEvent
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QTransform
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qaction.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbitmap.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbrush.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcolor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcursor.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qevent.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qeventpoint.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfont.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontinfo.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontmetrics.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qicon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qimage.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputdevice.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputmethod.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qkeysequence.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpaintdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpalette.h
@@ -197,10 +209,13 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpicture.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixelformat.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixmap.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpointingdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpolygon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qregion.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgb.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgba64.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextcursor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextdocument.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextformat.h
@@ -210,6 +225,8 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtguiglobal.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtransform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvalidator.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvector2d.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvectornd.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QCompleter
@@ -473,8 +490,12 @@ C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QLocale
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMap
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMutex
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QObject
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QPair
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QRect
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSet
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSize
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSizeF
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QString
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringList
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
@@ -629,16 +650,24 @@ C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qyieldcpu.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QCloseEvent
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QTransform
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qaction.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbitmap.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbrush.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcolor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcursor.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qevent.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qeventpoint.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfont.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontinfo.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontmetrics.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qicon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qimage.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputdevice.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputmethod.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qkeysequence.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpaintdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpalette.h
@@ -646,10 +675,13 @@ C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpicture.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixelformat.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixmap.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpointingdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpolygon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qregion.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgb.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgba64.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextcursor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextdocument.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextformat.h
@@ -659,6 +691,8 @@ C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtguiglobal.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtransform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvalidator.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvector2d.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvectornd.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QCompleter
@@ -738,8 +772,12 @@ C:/Users/Acer/Documents/ProjectCS163/gameplayoption.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QLocale
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMap
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMutex
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QObject
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QPair
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QRect
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSet
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSize
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSizeF
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QString
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringList
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
@@ -894,16 +932,24 @@ C:/Users/Acer/Documents/ProjectCS163/gameplayoption.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qyieldcpu.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QCloseEvent
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QTransform
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qaction.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbitmap.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbrush.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcolor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcursor.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qevent.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qeventpoint.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfont.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontinfo.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontmetrics.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qicon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qimage.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputdevice.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputmethod.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qkeysequence.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpaintdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpalette.h
@@ -911,10 +957,13 @@ C:/Users/Acer/Documents/ProjectCS163/gameplayoption.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpicture.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixelformat.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixmap.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpointingdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpolygon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qregion.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgb.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgba64.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextcursor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextdocument.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextformat.h
@@ -924,6 +973,8 @@ C:/Users/Acer/Documents/ProjectCS163/gameplayoption.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtguiglobal.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtransform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvalidator.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvector2d.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvectornd.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QCompleter
@@ -1003,8 +1054,12 @@ C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QLocale
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMap
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMutex
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QObject
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QPair
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QRect
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSet
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSize
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSizeF
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QString
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringList
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
@@ -1159,16 +1214,24 @@ C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qyieldcpu.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QCloseEvent
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QTransform
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qaction.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbitmap.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbrush.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcolor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcursor.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qevent.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qeventpoint.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfont.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontinfo.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontmetrics.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qicon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qimage.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputdevice.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputmethod.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qkeysequence.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpaintdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpalette.h
@@ -1176,10 +1239,13 @@ C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpicture.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixelformat.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixmap.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpointingdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpolygon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qregion.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgb.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgba64.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextcursor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextdocument.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextformat.h
@@ -1189,6 +1255,8 @@ C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtguiglobal.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtransform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvalidator.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvector2d.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvectornd.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QCompleter
@@ -1443,8 +1511,12 @@ C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QLocale
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMap
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QMutex
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QObject
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QPair
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QRect
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSet
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSize
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QSizeF
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QString
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringList
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
@@ -1599,16 +1671,24 @@ C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qyieldcpu.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QCloseEvent
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/QTransform
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qaction.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbitmap.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qbrush.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcolor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qcursor.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qevent.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qeventpoint.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfont.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontinfo.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qfontmetrics.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qicon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qimage.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputdevice.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qinputmethod.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qkeysequence.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpaintdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpalette.h
@@ -1616,10 +1696,13 @@ C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpicture.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixelformat.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpixmap.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpointingdevice.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qpolygon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qregion.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgb.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qrgba64.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen_platform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextcursor.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextdocument.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtextformat.h
@@ -1629,6 +1712,8 @@ C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtguiglobal.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qtransform.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvalidator.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvector2d.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvectornd.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QCompleter

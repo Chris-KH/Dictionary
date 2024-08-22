@@ -30,9 +30,8 @@ private:
     void on_historyButton_clicked(); // Declare the slot
     void on_favoriteButton_clicked();
     void on_gameButton_clicked();
-
-
-
+protected:
+    void closeEvent(QCloseEvent *event) override;
 
 private:
     Ui::EngViet *ui;

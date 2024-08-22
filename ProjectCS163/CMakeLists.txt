@@ -31,17 +31,17 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Lib/VietNamese.cpp Lib/VietNamese.h
         Lib/Build.cpp Lib/Build.h
 
-        story/English-English/Eng_Eng.txt  story/English-English/history.txt
-        story/English-Vietnamese/Eng_Vie.txt  story/English-Vietnamese/history.txt
-        story/Slang/history.txt story/Slang/Slang.txt
-        story/Vietnamese-English/history.txt story/Vietnamese-English/Vie_Eng.txt
+
+
+
+
         Dataset/Emoji.txt Dataset/Eng_Eng.txt Dataset/Eng_Vie.txt Dataset/Slang.txt Dataset/Vie_Eng.txt
 
-        story/English-English/favorite.txt
-        story/English-Vietnamese/favorite.txt
-        story/Slang/favorite.txt
-        story/Vietnamese-English/favorite.txt
-        story/Emoji/Emoji.txt story/Emoji/favorite.txt story/Emoji/history.txt
+
+
+
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET ProjectCS163 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

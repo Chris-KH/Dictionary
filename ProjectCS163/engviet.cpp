@@ -22,6 +22,7 @@ EngViet::EngViet(MainWindow *parent)
     splitter->setHandleWidth(0);
     QListWidget *wordListWidget = new QListWidget(this);
     QVBoxLayout *leftLayout = new QVBoxLayout;
+    QVBoxLayout *rightLayout = new QVBoxLayout;
 
     QCompleter *completer = new QCompleter(wordList, this);
     completer->setCaseSensitivity(Qt::CaseInsensitive);
@@ -37,6 +38,7 @@ EngViet::EngViet(MainWindow *parent)
     searchButton->setFixedSize(80,30);
 
     QWidget *searchWidget = new QWidget(this);
+    QWidget *spaceWidget = new QWidget(this);
     QHBoxLayout *searchLayout = new QHBoxLayout(searchWidget);
 
     searchLayout->addWidget(searchInput);
@@ -44,7 +46,10 @@ EngViet::EngViet(MainWindow *parent)
     leftLayout->addWidget(searchWidget);
     leftLayout->addWidget(wordListWidget);
 
+
     QWidget *leftWidget = new QWidget(this);
+    QWidget *rightWidget = new QWidget(this);
+
     leftWidget->setLayout(leftLayout);
 
     splitter->addWidget(leftWidget);
@@ -54,16 +59,21 @@ EngViet::EngViet(MainWindow *parent)
     definitionLabel->setStyleSheet("margin-top: 100px");
 
 
-     // Create a scroll area to contain the definition label
-     //  QScrollArea *scrollArea = new QScrollArea(this);
 
-     //  scrollArea->setWidget(definitionLabel);
-     //  scrollArea->setWidgetResizable(true); // Ensures the label resizes with the scroll area
 
-    // Add the scroll area to the right side of the splitter
-    //  splitter->addWidget(scrollArea);
-    //splitter->addWidget(definitionLabel);
-    splitter->addWidget(definitionLabel);
+    QScrollArea *scrollArea = new QScrollArea(this);
+    scrollArea->setFixedHeight(750);
+
+    scrollArea->setWidget(definitionLabel);
+    scrollArea->setWidgetResizable(true); // Ensures the label resizes with the scroll area
+
+    rightLayout->addWidget(spaceWidget);
+    rightLayout->addWidget(scrollArea);
+
+    rightWidget->setLayout(rightLayout);
+
+    splitter->addWidget(rightWidget);
+
     splitter->setStretchFactor(0, 4);
     splitter->setStretchFactor(1, 6);
 
@@ -151,6 +161,10 @@ EngViet::EngViet(MainWindow *parent)
 
 EngViet::~EngViet()
 {
+    saveAllTrie();
+    saveAllList(0);
+    saveAllList(1);
+    freeMemory();
     delete ui;
 }
 
@@ -345,4 +359,11 @@ void EngViet::on_gameButton_clicked()
     optionDialog->exec();
 }
 
+void EngViet::closeEvent(QCloseEvent *event){
+    saveAllTrie();
+    saveAllList(0);
+    saveAllList(1);
+    freeMemory();
+     event->accept();
+}
 
