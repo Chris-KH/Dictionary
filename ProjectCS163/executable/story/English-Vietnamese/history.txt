@@ -6,3 +6,4 @@ as
 A ignore B gate
 a
 khaki
+c

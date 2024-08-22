@@ -228,6 +228,7 @@ C:/Users/Acer/Documents/ProjectCS163/executable/ProjectCS163_autogen/EWIEGA46WW/
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QScrollArea \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QScrollBar \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QSplitter \
+  C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QStyledItemDelegate \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QWidget \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qabstractbutton.h \
@@ -259,6 +260,7 @@ C:/Users/Acer/Documents/ProjectCS163/executable/ProjectCS163_autogen/EWIEGA46WW/
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qslider.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qsplitter.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qstyle.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qstyleditemdelegate.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtabbar.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtabwidget.h \
