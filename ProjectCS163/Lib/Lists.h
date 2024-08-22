@@ -11,5 +11,7 @@ public:
     void insert(QString key);
     void erase(QString key);
     void save(QTextStream& fout);
+    void showWords();
+    QVector<QString> getAllWords();
 };
 

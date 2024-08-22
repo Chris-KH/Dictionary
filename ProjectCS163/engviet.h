@@ -26,6 +26,7 @@ public:
 
 private slots:
     void on_backButton_clicked();
+private:
     void on_historyButton_clicked(); // Declare the slot
     void on_favoriteButton_clicked();
     void on_gameButton_clicked();

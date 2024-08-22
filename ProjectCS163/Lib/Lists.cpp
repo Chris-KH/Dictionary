@@ -1,5 +1,5 @@
 #include"Lists.h"
-
+#include <QDebug>
 int List::find(QString key) {
 	for (int i = 0; i < (int)list.size(); i++) {
 		if (list[i] == key) return i;
@@ -22,5 +22,15 @@ void List::save(QTextStream& fout) {
     for (const auto& item : list) {
         fout << item << "\n";
     }
+}
+
+void List::showWords(){
+    for(QString s:list){
+        qDebug()<<s;
+    }
+}
+
+QVector<QString> List::getAllWords(){
+    return list;
 }
 

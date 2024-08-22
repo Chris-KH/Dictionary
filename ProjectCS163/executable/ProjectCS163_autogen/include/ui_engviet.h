@@ -38,7 +38,7 @@ public:
         splitterPlaceholder->setGeometry(QRect(0, 60, 1300, 840));
         buttonWidget = new QWidget(EngViet);
         buttonWidget->setObjectName("buttonWidget");
-        buttonWidget->setGeometry(QRect(280, 5, 1000, 40));
+        buttonWidget->setGeometry(QRect(180, 5, 1100, 40));
 
         retranslateUi(EngViet);
 

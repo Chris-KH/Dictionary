@@ -40,34 +40,20 @@ void buildAllTrie() {
 
     for (int i = 0; i <= 4; i++) {
         QFile file(QFile::exists(dataPath[i]) ? dataPath[i] : originDataPath[i]);
-
         auto start = std::chrono::high_resolution_clock::now();  // Start timing
         buildTrie(file, trieLists[i], i);  // Build the trie
         auto end = std::chrono::high_resolution_clock::now();  // End timing
         auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
         //qDebug() << duration.count() << "ms";  // Output the duration
-
         // Create directories if they do not exist
         if (!QDir().exists(storyDir[i])) QDir().mkpath(storyDir[i]);
-
         // Ensure historyPath and favoritePath files exist and are cleared
         if (!QFile::exists(historyPath[i])) {
             QFile historyFile(historyPath[i]);
             historyFile.open(QIODevice::WriteOnly);
             historyFile.close();
-        } else {
-            QFile::remove(historyPath[i]);
-            QFile historyFile(historyPath[i]);
-            historyFile.open(QIODevice::WriteOnly);
-            historyFile.close();
         }
-
         if (!QFile::exists(favoritePath[i])) {
-            QFile favoriteFile(favoritePath[i]);
-            favoriteFile.open(QIODevice::WriteOnly);
-            favoriteFile.close();
-        } else {
-            QFile::remove(favoritePath[i]);
             QFile favoriteFile(favoritePath[i]);
             favoriteFile.open(QIODevice::WriteOnly);
             favoriteFile.close();
@@ -84,14 +70,12 @@ void buildAllTrie() {
 }
 
 void saveTrie(QFile& file, Trie& trie, const int mode) {
-
     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
         QTextStream fout(&file);
         trie.save(fout);
         file.close();
     }
     else{
-
         qDebug()<<0;
     }
 }
@@ -114,9 +98,7 @@ void buildList(QFile& file, List& list, const int mode) {
         line = fin.readLine().trimmed();
         if (!line.isEmpty()) list.insert(line);
     }
-
     file.close();
-
 }
 
 void buildAllList(bool mode) {
@@ -135,7 +117,6 @@ void buildAllList(bool mode) {
 }
 
 void saveList(QFile& file, List& list, const int mode) {
-
     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
         QTextStream fout(&file);
         list.save(fout);

@@ -73,7 +73,6 @@ public:
     void showWordDefinition(QString &word, QString &definition);
     void deleteWord( QString word);
     void editWordDefinition(Word &word, QLabel *definitionLabel);
-    void addWordToFavouriteList(QString key);
     void searchDefinition(QListWidget *wordListWidget,  QString &searchTerm,  std::vector<word> &words, QLabel *definitionLabel);
     void searchByDefinition(QListWidget *wordListWidget,QLabel *definitionLabel);
     void addNewWord();

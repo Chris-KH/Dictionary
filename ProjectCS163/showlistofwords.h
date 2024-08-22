@@ -17,16 +17,16 @@ class ShowListOfWords : public QDialog
     Q_OBJECT
 
 public:
-    ShowListOfWords(List list, QWidget *parent = nullptr);
+    ShowListOfWords(int mode , QWidget *parent = nullptr);
     ~ShowListOfWords();
-    void searchWord(QListWidget *wordListWidget, QString key);
+    void addWordToList(QListWidget *wordListWidget, QString &key);
 
 private:
-    List list; // Reference to the words vector
-
-
-
+// Reference to the words vector
+    int mode;
     void setupUI();
+    QVBoxLayout *mainLayout;
+    QListWidget *wordListWidget;
 
 private slots:
 

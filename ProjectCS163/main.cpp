@@ -25,6 +25,10 @@ int main(int argc, char *argv[])
     buildAllTrie();
     MainWindow w;
     w.show();
+    // saveAllTrie();
+    // saveAllList(0);
+    // saveAllList(1);
+    // freeMemory();
 
 
 

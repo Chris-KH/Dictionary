@@ -1,4 +1,4 @@
-#include "engviet.h"
+ #include "engviet.h"
 #include "ui_engviet.h"
 #include "mainwindow.h"
 #include "EditDefinitionDialog.h"
@@ -54,14 +54,14 @@ EngViet::EngViet(MainWindow *parent)
     definitionLabel->setStyleSheet("margin-top: 100px");
 
 
-    // Create a scroll area to contain the definition label
-  //  QScrollArea *scrollArea = new QScrollArea(this);
+     // Create a scroll area to contain the definition label
+     //  QScrollArea *scrollArea = new QScrollArea(this);
 
-  //  scrollArea->setWidget(definitionLabel);
-  //  scrollArea->setWidgetResizable(true); // Ensures the label resizes with the scroll area
+     //  scrollArea->setWidget(definitionLabel);
+     //  scrollArea->setWidgetResizable(true); // Ensures the label resizes with the scroll area
 
     // Add the scroll area to the right side of the splitter
-  //  splitter->addWidget(scrollArea);
+    //  splitter->addWidget(scrollArea);
     //splitter->addWidget(definitionLabel);
     splitter->addWidget(definitionLabel);
     splitter->setStretchFactor(0, 4);
@@ -73,12 +73,14 @@ EngViet::EngViet(MainWindow *parent)
     splitterPlaceholder->layout()->addWidget(splitter);
 
     QHBoxLayout *listButtonLayout=new QHBoxLayout(ui->buttonWidget);
+    QPushButton *resetButton = new QPushButton("Reset",this);
     QPushButton *historyButton = new QPushButton("History",this);
     QPushButton *favouristButton = new QPushButton("Favourite words",this);
     QPushButton *gameButton = new QPushButton("Play game",this);
     QPushButton *addNewWord = new QPushButton("Add word",this);
     QPushButton *searchByDefinition = new QPushButton("Search by definition",this);
 
+    listButtonLayout->addWidget(resetButton);
     listButtonLayout->addWidget(searchByDefinition);
     listButtonLayout->addWidget(addNewWord);
     listButtonLayout->addWidget(historyButton);
@@ -86,6 +88,7 @@ EngViet::EngViet(MainWindow *parent)
     listButtonLayout->addWidget(gameButton);
 
     ui->buttonWidget->setLayout(listButtonLayout);
+    resetButton->setObjectName("gameButton");
     historyButton->setObjectName("historyButton");
     favouristButton->setObjectName("favouriteButton");
     gameButton->setObjectName("gameButton");
@@ -93,6 +96,7 @@ EngViet::EngViet(MainWindow *parent)
     searchByDefinition->setObjectName("searchByDefinitionButton");
 
     if(mainWindow->currentMode==DictionaryMode::VietEng){
+        resetButton->setText("Cài đặt lại");
         searchInput->setPlaceholderText("Nhập vào từ");
         searchButton->setText("Tìm kiếm");
         definitionLabel->setText("Chọn một từ để xem định nghĩa");
@@ -104,20 +108,22 @@ EngViet::EngViet(MainWindow *parent)
         ui->backButton->setText("Trở lại");
     }
 
+    resetButton->setFixedHeight(30);
     addNewWord->setFixedHeight(30);
     searchByDefinition->setFixedHeight(30);
     historyButton->setFixedHeight(30);
     favouristButton->setFixedHeight(30);
     gameButton->setFixedHeight(30);
 
-
+    connect(resetButton,&QPushButton::clicked,this,[=](){
+        resetToOrigin(trieLists[system_Mode]);
+    });
     connect(addNewWord, &QPushButton::clicked, this,[=](){
         mainWindow->addNewWord();
     });
-    historyLists[system_Mode].insert("man");
     connect(historyButton, &QPushButton::clicked, this, &EngViet::on_historyButton_clicked);
     connect(favouristButton, &QPushButton::clicked, this, &EngViet::on_favoriteButton_clicked);
-     connect(gameButton, &QPushButton::clicked, this, &EngViet::on_gameButton_clicked);
+    connect(gameButton, &QPushButton::clicked, this, &EngViet::on_gameButton_clicked);
     connect(searchByDefinition, &QPushButton::clicked, this, [=]() {
         mainWindow->searchByDefinition(wordListWidget,definitionLabel);
     });
@@ -125,10 +131,9 @@ EngViet::EngViet(MainWindow *parent)
         Word word;
         QVector<Word> currentList;
        if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
-            historyLists[system_Mode].insert(word.key);
-            qDebug()<<word.key;
             mainWindow->addWordToList(wordListWidget, word, definitionLabel);
        }
+        historyLists[system_Mode].insert(word.key);
     });
     connect(searchInput, &QLineEdit::textChanged, this, [=]() {
         Word word;
@@ -146,7 +151,6 @@ EngViet::EngViet(MainWindow *parent)
 
 EngViet::~EngViet()
 {
-
     delete ui;
 }
 
@@ -169,7 +173,7 @@ void MainWindow::updateCompleterModel(QCompleter *completer, QVector<Word> &curr
 }
 
 void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *definitionLabel)
- {
+{
     wordListWidget->clear();
     QWidget *wordWidget = new QWidget(wordListWidget);
 
@@ -231,7 +235,7 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
     });
 
     connect(add, &QPushButton::clicked, this,[=](){
-         addWordToFavouriteList(word.key);
+        favoriteLists[system_Mode].insert(word.key);
     });
 
 }
@@ -287,7 +291,6 @@ void MainWindow::addNewWord()
 
 void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
     EditDefinitionDialog dialog(this);
-
     dialog.setWindowTitle("Edit Definition");
     dialog.setKey(word.key);
     dialog.setIndex("");
@@ -313,20 +316,15 @@ void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
     }
 }
 
-void MainWindow::addWordToFavouriteList(QString key){
-    favoriteLists[system_Mode].insert(key);
-}
-
 void EngViet::on_historyButton_clicked()
 {
-    List list;
-    ShowListOfWords historyDialog(list, this);
+    ShowListOfWords historyDialog(1 , this);
     historyDialog.exec();
 }
 
 void EngViet::on_favoriteButton_clicked()
 {
-    ShowListOfWords favoriteDialog(favoriteLists[system_Mode], this);
+    ShowListOfWords favoriteDialog(2, this);
     favoriteDialog.exec();
 }
 
