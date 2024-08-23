@@ -10,8 +10,8 @@ ShowListOfWords::ShowListOfWords(int mode, QWidget *parent)
 
 void ShowListOfWords::setupUI()
 {
-    setFixedSize(600, 450);
-    setStyleSheet("background-color: #BCE1ED;");
+    setFixedSize(500, 700);
+
     mainLayout = new QVBoxLayout(this);
     wordListWidget = new QListWidget(this);
     wordListWidget->setStyleSheet("background-color: white;");
@@ -19,13 +19,41 @@ void ShowListOfWords::setupUI()
     setLayout(mainLayout);
 
     if(mode==1){
-        for(QString str:historyLists[system_Mode].getAllWords()){
+        if(historyLists[system_Mode].getAllWords().size()>0){
+           setStyleSheet("background-color: #BCE1ED;");
+           for(QString str:historyLists[system_Mode].getAllWords()){
             addWordToList(wordListWidget,str);
+           }
+        }
+        else{
+            setStyleSheet("background-color: white");
+            delete wordListWidget;
+            QLabel *text=new QLabel(this);
+            text->setText("No words");
+            text->setStyleSheet("font-size: 20px;"
+                                "width: 100%;"
+                                "height: 100%;");
+            mainLayout->addWidget(text, 0, Qt::AlignCenter);
+
         }
     }
     else{
-        for(QString str:favoriteLists[system_Mode].getAllWords()){
-            addWordToList(wordListWidget,str);
+        if(favoriteLists[system_Mode].getAllWords().size()>0){
+            setStyleSheet("background-color: #BCE1ED;");
+            for(QString str:favoriteLists[system_Mode].getAllWords()){
+                addWordToList(wordListWidget,str);
+            }
+        }
+        else{
+            setStyleSheet("background-color: white;");
+            delete wordListWidget;
+            QLabel *text=new QLabel(this);
+            text->setText("No words");
+            text->setStyleSheet("font-size: 20px;"
+                                "width: 100%;"
+                                "height: 100%;");
+            mainLayout->addWidget(text, 0, Qt::AlignCenter);
+
         }
     }
 }
@@ -33,7 +61,7 @@ void ShowListOfWords::setupUI()
 void ShowListOfWords::addWordToList(QListWidget *wordListWidget, QString &key){
     QWidget *wordWidget = new QWidget(wordListWidget);
     wordWidget->setStyleSheet("font-size: 20px;");
-  //                            "qproperty-alignment: 'AlignCenter';");
+
     QHBoxLayout *layout = new QHBoxLayout(wordWidget);
 
 

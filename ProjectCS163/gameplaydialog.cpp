@@ -28,37 +28,45 @@ void gamePlayDialog::setup(){
     questionWord = new QLabel(this);
 
     if(mainWindow->currentGameMode==GameMode::GuessWord){
-        questionLabel->setText("Choose the correct word in the following definition: ");
+        questionLabel->setText("Choose the correct definition in the following word: ");
     }
     else{
-        questionLabel->setText("Choose the correct definition in the following word: ");
+        questionLabel->setText("Choose the correct word in the following definition: ");
     }
     questionLabel->setObjectName("questionLabel");
     resultLabel->setObjectName("resultLabel");
     questionWord->setObjectName("wordLabel");
     questionWord->setText(mainWindow->gameWords[0]);
+    questionWord->setStyleSheet("background-color: white;"
+                                "border-radius: 12px;"
+                                "border: 0.1px solid black;"
+                                "padding: 5px 20px;"
+                                "max-width: 400px;");
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(createNewGameButton);
     mainLayout->addWidget(questionLabel);
-    mainLayout->addWidget(questionWord);
+    mainLayout->addWidget(questionWord, 0, Qt::AlignCenter);
     createNewGameButton->setGeometry(500, 50, 0, 0);
     createNewGameButton->setObjectName("createNewGameButton");
     createNewGameButton->setStyleSheet("#createNewGameButton{"
                                        "background-color: white;"
                                        "border-radius: 8px;"
                                        "font-size: 18px;"
+                                       "margin-top: 30px;"
+                                       "margin-bottom: 30px;"
                                        "padding: 5px 5px;"
                                        "max-width: 100px;"
                                        "}"
                                        "#createNewGameButton:hover{"
                                        "background-color: #B0F6E1;"
-                                       "}"
-                                       "");
+                                       "}");
     createNewGameButton->setText("New game");
     QVBoxLayout *buttonLayout = new QVBoxLayout;
     questionLabel->setFocus();
     for (int i = 0; i < 4; ++i) {
         optionButtons[i] = new QPushButton(this);
+        optionButtons[i]->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        optionButtons[i]->setFixedWidth(800);
         optionButtons[i]->setObjectName("optionButton");
         QString order;
         if(i == 0)
@@ -131,8 +139,10 @@ void gamePlayDialog::checkAnswer(const QString& selectedOptionText)
 {
     if (selectedOptionText == correctKey) {
         resultLabel->setText("Your answer is correct!");
+        resultLabel->setStyleSheet("color: #42AD48;");
     } else {
         resultLabel->setText("Your answer is not correct.");
+        resultLabel->setStyleSheet("color: #E83736;");
     }
 }
 
