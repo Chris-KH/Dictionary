@@ -22,12 +22,10 @@ public:
     QString getDefinition() ;
     QString getSpelling();
     QString getType();
-    QString getIndex();
     void setType(QString &type);
     void setSpelling(QString spelling);
     void setKey(QString &word);
     void setDefinition(QString &definition);
-    void setIndex(QString index);
 
 
 private:
@@ -37,7 +35,6 @@ private:
     QTextEdit *definitionInput;
     QLineEdit *typeInput;
     QLineEdit *spellingInput;
-    QLineEdit *deleteIndex;
     QPushButton *okButton;
     QPushButton *cancelButton;
 

@@ -21,9 +21,7 @@ EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent) :
     definitionInput->setObjectName("definitionInputDialog");
     definitionInput->setPlaceholderText("Enter the definition");
 
-    deleteIndex = new QLineEdit(this);
-    deleteIndex->setObjectName("definitionInputDialog");
-    deleteIndex->setPlaceholderText("Enter the index of definition to delete");
+
 
     okButton = new QPushButton("OK", this);
     cancelButton = new QPushButton("Cancel", this);
@@ -38,7 +36,6 @@ EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent) :
     definitionInput->setStyleSheet("background-color: white;" "width: 300px;" "height: 100px;");
     wordInput->setStyleSheet("background-color: white; margin-bottom: 10px;" "width: 300px;");
     typeInput->setStyleSheet("background-color: white; margin-bottom: 10px;" "width: 300px;");
-    deleteIndex->setStyleSheet("background-color: white; margin-bottom: 10px;" "width: 300px;");
     spellingInput->setStyleSheet("background-color: white; margin-bottom: 10px;" "width: 300px;");
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     QHBoxLayout *buttonLayout = new QHBoxLayout;
@@ -48,7 +45,6 @@ EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent) :
     buttonLayout->addWidget(cancelButton);
 
     mainLayout->addWidget(wordInput);
-    mainLayout->addWidget(deleteIndex);
     mainLayout->addWidget(typeInput);
     mainLayout->addWidget(spellingInput);
     mainLayout->addWidget(definitionInput);
@@ -59,7 +55,6 @@ EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent) :
         definitionInput->setPlaceholderText("Nhập định nghĩa");
         typeInput->setPlaceholderText("Nhập loại từ");
         spellingInput->setPlaceholderText("Nhập phát âm");
-        deleteIndex->setPlaceholderText("Nhập chỉ số của định nghĩa để xóa");
     }
 
     connect(okButton, &QPushButton::clicked, this, &QDialog::accept);
@@ -85,13 +80,6 @@ QString EditDefinitionDialog::getSpelling(){
     return spellingInput->text();
 }
 
-QString EditDefinitionDialog::getIndex(){
-    return deleteIndex->text();
-}
-
-void EditDefinitionDialog::setIndex(QString index){
-    deleteIndex->setText(index);
-}
 
 void EditDefinitionDialog::setKey(QString &word) {
     wordInput->setText(word);

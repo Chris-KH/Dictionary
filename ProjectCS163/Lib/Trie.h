@@ -31,7 +31,4 @@ public:
     void clear();
     void setListHistory(List* list);
     void setListFavorite(List* list);
-
 };
-
-

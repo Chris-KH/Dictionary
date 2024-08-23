@@ -63,8 +63,6 @@ EngViet::EngViet(MainWindow *parent)
     definitionLabel->setStyleSheet("margin-top: 100px");
 
 
-
-
     QScrollArea *scrollArea = new QScrollArea(this);
     scrollArea->setFixedHeight(750);
 
@@ -145,6 +143,7 @@ EngViet::EngViet(MainWindow *parent)
         Word word;
         QVector<Word> currentList;
        if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
+           definitionLabel->setText("");
             mainWindow->addWordToList(wordListWidget, word, definitionLabel);
        }
        else{
@@ -165,7 +164,6 @@ EngViet::EngViet(MainWindow *parent)
            mainWindow->updateCompleterModel(completer, currentList);
        }
     });
-
 }
 
 EngViet::~EngViet()
@@ -242,11 +240,14 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
 
     connect(viewButton, &QPushButton::clicked, this, [=]() {
         QString text="";
-        text+= word.key + "\n";
+        text+= word.key + ":\n";
         text+= "Type: " +  word.type+ "\n";
         text+="Spelling: "+ word.spelling + "\n";
+        int i=0;
         for(auto s: word.definitions){
-            text+=s+"\n";
+            i++;
+            QString idx=QString::number(i);
+            text+=idx + ". "+ s + "\n";
         }
         definitionLabel->setText(text);
     });
@@ -320,12 +321,6 @@ void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
     EditDefinitionDialog dialog(this);
     dialog.setWindowTitle("Edit Definition");
     dialog.setKey(word.key);
-    dialog.setIndex("");
-    QString definition = "";
-    // for(auto s:word.definitions){
-    //     definition+=s+"\n";
-    // }
-    // dialog.setDefinition(definition);
     if (dialog.exec() == QDialog::Accepted) {
         QString newDefinition = dialog.getDefinition();
         if (!newDefinition.isEmpty()){
@@ -333,12 +328,6 @@ void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
             for(QString def:newDefinitions){
                 word.definitions.push_back(def);
             }
-        }
-        QString index= dialog.getIndex();
-        bool ok;
-        int idx=index.toInt(&ok);
-        if(ok){
-            word.definitions.erase(word.definitions.begin()+idx);
         }
     }
 }
@@ -357,17 +346,20 @@ void EngViet::on_favoriteButton_clicked()
 
 void EngViet::on_gameButton_clicked()
 {
+
     gamePlayOption *optionDialog = new gamePlayOption(mainWindow);
     connect(optionDialog, &gamePlayOption::guessWordMode, this, [=]() {
-         //mainWindow->gameWords = guessWord(system_Mode);
-        // gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessWord);
-        // gameDialog->exec();
+        mainWindow->gameWords = guessWord(system_Mode);
+        mainWindow->currentGameMode=GameMode::GuessWord;
+        gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessWord);
+        gameDialog->exec();
     });
 
     connect(optionDialog, &gamePlayOption::guessDefinitionMode, this, [=]() {
-        // mainWindow->gameWords = getDefinition(system_Mode);
-        // gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessDefinition);
-        // gameDialog->exec();
+        mainWindow->gameWords = getDefinition(system_Mode);
+        mainWindow->currentGameMode=GameMode::GuessDefinition;
+        gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessDefinition);
+        gameDialog->exec();
     });
     optionDialog->exec();
 }

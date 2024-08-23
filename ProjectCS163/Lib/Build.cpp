@@ -28,7 +28,7 @@ void buildTrie(QFile& file, Trie& trie, const int mode) {
 
         if (!word.key.isEmpty()) {
             trie.insert(word);
-            listWord[mode].push_back(&word);
+            listWord[mode].push_back(word);
         }
     }
 
@@ -45,8 +45,10 @@ void buildAllTrie() {
         auto end = std::chrono::high_resolution_clock::now();  // End timing
         auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
         //qDebug() << duration.count() << "ms";  // Output the duration
+
         // Create directories if they do not exist
         if (!QDir().exists(storyDir[i])) QDir().mkpath(storyDir[i]);
+
         // Ensure historyPath and favoritePath files exist and are cleared
         if (!QFile::exists(historyPath[i])) {
             QFile historyFile(historyPath[i]);
@@ -142,6 +144,8 @@ void saveAllList(bool mode) {
 void resetToOrigin(Trie& trie) {
     trie.clear();
     listWord[system_Mode].clear();
+    historyLists[system_Mode].clear();
+    favoriteLists[system_Mode].clear();
 
     QFile::remove(dataPath[system_Mode]);
     QFile::remove(historyPath[system_Mode]);
@@ -158,7 +162,9 @@ void resetToOrigin(Trie& trie) {
     Trie temp;
     QFile file(originDataPath[system_Mode]);
     buildTrie(file, temp, system_Mode);
+    QFile file2(dataPath[system_Mode]);
     trie = temp;
+    saveTrie(file2,trie,system_Mode);
     trie.setListHistory(&historyLists[system_Mode]);
     trie.setListFavorite(&favoriteLists[system_Mode]);
 }
