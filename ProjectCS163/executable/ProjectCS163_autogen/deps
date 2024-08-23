@@ -20,6 +20,7 @@ ProjectCS163_autogen/timestamp: \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTextStream \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/QThread \
+	C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTimer \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTranslator \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/QVector \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h \
@@ -37,6 +38,7 @@ ProjectCS163_autogen/timestamp: \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic_cxx11.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasicatomic.h \
+	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasictimer.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbindingstorage.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearray.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearrayalgorithms.h \
@@ -148,6 +150,7 @@ ProjectCS163_autogen/timestamp: \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtenvironmentvariables.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtextstream.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qthread.h \
+	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimer.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimezone.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtmetamacros.h \
 	C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtnoop.h \

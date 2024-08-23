@@ -129,6 +129,43 @@ EngViet::EngViet(MainWindow *parent)
 
     connect(resetButton,&QPushButton::clicked,this,[=](){
         resetToOrigin(trieLists[system_Mode]);
+        // Create a QWidget to contain the QLabel
+        QWidget *notificationWidget = new QWidget(this);
+        notificationWidget->setAttribute(Qt::WA_TranslucentBackground);
+
+        QLabel *notificationLabel = new QLabel("Reset success", notificationWidget);
+        notificationLabel->setAlignment(Qt::AlignCenter); // Center the text
+        notificationLabel->setStyleSheet(
+            "QLabel {"
+            "    font-size: 26px;" // Larger font size
+            "    color: #000000;" // Text color
+            "    padding: 20px;" // Padding around the text
+            "    background-color: #BCE1ED;" // Background color of the label
+            "    border: none;" // Remove border
+            "    border-radius: 20px;" // Rounded corners
+            "    font-weight: 400;" // Font weight
+            "}"
+            );
+
+        QVBoxLayout *layout = new QVBoxLayout(notificationWidget);
+        layout->addWidget(notificationLabel);
+        layout->setContentsMargins(0, 0, 0, 0);
+        layout->setAlignment(Qt::AlignCenter); // Center widget in layout
+        notificationWidget->setLayout(layout);
+
+        QSize sizeHint = notificationLabel->sizeHint() + QSize(300, 100);
+        notificationWidget->resize(sizeHint);
+        notificationWidget->setFixedSize(sizeHint);
+
+        QScreen *screen = QApplication::primaryScreen();
+        QRect screenGeometry = screen->availableGeometry();
+        notificationWidget->move((screenGeometry.width() - notificationWidget->width()) / 2 - 200,
+                                 (screenGeometry.height() - notificationWidget->height()) / 2);
+        notificationWidget->show();
+        QTimer::singleShot(1000, notificationWidget, &QWidget::close);
+        connect(notificationWidget, &QWidget::destroyed, [notificationWidget]() {
+            delete notificationWidget;
+        });
     });
     connect(addNewWord, &QPushButton::clicked, this,[=](){
         mainWindow->addNewWord();
@@ -241,9 +278,14 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
     connect(viewButton, &QPushButton::clicked, this, [=]() {
         QString text="";
         text+= word.key + ":\n";
-        text+= "Type: " +  word.type+ "\n";
-        text+="Spelling: "+ word.spelling + "\n";
+        if(!word.type.isEmpty()){
+            text+= "Type: " +  word.type+ "\n";
+        }
+        if(!word.spelling.isEmpty()){
+            text+="Spelling: "+ word.spelling + "\n";
+        }
         int i=0;
+        text+="Definitions: \n";
         for(auto s: word.definitions){
             i++;
             QString idx=QString::number(i);

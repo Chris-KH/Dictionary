@@ -3,14 +3,15 @@ C:/Users/Acer/Documents/ProjectCS163/engviet.cpp
  uic:ui_engviet.h
 C:/Users/Acer/Documents/ProjectCS163/DictionnaryMode.h
 C:/Users/Acer/Documents/ProjectCS163/GameMode.h
-C:/Users/Acer/Documents/ProjectCS163/Lib/Build.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Game.h
+C:/Users/Acer/Documents/ProjectCS163/Lib/Build.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Definition.h
-C:/Users/Acer/Documents/ProjectCS163/Lib/Global.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Lists.h
+C:/Users/Acer/Documents/ProjectCS163/Lib/Global.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Trie.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/VietNamese.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Word.h
+C:/Users/Acer/Documents/ProjectCS163/Lib/Word.cpp
 C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QChar
@@ -34,6 +35,7 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTextStream
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QThread
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTimer
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTranslator
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QVector
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h
@@ -51,6 +53,7 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic_cxx11.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasicatomic.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasictimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbindingstorage.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearray.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearrayalgorithms.h
@@ -162,6 +165,7 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtenvironmentvariables.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtextstream.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qthread.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimezone.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtmetamacros.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtnoop.h
@@ -297,7 +301,6 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Users/Acer/Documents/ProjectCS163/engviet.h
  mdp:C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
-C:/Users/Acer/Documents/ProjectCS163/Lib/Word.cpp
 C:/Users/Acer/Documents/ProjectCS163/engviet.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QString
@@ -503,6 +506,7 @@ C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTextStream
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QThread
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTimer
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTranslator
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QVector
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h
@@ -520,6 +524,7 @@ C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic_cxx11.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasicatomic.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasictimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbindingstorage.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearray.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearrayalgorithms.h
@@ -631,6 +636,7 @@ C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtenvironmentvariables.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtextstream.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qthread.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimezone.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtmetamacros.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtnoop.h
@@ -787,6 +793,7 @@ C:/Users/Acer/Documents/ProjectCS163/gameplayoption.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTextStream
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QThread
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTimer
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTranslator
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QVector
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h
@@ -804,6 +811,7 @@ C:/Users/Acer/Documents/ProjectCS163/gameplayoption.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic_cxx11.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasicatomic.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasictimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbindingstorage.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearray.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearrayalgorithms.h
@@ -915,6 +923,7 @@ C:/Users/Acer/Documents/ProjectCS163/gameplayoption.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtenvironmentvariables.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtextstream.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qthread.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimezone.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtmetamacros.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtnoop.h
@@ -1071,6 +1080,7 @@ C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTextStream
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QThread
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTimer
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTranslator
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QVector
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h
@@ -1088,6 +1098,7 @@ C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic_cxx11.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasicatomic.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasictimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbindingstorage.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearray.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearrayalgorithms.h
@@ -1199,6 +1210,7 @@ C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtenvironmentvariables.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtextstream.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qthread.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimezone.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtmetamacros.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtnoop.h
@@ -1530,6 +1542,7 @@ C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QStringListModel
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTextStream
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QThread
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTimer
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QTranslator
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QVector
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h
@@ -1547,6 +1560,7 @@ C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qatomic_cxx11.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasicatomic.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbasictimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbindingstorage.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearray.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qbytearrayalgorithms.h
@@ -1658,6 +1672,7 @@ C:/Users/Acer/Documents/ProjectCS163/showlistofwords.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtenvironmentvariables.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtextstream.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qthread.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimer.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtimezone.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtmetamacros.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/qtnoop.h
@@ -1803,8 +1818,8 @@ C:/Users/Acer/Documents/ProjectCS163/Lib/Trie.cpp
 C:/Users/Acer/Documents/ProjectCS163/Lib/VietNamese.cpp
 C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.cpp
 C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.cpp
-C:/Users/Acer/Documents/ProjectCS163/gameplayoption.cpp
 C:/Users/Acer/Documents/ProjectCS163/main.cpp
+C:/Users/Acer/Documents/ProjectCS163/gameplayoption.cpp
 C:/Users/Acer/Documents/ProjectCS163/mainwindow.cpp
  uic:./ui_mainwindow.h
 C:/Users/Acer/Documents/ProjectCS163/searchbydefinition.cpp

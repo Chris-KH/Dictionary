@@ -33,6 +33,7 @@
 #include <random>
 #include <QCloseEvent>
 #include <QStyledItemDelegate>
+#include <QTimer>
 
 using namespace std;
 using namespace Qt;
