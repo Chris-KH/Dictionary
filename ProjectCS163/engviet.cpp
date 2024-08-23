@@ -324,10 +324,22 @@ void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
     if (dialog.exec() == QDialog::Accepted) {
         QString newDefinition = dialog.getDefinition();
         if (!newDefinition.isEmpty()){
+            word.definitions.clear();
             QStringList newDefinitions=newDefinition.split("\n");
             for(QString def:newDefinitions){
                 word.definitions.push_back(def);
             }
+            QString text="";
+            text+= word.key + ":\n";
+            text+= "Type: " +  word.type+ "\n";
+            text+="Spelling: "+ word.spelling + "\n";
+            int i=0;
+            for(auto s: word.definitions){
+                i++;
+                QString idx=QString::number(i);
+                text+=idx + ". "+ s + "\n";
+            }
+            definitionLabel->setText(text);
         }
         trieLists[system_Mode].updateDefinition(word);
     }

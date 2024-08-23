@@ -3,15 +3,14 @@ C:/Users/Acer/Documents/ProjectCS163/engviet.cpp
  uic:ui_engviet.h
 C:/Users/Acer/Documents/ProjectCS163/DictionnaryMode.h
 C:/Users/Acer/Documents/ProjectCS163/GameMode.h
-C:/Users/Acer/Documents/ProjectCS163/Lib/Game.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Build.h
+C:/Users/Acer/Documents/ProjectCS163/Lib/Game.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Definition.h
-C:/Users/Acer/Documents/ProjectCS163/Lib/Lists.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Global.h
+C:/Users/Acer/Documents/ProjectCS163/Lib/Lists.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Trie.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/VietNamese.h
 C:/Users/Acer/Documents/ProjectCS163/Lib/Word.h
-C:/Users/Acer/Documents/ProjectCS163/Lib/Word.cpp
 C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QChar
@@ -298,6 +297,7 @@ C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.h
  mdp:C:/Users/Acer/Documents/ProjectCS163/engviet.h
  mdp:C:/Users/Acer/Documents/ProjectCS163/mainwindow.h
+C:/Users/Acer/Documents/ProjectCS163/Lib/Word.cpp
 C:/Users/Acer/Documents/ProjectCS163/engviet.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtCore/QString
@@ -1803,8 +1803,8 @@ C:/Users/Acer/Documents/ProjectCS163/Lib/Trie.cpp
 C:/Users/Acer/Documents/ProjectCS163/Lib/VietNamese.cpp
 C:/Users/Acer/Documents/ProjectCS163/editdefinitiondialog.cpp
 C:/Users/Acer/Documents/ProjectCS163/gameplaydialog.cpp
-C:/Users/Acer/Documents/ProjectCS163/main.cpp
 C:/Users/Acer/Documents/ProjectCS163/gameplayoption.cpp
+C:/Users/Acer/Documents/ProjectCS163/main.cpp
 C:/Users/Acer/Documents/ProjectCS163/mainwindow.cpp
  uic:./ui_mainwindow.h
 C:/Users/Acer/Documents/ProjectCS163/searchbydefinition.cpp
