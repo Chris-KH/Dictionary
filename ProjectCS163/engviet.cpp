@@ -136,7 +136,7 @@ EngViet::EngViet(MainWindow *parent)
         notificationLabel->setAlignment(Qt::AlignCenter);
         notificationLabel->setStyleSheet(
             "QLabel {"
-            "    font-size: 26px;"
+            "    font-size: 100px;"
             "    color: #000000;"
             "    padding: 20px;"
             "    background-color: #BCE1ED;"
@@ -165,6 +165,7 @@ EngViet::EngViet(MainWindow *parent)
             delete notificationWidget;
         });
     });
+
     connect(addNewWord, &QPushButton::clicked, this,[=](){
         mainWindow->addNewWord();
     });
@@ -182,7 +183,7 @@ EngViet::EngViet(MainWindow *parent)
             mainWindow->addWordToList(wordListWidget, word, definitionLabel, 1);
        }
        else{
-           definitionLabel->setText(" This word don't exist !");
+           definitionLabel->setText(" This word doesn't exist !");
        }
        if(!word.key.isEmpty()){
         historyLists[system_Mode].insert(word.key);
@@ -331,30 +332,38 @@ void MainWindow::searchByDefinition(QListWidget *wordListWidget,QLabel *definiti
 }
 
 void MainWindow::addNewWord()
- {
-    EditDefinitionDialog dialog(this);
-    if(currentMode==DictionaryMode::VietEng)
+{
+    EditDefinitionDialog dialog(this, 1);
+    if(currentMode == DictionaryMode::VietEng)
         dialog.setWindowTitle("Thêm từ mới");
     else
         dialog.setWindowTitle("Add new word");
 
-     if (dialog.exec() == QDialog::Accepted) {
+    while (true) {
+        if (dialog.exec() != QDialog::Accepted) {
+            return;
+        }
+
         Word newWord;
         QString newKey = dialog.getKey();
         QString newDefinition = dialog.getDefinition();
-        QString newType=dialog.getType();
+        QString newType = dialog.getType();
         QString newSpelling = dialog.getSpelling();
-        QStringList newDefinitions = newDefinition.split(QRegularExpression("\\s+"), Qt::SkipEmptyParts);        // if(!newKey.isEmpty() && !newDefinition.isEmpty()){
-        if(!newKey.isEmpty() && !newDefinition.isEmpty() && !newType.isEmpty() && !newSpelling.isEmpty()){
-            newWord.key=newKey;
-            for(auto str:newDefinitions){
+        QStringList newDefinitions=newDefinition.split("\n");
+
+        if (!newKey.isEmpty() && !newDefinition.isEmpty()) {
+            newWord.key = newKey;
+            for (auto str : newDefinitions) {
                 newWord.definitions.push_back(str);
             }
-            newWord.type=newType;
-            newWord.spelling=newSpelling;
+            newWord.type = newType;
+            newWord.spelling = newSpelling;
             trieLists[system_Mode].insert(newWord);
+            break; // Thoát khỏi vòng lặp sau khi thêm từ mới thành công
+        } else {
+            QMessageBox::warning(this, "Input Error", "Vui lòng nhập key và definitions");
         }
-     }
+    }
 }
 
 
