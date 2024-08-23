@@ -30,8 +30,8 @@ void getWord(TrieNode* root, QString def, QVector<QPair<double, Word>>& defSearc
         for (int i = 0; i < (int)root->word.definitions.size(); i++) {
             distance = min(distance, editDistance(def, root->word.definitions[i]));
             temp = distance / (double)max((double)def.length(), (double)root->word.definitions[i].length());
-            if (temp <= 0.08) {
-                if (defSearch.size() < 10) {
+            if (temp <= 1.20) {
+                if (defSearch.size() < 6) {
                     defSearch.push_back({ temp, root->word });
                 } else {
                     auto maxIt = std::max_element(defSearch.begin(), defSearch.end(), [](const QPair<double, Word>& a, const QPair<double, Word>& b) {
