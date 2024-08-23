@@ -170,3 +170,19 @@ void Trie::setListHistory(List* list) {
 void Trie::setListFavorite(List* list) {
     this->listFavorite = list;
 }
+
+void Trie::updateDefition(Word word) {
+    TrieNode* cur = this->root;
+    wstring key = word.key;
+
+    for (int i = 0; i < (int)key.length(); i++) {
+        wchar_t c = lowerCase(key[i]);
+        int idx = mp[c];
+        if (cur->childNode[idx] == nullptr) return;
+        cur = cur->childNode[idx];
+    }
+
+    if (cur->wordEnd) {
+        cur->word.definitions = word.definitions;
+    }
+}

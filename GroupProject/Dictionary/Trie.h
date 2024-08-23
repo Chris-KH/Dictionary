@@ -31,6 +31,7 @@ public:
     void clear();
     void setListHistory(List* list);
     void setListFavorite(List* list);
+    void updateDefition(Word word);
 };
 
 
