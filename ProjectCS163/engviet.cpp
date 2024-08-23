@@ -129,28 +129,26 @@ EngViet::EngViet(MainWindow *parent)
 
     connect(resetButton,&QPushButton::clicked,this,[=](){
         resetToOrigin(trieLists[system_Mode]);
-        // Create a QWidget to contain the QLabel
         QWidget *notificationWidget = new QWidget(this);
         notificationWidget->setAttribute(Qt::WA_TranslucentBackground);
 
-        QLabel *notificationLabel = new QLabel("Reset success", notificationWidget);
-        notificationLabel->setAlignment(Qt::AlignCenter); // Center the text
+        QLabel *notificationLabel = new QLabel("Reset successfully", notificationWidget);
+        notificationLabel->setAlignment(Qt::AlignCenter);
         notificationLabel->setStyleSheet(
             "QLabel {"
-            "    font-size: 26px;" // Larger font size
-            "    color: #000000;" // Text color
-            "    padding: 20px;" // Padding around the text
-            "    background-color: #BCE1ED;" // Background color of the label
-            "    border: none;" // Remove border
-            "    border-radius: 20px;" // Rounded corners
-            "    font-weight: 400;" // Font weight
-            "}"
+            "    font-size: 26px;"
+            "    color: #000000;"
+            "    padding: 20px;"
+            "    background-color: #BCE1ED;"
+            "    border: none;"
+            "    border-radius: 20px;"
+            "    font-weight: 400;"
             );
 
         QVBoxLayout *layout = new QVBoxLayout(notificationWidget);
         layout->addWidget(notificationLabel);
         layout->setContentsMargins(0, 0, 0, 0);
-        layout->setAlignment(Qt::AlignCenter); // Center widget in layout
+        layout->setAlignment(Qt::AlignCenter);
         notificationWidget->setLayout(layout);
 
         QSize sizeHint = notificationLabel->sizeHint() + QSize(300, 100);
