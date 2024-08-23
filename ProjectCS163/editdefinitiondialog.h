@@ -14,7 +14,7 @@ class EditDefinitionDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit EditDefinitionDialog(MainWindow *parent = nullptr);
+    explicit EditDefinitionDialog(MainWindow *parent = nullptr,int mode=0);
     ~EditDefinitionDialog();
 
 
@@ -26,6 +26,7 @@ public:
     void setSpelling(QString spelling);
     void setKey(QString &word);
     void setDefinition(QString &definition);
+    int mode;
 
 
 private:

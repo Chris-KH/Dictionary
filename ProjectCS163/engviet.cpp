@@ -318,7 +318,7 @@ void MainWindow::addNewWord()
 
 
 void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
-    EditDefinitionDialog dialog(this);
+    EditDefinitionDialog dialog(this,1);
     dialog.setWindowTitle("Edit Definition");
     dialog.setKey(word.key);
     if (dialog.exec() == QDialog::Accepted) {
@@ -329,6 +329,7 @@ void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
                 word.definitions.push_back(def);
             }
         }
+        trieLists[system_Mode].updateDefinition(word);
     }
 }
 

@@ -1,3 +1,4 @@
+
 #include "Trie.h"
 #include <QFile>
 #include <QTextStream>
@@ -163,4 +164,20 @@ void Trie::setListHistory(List* list) {
 
 void Trie::setListFavorite(List* list) {
     this->listFavorite = list;
+}
+
+void Trie::updateDefinition(Word word) {
+    TrieNode* cur = this->root;
+    QString key = word.key;
+
+    for (int i = 0; i < (int)key.length(); i++) {
+        QChar c = lowerCase(key[i]);
+        int idx = mp[c.unicode()];
+        if (cur->childNode[idx] == nullptr) return;
+        cur = cur->childNode[idx];
+    }
+
+    if (cur->wordEnd) {
+        cur->word.definitions = word.definitions;
+    }
 }

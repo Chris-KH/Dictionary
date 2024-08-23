@@ -1,7 +1,7 @@
 #include "EditDefinitionDialog.h"
 
-EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent) :
-    QDialog(parent), mainWindow(parent)
+EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent,int mode) :
+    QDialog(parent), mainWindow(parent),mode(mode)
 {
     setWindowTitle("Edit Definition");
 
@@ -20,8 +20,6 @@ EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent) :
     definitionInput = new QTextEdit(this);
     definitionInput->setObjectName("definitionInputDialog");
     definitionInput->setPlaceholderText("Enter the definition");
-
-
 
     okButton = new QPushButton("OK", this);
     cancelButton = new QPushButton("Cancel", this);
@@ -45,8 +43,14 @@ EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent) :
     buttonLayout->addWidget(cancelButton);
 
     mainLayout->addWidget(wordInput);
-    mainLayout->addWidget(typeInput);
-    mainLayout->addWidget(spellingInput);
+    if(mode==1){
+        mainLayout->addWidget(typeInput);
+        mainLayout->addWidget(spellingInput);
+    }
+    else{
+        delete spellingInput;
+        delete typeInput;
+    }
     mainLayout->addWidget(definitionInput);
     mainLayout->addLayout(buttonLayout);
 
