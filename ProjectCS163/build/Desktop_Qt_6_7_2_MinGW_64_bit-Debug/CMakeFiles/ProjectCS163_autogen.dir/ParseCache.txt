@@ -5,13 +5,13 @@ D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Build.h
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Definition.h
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Lists.cpp
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Game.h
-D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Global.h
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Lists.h
-D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Trie.h
+D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Global.h
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/main.cpp
-D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/VietNamese.h
+D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Trie.h
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/engviet.cpp
  uic:ui_engviet.h
+D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/VietNamese.h
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Word.h
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/editdefinitiondialog.h
  mmc:Q_OBJECT
@@ -1456,6 +1456,7 @@ D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/gameplaydialog.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/engviet.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/gameplaydialog.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/mainwindow.h
+D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Word.cpp
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/gameplayoption.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.2/mingw_64/include/QtCore/QChar
@@ -1987,7 +1988,7 @@ D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/gameplayoption.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/engviet.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/gameplayoption.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/mainwindow.h
-D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Word.cpp
+D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/gameplaydialog.cpp
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/mainwindow.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.2/mingw_64/include/QtCore/QChar
@@ -2518,7 +2519,7 @@ D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/mainwindow.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/moc_predefs.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/engviet.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/mainwindow.h
-D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/gameplaydialog.cpp
+D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Definition.cpp
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/searchbydefinition.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h
@@ -2892,7 +2893,6 @@ D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/searchbydefinition.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ProjectCS163_autogen/moc_predefs.h
  mdp:D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/searchbydefinition.h
-D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/Lib/Definition.cpp
 D:/BT/C++/0HCMUS/Year 1/S3/0PROJECT/ver10/ProjectCS163/showlistofwords.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.2/mingw_64/include/QtCore/QChar

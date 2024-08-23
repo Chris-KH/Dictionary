@@ -132,11 +132,15 @@ EngViet::EngViet(MainWindow *parent)
         QWidget *notificationWidget = new QWidget(this);
         notificationWidget->setAttribute(Qt::WA_TranslucentBackground);
 
-        QLabel *notificationLabel = new QLabel("Reset successfully", notificationWidget);
+        QLabel *notificationLabel;
+         if(mainWindow->currentMode==DictionaryMode::VietEng)
+            notificationLabel = new QLabel("Cài đặt lại thành công", notificationWidget);
+        else notificationLabel = new QLabel("Reset successfully", notificationWidget);
+
         notificationLabel->setAlignment(Qt::AlignCenter);
         notificationLabel->setStyleSheet(
             "QLabel {"
-            "    font-size: 100px;"
+            "    font-size: 40px;"
             "    color: #000000;"
             "    padding: 20px;"
             "    background-color: #BCE1ED;"
@@ -144,6 +148,7 @@ EngViet::EngViet(MainWindow *parent)
             "    border-radius: 20px;"
             "    font-weight: 400;"
             );
+
 
         QVBoxLayout *layout = new QVBoxLayout(notificationWidget);
         layout->addWidget(notificationLabel);
@@ -359,9 +364,18 @@ void MainWindow::addNewWord()
             newWord.type = newType;
             newWord.spelling = newSpelling;
             trieLists[system_Mode].insert(newWord);
+
+            if(currentMode == DictionaryMode::VietEng)
+                QMessageBox::information(this, "Thành công", "Từ mới đã được thêm thành công.");
+            else
+                QMessageBox::information(this, "Success", "The new word has been added successfully.");
+
             break; // Thoát khỏi vòng lặp sau khi thêm từ mới thành công
         } else {
-            QMessageBox::warning(this, "Input Error", "Vui lòng nhập key và definitions");
+             if(currentMode == DictionaryMode::VietEng)
+                QMessageBox::warning(this, "Lỗi nhập dữ liệu", "Vui lòng nhập từ và định nghĩa");
+            else
+                QMessageBox::warning(this, "Input Error", "Please enter key and its definitions");
         }
     }
 }
