@@ -40,8 +40,7 @@ void gamePlayDialog::setup(){
     questionWord->setStyleSheet("background-color: white;"
                                 "border-radius: 12px;"
                                 "border: 0.1px solid black;"
-                                "padding: 5px 20px;"
-                                "max-width: 400px;");
+                                "padding: 5px 20px;");
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(createNewGameButton);
     mainLayout->addWidget(questionLabel);
@@ -66,7 +65,7 @@ void gamePlayDialog::setup(){
     for (int i = 0; i < 4; ++i) {
         optionButtons[i] = new QPushButton(this);
         optionButtons[i]->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
-        optionButtons[i]->setFixedWidth(800);
+        optionButtons[i]->setFixedWidth(900);
         optionButtons[i]->setObjectName("optionButton");
         QString order;
         if(i == 0)
@@ -85,8 +84,8 @@ void gamePlayDialog::setup(){
             "    margin: 10px 80px;"
             "    background-color: white;"
             "    border-radius: 12px;"
-            "    padding-left: 120px;"
-            "    padding-right: 100px;"
+            "    padding-left: 60px;"
+            "    padding-right: 50px;"
             "    text-align: left;"
             "} "
             "#optionButton:focus {"
@@ -119,6 +118,20 @@ void gamePlayDialog::newGame(){
     std::random_device rd;
     std::default_random_engine rng(rd());
     std::shuffle(ramdomWords.begin(), ramdomWords.end(), rng);
+
+    for (int i = 0; i < 4; ++i) {
+        optionButtons[i]->setStyleSheet(
+            "background-color: white;" // Màu trắng ban đầu
+            "padding: 6px 0;"
+            "font-size: 18px;"
+            "margin: 10px 80px;"
+            "border-radius: 12px;"
+            "padding-left: 60px;"
+            "padding-right: 50px;"
+            "text-align: left;"
+            );
+    }
+
     questionWord->setText(mainWindow->gameWords[0]);
     for(int i=0;i<4;++i){
         QString order;
@@ -135,14 +148,34 @@ void gamePlayDialog::newGame(){
     resultLabel->setText("");
 }
 
-void gamePlayDialog::checkAnswer(const QString& selectedOptionText)
+void gamePlayDialog::checkAnswer(QPushButton* clickedButton)
 {
-    if (selectedOptionText == correctKey) {
+    if (clickedButton->text().mid(3) == correctKey) {
         resultLabel->setText("Your answer is correct!");
         resultLabel->setStyleSheet("color: #42AD48;");
+        clickedButton->setStyleSheet(
+            "background-color: #42AD48;" // Màu xanh cho đáp án đúng
+            "padding: 6px 0;"
+            "font-size: 18px;"
+            "margin: 10px 80px;"
+            "border-radius: 12px;"
+            "padding-left: 60px;"
+            "padding-right: 50px;"
+            "text-align: left;"
+            );
     } else {
         resultLabel->setText("Your answer is not correct.");
         resultLabel->setStyleSheet("color: #E83736;");
+        clickedButton->setStyleSheet(
+            "background-color: #E83736;" // Màu đỏ cho đáp án sai
+            "padding: 6px 0;"
+            "font-size: 18px;"
+            "margin: 10px 80px;"
+            "border-radius: 12px;"
+            "padding-left: 60px;"
+            "padding-right: 50px;"
+            "text-align: left;"
+            );
     }
 }
 
@@ -150,12 +183,26 @@ void gamePlayDialog::handleOptionButtonClicked()
 {
     QPushButton *clickedButton = qobject_cast<QPushButton*>(sender());
     if (clickedButton) {
-        QString selectedOptionText = clickedButton->text();
-        selectedOptionText=selectedOptionText.mid(3,selectedOptionText.length()-3);
-        checkAnswer(selectedOptionText);
+        if (previousButton) {
+            previousButton->setStyleSheet(
+                "background-color: white;"
+                "padding: 6px 0;"
+                "font-size: 18px;"
+                "margin: 10px 80px;"
+                "border-radius: 12px;"
+                "padding-left: 60px;"
+                "padding-right: 50px;"
+                "text-align: left;"
+                );
+        }
+
+        // Kiểm tra đáp án và đổi màu nút bấm
+        checkAnswer(clickedButton);
+
+        // Cập nhật previousButton thành button hiện tại
+        previousButton = clickedButton;
     }
 }
-
 QString gamePlayDialog::get(){
     return correctKey;
 }

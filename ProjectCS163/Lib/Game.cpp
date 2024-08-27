@@ -15,32 +15,24 @@ Word getRandomWord(const int mode) {
 
 void getFourRandomWord(Word& word1, Word& word2, Word& word3, Word& word4, const int mode) {
     int random1, random2, random3, random4;
+
     random1 = getRandomNumber(mode);
-
-    word1 = listWord[mode][random1];
-
-    while (word1.definitions.size() == 0) {
+    while (listWord[mode][random1].definitions.size() == 0 || listWord[mode][random1].definitions[0].size()>35)
         random1 = getRandomNumber(mode);
-        word1 = listWord[mode][random1];
-    }
-    //qDebug()<<"1";
-
 
     random2 = getRandomNumber(mode);
-    while (listWord[mode][random2].definitions.size() == 0 || random2 == random1) random2 = getRandomNumber(mode);
-
-    //qDebug()<<"2";
+    while (listWord[mode][random2].definitions.size() == 0
+           || listWord[mode][random2].definitions[0].size()>35 || random2 == random1) random2 = getRandomNumber(mode);
 
     random3 = getRandomNumber(mode);
-    while (listWord[mode][random3].definitions.size() == 0 || random3 == random1 || random3 == random2) random3 = getRandomNumber(mode);
-
-    //qDebug()<<"3";
+    while (listWord[mode][random3].definitions.size() == 0
+           || listWord[mode][random3].definitions[0].size()>35 || random3 == random1 || random3 == random2) random3 = getRandomNumber(mode);
 
     random4 = getRandomNumber(mode);
-    while (listWord[mode][random4].definitions.size() == 0 || random4 == random1 || random4 == random2 || random4 == random3) random4 = getRandomNumber(mode);
+    while (listWord[mode][random4].definitions.size() == 0
+           || listWord[mode][random4].definitions[0].size()>35 || random4 == random1 || random4 == random2 || random4 == random3) random4 = getRandomNumber(mode);
 
-    //qDebug()<<"4";
-
+    word1 = listWord[mode][random1];
     word2 = listWord[mode][random2];
     word3 = listWord[mode][random3];
     word4 = listWord[mode][random4];

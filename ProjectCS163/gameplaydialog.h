@@ -21,6 +21,7 @@ public:
     void newGame();
 
 private:
+     QPushButton *previousButton = nullptr;
     QLabel *questionLabel;
     QLabel *resultLabel;
     QLabel *questionWord;
@@ -28,7 +29,8 @@ private:
     QPushButton *optionButtons[4];
     MainWindow *mainWindow;
     GameMode gameMode;
-    void checkAnswer(const QString& selectedOptionText);
+    //void checkAnswer(const QString& selectedOptionText);
+    void checkAnswer(QPushButton* clickedButton);
     QString correctKey;
     void setup();
 private slots:

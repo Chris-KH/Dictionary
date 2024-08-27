@@ -40,8 +40,8 @@ void buildAllTrie() {
 
     for (int i = 0; i <= 4; i++) {
         QFile file(QFile::exists(dataPath[i]) ? dataPath[i] : originDataPath[i]);
-        auto start = std::chrono::high_resolution_clock::now();  // Start timing
         buildTrie(file, trieLists[i], i);  // Build the trie
+        auto start = std::chrono::high_resolution_clock::now();  // Start timing
         auto end = std::chrono::high_resolution_clock::now();  // End timing
         auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
         //qDebug() << duration.count() << "ms";  // Output the duration

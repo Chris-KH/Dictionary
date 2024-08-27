@@ -129,6 +129,8 @@ EngViet::EngViet(MainWindow *parent)
 
     connect(resetButton,&QPushButton::clicked,this,[=](){
         resetToOrigin(trieLists[system_Mode]);
+        definitionLabel->setText("Select a word to view its definition.\n");
+        wordListWidget->clear();
         QWidget *notificationWidget = new QWidget(this);
         notificationWidget->setAttribute(Qt::WA_TranslucentBackground);
 
@@ -146,7 +148,7 @@ EngViet::EngViet(MainWindow *parent)
             "    background-color: #BCE1ED;"
             "    border: none;"
             "    border-radius: 20px;"
-            "    font-weight: 400;"
+            "    font-weight: 400; }"
             );
 
 
@@ -181,6 +183,8 @@ EngViet::EngViet(MainWindow *parent)
         mainWindow->searchByDefinition(wordListWidget,definitionLabel);
     });
     connect(searchButton, &QPushButton::clicked, this, [=]() {
+        auto start = std::chrono::high_resolution_clock::now();  // Start timing
+
         Word word;
         QVector<Word> currentList;
        if (trieLists[system_Mode].search(word, searchInput->text(), currentList)==true){
@@ -193,6 +197,10 @@ EngViet::EngViet(MainWindow *parent)
        if(!word.key.isEmpty()){
         historyLists[system_Mode].insert(word.key);
        }
+       auto end = std::chrono::high_resolution_clock::now();  // End timing
+       auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
+       qDebug() << "Searching Time: "<< duration.count() << "ms";  // Output the duration
+
     });
     connect(searchInput, &QLineEdit::textChanged, this, [=]() {
         Word word;
@@ -299,8 +307,15 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
     });
 
     connect(deleteButton, &QPushButton::clicked, this, [=]() {
+        auto start = std::chrono::high_resolution_clock::now();  // Start timing
+
        deleteWordFromList(wordListWidget, item);
         trieLists[system_Mode].remove(word.key);
+
+       auto end = std::chrono::high_resolution_clock::now();  // End timing
+       auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
+       qDebug() <<"Deleting time: "<< duration.count() << "ms";  // Output the duration
+
     });
 
     connect(editButton, &QPushButton::clicked, this, [=]() {
@@ -338,6 +353,8 @@ void MainWindow::searchByDefinition(QListWidget *wordListWidget,QLabel *definiti
 
 void MainWindow::addNewWord()
 {
+    auto start = std::chrono::high_resolution_clock::now();  // Start timing
+
     EditDefinitionDialog dialog(this, 1);
     if(currentMode == DictionaryMode::VietEng)
         dialog.setWindowTitle("Thêm từ mới");
@@ -358,7 +375,9 @@ void MainWindow::addNewWord()
 
         if (!newKey.isEmpty() && !newDefinition.isEmpty()) {
             newWord.key = newKey;
-            for (auto str : newDefinitions) {
+            for (auto str : newDefinitions)
+                if (str!="")
+            {
                 newWord.definitions.push_back(str);
             }
             newWord.type = newType;
@@ -378,10 +397,16 @@ void MainWindow::addNewWord()
                 QMessageBox::warning(this, "Input Error", "Please enter key and its definitions");
         }
     }
+    auto end = std::chrono::high_resolution_clock::now();  // End timing
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
+    qDebug() << "Adding New Word Time: " << duration.count() << "ms";  // Output the duration
+
 }
 
 
 void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
+    auto start = std::chrono::high_resolution_clock::now();  // Start timing
+
     EditDefinitionDialog dialog(this,1);
     dialog.setWindowTitle("Edit Definition");
     dialog.setKey(word.key);
@@ -407,6 +432,10 @@ void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
         }
         trieLists[system_Mode].updateDefinition(word);
     }
+    auto end = std::chrono::high_resolution_clock::now();  // End timing
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
+    qDebug() << "Edit Definition Time: "<< duration.count() << "ms";  // Output the duration
+
 }
 
 void EngViet::on_historyButton_clicked()
