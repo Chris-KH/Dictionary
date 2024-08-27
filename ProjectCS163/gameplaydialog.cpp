@@ -1,5 +1,6 @@
 #include "gamePlayDialog.h"
-
+#include "gameplayoption.h"
+#include "engviet.h"
 
 gamePlayDialog::gamePlayDialog(MainWindow *parent, GameMode mode)
     : QDialog(parent), mainWindow(parent), gameMode(mode)
@@ -23,6 +24,7 @@ void gamePlayDialog::setup(){
     std::shuffle(ramdomWords.begin(), ramdomWords.end(), rng);
 
     createNewGameButton = new QPushButton(this);
+    backButton = new QPushButton(this);
     questionLabel = new QLabel(this);
     resultLabel = new QLabel(this);
     questionWord = new QLabel(this);
@@ -45,11 +47,7 @@ void gamePlayDialog::setup(){
                                 "border-radius: 12px;"
                                 "border: 0.1px solid black;"
                                 "padding: 5px 20px;");
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
-    mainLayout->addWidget(createNewGameButton);
-    mainLayout->addWidget(questionLabel);
-    mainLayout->addWidget(questionWord, 0, Qt::AlignCenter);
-    createNewGameButton->setGeometry(500, 50, 0, 0);
+
     createNewGameButton->setObjectName("createNewGameButton");
     createNewGameButton->setStyleSheet("#createNewGameButton{"
                                        "background-color: white;"
@@ -66,7 +64,35 @@ void gamePlayDialog::setup(){
     if (system_Mode==1)
         createNewGameButton->setText("Trò chơi mới");
     else createNewGameButton->setText("New game");
+
+
+    backButton->setObjectName("backButton");
+    backButton->setStyleSheet("#backButton{"
+                              "background-color: white;"
+                              "border-radius: 8px;"
+                              "font-size: 18px;"
+                              "padding: 5px 5px;"
+                              "max-width: 100px;"
+                              "}"
+                              "#backButton:hover{"
+                              "background-color: #B0F6E1;"
+                              "}");
+    if (system_Mode == 1)
+        backButton->setText("Quay lại");
+    else backButton->setText("Back");
+
+
     QVBoxLayout *buttonLayout = new QVBoxLayout;
+    QHBoxLayout *buttonLayout2 = new QHBoxLayout;
+    buttonLayout2->addWidget(backButton);
+    buttonLayout2->addWidget(createNewGameButton);
+    buttonLayout2->setAlignment(Qt::AlignLeft);
+
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    mainLayout->addLayout(buttonLayout2);
+    mainLayout->addWidget(questionLabel);
+    mainLayout->addWidget(questionWord, 0, Qt::AlignCenter);
+
     questionLabel->setFocus();
     for (int i = 0; i < 4; ++i) {
         optionButtons[i] = new QPushButton(this);
@@ -114,6 +140,8 @@ void gamePlayDialog::setup(){
             newGame();
         }
     });
+    connect(backButton, &QPushButton::clicked, this, &gamePlayDialog::onBackButtonClicked);
+
     mainLayout->addLayout(buttonLayout);
     mainLayout->addWidget(resultLabel);
     setLayout(mainLayout);
@@ -219,4 +247,24 @@ QString gamePlayDialog::get(){
 
 void gamePlayDialog::setCorrectKey(QString key){
     correctKey=key;
+}
+
+void gamePlayDialog::onBackButtonClicked()
+{
+    hide();
+    gamePlayOption *optionDialog = new gamePlayOption(mainWindow);
+    connect(optionDialog, &gamePlayOption::guessWordMode, this, [=]() {
+        mainWindow->gameWords = guessWord(system_Mode);
+        mainWindow->currentGameMode=GameMode::GuessWord;
+        gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessWord);
+        gameDialog->exec();
+    });
+
+    connect(optionDialog, &gamePlayOption::guessDefinitionMode, this, [=]() {
+        mainWindow->gameWords = getDefinition(system_Mode);
+        mainWindow->currentGameMode=GameMode::GuessDefinition;
+        gamePlayDialog *gameDialog = new gamePlayDialog(mainWindow, GameMode::GuessDefinition);
+        gameDialog->exec();
+    });
+    optionDialog->exec();
 }

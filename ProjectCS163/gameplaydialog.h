@@ -19,6 +19,7 @@ public:
     QString get();
     void setCorrectKey(QString key);
     void newGame();
+    void onBackButtonClicked();
 
 private:
      QPushButton *previousButton = nullptr;
@@ -26,10 +27,10 @@ private:
     QLabel *resultLabel;
     QLabel *questionWord;
     QPushButton *createNewGameButton;
+    QPushButton *backButton;
     QPushButton *optionButtons[4];
     MainWindow *mainWindow;
     GameMode gameMode;
-    //void checkAnswer(const QString& selectedOptionText);
     void checkAnswer(QPushButton* clickedButton);
     QString correctKey;
     void setup();
