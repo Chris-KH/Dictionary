@@ -1,5 +1,6 @@
 #include"Lists.h"
 #include <QDebug>
+
 int List::find(QString key) {
     for (int i = 0; i < (int)list.size(); i++) {
         if (list[i] == key) return i;
@@ -7,6 +8,10 @@ int List::find(QString key) {
     return -1;
 }
 
+int List::size()
+{
+    return (int)list.size();
+}
 void List::insert(QString key) {
     int pos = find(key);
     if (pos == -1) list.push_back(key);

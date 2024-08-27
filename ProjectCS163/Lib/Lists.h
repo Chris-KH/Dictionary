@@ -8,6 +8,7 @@ private:
     QVector<QString> list;
 public:
     int find(QString key);
+    int size();
     void insert(QString key);
     void erase(QString key);
     void save(QTextStream& fout);

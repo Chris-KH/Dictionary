@@ -1,5 +1,6 @@
 #include "searchbydefinition.h"
 #include "ui_searchbydefinition.h"
+#include "mainwindow.h"
 
 SearchByDefinition::SearchByDefinition(QWidget *parent)
     : QDialog(parent)
@@ -13,8 +14,13 @@ SearchByDefinition::SearchByDefinition(QWidget *parent)
     definitionInput->setStyleSheet("background-color: white");
     definitionInput->setPlaceholderText("Enter definition");
 
-    okButton = new QPushButton("OK", this);
-    cancelButton = new QPushButton("Cancel", this);
+    if(system_Mode==1)
+        okButton = new QPushButton("Đồng ý", this);
+    else okButton = new QPushButton("OK", this);
+
+    if(system_Mode==1)
+        cancelButton = new QPushButton("Hủy", this);
+    else cancelButton = new QPushButton("Cancel", this);
 
     okButton->setObjectName("okButtonDialog");
     okButton->setStyleSheet("#okButtonDialog:hover { background-color: #B0F6E1 ; }");

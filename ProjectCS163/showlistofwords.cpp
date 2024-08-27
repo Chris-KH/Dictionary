@@ -29,7 +29,9 @@ void ShowListOfWords::setupUI()
             setStyleSheet("background-color: white");
             delete wordListWidget;
             QLabel *text=new QLabel(this);
-            text->setText("No words");
+            if (system_Mode==1)
+                text->setText("Không có từ nào");
+            else text->setText("No words");
             text->setStyleSheet("font-size: 20px;"
                                 "width: 100%;"
                                 "height: 100%;");
@@ -48,7 +50,9 @@ void ShowListOfWords::setupUI()
             setStyleSheet("background-color: white;");
             delete wordListWidget;
             QLabel *text=new QLabel(this);
-            text->setText("No words");
+            if (system_Mode==1)
+                text->setText("Không có từ nào");
+            else text->setText("No words");
             text->setStyleSheet("font-size: 20px;"
                                 "width: 100%;"
                                 "height: 100%;");
@@ -69,7 +73,10 @@ void ShowListOfWords::addWordToList(QListWidget *wordListWidget, QString &key){
     wordLabel->setObjectName("word");
     layout->addWidget(wordLabel);
 
-    QPushButton *deleteButton = new QPushButton("Delete", wordWidget);
+    QPushButton *deleteButton;
+    if (system_Mode==1)
+        deleteButton = new QPushButton("Xóa", wordWidget);
+    else deleteButton = new QPushButton("Delete", wordWidget);
     layout->addWidget(deleteButton);
     deleteButton->setObjectName("delButton");
     deleteButton->setStyleSheet("#delButton:hover {"
@@ -90,16 +97,32 @@ void ShowListOfWords::addWordToList(QListWidget *wordListWidget, QString &key){
 
     connect(deleteButton, &QPushButton::clicked, this, [=]() {
         onDeleteButtonClicked(wordListWidget,key, item);
+        bool checkEmpty=false;
         if(mode==1){
             historyLists[system_Mode].erase(key);
+            checkEmpty=(historyLists[system_Mode].size()==0);
         }
         else{
             favoriteLists[system_Mode].erase(key);
+            checkEmpty=(favoriteLists[system_Mode].size()==0);
+        }
+        if (checkEmpty)
+        {
+            setStyleSheet("background-color: white");
+            delete wordListWidget;
+            QLabel *text=new QLabel(this);
+            if (system_Mode==1)
+                text->setText("Không có từ nào");
+            else text->setText("No words");
+            text->setStyleSheet("font-size: 20px;"
+                                "width: 100%;"
+                                "height: 100%;");
+            mainLayout->addWidget(text, 0, Qt::AlignCenter);
         }
     });
 }
 
-void ShowListOfWords::onDeleteButtonClicked(QListWidget *wordListWidget, QString key,QListWidgetItem *item)
+void ShowListOfWords::onDeleteButtonClicked(QListWidget *wordListWidget, QString key, QListWidgetItem *item)
 {
     wordListWidget->takeItem(wordListWidget->row(item));
     delete item;

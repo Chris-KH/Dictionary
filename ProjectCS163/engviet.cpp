@@ -14,13 +14,18 @@ EngViet::EngViet(MainWindow *parent)
 {
     ui->setupUi(this);
 
-    setFixedSize(1300,900);
+    setFixedSize(1300, 750);
     QStringList wordList;
 
     QSplitter *splitter = new QSplitter(this);
     splitter->setOrientation(Qt::Horizontal);
     splitter->setHandleWidth(0);
+
     QListWidget *wordListWidget = new QListWidget(this);
+
+    QWidget *leftWidget = new QWidget(this);
+    QWidget *rightWidget = new QWidget(this);
+
     QVBoxLayout *leftLayout = new QVBoxLayout;
     QVBoxLayout *rightLayout = new QVBoxLayout;
 
@@ -39,10 +44,9 @@ EngViet::EngViet(MainWindow *parent)
 
     QPushButton *searchButton = new QPushButton("Search", this);
     searchButton->setObjectName("searchButton");
-    searchButton->setFixedSize(80,30);
+    searchButton->setFixedSize(80, 30);
 
     QWidget *searchWidget = new QWidget(this);
-    QWidget *spaceWidget = new QWidget(this);
     QHBoxLayout *searchLayout = new QHBoxLayout(searchWidget);
 
     searchLayout->addWidget(searchInput);
@@ -50,34 +54,34 @@ EngViet::EngViet(MainWindow *parent)
     leftLayout->addWidget(searchWidget);
     leftLayout->addWidget(wordListWidget);
 
-
-    QWidget *leftWidget = new QWidget(this);
-    QWidget *rightWidget = new QWidget(this);
-
     leftWidget->setLayout(leftLayout);
-
     splitter->addWidget(leftWidget);
 
-    QLabel *definitionLabel = new QLabel("Select a word to view its definition.\n", this);
+    QLabel *definitionLabel = new QLabel("<span style='font-size: 20pt;'>Select a word to view its definition.</span>\n", this);
     definitionLabel->setObjectName("rightWidget");
-    definitionLabel->setStyleSheet("margin-top: 100px");
-
+    definitionLabel->setWordWrap(true);
+    definitionLabel->setStyleSheet("font-size: 15pt; padding: 20px;");
+    definitionLabel->adjustSize();
 
     QScrollArea *scrollArea = new QScrollArea(this);
-    scrollArea->setFixedHeight(750);
-
+    scrollArea->setWidgetResizable(true);
+    scrollArea->setFixedHeight(660);
+    scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAsNeeded);
+    scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);
     scrollArea->setWidget(definitionLabel);
-    scrollArea->setWidgetResizable(true); // Ensures the label resizes with the scroll area
 
-    rightLayout->addWidget(spaceWidget);
     rightLayout->addWidget(scrollArea);
-
+    leftLayout->addWidget(scrollArea);
+    rightLayout->setContentsMargins(10, 0, 0, 140);
+    rightLayout->setSpacing(0);
+    leftLayout->setContentsMargins(0, 5, 0, 150);
+    leftLayout->setSpacing(0);
     rightWidget->setLayout(rightLayout);
 
     splitter->addWidget(rightWidget);
 
     splitter->setStretchFactor(0, 4);
-    splitter->setStretchFactor(1, 6);
+    splitter->setStretchFactor(1, 9);
 
     QWidget *splitterPlaceholder = ui->splitterPlaceholder;
     QVBoxLayout *layout = new QVBoxLayout(splitterPlaceholder);
@@ -91,6 +95,7 @@ EngViet::EngViet(MainWindow *parent)
     QPushButton *gameButton = new QPushButton("Play game",this);
     QPushButton *addNewWord = new QPushButton("Add word",this);
     QPushButton *searchByDefinition = new QPushButton("Search by definition",this);
+    ui->backButton->setText("Back");
 
     listButtonLayout->addWidget(resetButton);
     listButtonLayout->addWidget(searchByDefinition);
@@ -111,7 +116,7 @@ EngViet::EngViet(MainWindow *parent)
         resetButton->setText("Cài đặt lại");
         searchInput->setPlaceholderText("Nhập vào từ");
         searchButton->setText("Tìm kiếm");
-        definitionLabel->setText("Chọn một từ để xem định nghĩa");
+        definitionLabel->setText("<span style='font-size: 20pt;'>Chọn một từ để xem định nghĩa</span>\n");
         historyButton->setText("Lịch sử");
         favouristButton->setText("Yêu thích");
         gameButton->setText("Trò chơi");
@@ -129,8 +134,13 @@ EngViet::EngViet(MainWindow *parent)
 
     connect(resetButton,&QPushButton::clicked,this,[=](){
         resetToOrigin(trieLists[system_Mode]);
-        definitionLabel->setText("Select a word to view its definition.\n");
+
+        if(mainWindow->currentMode==DictionaryMode::VietEng)
+            definitionLabel->setText("Chọn một từ để xem định nghĩa.\n");
+        else definitionLabel->setText("Select a word to view its definition.\n");
+        searchInput->clear();
         wordListWidget->clear();
+
         QWidget *notificationWidget = new QWidget(this);
         notificationWidget->setAttribute(Qt::WA_TranslucentBackground);
 
@@ -192,7 +202,13 @@ EngViet::EngViet(MainWindow *parent)
             mainWindow->addWordToList(wordListWidget, word, definitionLabel, 1);
        }
        else{
-           definitionLabel->setText(" This word doesn't exist !");
+           if (mainWindow->currentMode == DictionaryMode::VietEng) {
+               definitionLabel->setText("<b>Từ này không tồn tại!</b>");
+               definitionLabel->setStyleSheet("font-size: 20pt; padding: 10px;");
+           } else {
+               definitionLabel->setText("<b>This word doesn't exist!</b>");
+               definitionLabel->setStyleSheet("font-size: 20pt; padding: 10px;");
+           }
        }
        if(!word.key.isEmpty()){
         historyLists[system_Mode].insert(word.key);
@@ -288,23 +304,39 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
     wordListWidget->setItemWidget(item, wordWidget);
 
     connect(viewButton, &QPushButton::clicked, this, [=]() {
-        QString text="";
-        text+= word.key + ":\n";
-        if(!word.type.isEmpty()){
-            text+= "Type: " +  word.type+ "\n";
+        QString text;
+        text += "<p><span style='font-size: 30px; font-weight: bold;'>" + word.key + "</span></p>";
+
+        if (!word.type.isEmpty()) {
+            text += "<p>&emsp;";  // Thụt đầu dòng
+            if (system_Mode == 1) {
+                text += "<b>Loại từ</b>: " + word.type + "</p>";
+            } else {
+                text += "<b>Type</b>: " + word.type + "</p>";
+            }
         }
-        if(!word.spelling.isEmpty()){
-            text+="Spelling: "+ word.spelling + "\n";
+
+        if (!word.spelling.isEmpty()) {
+            text += "<p>&emsp;";
+            if (system_Mode == 1) {
+                text += "<b>Cách đọc</b>: " + word.spelling + "</p>";
+            } else {
+                text += "<b>Spelling</b>: " + word.spelling + "</p>";
+            }
         }
-        int i=0;
-        text+="Definitions: \n";
-        for(auto s: word.definitions){
+
+        text += "<p><b>Definitions</b>:</p>";
+        int i = 0;
+        for (const auto &s : word.definitions) {
             i++;
-            QString idx=QString::number(i);
-            text+=idx + ". "+ s + "\n";
+            QString idx = QString::number(i);
+            text += "<p>&emsp;" + idx + ". " + s + "</p>";
         }
+
         definitionLabel->setText(text);
     });
+
+
 
     connect(deleteButton, &QPushButton::clicked, this, [=]() {
         auto start = std::chrono::high_resolution_clock::now();  // Start timing
@@ -363,7 +395,7 @@ void MainWindow::addNewWord()
 
     while (true) {
         if (dialog.exec() != QDialog::Accepted) {
-            return;
+            break;
         }
 
         Word newWord;
@@ -391,7 +423,7 @@ void MainWindow::addNewWord()
 
             break; // Thoát khỏi vòng lặp sau khi thêm từ mới thành công
         } else {
-             if(currentMode == DictionaryMode::VietEng)
+            if(currentMode == DictionaryMode::VietEng)
                 QMessageBox::warning(this, "Lỗi nhập dữ liệu", "Vui lòng nhập từ và định nghĩa");
             else
                 QMessageBox::warning(this, "Input Error", "Please enter key and its definitions");
@@ -407,10 +439,20 @@ void MainWindow::addNewWord()
 void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
     auto start = std::chrono::high_resolution_clock::now();  // Start timing
 
-    EditDefinitionDialog dialog(this,1);
-    dialog.setWindowTitle("Edit Definition");
+    EditDefinitionDialog dialog(this,0);
+    if(currentMode == DictionaryMode::VietEng)
+        dialog.setWindowTitle("Chỉnh sửa định nghĩa");
+    else
+        dialog.setWindowTitle("Edit Definition");
     dialog.setKey(word.key);
-    if (dialog.exec() == QDialog::Accepted) {
+
+
+    while (true)
+    {
+        if (dialog.exec() != QDialog::Accepted) {
+            break;
+        }
+
         QString newDefinition = dialog.getDefinition();
         if (!newDefinition.isEmpty()){
             word.definitions.clear();
@@ -429,8 +471,20 @@ void MainWindow::editWordDefinition(Word &word, QLabel *definitionLabel) {
                 text+=idx + ". "+ s + "\n";
             }
             definitionLabel->setText(text);
+            trieLists[system_Mode].updateDefinition(word);
+            if(currentMode == DictionaryMode::VietEng)
+                QMessageBox::information(this, "Thành công", "Chỉnh sửa định nghĩa thành công.");
+            else
+                QMessageBox::information(this, "Success", "Editing definitions is successful.");
+            break;
         }
-        trieLists[system_Mode].updateDefinition(word);
+        else
+        {
+            if(currentMode == DictionaryMode::VietEng)
+                QMessageBox::warning(this, "Lỗi nhập dữ liệu", "Vui lòng nhập định nghĩa mới");
+            else
+                QMessageBox::warning(this, "Input Error", "Please enter new definitions");
+        }
     }
     auto end = std::chrono::high_resolution_clock::now();  // End timing
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration

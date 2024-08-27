@@ -21,8 +21,13 @@ EditDefinitionDialog::EditDefinitionDialog(MainWindow *parent,int mode) :
     definitionInput->setObjectName("definitionInputDialog");
     definitionInput->setPlaceholderText("Enter the definition");
 
-    okButton = new QPushButton("OK", this);
-    cancelButton = new QPushButton("Cancel", this);
+    if(mainWindow->currentMode==DictionaryMode::VietEng)
+        okButton = new QPushButton("Đồng ý", this);
+    else okButton = new QPushButton("OK", this);
+
+    if(mainWindow->currentMode==DictionaryMode::VietEng)
+        cancelButton = new QPushButton("Hủy", this);
+    else cancelButton = new QPushButton("Cancel", this);
 
     okButton->setObjectName("okButtonDialog");
     okButton->setStyleSheet("#okButtonDialog:hover { background-color: #B0F6E1 ; }");

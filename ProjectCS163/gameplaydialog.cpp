@@ -28,10 +28,14 @@ void gamePlayDialog::setup(){
     questionWord = new QLabel(this);
 
     if(mainWindow->currentGameMode==GameMode::GuessWord){
-        questionLabel->setText("Choose the correct definition in the following word: ");
+        if(mainWindow->currentMode==DictionaryMode::VietEng)
+            questionLabel->setText("Chọn định nghĩa đúng với từ sau: ");
+        else questionLabel->setText("Choose the correct definition in the following word: ");
     }
     else{
-        questionLabel->setText("Choose the correct word in the following definition: ");
+        if(mainWindow->currentMode==DictionaryMode::VietEng)
+            questionLabel->setText("Chọn từ đúng với định nghĩa sau: ");
+        else questionLabel->setText("Choose the correct word in the following definition: ");
     }
     questionLabel->setObjectName("questionLabel");
     resultLabel->setObjectName("resultLabel");
@@ -59,7 +63,9 @@ void gamePlayDialog::setup(){
                                        "#createNewGameButton:hover{"
                                        "background-color: #B0F6E1;"
                                        "}");
-    createNewGameButton->setText("New game");
+    if (system_Mode==1)
+        createNewGameButton->setText("Trò chơi mới");
+    else createNewGameButton->setText("New game");
     QVBoxLayout *buttonLayout = new QVBoxLayout;
     questionLabel->setFocus();
     for (int i = 0; i < 4; ++i) {
@@ -151,7 +157,10 @@ void gamePlayDialog::newGame(){
 void gamePlayDialog::checkAnswer(QPushButton* clickedButton)
 {
     if (clickedButton->text().mid(3) == correctKey) {
-        resultLabel->setText("Your answer is correct!");
+
+        if(mainWindow->currentMode==DictionaryMode::VietEng)
+            resultLabel->setText("Đáp án chính xác!");
+        else resultLabel->setText("Your answer is correct!");
         resultLabel->setStyleSheet("color: #42AD48;");
         clickedButton->setStyleSheet(
             "background-color: #42AD48;" // Màu xanh cho đáp án đúng
@@ -164,8 +173,9 @@ void gamePlayDialog::checkAnswer(QPushButton* clickedButton)
             "text-align: left;"
             );
     } else {
-        resultLabel->setText("Your answer is not correct.");
-        resultLabel->setStyleSheet("color: #E83736;");
+        if(mainWindow->currentMode==DictionaryMode::VietEng)
+            resultLabel->setText("Đáp án không chính xác");
+        else resultLabel->setStyleSheet("color: #E83736;");
         clickedButton->setStyleSheet(
             "background-color: #E83736;" // Màu đỏ cho đáp án sai
             "padding: 6px 0;"

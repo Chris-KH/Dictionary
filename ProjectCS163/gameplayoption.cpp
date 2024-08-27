@@ -6,14 +6,29 @@ gamePlayOption::gamePlayOption(MainWindow *parent)
     setFixedSize(500, 240);
     setObjectName("gamePlayOption");
 
-    QLabel *title = new QLabel("Option", this);
-    title->setObjectName("titleGameOption");
+    QLabel *title;
+    if (system_Mode==1)
+    {
+        title = new QLabel("Lựa chọn", this);
+        title->setObjectName("titleGameOption");
 
-    guessWordButton = new QPushButton("Guess the word", this);
-    guessWordButton->setObjectName("guessWordButton");
+        guessWordButton = new QPushButton("Đoán từ", this);
+        guessWordButton->setObjectName("guessWordButton");
 
-    guessDefinitionButton = new QPushButton("Guess the definition", this);
-    guessDefinitionButton->setObjectName("guessDefinitionButton");
+        guessDefinitionButton = new QPushButton("Đoán định nghĩa", this);
+        guessDefinitionButton->setObjectName("guessDefinitionButton");
+    }
+    else
+    {
+        title = new QLabel("Option", this);
+        title->setObjectName("titleGameOption");
+
+        guessWordButton = new QPushButton("Guess the word", this);
+        guessWordButton->setObjectName("guessWordButton");
+
+        guessDefinitionButton = new QPushButton("Guess the definition", this);
+        guessDefinitionButton->setObjectName("guessDefinitionButton");
+    }
 
     QVBoxLayout *buttonLayout = new QVBoxLayout;
     buttonLayout->addWidget(guessWordButton);
