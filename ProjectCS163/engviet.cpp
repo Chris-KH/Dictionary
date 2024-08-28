@@ -351,6 +351,9 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
         QString text;
         text += "<p><span style='font-size: 33px; font-weight: bold;'>" + word.key + "</span></p>";
 
+        if(!word.key.isEmpty()){
+            historyLists[system_Mode].insert(word.key);
+        }
         if (!word.type.isEmpty()) {
             text += "<p style='font-size: 22px;'>&emsp;";  // Thụt đầu dòng và cố định kích thước font
             if (system_Mode == 1) {
