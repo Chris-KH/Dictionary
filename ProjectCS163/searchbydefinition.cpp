@@ -12,11 +12,11 @@ SearchByDefinition::SearchByDefinition(QWidget *parent)
     definitionInput = new QTextEdit(this);
     definitionInput->setObjectName("definitionInputDialog");
     definitionInput->setStyleSheet("background-color: white");
-    definitionInput->setPlaceholderText("Enter definition");
+
 
     if(system_Mode==1)
-        okButton = new QPushButton("Đồng ý", this);
-    else okButton = new QPushButton("OK", this);
+        okButton = new QPushButton("Đồng ý", this), definitionInput->setPlaceholderText("Nhập định nghĩa");
+    else okButton = new QPushButton("OK", this), definitionInput->setPlaceholderText("Enter definition");
 
     if(system_Mode==1)
         cancelButton = new QPushButton("Hủy", this);

@@ -305,10 +305,10 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
 
     connect(viewButton, &QPushButton::clicked, this, [=]() {
         QString text;
-        text += "<p><span style='font-size: 30px; font-weight: bold;'>" + word.key + "</span></p>";
+        text += "<p><span style='font-size: 33px; font-weight: bold;'>" + word.key + "</span></p>";
 
         if (!word.type.isEmpty()) {
-            text += "<p>&emsp;";  // Thụt đầu dòng
+            text += "<p style='font-size: 22px;'>&emsp;";  // Thụt đầu dòng và cố định kích thước font
             if (system_Mode == 1) {
                 text += "<b>Loại từ</b>: " + word.type + "</p>";
             } else {
@@ -317,7 +317,7 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
         }
 
         if (!word.spelling.isEmpty()) {
-            text += "<p>&emsp;";
+            text += "<p style='font-size: 22px;'>&emsp;";
             if (system_Mode == 1) {
                 text += "<b>Cách đọc</b>: " + word.spelling + "</p>";
             } else {
@@ -325,12 +325,12 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
             }
         }
 
-        text += "<p><b>Definitions</b>:</p>";
+        text += "<p style='font-size: 22px;'><b>Definitions</b>:</p>";
         int i = 0;
         for (const auto &s : word.definitions) {
             i++;
             QString idx = QString::number(i);
-            text += "<p>&emsp;" + idx + ". " + s + "</p>";
+            text += "<p style='font-size: 22px;'>&emsp;" + idx + ". " + s + "</p>";
         }
 
         definitionLabel->setText(text);

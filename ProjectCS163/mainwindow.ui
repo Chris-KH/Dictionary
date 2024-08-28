@@ -88,17 +88,73 @@
       </item>
      </layout>
     </widget>
-    <widget class="QLabel" name="title">
+    <widget class="QLabel" name="title_2">
      <property name="geometry">
       <rect>
-       <x>200</x>
-       <y>0</y>
-       <width>200</width>
+       <x>0</x>
+       <y>-10</y>
+       <width>601</width>
        <height>60</height>
       </rect>
      </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>35</pointsize>
+       <italic>false</italic>
+       <fontweight>ExtraBold</fontweight>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;              
+border-radius: 10px;   </string>
+     </property>
      <property name="text">
-      <string>Dictionary</string>
+      <string>DICTIONARY</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="title_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>500</y>
+       <width>601</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;              
+border-radius: 10px;   </string>
+     </property>
+     <property name="text">
+      <string>GROUP PROJECT CS163 - GROUP 1</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignmentFlag::AlignCenter</set>

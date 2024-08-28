@@ -32,7 +32,8 @@ public:
     QPushButton *engEngButton;
     QPushButton *emoijButton;
     QPushButton *slangButton;
-    QLabel *title;
+    QLabel *title_2;
+    QLabel *title_3;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -80,10 +81,32 @@ public:
 
         verticalLayout->addWidget(slangButton);
 
-        title = new QLabel(groupBox);
-        title->setObjectName("title");
-        title->setGeometry(QRect(200, 0, 200, 60));
-        title->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        title_2 = new QLabel(groupBox);
+        title_2->setObjectName("title_2");
+        title_2->setGeometry(QRect(0, -10, 601, 60));
+        title_2->setSizeIncrement(QSize(0, 0));
+        QFont font;
+        font.setPointSize(35);
+        font.setWeight(QFont::ExtraBold);
+        font.setItalic(false);
+        title_2->setFont(font);
+        title_2->setCursor(QCursor(Qt::CursorShape::ArrowCursor));
+        title_2->setStyleSheet(QString::fromUtf8("color: white;              \n"
+"border-radius: 10px;   "));
+        title_2->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        title_3 = new QLabel(groupBox);
+        title_3->setObjectName("title_3");
+        title_3->setGeometry(QRect(0, 500, 601, 60));
+        title_3->setSizeIncrement(QSize(0, 0));
+        QFont font1;
+        font1.setPointSize(13);
+        font1.setBold(false);
+        font1.setItalic(false);
+        title_3->setFont(font1);
+        title_3->setCursor(QCursor(Qt::CursorShape::ArrowCursor));
+        title_3->setStyleSheet(QString::fromUtf8("color: white;              \n"
+"border-radius: 10px;   "));
+        title_3->setAlignment(Qt::AlignmentFlag::AlignCenter);
         MainWindow->setCentralWidget(centralWidget);
 
         retranslateUi(MainWindow);
@@ -100,7 +123,8 @@ public:
         engEngButton->setText(QCoreApplication::translate("MainWindow", "English-English", nullptr));
         emoijButton->setText(QCoreApplication::translate("MainWindow", "Emoij", nullptr));
         slangButton->setText(QCoreApplication::translate("MainWindow", "Slang", nullptr));
-        title->setText(QCoreApplication::translate("MainWindow", "Dictionary", nullptr));
+        title_2->setText(QCoreApplication::translate("MainWindow", "DICTIONARY", nullptr));
+        title_3->setText(QCoreApplication::translate("MainWindow", "GROUP PROJECT CS163 - GROUP 1", nullptr));
     } // retranslateUi
 
 };
