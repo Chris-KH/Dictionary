@@ -24,6 +24,7 @@ void ShowListOfWords::setupUI()
            for(QString str:historyLists[system_Mode].getAllWords()){
             addWordToList(wordListWidget,str);
            }
+
         }
         else{
             setStyleSheet("background-color: white");

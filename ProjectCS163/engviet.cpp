@@ -95,11 +95,14 @@ EngViet::EngViet(MainWindow *parent)
     QPushButton *gameButton = new QPushButton("Play game",this);
     QPushButton *addNewWord = new QPushButton("Add word",this);
     QPushButton *searchByDefinition = new QPushButton("Search by definition",this);
+    QPushButton *randomAWordButton = new QPushButton("Random Word",this);
     ui->backButton->setText("Back");
+
 
     listButtonLayout->addWidget(resetButton);
     listButtonLayout->addWidget(searchByDefinition);
     listButtonLayout->addWidget(addNewWord);
+    listButtonLayout->addWidget(randomAWordButton);
     listButtonLayout->addWidget(historyButton);
     listButtonLayout->addWidget(favouristButton);
     listButtonLayout->addWidget(gameButton);
@@ -110,17 +113,23 @@ EngViet::EngViet(MainWindow *parent)
     favouristButton->setObjectName("favouriteButton");
     gameButton->setObjectName("gameButton");
     addNewWord->setObjectName("addNewWordButton");
+    randomAWordButton->setObjectName("randomAWordButton");
     searchByDefinition->setObjectName("searchByDefinitionButton");
+
+    QString buttonStyle = resetButton->styleSheet();
+    randomAWordButton->setStyleSheet(buttonStyle);
+    randomAWordButton->setFont(resetButton->font());
 
     if(mainWindow->currentMode==DictionaryMode::VietEng){
         resetButton->setText("Cài đặt lại");
         searchInput->setPlaceholderText("Nhập vào từ");
         searchButton->setText("Tìm kiếm");
-        definitionLabel->setText("<span style='font-size: 20pt;'>Chọn một từ để xem định nghĩa</span>\n");
+        definitionLabel->setText("<span style='font-size: 20pt;'>Chọn một từ để xem định nghĩa.</span>\n");
         historyButton->setText("Lịch sử");
         favouristButton->setText("Yêu thích");
         gameButton->setText("Trò chơi");
         addNewWord->setText("Thêm từ");
+        randomAWordButton->setText("Từ ngẫu nhiên");
         searchByDefinition->setText("Tìm định nghĩa");
         ui->backButton->setText("Trở lại");
     }
@@ -131,13 +140,14 @@ EngViet::EngViet(MainWindow *parent)
     historyButton->setFixedHeight(30);
     favouristButton->setFixedHeight(30);
     gameButton->setFixedHeight(30);
+    randomAWordButton->setFixedHeight(30);
 
     connect(resetButton,&QPushButton::clicked,this,[=](){
         resetToOrigin(trieLists[system_Mode]);
 
         if(mainWindow->currentMode==DictionaryMode::VietEng)
-            definitionLabel->setText("Chọn một từ để xem định nghĩa.\n");
-        else definitionLabel->setText("Select a word to view its definition.\n");
+            definitionLabel->setText("<span style='font-size: 20pt;'>Chọn một từ để xem định nghĩa.</span>\n");
+        else definitionLabel->setText("<span style='font-size: 20pt;'>Select a word to view its definition.</span>\n");
         searchInput->clear();
         wordListWidget->clear();
 
@@ -228,6 +238,43 @@ EngViet::EngViet(MainWindow *parent)
            currentList.push_back(word);
            mainWindow->updateCompleterModel(completer, currentList);
        }
+    });
+
+    connect(randomAWordButton, &QPushButton::clicked, this, [=](){
+        Word word=getRandomWord(system_Mode);
+        definitionLabel->setText("");
+        mainWindow->addWordToList(wordListWidget, word, definitionLabel, 1);
+
+        QString text;
+        text += "<p><span style='font-size: 33px; font-weight: bold;'>" + word.key + "</span></p>";
+
+        if (!word.type.isEmpty()) {
+            text += "<p style='font-size: 22px;'>&emsp;";  // Thụt đầu dòng và cố định kích thước font
+            if (system_Mode == 1) {
+                text += "<b>Loại từ</b>: " + word.type + "</p>";
+            } else {
+                text += "<b>Type</b>: " + word.type + "</p>";
+            }
+        }
+
+        if (!word.spelling.isEmpty()) {
+            text += "<p style='font-size: 22px;'>&emsp;";
+            if (system_Mode == 1) {
+                text += "<b>Cách đọc</b>: " + word.spelling + "</p>";
+            } else {
+                text += "<b>Spelling</b>: " + word.spelling + "</p>";
+            }
+        }
+
+        text += "<p style='font-size: 22px;'><b>Definitions</b>:</p>";
+        int i = 0;
+        for (const auto &s : word.definitions) {
+            i++;
+            QString idx = QString::number(i);
+            text += "<p style='font-size: 22px;'>&emsp;" + idx + ". " + s + "</p>";
+        }
+
+        definitionLabel->setText(text);
     });
 }
 
@@ -339,17 +386,31 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
 
 
     connect(deleteButton, &QPushButton::clicked, this, [=]() {
-        auto start = std::chrono::high_resolution_clock::now();  // Start timing
+        QMessageBox::StandardButton reply;
+        if (system_Mode == 1) {
+            reply = QMessageBox::question(this, "Xác nhận xóa từ", "Bạn có chắc chắn muốn xóa từ này không?",
+                                          QMessageBox::Yes | QMessageBox::No);
+        } else {
+            reply = QMessageBox::question(this, "Confirm Deletion", "Are you sure you want to delete this word?",
+                                          QMessageBox::Yes | QMessageBox::No);
+        }
 
-       deleteWordFromList(wordListWidget, item);
-        trieLists[system_Mode].remove(word.key);
+        if (reply == QMessageBox::Yes) {
+            auto start = std::chrono::high_resolution_clock::now();  // Start timing
 
-       auto end = std::chrono::high_resolution_clock::now();  // End timing
-       auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
-       qDebug() <<"Deleting time: "<< duration.count() << "ms";  // Output the duration
+            deleteWordFromList(wordListWidget, item);
+            trieLists[system_Mode].remove(word.key);
+            if (system_Mode == 1) {
+                definitionLabel->setText("<span style='font-size: 20pt;'>Chọn một từ để xem định nghĩa.</span>\n");
+            } else {
+                definitionLabel->setText("<span style='font-size: 20pt;'>Select a word to view its definition.</span>\n");
+            }
 
+            auto end = std::chrono::high_resolution_clock::now();  // End timing
+            auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);  // Calculate duration
+            qDebug() << "Deleting time: " << duration.count() << "ms";  // Output the duration
+        }
     });
-
     connect(editButton, &QPushButton::clicked, this, [=]() {
          Word editWord = word;
          editWordDefinition(editWord, definitionLabel);
@@ -358,6 +419,7 @@ void MainWindow::addWordToList(QListWidget *wordListWidget, Word &word,QLabel *d
     connect(add, &QPushButton::clicked, this,[=](){
         favoriteLists[system_Mode].insert(word.key);
     });
+
 
 }
 
@@ -523,6 +585,7 @@ void EngViet::on_gameButton_clicked()
     });
     optionDialog->exec();
 }
+
 
 void EngViet::closeEvent(QCloseEvent *event){
     saveAllTrie();
