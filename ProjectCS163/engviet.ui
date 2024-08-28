@@ -6,13 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>763</width>
+    <width>850</width>
     <height>452</height>
    </rect>
   </property>
   <property name="maximumSize">
    <size>
-    <width>775</width>
+    <width>900</width>
     <height>452</height>
    </size>
   </property>
@@ -23,8 +23,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>15</y>
-     <width>100</width>
+     <y>18</y>
+     <width>85</width>
      <height>32</height>
     </rect>
    </property>
@@ -45,10 +45,10 @@
   <widget class="QWidget" name="buttonWidget" native="true">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>5</y>
-     <width>1110</width>
-     <height>40</height>
+     <x>120</x>
+     <y>10</y>
+     <width>1181</width>
+     <height>41</height>
     </rect>
    </property>
   </widget>

@@ -113,12 +113,9 @@ EngViet::EngViet(MainWindow *parent)
     favouristButton->setObjectName("favouriteButton");
     gameButton->setObjectName("gameButton");
     addNewWord->setObjectName("addNewWordButton");
-    randomAWordButton->setObjectName("randomAWordButton");
+    randomAWordButton->setObjectName("gameButton");
     searchByDefinition->setObjectName("searchByDefinitionButton");
 
-    QString buttonStyle = resetButton->styleSheet();
-    randomAWordButton->setStyleSheet(buttonStyle);
-    randomAWordButton->setFont(resetButton->font());
 
     if(mainWindow->currentMode==DictionaryMode::VietEng){
         resetButton->setText("Cài đặt lại");

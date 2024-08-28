@@ -28,17 +28,17 @@ public:
     {
         if (EngViet->objectName().isEmpty())
             EngViet->setObjectName("EngViet");
-        EngViet->resize(763, 452);
-        EngViet->setMaximumSize(QSize(775, 452));
+        EngViet->resize(850, 452);
+        EngViet->setMaximumSize(QSize(900, 452));
         backButton = new QPushButton(EngViet);
         backButton->setObjectName("backButton");
-        backButton->setGeometry(QRect(10, 15, 100, 32));
+        backButton->setGeometry(QRect(10, 18, 85, 32));
         splitterPlaceholder = new QWidget(EngViet);
         splitterPlaceholder->setObjectName("splitterPlaceholder");
         splitterPlaceholder->setGeometry(QRect(0, 60, 1300, 840));
         buttonWidget = new QWidget(EngViet);
         buttonWidget->setObjectName("buttonWidget");
-        buttonWidget->setGeometry(QRect(180, 5, 1110, 40));
+        buttonWidget->setGeometry(QRect(120, 10, 1181, 41));
 
         retranslateUi(EngViet);
 
